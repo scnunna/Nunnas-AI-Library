@@ -1,0 +1,567 @@
+{
+ "collection": "skill-capabilities",
+ "title": "Skill capabilities",
+ "description": "What specific skills unlock and what manual work they remove.",
+ "items": [
+  {
+   "id": "cap-answers-restricted-to-the-last-30-days",
+   "name": "Answers restricted to the last 30 days",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Answers restricted to the last 30 days (from last30days); removes: Manual date filtering",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "last30days"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 1,
+    "capability": "Answers restricted to the last 30 days",
+    "source": "last30days",
+    "removes": "Manual date filtering",
+    "venture": "finance-education, sports"
+   }
+  },
+  {
+   "id": "cap-interview-guides-and-synthesis-on-demand",
+   "name": "Interview guides and synthesis on demand",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Interview guides and synthesis on demand (from user-research); removes: Writing discovery scripts",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "user-research"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 2,
+    "capability": "Interview guides and synthesis on demand",
+    "source": "user-research",
+    "removes": "Writing discovery scripts",
+    "venture": "Consulting"
+   }
+  },
+  {
+   "id": "cap-audience-language-mined-before-a-product-exists",
+   "name": "Audience language mined before a product exists",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Audience language mined before a product exists (from user-research); removes: Guessing buyer wording",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "user-research"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 3,
+    "capability": "Audience language mined before a product exists",
+    "source": "user-research",
+    "removes": "Guessing buyer wording",
+    "venture": "Printables"
+   }
+  },
+  {
+   "id": "cap-map-of-an-unfamiliar-repo-in-minutes",
+   "name": "Map of an unfamiliar repo in minutes",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Map of an unfamiliar repo in minutes (from graphify); removes: Re-reading old code",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "graphify"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 4,
+    "capability": "Map of an unfamiliar repo in minutes",
+    "source": "graphify",
+    "removes": "Re-reading old code",
+    "venture": "custom web engine, MCP"
+   }
+  },
+  {
+   "id": "cap-ranked-technical-debt-with-effort-estimates",
+   "name": "Ranked technical debt with effort estimates",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Ranked technical debt with effort estimates (from tech-debt-audit); removes: Deciding fixes by feel",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "tech-debt-audit"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 5,
+    "capability": "Ranked technical debt with effort estimates",
+    "source": "tech-debt-audit",
+    "removes": "Deciding fixes by feel",
+    "venture": "All code"
+   }
+  },
+  {
+   "id": "cap-agents-stop-repeating-corrected-mistakes",
+   "name": "Agents stop repeating corrected mistakes",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Agents stop repeating corrected mistakes (from napkin); removes: Re-explaining preferences",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "napkin"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 6,
+    "capability": "Agents stop repeating corrected mistakes",
+    "source": "napkin",
+    "removes": "Re-explaining preferences",
+    "venture": "Every session"
+   }
+  },
+  {
+   "id": "cap-plain-language-explanation-of-any-system",
+   "name": "Plain-language explanation of any system",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Plain-language explanation of any system (from understand-anything); removes: Self-onboarding to old projects",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "understand-anything"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 7,
+    "capability": "Plain-language explanation of any system",
+    "source": "understand-anything",
+    "removes": "Self-onboarding to old projects",
+    "venture": "Electronics, games"
+   }
+  },
+  {
+   "id": "cap-scroll-driven-landing-pages",
+   "name": "Scroll-driven landing pages",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Scroll-driven landing pages (from scroll-world); removes: Paying for landing-page design",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "scroll-world"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 8,
+    "capability": "Scroll-driven landing pages",
+    "source": "scroll-world",
+    "removes": "Paying for landing-page design",
+    "venture": "finance-education, indie-game"
+   }
+  },
+  {
+   "id": "cap-seo-structure-on-pages-and-listings",
+   "name": "SEO structure on pages and listings",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "SEO structure on pages and listings (from claude-seo); removes: Manual keyword research",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "claude-seo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 9,
+    "capability": "SEO structure on pages and listings",
+    "source": "claude-seo",
+    "removes": "Manual keyword research",
+    "venture": "Site, Etsy, KDP"
+   }
+  },
+  {
+   "id": "cap-writing-that-does-not-read-as-templated",
+   "name": "Writing that does not read as templated",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Writing that does not read as templated (from humanizer); removes: Line-by-line editing",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "humanizer"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 10,
+    "capability": "Writing that does not read as templated",
+    "source": "humanizer",
+    "removes": "Line-by-line editing",
+    "venture": "All content"
+   }
+  },
+  {
+   "id": "cap-shot-lists-before-generation",
+   "name": "Shot lists before generation",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Shot lists before generation (from video-shotcraft); removes: Wasted paid renders",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "video-shotcraft"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 11,
+    "capability": "Shot lists before generation",
+    "source": "video-shotcraft",
+    "removes": "Wasted paid renders",
+    "venture": "Content engine"
+   }
+  },
+  {
+   "id": "cap-free-deterministic-video-audio-edits",
+   "name": "Free deterministic video/audio edits",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Free deterministic video/audio edits (from ffmpeg-skill); removes: Paid editing tools",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "ffmpeg-skill"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 12,
+    "capability": "Free deterministic video/audio edits",
+    "source": "ffmpeg-skill",
+    "removes": "Paid editing tools",
+    "venture": "Content engine"
+   }
+  },
+  {
+   "id": "cap-captions-and-aspect-ratio-variants-in-one-pass",
+   "name": "Captions and aspect-ratio variants in one pass",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Captions and aspect-ratio variants in one pass (from ffmpeg-skill); removes: Re-cutting per platform",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "ffmpeg-skill"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 13,
+    "capability": "Captions and aspect-ratio variants in one pass",
+    "source": "ffmpeg-skill",
+    "removes": "Re-cutting per platform",
+    "venture": "finance-education, indie-game"
+   }
+  },
+  {
+   "id": "cap-audio-cleanup-for-recorder-prototypes",
+   "name": "Audio cleanup for recorder prototypes",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Audio cleanup for recorder prototypes (from ffmpeg-skill); removes: Manual audio work",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "ffmpeg-skill"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 14,
+    "capability": "Audio cleanup for recorder prototypes",
+    "source": "ffmpeg-skill",
+    "removes": "Manual audio work",
+    "venture": "Electronics"
+   }
+  },
+  {
+   "id": "cap-repeatable-research-procedure",
+   "name": "Repeatable research procedure",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Repeatable research procedure (from last30days + user-research); removes: Rewriting prompts each time",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "last30days + user-research"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 15,
+    "capability": "Repeatable research procedure",
+    "source": "last30days + user-research",
+    "removes": "Rewriting prompts each time",
+    "venture": "All"
+   }
+  },
+  {
+   "id": "cap-consistent-deliverable-quality",
+   "name": "Consistent deliverable quality",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Consistent deliverable quality (from humanizer + claude-seo); removes: Per-brand style fixes",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "humanizer + claude-seo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 16,
+    "capability": "Consistent deliverable quality",
+    "source": "humanizer + claude-seo",
+    "removes": "Per-brand style fixes",
+    "venture": "All"
+   }
+  },
+  {
+   "id": "cap-safer-refactors-of-the-trading-stack",
+   "name": "Safer refactors of the trading stack",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Safer refactors of the trading stack (from graphify + tech-debt-audit); removes: Fear-driven rewrites",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "graphify + tech-debt-audit"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 17,
+    "capability": "Safer refactors of the trading stack",
+    "source": "graphify + tech-debt-audit",
+    "removes": "Fear-driven rewrites",
+    "venture": "finance-education"
+   }
+  },
+  {
+   "id": "cap-game-post-mortems-feeding-the-next-build",
+   "name": "Game post-mortems feeding the next build",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Game post-mortems feeding the next build (from napkin); removes: Repeating design mistakes",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "napkin"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 18,
+    "capability": "Game post-mortems feeding the next build",
+    "source": "napkin",
+    "removes": "Repeating design mistakes",
+    "venture": "indie-game"
+   }
+  },
+  {
+   "id": "cap-client-ready-system-explainers",
+   "name": "Client-ready system explainers",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "Client-ready system explainers (from understand-anything); removes: Manual architecture docs",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "understand-anything"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 19,
+    "capability": "Client-ready system explainers",
+    "source": "understand-anything",
+    "removes": "Manual architecture docs",
+    "venture": "Consulting"
+   }
+  },
+  {
+   "id": "cap-a-procedure-library-that-compounds",
+   "name": "A procedure library that compounds",
+   "kind": "capability",
+   "category": "skill-capability",
+   "url": null,
+   "description": "A procedure library that compounds (from whole set); removes: Re-deriving how to do each job",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "whole set"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "n": 20,
+    "capability": "A procedure library that compounds",
+    "source": "whole set",
+    "removes": "Re-deriving how to do each job",
+    "venture": "All"
+   }
+  }
+ ]
+}

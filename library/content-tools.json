@@ -1,0 +1,3384 @@
+{
+ "collection": "content-tools",
+ "title": "AI content-creation tools",
+ "description": "Video/image/voice/music/caption/publishing tools for Content Studio AI.",
+ "items": [
+  {
+   "id": "content-voicestudio",
+   "name": "VoiceStudio",
+   "kind": "repo",
+   "category": "media",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "description": "Fully local ElevenLabs alternative: voice cloning, voice design, video dubbing, dictation, transcription, audiobooks; 646 languages; Electron app for Windows/macOS/Linux/Docker; local API + MCP server; powered by k2-fsa/OmniVoice",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "AGPL-3.0 covers the software, not generated audio; do not embed in a hosted paid service without source release Each speech model has its own licence; review before commercial use Shares the 8GB card with ComfyUI; queue audio and image jobs Clone only your own voice or with written permission",
+   "tags": [],
+   "license": "AGPL-3.0",
+   "stars": 68983,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "replaces": [
+     "Kokoro (draft TTS)",
+     "ElevenLabs (final voiceover, recurring cost)",
+     "Whisper (planned transcription)"
+    ],
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-image2splat-unresolved",
+   "name": "Image2Splat (unresolved)",
+   "kind": "repo",
+   "category": "media",
+   "url": null,
+   "description": "Category: single-image 3D Gaussian splatting. Closest practical option is Apple Research LiTo via ComfyUI-LiTo (~524K splats per image, ~4.7s on H100, ~3GB checkpoint)",
+   "verdict": "reference",
+   "verdictNote": "niche: product pages, not games",
+   "why": "Splats are not game-ready: no mesh, rig, collision or animation; need a dedicated renderer; large files unsuitable for fast-loading web games For indie-game 3D assets, evaluate image-to-mesh models instead since Godot imports meshes directly 4060 will be far slower than the quoted H100 timing CORRECTION from the AnyAngle analysis: single-image 3D/splat does have a strong role as a THROWAWAY INTERMEDIATE - reconstruct, render a reference angle in Blender, discard the 3D. Never shipped to a viewer, so file size and lack of rig do not matter.",
+   "tags": [],
+   "license": "unknown",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "replaces": []
+   }
+  },
+  {
+   "id": "content-qi-2-1-anyangle-lora",
+   "name": "QI_2.1_AnyAngle (LoRA)",
+   "kind": "repo",
+   "category": "media",
+   "url": "https://huggingface.co/lilylilith/QI_2.1_AnyAngle",
+   "description": "LoRA for Qwen-Image-2.1 that re-renders an existing subject from a new camera angle while preserving the original art style. NOT one-click: four-stage chain = image -> 3D (Trellis2 or Tripo Splat) -> Blender camera placement -> render -> Qwen-Image-2.1 + LoRA using that render as reference. Settings: LoRA strength 1.0, CFG 3.0, 20+ steps, prompt 'Change the camera angle from <image2> to <image1>.'",
+   "verdict": "reference",
+   "verdictNote": "specialist tool for product imagery; add to library, do not restructure the pipeline",
+   "why": "NOT a replacement or fallback for Flux - it does a different job; Flux generates from a prompt, this re-angles an existing subject Base model Qwen-Image-2.1 needs ~16GB VRAM vs the 4060's 8GB; GGUF quants exist but quality drops and generation falls to minutes per image Trellis2 step needs its own VRAM; card already shared with Flux and VoiceStudio Blender camera placement is human judgement - does not automate cleanly Degrades when the 3D reconstruction is deformed; faces and low-res inputs worst affected Small community LoRA (71 likes), not a major release Cheaper answers first: for a game model once in Blender and render N views (free, perfectly consistent); for flat art generate a multi-view character sheet in ONE Flux pass",
+   "tags": [],
+   "license": "Apache-2.0",
+   "stars": 71,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "replaces": []
+   }
+  },
+  {
+   "id": "content-n8n-io-n8n",
+   "name": "n8n-io/n8n",
+   "kind": "tool",
+   "category": "automation",
+   "url": "https://github.com/n8n-io/n8n",
+   "description": "Fair-code workflow automation with AI agents; self-hostable.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Already in the ops stack.",
+   "tags": [
+    "automation"
+   ],
+   "license": "Sustainable Use License",
+   "stars": 207530,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-promptfoo-promptfoo",
+   "name": "promptfoo/promptfoo",
+   "kind": "tool",
+   "category": "eval",
+   "url": "https://github.com/promptfoo/promptfoo",
+   "description": "CLI for prompt/model evaluation and LLM red teaming; now part of OpenAI.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Regression-test prompts and compliance language.",
+   "tags": [
+    "evals",
+    "red-team"
+   ],
+   "license": "MIT",
+   "stars": 26020,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfy-org-comfyui",
+   "name": "ComfyUI",
+   "kind": "framework",
+   "category": "comfyui",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "description": "Node-graph engine for diffusion image/video/audio workflows with an API for automation.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Already the owner's generation backend; use its API from the pipeline.",
+   "tags": [
+    "workflow",
+    "api"
+   ],
+   "license": "GPL-3.0",
+   "stars": 137707,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-wan-2-2",
+   "name": "Wan 2.2",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://github.com/Wan-Video/Wan2.2",
+   "description": "Open large-scale video generation family (T2V/I2V A14B, TI2V-5B, S2V, Animate).",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Official TI2V-5B needs 24GB; on 8GB only via GGUF/offload (Wan2GP or Kijai wrapper), slow but workable for short clips.",
+   "tags": [
+    "video",
+    "i2v",
+    "t2v"
+   ],
+   "license": "Apache-2.0",
+   "stars": 17952,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-09-21",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-ltx-video-0-9-x",
+   "name": "LTX-Video (0.9.x)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://github.com/Lightricks/LTX-Video",
+   "description": "Lightricks DiT video model; 2B distilled and FP8 variants; repo says LTX-2 is now the main line.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "2B/FP8 community builds reported ~720x480 in under a minute on an RTX 4060 8GB, best fast option for the laptop.",
+   "tags": [
+    "video",
+    "fast"
+   ],
+   "license": "Apache-2.0",
+   "stars": 11111,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-01-05",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-ltx-2-ltx-2-5",
+   "name": "LTX-2 / LTX-2.5",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://github.com/Lightricks/LTX-2",
+   "description": "Successor with native synchronized audio+video generation; FP8-cast and offload flags for low VRAM.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Distilled set is ~66GiB and targets big GPUs; 8GB only through Wan2GP-style offloading, license text not verified.",
+   "tags": [
+    "video",
+    "audio"
+   ],
+   "license": "see repo LICENSE files",
+   "stars": 9760,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-hunyuanvideo-1-5",
+   "name": "HunyuanVideo 1.5",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://insiderllm.com/guides/local-ai-video-generation/",
+   "description": "Open video model, ~14GB with offload.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "~14GB minimum with offload; does not fit 8GB practically.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "~14GB offload",
+    "released": "late 2025"
+   }
+  },
+  {
+   "id": "content-wan2gp-wangp",
+   "name": "Wan2GP (WanGP)",
+   "kind": "tool",
+   "category": "video-gen",
+   "url": "https://github.com/deepbeepmeep/Wan2GP",
+   "description": "GPU-poor Gradio app running Wan, LTX-2.x, Hunyuan, Flux 2 Klein, Qwen Image, ACE-Step, Chatterbox etc; claims 6GB VRAM minimum.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Best way to run modern video models on the 4060 8GB; one install also covers image, TTS and music models.",
+   "tags": [
+    "video",
+    "low-vram",
+    "all-in-one"
+   ],
+   "license": "see LICENSE.txt",
+   "stars": 10540,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-wanvideowrapper",
+   "name": "ComfyUI-WanVideoWrapper",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/Kijai/ComfyUI-WanVideoWrapper",
+   "description": "Kijai wrapper nodes for Wan and related video models with fp8/offload options.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Most flexible low-VRAM Wan path inside ComfyUI for the 8GB card.",
+   "tags": [
+    "wan",
+    "video"
+   ],
+   "license": "Apache-2.0",
+   "stars": 6733,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-05-24",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-gguf",
+   "name": "ComfyUI-GGUF",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/city96/ComfyUI-GGUF",
+   "description": "GGUF quantized model loading for native ComfyUI (Flux, Wan, etc.).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Core enabler for fitting big image/video models into 8GB.",
+   "tags": [
+    "gguf",
+    "low-vram"
+   ],
+   "license": "Apache-2.0",
+   "stars": 4167,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-01-12",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-manager",
+   "name": "ComfyUI-Manager",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/ltdrdata/ComfyUI-Manager",
+   "description": "Install/update manager for custom nodes and models in ComfyUI.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Standard tool for managing node packs; low risk.",
+   "tags": [
+    "manager"
+   ],
+   "license": "GPL-3.0",
+   "stars": 16468,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-videohelpersuite",
+   "name": "ComfyUI-VideoHelperSuite",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+   "description": "Nodes for loading, combining and saving video, audio and frames in ComfyUI.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Needed for any video workflow output (mp4 combine, frame load).",
+   "tags": [
+    "video-io"
+   ],
+   "license": "GPL-3.0",
+   "stars": 1878,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-09-02",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-frame-interpolation",
+   "name": "ComfyUI-Frame-Interpolation",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+   "description": "RIFE/FILM frame interpolation nodes for ComfyUI.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Cheaply doubles fps of short low-res generations on 8GB.",
+   "tags": [
+    "interpolation"
+   ],
+   "license": "MIT",
+   "stars": 1084,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-03-29",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-comfyui-animatediff-evolved",
+   "name": "ComfyUI-AnimateDiff-Evolved",
+   "kind": "node-pack",
+   "category": "comfyui",
+   "url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+   "description": "AnimateDiff nodes for ComfyUI, older but light video generation.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Superseded in quality by Wan/LTX but runs easily on 8GB.",
+   "tags": [
+    "animatediff"
+   ],
+   "license": "Apache-2.0",
+   "stars": 3557,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-07-28",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-flux-2-klein",
+   "name": "FLUX.2 [klein]",
+   "kind": "model",
+   "category": "image-gen",
+   "url": "https://github.com/black-forest-labs/flux2",
+   "description": "FLUX.2 repo with Klein 4B (Apache-2.0) and 9B (non-commercial) text-to-image and multi-reference editing.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Keep the 4B (and 4B Base) weights: Apache-2.0 and about 8 GB VRAM. klein 9B/9B KV/9B Base and FLUX.2 [dev] are under the FLUX Non-Commercial License; [dev] needs H100-class VRAM (quantised runs reported on a 24 GB card with a remote text encoder).",
+   "tags": [
+    "image",
+    "edit"
+   ],
+   "license": "Apache-2.0 repo; 4B Apache, 9B non-commercial",
+   "stars": 2739,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-03-12",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-real-esrgan",
+   "name": "Real-ESRGAN",
+   "kind": "repo",
+   "category": "upscale",
+   "url": "https://github.com/xinntao/Real-ESRGAN",
+   "description": "Practical image/video super-resolution and restoration.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Light, runs on 8GB, standard upscale step for thumbnails and video frames.",
+   "tags": [
+    "upscale"
+   ],
+   "license": "BSD-3-Clause",
+   "stars": 37104,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2024-08-06",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-rembg",
+   "name": "rembg",
+   "kind": "repo",
+   "category": "background-removal",
+   "url": "https://github.com/danielgatis/rembg",
+   "description": "Python/CLI background removal; default bria-rmbg model needs paid commercial license, other models available.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Fast CPU/GPU cutouts; choose a permissive model (e.g. u2net/isnet) for commercial use.",
+   "tags": [
+    "matting"
+   ],
+   "license": "MIT (models vary)",
+   "stars": 25092,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-10",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-kokoro-tts",
+   "name": "Kokoro TTS",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://github.com/hexgrad/kokoro",
+   "description": "82M-parameter Apache-licensed TTS, CPU-capable.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Already in use; runs on the CPU VPS for bulk narration.",
+   "tags": [
+    "tts",
+    "cpu"
+   ],
+   "license": "Apache-2.0",
+   "stars": 9331,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2025-08-06",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-chatterbox-tts",
+   "name": "Chatterbox TTS",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://github.com/resemble-ai/chatterbox",
+   "description": "MIT TTS family (Turbo 350M, Nano 110M CPU, Multilingual 23+ langs) with zero-shot voice cloning and PerTh watermark.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Best-licensed cloning TTS with expressive tags; Turbo/Nano fit 8GB or CPU, fits owner voice-clone plan.",
+   "tags": [
+    "tts",
+    "clone"
+   ],
+   "license": "MIT",
+   "stars": 26980,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-07-21",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-f5-tts",
+   "name": "F5-TTS",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://github.com/SWivid/F5-TTS",
+   "description": "Flow-matching zero-shot voice cloning TTS; code MIT but weights CC-BY-NC.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Weights are non-commercial, so risky for a SaaS; prefer Chatterbox.",
+   "tags": [
+    "tts",
+    "clone"
+   ],
+   "license": "MIT code / CC-BY-NC weights",
+   "stars": 15409,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-vibevoice",
+   "name": "VibeVoice",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://www.dograh.com/feeds/blog/open-source-ai-voice-generator",
+   "description": "Only seen in one benchmark graphic.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Unverified; no data on license or 8GB fit.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unknown",
+    "released": "unknown"
+   }
+  },
+  {
+   "id": "content-ace-step-1-5",
+   "name": "ACE-Step 1.5 / 1.5 XL",
+   "kind": "repo",
+   "category": "music-gen",
+   "url": "https://github.com/ACE-Step/ACE-Step-1.5",
+   "description": "Open music model, 1.5 Jan 2026, XL 4B Apr 2 2026 (xl-base/sft/turbo); claims between Suno v4.5 and v5 (self-reported); training data claimed licensed.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT NOW: the biggest win in this list for you. Pilot.",
+   "why": "Upgrade from ACE-Step v1 at $0/track; XL 4B 8GB fit unverified, 1.5 base is the safer pick.",
+   "tags": [
+    "local",
+    "comfyui"
+   ],
+   "license": "MIT (most sources)",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unknown for XL",
+    "released": "2026-01 / XL 2026-04"
+   }
+  },
+  {
+   "id": "content-whisperx",
+   "name": "WhisperX",
+   "kind": "repo",
+   "category": "captions",
+   "url": "https://github.com/m-bain/whisperX",
+   "description": "Whisper ASR with word-level timestamps and diarization.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Word-level timings drive burned-in captions and clip cutting; runs on 8GB or CPU.",
+   "tags": [
+    "captions",
+    "align"
+   ],
+   "license": "BSD-2-Clause",
+   "stars": 24586,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-09-26",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-faster-whisper",
+   "name": "faster-whisper",
+   "kind": "repo",
+   "category": "captions",
+   "url": "https://github.com/SYSTRAN/faster-whisper",
+   "description": "CTranslate2 Whisper reimplementation, much faster and lighter.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "CPU-viable transcription on the VPS.",
+   "tags": [
+    "asr"
+   ],
+   "license": "MIT",
+   "stars": 25879,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-funclip",
+   "name": "FunClip",
+   "kind": "repo",
+   "category": "auto-clip",
+   "url": "https://github.com/modelscope/FunClip",
+   "description": "FunASR transcription, subtitles and LLM-assisted clipping with Gradio UI.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Good reference for transcript-driven clipping; Chinese-first ASR.",
+   "tags": [
+    "clip",
+    "subtitles"
+   ],
+   "license": "MIT",
+   "stars": 6397,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-08",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-ai-youtube-shorts-generator",
+   "name": "AI-Youtube-Shorts-Generator",
+   "kind": "repo",
+   "category": "auto-clip",
+   "url": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator",
+   "description": "Long YouTube video to 9:16 shorts via LLM highlight detection, Whisper and auto crop.",
+   "verdict": "trial",
+   "verdictNote": "trial in --mode local only",
+   "why": "Default API mode needs paid MuAPI (download, transcription, ranking, crop). Local mode uses yt-dlp, faster-whisper and OpenCV face tracking, but highlight ranking still calls OpenAI or Gemini; pointing it at a local model needs a code change. Same repo also published as SamurAIGPT/AI-Youtube-Shorts-Generator. Last commit 2026-10-11.",
+   "tags": [
+    "clip",
+    "shorts"
+   ],
+   "license": "MIT",
+   "stars": 5400,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-11",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-supoclip",
+   "name": "SupoClip",
+   "kind": "repo",
+   "category": "auto-clip",
+   "url": "https://github.com/FujiwaraChoki/supoclip",
+   "description": "Open-source OpusClip alternative making vertical clips with subtitles and hook titles.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "AGPL limits SaaS embedding; use for ideas or as standalone service.",
+   "tags": [
+    "clip"
+   ],
+   "license": "AGPL-3.0",
+   "stars": 1447,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-shortgpt",
+   "name": "ShortGPT",
+   "kind": "framework",
+   "category": "auto-clip",
+   "url": "https://github.com/RayVentura/ShortGPT",
+   "description": "Experimental framework automating YouTube Shorts/TikTok video creation.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Reference architecture, experimental and likely stale.",
+   "tags": [
+    "shorts",
+    "automation"
+   ],
+   "license": "MIT",
+   "stars": 8033,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2025-02-10",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-moneyprinterturbo",
+   "name": "MoneyPrinterTurbo",
+   "kind": "repo",
+   "category": "auto-clip",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "description": "Generates HD short videos from a topic: script, stock footage, TTS, subtitles.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Template for stock-footage faceless videos; swap in Kokoro and Pexels.",
+   "tags": [
+    "shorts",
+    "stock-media"
+   ],
+   "license": "MIT",
+   "stars": 131614,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-latentsync",
+   "name": "LatentSync",
+   "kind": "model",
+   "category": "avatar-lipsync",
+   "url": "https://github.com/ByteDance/LatentSync",
+   "description": "Audio-conditioned latent diffusion lip-sync on existing video.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "v1.5 inference needs 8GB so it fits the 4060; v1.6 needs 18GB.",
+   "tags": [
+    "lipsync"
+   ],
+   "license": "Apache-2.0",
+   "stars": 6142,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2025-06-20",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-infinitetalk",
+   "name": "InfiniteTalk",
+   "kind": "model",
+   "category": "avatar-lipsync",
+   "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+   "description": "Wan-based audio-driven talking/singing video from photo or video, long-form.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Heavy Wan base; needs offload or Wan2GP to attempt on 8GB.",
+   "tags": [
+    "talking-head"
+   ],
+   "license": "Apache-2.0",
+   "stars": 8072,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-05-22",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-remotion",
+   "name": "Remotion",
+   "kind": "repo",
+   "category": "video-render",
+   "url": "https://github.com/remotion-dev/remotion",
+   "description": "The long-standing React framework for making video with code, with a large ecosystem (captions, maps, Lambda rendering). Official agent skills exist (see next entry).",
+   "verdict": "assess",
+   "verdictNote": "HOLD: prefer HyperFrames (Apache-2.0, plain HTML). Use Remotion only where a skill or client needs it, after reading the licence.",
+   "why": "Not open source in the OSI sense: it is a custom licence. Free for you only while consulting / finance-education each stay at 3 employees or fewer; any work done for a larger company (for example a larger employer) needs that company's licence. Price is on remotion.pro and was not shown Needs React/TypeScript; harder for a non-coder to audit than an HTML file Several community Remotion skills in this batch assume it",
+   "tags": [
+    "react",
+    "render"
+   ],
+   "license": "Remotion licence (free for individuals, for-profit companies up to 3 employees, non-profits and evaluation; company licence above that)",
+   "stars": 62500,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-revideo",
+   "name": "Revideo",
+   "kind": "framework",
+   "category": "programmatic-video",
+   "url": "https://github.com/redotvideo/revideo",
+   "description": "TypeScript-scene video rendering engine with headless render API, fork of Motion Canvas.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "MIT, built for API-driven rendering, a good license-safe pick for templated shorts.",
+   "tags": [
+    "render",
+    "api"
+   ],
+   "license": "MIT",
+   "stars": 4112,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-07-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-motion-canvas",
+   "name": "Motion Canvas",
+   "kind": "framework",
+   "category": "programmatic-video",
+   "url": "https://github.com/motion-canvas/motion-canvas",
+   "description": "Code-driven animation editor for vector explainers.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Great for explainer animations, less suited to batch automation than Revideo.",
+   "tags": [
+    "animation"
+   ],
+   "license": "MIT",
+   "stars": 19346,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-07-02",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-moviepy",
+   "name": "MoviePy",
+   "kind": "repo",
+   "category": "programmatic-video",
+   "url": "https://github.com/Zulko/moviepy",
+   "description": "Python video editing library built on ffmpeg.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Simple Python glue for compositing; use ffmpeg directly for heavy work.",
+   "tags": [
+    "python",
+    "edit"
+   ],
+   "license": "MIT",
+   "stars": 14989,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-08-26",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-postiz",
+   "name": "Postiz",
+   "kind": "repo",
+   "category": "scheduling",
+   "url": "https://www.postiz.com/blog",
+   "description": "Open-source social scheduler with MCP server, CLI and agent integrations (Claude Code, Codex etc.), 30+ channels incl. Threads, Bluesky; AI clipping.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Could supply our missing IG/TikTok/FB/LinkedIn/Threads connectors instead of writing each; check license and hosting load.",
+   "tags": [
+    "mcp",
+    "open-source",
+    "scheduler"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "keyFeatures": [
+     "MCP server",
+     "Agent CLI",
+     "30+ channels",
+     "AI clipping",
+     "AI UGC workflow guides (Oct 2026)"
+    ],
+    "pricing": "Self-host free / cloud paid"
+   }
+  },
+  {
+   "id": "content-mixpost",
+   "name": "Mixpost",
+   "kind": "tool",
+   "category": "publishing",
+   "url": "https://github.com/inovector/mixpost",
+   "description": "Self-hosted Laravel social media scheduler, Buffer alternative.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "MIT but PHP stack; Postiz fits the stack better.",
+   "tags": [
+    "scheduler"
+   ],
+   "license": "MIT",
+   "stars": 3821,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-03-16",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-detoxify",
+   "name": "Detoxify",
+   "kind": "model",
+   "category": "moderation",
+   "url": "https://github.com/unitaryai/detoxify",
+   "description": "Toxic comment classifiers (Jigsaw) with PyTorch and Transformers.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "CPU-friendly text screen for generated captions and scripts before the approval queue.",
+   "tags": [
+    "toxicity"
+   ],
+   "license": "Apache-2.0",
+   "stars": 1307,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "content-pexels-api",
+   "name": "Pexels API",
+   "kind": "api",
+   "category": "stock-media",
+   "url": "https://www.pexels.com/api/documentation/",
+   "description": "Free photo and video search API; 200 req/hour, 20k/month default, attribution required.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Free B-roll source for faceless shorts; keep attribution link.",
+   "tags": [
+    "stock",
+    "video"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools"
+  },
+  {
+   "id": "content-pixabay-api",
+   "name": "Pixabay API",
+   "kind": "api",
+   "category": "stock-media",
+   "url": "https://pixabay.com/api/docs/",
+   "description": "Free image and video API; 100 req/60s, 24h caching, attribution required.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Second free stock source with video endpoint; must cache and credit.",
+   "tags": [
+    "stock",
+    "video"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: AI content tools"
+  },
+  {
+   "id": "content-supertonic-3",
+   "name": "Supertonic 3",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/supertone-inc/supertonic",
+   "description": "~99M-parameter on-device TTS via ONNX Runtime. 31 languages, 44.1kHz 16-bit output, CPU-only (no CUDA/MPS upstream), RTF ~0.3x on a Raspberry Pi. Bindings: Python, Node.js, browser/WebGPU, Java, C++, C#, Go, Swift, iOS, Rust, Flutter. ALREADY SHIPS AS A VOICESTUDIO ENGINE: enable with 'uv sync --extra supertonic' or the in-app Model Catalogue, then accept the OpenRAIL-M licence in-app. Runs as a separate process so a crash cannot block other VoiceStudio features. Seven preset voices: M1 (default), M3, M4, M5, F3, F4, F5.",
+   "verdict": "adopt",
+   "verdictNote": "adopt as a SECOND engine inside VoiceStudio - one command, no new vendor; closes the voice-fallback gap",
+   "why": "NOT a replacement for VoiceStudio's default engine: 'No cloning and no voice design - preset voices only' (VoiceStudio docs) Custom voices require Supertone's separate Voice Builder service, which breaks the fully-local property finance-education brand voice must stay on VoiceStudio's default engine (local GPU) Model is OpenRAIL-M: use-based restrictions (impersonation, deception); VoiceStudio docs note it 'restricts commercial use compared to VoiceStudio's standard terms' - read Attachment A before shipping a paid product CPU-only by design upstream; no hardware acceleration available ESP32-S3 is out of reach - 99M params needs real RAM; this is the Raspberry Pi tier, not the microcontroller tier MAINTENANCE FLAG: repo surfaces under both supertone-inc and supertone-oss-archive paths, suggesting a move to an archive org; reaching it via VoiceStudio's engine layer insulates you somewhat",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "Code MIT; model OpenRAIL-M",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "CPU only (runs on the server)",
+     "fits8GB": true,
+     "on8GB": "Fallback voice on a production server",
+     "at24GB": "No change",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "content-comfyui-h3-motion-context",
+   "name": "ComfyUI-H3-Motion-Context",
+   "kind": "repo",
+   "category": "video-generation",
+   "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+   "description": "ComfyUI node pack that chains MiniMax H3 clips with motion AND audio continuity: feeds previous clip's tail frames (5/22/39, 22 recommended) as context and remaps pinned audio onto the new clip's timeline; trim node removes the overlap. Local only, no API.",
+   "verdict": "assess",
+   "verdictNote": "not adopted now; technique recorded. REVISIT when a 24 GB GPU is available. Owner decision (2026-10-03): keep the small-chunk, clip-by-clip workflow because each clip can be re-edited on its own instead of re-rendering one long take; single long takes are only worth it once hardware can iterate on them cheaply.",
+   "why": "Works ONLY with MiniMax H3 running locally; the plan uses H3 via API, so the node does nothing for you Local H3 on 8GB is unverified per local-install guides; documented floor is a heavily offloaded 12GB card H3 open-weight licence excludes US/EU/UK/South Korea and reportedly restricts display outside its territory; Canada not excluded, but finance-education Shorts viewed mainly by US audiences may fall outside - read licence before publishing local H3 output 0 stars, last updated early Aug 2026, tested on one machine Author documents progressive audio degradation down a chain (lossy re-encode each hop) and a ~10ms constant audio offset Use instead: Seedance 2.5 30s single takes (fewer joins); API chaining with last frame -> next start image; one continuous VoiceStudio voice track and music added in ffmpeg assembly Trade-off the owner chose: chunks are individually editable; the cost is join artefacts (motion/audio continuity), which this node and last-frame chaining exist to reduce",
+   "tags": [],
+   "license": "GPL-3.0 (node); MiniMax H3 community licence (model)",
+   "stars": 0,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-hyperframes",
+   "name": "HyperFrames",
+   "kind": "repo",
+   "category": "video-render",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "description": "Open-source renderer: a video is an HTML file with timing attributes; animations from GSAP, CSS, Lottie, Three.js, Anime.js or WAAPI are seeked frame by frame in headless Chrome and encoded with ffmpeg (npm package v0.8.143). Commands: init, preview, check, render (mp4, webm, mov with alpha, gif, png-sequence, hls), plus lint, snapshot, doctor, cloud render and Lambda render. Init can transcribe an audio file with whisper. Project ships AGENTS.md/CLAUDE.md so an agent knows how to author. 5,399 commits, 5.3k forks.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT as the renderer for content studio explainers. Pilot on an 8 GB GPU before anything else is built on it.",
+   "why": "RAN HERE: scaffold plus a 10-second 1920x1080 30 fps H.264 render took 23 s in draft quality on this CPU-only sandbox (about 2.3 s of render per second of video); sandbox could not download its preferred chrome-headless-shell, so it fell back to screenshot capture, which it says is slower; I pointed it at an installed Chromium with HYPERFRAMES_BROWSER_PATH It refuses to render when its own check finds a correctness warning: the starter loads GSAP from a CDN, which this sandbox blocks, and the render failed until I vendored GSAP locally. Good safety behaviour, but vendor GSAP and fonts for any offline or locked-down machine Anonymous usage telemetry exists (project and render events, per-skill attribution). I set DO_NOT_TRACK and HYPERFRAMES_NO_TELEMETRY but did NOT verify those names are honoured: check its docs before running on a work machine Needs Node 22+, ffmpeg; each render worker is a separate Chrome (about 256 MB RAM each); an 8 GB machine is fine for 1080p, long 4K renders untested HeyGen-hosted cloud rendering and a desktop Studio are offered; pricing not shown; the repo says no per-render fees or commercial thresholds for the framework itself Young release line (0.8.x): pin the version",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "Apache-2.0",
+   "stars": 59300,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "No GPU needed (headless Chrome + ffmpeg; ~256 MB RAM per worker)",
+     "fits8GB": true,
+     "on8GB": "Use now",
+     "at24GB": "GPU encoding/faster capture possible; not needed",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "content-hyperframes-student-kit",
+   "name": "hyperframes-student-kit",
+   "kind": "repo",
+   "category": "motion-graphics-skills",
+   "url": "https://github.com/nateherkai/hyperframes-student-kit",
+   "description": "Teaching kit by Nate Herk: HTML/GSAP projects, agent files and seven slash commands for HyperFrames, edit-from-transcript workflow. Needs Node 20+, ffmpeg, Chrome, about 5 GB disk.",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE only: learn from the examples, reuse none of the branding.",
+   "why": "The post says 14 skills and 406 cards; the README lists 7 slash commands and I found no '406': treat the counts as inflated Only one commit in the history Optional ClickUp and OpenAI keys; loads GSAP from a CDN Brand assets belong to AI Automation Society",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "MIT code; AI Automation Society brand assets not licensed for reuse",
+   "stars": 527,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "No GPU needed (headless Chrome + ffmpeg; ~256 MB RAM per worker)",
+     "fits8GB": true,
+     "on8GB": "Use now",
+     "at24GB": "GPU encoding/faster capture possible; not needed",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "content-lottie-web",
+   "name": "lottie-web",
+   "kind": "repo",
+   "category": "web-animation",
+   "url": "https://github.com/airbnb/lottie-web",
+   "description": "Plays After Effects/Lottie animations in the browser (SVG, canvas or HTML renderer). Output is an animation on a page, not an MP4; HyperFrames can render Lottie to video.",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE: not needed for the video lane.",
+   "why": "788 open issues, 69 open pull requests; the repo page shows no release date",
+   "tags": [],
+   "license": "MIT",
+   "stars": 32100,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-trellis-2",
+   "name": "TRELLIS.2",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://github.com/microsoft/TRELLIS.2",
+   "description": "Image-to-3D model producing PBR GLB assets (base colour, roughness, metallic, opacity). Official timings on an H100: about 3 s at 512 resolution, 17 s at 1024, 60 s at 1536 (the post's '3 seconds' is the lowest setting). Hosted on fal at $0.25 (512), $0.30 (1024), $0.35 (1536) per generation.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT via fal pay-per-use ($0.25-0.35 each). It is cheaper than the Hunyuan3D v3 route in image-blaster (about $0.675) and MIT with no territory limits. Run locally only after a 24 GB card.",
+   "why": "Official requirement is at least 24 GB VRAM and Linux only: it does NOT run officially an 8 GB GPU (8 GB, Windows) Low-VRAM ComfyUI guides claim 6-8 GB works; they come from an unofficial site and I did not verify them GLB exports opaque by default; transparency must be switched on in Blender Not run by me (no GPU here)",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "MIT (code and 4B weights); nvdiffrast/nvdiffrec under NVIDIA's own licences",
+   "stars": 10900,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "At least 24 GB (official); tested on A100/H100",
+     "fits8GB": false,
+     "on8GB": "Use hosted on fal ($0.25-0.35 per model)",
+     "at24GB": "Run locally IF the machine runs Linux (official support is Linux only; Windows/WSL untested)",
+     "blockerBeyondVram": "Linux only"
+    }
+   }
+  },
+  {
+   "id": "content-hunyuan3d-2-1",
+   "name": "Hunyuan3D-2.1",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+   "description": "Image-to-3D with PBR textures; Windows, macOS and Linux. Released June 2025.",
+   "verdict": "skip",
+   "verdictNote": "SKIP the open-weights version. Prefer TRELLIS.2 (MIT).",
+   "why": "Needs 10 GB VRAM for shape and 21 GB for texture (29 GB both): does not fit the 8 GB 4060 Licence makes using or DISPLAYING outputs outside its territory unlicensed: a web game or Etsy listing reachable from the UK or EU is a problem. Also requires machine-generated public content to be labelled You already reach Hunyuan3D v3 through fal in image-blaster (fal's terms apply there, not this licence)",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "Tencent Hunyuan 3D 2.1 Community Licence: excludes the EU, UK and South Korea; above 1M monthly users needs Tencent's permission",
+   "stars": 4000,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "10 GB shape, 21 GB texture, 29 GB both",
+     "fits8GB": false,
+     "on8GB": "Skip; use TRELLIS.2 on fal",
+     "at24GB": "Technically fits shape+texture in two passes",
+     "blockerBeyondVram": "Licence excludes EU/UK/South Korea, including displaying outputs there: still skip after the upgrade"
+    }
+   }
+  },
+  {
+   "id": "content-stable-fast-3d",
+   "name": "Stable Fast 3D",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://github.com/Stability-AI/stable-fast-3d",
+   "description": "Fast single-image to UV-unwrapped textured mesh, built on TripoSR's speed. About 6 GB VRAM by default; Windows support is experimental (needs Visual Studio 2022). 43 commits.",
+   "verdict": "trial",
+   "verdictNote": "PILOT locally on an 8 GB GPU as the free fallback; keep TRELLIS.2 on fal for quality.",
+   "why": "Older (2024) and lower fidelity than TRELLIS.2 (expected, not tested) Commercial use needs registration and visible 'Powered by Stability AI' credit; outputs may not train other foundation models Windows install is experimental",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "Stability AI Community Licence: free under US$1M annual revenue; register; show 'Powered by Stability AI'",
+   "stars": 1800,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "~6 GB",
+     "fits8GB": true,
+     "on8GB": "Free local image-to-3D for quick props and greybox",
+     "at24GB": "Keep as the fast draft step before TRELLIS.2",
+     "blockerBeyondVram": "Stability Community Licence: register, show 'Powered by Stability AI', free under $1M revenue"
+    }
+   }
+  },
+  {
+   "id": "content-hy-world-2-0",
+   "name": "HY-World 2.0",
+   "kind": "model",
+   "category": "world-model",
+   "url": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+   "description": "World model: text or one image to a navigable 3D world (mesh or Gaussian splats), plus reconstruction (WorldMirror 2.0) and 360 panoramas (HY-Pano 2.0). Code and weights released April-May 2026.",
+   "verdict": "skip",
+   "verdictNote": "SKIP (watch). Re-check if a consumer-GPU version appears.",
+   "why": "No VRAM figure published; the paper reports about 10 minutes per scene on a data-centre H20 GPU: not a 4060 job Same territory problem as Hunyuan3D for anything shown worldwide Overlaps the World Labs step you already put on hold",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "Tencent HY-World 2.0 Community Licence (same EU/UK/South Korea exclusion, 1M-user cap, must name the real provider to end users)",
+   "stars": 2700,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "Not published; paper: ~10 minutes per scene on a data-centre H20",
+     "fits8GB": false,
+     "on8GB": "Skip",
+     "at24GB": "Probably still too heavy; re-check if a consumer version ships",
+     "blockerBeyondVram": "Same territory licence as Hunyuan"
+    }
+   }
+  },
+  {
+   "id": "content-supersplat",
+   "name": "SuperSplat",
+   "kind": "repo",
+   "category": "gaussian-splats",
+   "url": "https://github.com/playcanvas/supersplat",
+   "description": "Free browser editor for 3D Gaussian splats: view, clean up, crop, optimise and publish. Nothing to install.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT as a free utility, used only when you have splats.",
+   "why": "Terms for publishing on superspl.at not checked",
+   "tags": [],
+   "license": "MIT",
+   "stars": 10300,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-kit-usd-agents",
+   "name": "kit-usd-agents",
+   "kind": "repo",
+   "category": "3d-tools",
+   "url": "https://github.com/NVIDIA-Omniverse/kit-usd-agents",
+   "description": "Chat USD extension for Omniverse Kit plus four MCP servers (USD code, Kit, OmniUI, Isaac Sim) that help an agent write Omniverse and Isaac Sim code.",
+   "verdict": "skip",
+   "verdictNote": "SKIP for content and games; note for robotics simulation later.",
+   "why": "Needs Omniverse Kit built from source, an NVIDIA API key (cloud) or two local NVIDIA GPUs Industrial/robotics tooling, not content or web games 85 stars, 7 commits",
+   "tags": [],
+   "license": "Apache-2.0",
+   "stars": 85,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-react-three-fiber",
+   "name": "react-three-fiber",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/pmndrs/react-three-fiber",
+   "description": "three.js as React components; v9 pairs with React 19.",
+   "verdict": "trial",
+   "verdictNote": "CONDITIONAL ADOPT for React/Vercel sites that need 3D.",
+   "why": "React build step, so not for single-file artifacts; heavy 3D hurts mobile load time",
+   "tags": [],
+   "license": "MIT",
+   "stars": 32800,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-ml-agents",
+   "name": "ML-Agents",
+   "kind": "repo",
+   "category": "game-engine-agents",
+   "url": "https://github.com/Unity-Technologies/ml-agents",
+   "description": "Reinforcement-learning toolkit to train NPCs and test bots inside Unity (Release 23, Aug 2025).",
+   "verdict": "skip",
+   "verdictNote": "SKIP the toolkit; keep the playtest-bot idea.",
+   "why": "Unity-only",
+   "tags": [],
+   "license": "Apache-2.0",
+   "stars": 19700,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-audio2face-3d",
+   "name": "Audio2Face-3D",
+   "kind": "model",
+   "category": "lip-sync",
+   "url": "https://github.com/NVIDIA/Audio2Face-3D",
+   "description": "Voice line in, lip-sync and facial animation out: SDK (C++/Python, CPU fallback), Maya plugin with FBX export, UE 5.5/5.6 plugin with a MetaHuman sample, optional NIM container.",
+   "verdict": "assess",
+   "verdictNote": "CATALOGUE for the 3D-character stage; re-check VRAM after the 24 GB upgrade.",
+   "why": "GPU requirement not stated Main integrations are Unreal and Maya, not a web engine Model licence terms not read in full",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "SDK, Maya and UE5 plugins MIT (training framework Apache); models under the NVIDIA Open Model licence; Audio2Emotion models usable only with Audio2Face",
+   "stars": 450,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "Not stated (CPU fallback exists)",
+     "fits8GB": false,
+     "on8GB": "Not needed yet (no 3D talking characters)",
+     "at24GB": "Re-check when 3D characters arrive",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "content-chord",
+   "name": "CHORD",
+   "kind": "model",
+   "category": "materials",
+   "url": "https://github.com/ubisoft/ubisoft-laforge-chord",
+   "description": "Estimates PBR material maps from a generated texture image; ComfyUI nodes in a separate repo.",
+   "verdict": "skip",
+   "verdictNote": "SKIP for anything you sell; reference only.",
+   "why": "RESEARCH-ONLY licence: cannot be used for commercial games VRAM not stated",
+   "tags": [],
+   "license": "Ubisoft Machine Learning Licence (Research-Only, copyleft)",
+   "stars": 193,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "content-hunyuanvideo-foley",
+   "name": "HunyuanVideo-Foley",
+   "kind": "model",
+   "category": "sound-effects",
+   "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley",
+   "description": "Gameplay or video clip in, 48 kHz sound effects synced to the action out. XL model: 16 GB normally, 8 GB with offload; XXL: 20 GB / 12 GB with offload.",
+   "verdict": "skip",
+   "verdictNote": "SKIP (licence), catalogued.",
+   "why": "Fits 8 GB only with offload (slow) and the licence makes using or displaying outputs in the EU/UK/South Korea unlicensed: a problem for worldwide YouTube and web games You already have cheaper clean routes: code-synthesised effects (claude-motion pattern) and ElevenLabs SFX via fal at $0.002/s",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "Tencent Hunyuan Community Licence (excludes EU, UK, South Korea; AI content must be labelled)",
+   "stars": 1100,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "XL 16 GB (8 GB with offload); XXL 20 GB (12 GB with offload)",
+     "fits8GB": true,
+     "on8GB": "Technically fits with offload, but skip",
+     "at24GB": "Fits without offload",
+     "blockerBeyondVram": "Tencent licence excludes EU/UK/South Korea: skip regardless of VRAM"
+    }
+   }
+  },
+  {
+   "id": "content-hunyuan-gamecraft-1-0",
+   "name": "Hunyuan-GameCraft 1.0",
+   "kind": "model",
+   "category": "world-model",
+   "url": "https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0",
+   "description": "Image plus keyboard/mouse input in, game-like video out. It is a video model, not a playable game you can ship.",
+   "verdict": "skip",
+   "verdictNote": "SKIP: beyond even the 24 GB upgrade; research watch only.",
+   "why": "Minimum 24 GB VRAM described as 'very slow'; 80 GB recommended; tested on Linux and 8 data-centre GPUs",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "Tencent licence (type not named on the repo page)",
+   "stars": 742,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "24 GB minimum 'very slow'; 80 GB recommended",
+     "fits8GB": false,
+     "on8GB": "Skip",
+     "at24GB": "Still impractical; cloud or skip",
+     "blockerBeyondVram": "Tencent licence"
+    }
+   }
+  },
+  {
+   "id": "content-matrix-game-3-0",
+   "name": "Matrix-Game 3.0",
+   "kind": "model",
+   "category": "world-model",
+   "url": "https://github.com/SkyworkAI/Matrix-Game",
+   "description": "Streaming interactive world model with long-horizon memory: 5B model claimed at 720p and 40 fps (GPU not named), plus a larger 2x14B MoE variant; multi-GPU examples. Output is generated video, not an engine.",
+   "verdict": "assess",
+   "verdictNote": "CATALOGUE: test the 5B model after the 24 GB upgrade for trailer or concept footage, not for shipping games.",
+   "why": "VRAM not published; 5B model at 720p is unlikely to be real-time on 8 GB (not tested) Licence listing inconsistent",
+   "tags": [
+    "needs-more-vram"
+   ],
+   "license": "MIT on GitHub, Apache-2.0 on the Hugging Face card (inconsistent)",
+   "stars": 2300,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "Not published (5B model, 720p; multi-GPU examples)",
+     "fits8GB": false,
+     "on8GB": "Skip",
+     "at24GB": "Test the 5B model for trailer/concept footage",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "content-wan-2-2-ti2v-5b-a14b-gguf",
+   "name": "Wan 2.2 (TI2V-5B / A14B GGUF)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://insiderllm.com/guides/local-ai-video-generation/",
+   "description": "Open Wan 2.2; 5B ~8GB, 14B MoE via Q3/Q4 GGUF + T5 CPU offload ~6-8GB at 480p (secondary source).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Only open video model reported to fit the RTX 4060 8GB at $0/clip, though slow (minutes per clip) and 480p on the 14B.",
+   "tags": [
+    "local",
+    "gguf",
+    "comfyui"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0 (local)",
+    "vram": "5B ~8GB; 14B GGUF 6-8GB at 480p (per blog, not tested by me)",
+    "released": "Wan 2.2 date not stated in source"
+   }
+  },
+  {
+   "id": "content-ltx-2-3-ltx-2-5",
+   "name": "LTX-2.3 / LTX-2.5",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://comfyui-wiki.com/en/news/2026-08-11-ltx-2-5-open-weights-release",
+   "description": "Lightricks open-weights audio+video model; 2.3 (Mar 2026) has Q4 GGUF ~10GB at 960x544; 2.5 (Aug 11 2026) is 22B with multi-shot, 4K HDR.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Native synced audio is a new format; 2.3 Q4 ~10GB so 8GB needs offload (unverified), 2.5 22B is likely too big for 8GB.",
+   "tags": [
+    "local",
+    "audio-video",
+    "gguf"
+   ],
+   "license": "LTX-2.x Community License (free under $10M revenue)",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0 (local)",
+    "vram": "2.3 Q4 ~10GB; 2.5 22B unknown for 8GB",
+    "released": "2.3 Mar 2026; 2.5 2026-08-11"
+   }
+  },
+  {
+   "id": "content-veo-3-1-lite-fast-standard",
+   "name": "Veo 3.1 Lite / Fast / Standard",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "Google video with native audio. Official per-second: Lite $0.05 (720p)/$0.08 (1080p); Fast $0.10-0.12; Standard $0.40.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Veo 3.1 Lite at ~$0.40-0.64 per 8s clip with audio is the cheapest premium-quality API option for hero clips.",
+   "tags": [
+    "api",
+    "audio"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "Lite $0.05/s -> ~$0.40 per 8s 720p; Fast ~$0.80; Std ~$3.20",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-sora-2-api",
+   "name": "Sora 2 API",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "API reported to sunset Sept 24 2026 per sources.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Reported API shutdown 2026-09-24; do not build on it.",
+   "tags": [
+    "api",
+    "sunset"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0.10/s (sora-2), $0.70/s pro",
+    "vram": "n/a",
+    "released": "sunset 2026-09-24 (per source)"
+   }
+  },
+  {
+   "id": "content-kling-3-0-turbo",
+   "name": "Kling 3.0 Turbo",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "Kling 3.0 Turbo official 720p rate ~CNY0.8/s (~$0.11); native audio; fal lists Kling 3 Pro $0.224-0.28/s.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "About $0.55-1.10 per 5-10s clip; strong motion but Veo Lite is cheaper with audio.",
+   "tags": [
+    "api",
+    "audio"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "~$0.11/s 720p -> $0.55 per 5s",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-seedance-2-x",
+   "name": "Seedance 2.x",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "ByteDance token-billed video; ~CNY1 (~$0.14)/s approx at 1080p-class; Seedance Mini ~$0.022/s; fal-listed Seedance 2.0 Fast ~$0.09/s.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Cheap image-to-video for b-roll (~$0.2-1.4 per clip) but prices are approximations.",
+   "tags": [
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "~$0.02-0.14/s",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-minimax-h3-hailuo",
+   "name": "MiniMax-H3 (Hailuo)",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "Released 2026-07-31; $0.13/s, 2K, native stereo audio.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "About $0.65-1.30 per 5-10s clip; newest Hailuo, worth a test vs Veo Lite.",
+   "tags": [
+    "api",
+    "audio"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0.13/s",
+    "vram": "n/a",
+    "released": "2026-07-31"
+   }
+  },
+  {
+   "id": "content-runway-pika",
+   "name": "Runway / Pika",
+   "kind": "api",
+   "category": "video-gen",
+   "url": "https://invideo.io/blog/ai-video-model-pricing",
+   "description": "Not priced in sources I fetched.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "No pricing found; not needed given cheaper alternatives.",
+   "tags": [
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "unknown",
+    "vram": "n/a",
+    "released": "unknown"
+   }
+  },
+  {
+   "id": "content-fal-ai",
+   "name": "fal.ai",
+   "kind": "api",
+   "category": "aggregator",
+   "url": "https://fal.ai/learn/tools/ai-video-generators",
+   "description": "Aggregator: Veo 3.1 Fast ~$0.10/s, Std $0.20/s, Sora 2 Pro $0.30-0.50/s, Kling 3 Pro $0.224/s, FLUX.2 pro $0.03/MP, Seedream 4.5 $0.04, Nano Banana Pro $0.15, Eleven v3 $0.10/1k chars.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "One key for video/image/TTS pay-as-you-go keeps spend inside the $100/mo budget.",
+   "tags": [
+    "aggregator",
+    "pay-per-use"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "see description",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-flux-2-klein-4b",
+   "name": "FLUX.2 [klein] 4B",
+   "kind": "model",
+   "category": "image-gen",
+   "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
+   "description": "Unified gen+edit; 4B Apache-2.0 fits ~8GB, ~2.6GB at Q4 GGUF (community blog); 9B is non-commercial.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Already in stack; keep 4B (commercial-safe); do not use 9B for paid client work.",
+   "tags": [
+    "local",
+    "edit"
+   ],
+   "license": "Apache-2.0 (4B); non-commercial (9B)",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "~8GB (4B)",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-nano-banana-2-pro-gemini-image",
+   "name": "GPT Image 2",
+   "kind": "api",
+   "category": "image-gen",
+   "url": "https://www.atlascloud.ai/blog/best-ai-image-editing-models-2026",
+   "description": "OpenAI; vendor blog rates it best for accurate text; ~$0.01-0.41/img depending on quality.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Use only for text-heavy thumbnails where local Flux fails; quality-tier pricing varies.",
+   "tags": [
+    "api",
+    "text-rendering"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "~$0.01-0.41/img",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-seedream-4-5-5-0-lite",
+   "name": "Seedream 4.5 / 5.0 Lite",
+   "kind": "api",
+   "category": "image-gen",
+   "url": "https://fal.ai/learn/tools/ai-image-generators",
+   "description": "ByteDance; praised for text; $0.04 (4.5 on fal) / $0.032 (5.0 Lite).",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Cheap bulk variants with good text at ~$0.03-0.04.",
+   "tags": [
+    "api",
+    "text-rendering"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0.032-0.04/img",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-qwen-image-qwen-image-edit",
+   "name": "Qwen-Image / Qwen-Image-Edit",
+   "kind": "model",
+   "category": "image-gen",
+   "url": "https://github.com/QwenLM/Qwen-Image",
+   "description": "Open text-rendering image model; I found no 2026 source for specifics or 8GB fit.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Unverified from this research; check GGUF 8GB fit before adopting.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unknown",
+    "released": "unknown"
+   }
+  },
+  {
+   "id": "content-chatterbox-chatterbox-turbo",
+   "name": "Chatterbox / Chatterbox Turbo",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://resemble.ai/chatterbox",
+   "description": "Resemble open TTS with voice cloning; Turbo Dec 2025; license MIT per most sources.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Free voice cloning as an upgrade over Kokoro; check 8GB co-residence with ComfyUI.",
+   "tags": [
+    "local",
+    "cloning"
+   ],
+   "license": "MIT (sources disagree)",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unknown",
+    "released": "Turbo Dec 2025"
+   }
+  },
+  {
+   "id": "content-higgs-audio-v2",
+   "name": "Higgs Audio V2",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://www.dograh.com/feeds/blog/open-source-ai-voice-generator",
+   "description": "~5.8B open TTS rated high fidelity; reportedly needs data-center GPU.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Too large for 8GB; use only on rented GPU.",
+   "tags": [
+    "local"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "large (H100 per source)",
+    "released": "unknown"
+   }
+  },
+  {
+   "id": "content-kokoro",
+   "name": "Kokoro",
+   "kind": "model",
+   "category": "tts-voice",
+   "url": "https://tts.ai/blog/open-source-text-to-speech-guide-2026/",
+   "description": "82M Apache TTS, CPU-friendly; already in stack.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Keep as the zero-cost narration voice: 82M parameters, Apache-2.0 code and weights, 9 languages incl. Hindi; last commit 2025-08-06, so treat it as stable rather than actively developed.",
+   "tags": [
+    "local",
+    "cpu"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "CPU ok",
+    "released": "2025"
+   }
+  },
+  {
+   "id": "content-elevenlabs-eleven-v3",
+   "name": "ElevenLabs Eleven v3",
+   "kind": "api",
+   "category": "tts-voice",
+   "url": "https://fal.ai/models/fal-ai/elevenlabs/tts/eleven-v3",
+   "description": "~$0.10 per 1k characters (v3), $0.05 Flash; leads long-form consistency; dubbing price not found.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "About $0.10 per ~1 min narration; use sparingly for flagship shorts.",
+   "tags": [
+    "api",
+    "expressive"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "~$0.10/1k chars",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-suno-paid-plans",
+   "name": "Suno (paid plans)",
+   "kind": "api",
+   "category": "music-gen",
+   "url": "https://blog.dubspot.com/ai-music-licensing-explained-2026",
+   "description": "Paid tiers grant commercial rights; monthly download caps; Warner settlement means licensed models coming; no official public API confirmed in my sources.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "No confirmed API and licensing in flux; ACE-Step is safer and free.",
+   "tags": [
+    "licensing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "plan-based",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-udio",
+   "name": "Udio",
+   "kind": "api",
+   "category": "music-gen",
+   "url": "https://dupple.com/learn/suno-vs-udio",
+   "description": "Downloads suspended platform-wide during licensed-platform build per sources.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Downloads suspended, unusable for publishing.",
+   "tags": [
+    "licensing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "n/a",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-stable-audio-3",
+   "name": "Stable Audio 3",
+   "kind": "model",
+   "category": "music-gen",
+   "url": "https://blog.dubspot.com/best-ai-music-generators-2026",
+   "description": "Reported open weights, up to ~6 min (single source).",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Single-source claim; check license and size.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unknown",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "content-infinitetalk-open-hosted",
+   "name": "InfiniteTalk (open) / hosted",
+   "kind": "model",
+   "category": "avatar-lipsync",
+   "url": "https://www.runcomfy.com/models/community/infinite-talk/fast/multi",
+   "description": "Audio-driven talking video; hosted $0.015/s 480p, $0.06/s 720p via Kie.ai. Local 8GB fit unverified.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "About $0.15-0.60 per 10s hosted; local fit unknown on 8GB.",
+   "tags": [
+    "lipsync",
+    "comfyui"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0.015-0.06/s hosted",
+    "vram": "unknown",
+    "released": "2025-2026"
+   }
+  },
+  {
+   "id": "content-latentsync-bytedance",
+   "name": "LatentSync (ByteDance)",
+   "kind": "repo",
+   "category": "avatar-lipsync",
+   "url": "https://dupple.com/learn/best-ai-lip-sync-tools",
+   "description": "Free open lip-sync on own GPU.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "$0 lip-sync for dubbed shorts; VRAM need not verified.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "unverified",
+    "released": "unknown"
+   }
+  },
+  {
+   "id": "content-heygen-api",
+   "name": "HeyGen API",
+   "kind": "api",
+   "category": "avatar-lipsync",
+   "url": "https://toolquestor.com/vs/hedra-vs-heygen",
+   "description": "API needs min $100/mo plan, ~$0.10/s per third-party claim.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Plan minimum alone consumes the whole budget.",
+   "tags": [
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "pricePerAsset": "~$0.10/s (unverified)",
+    "vram": "n/a",
+    "released": "n/a"
+   }
+  },
+  {
+   "id": "content-youtube-test-compare",
+   "name": "YouTube Test & Compare",
+   "kind": "tool",
+   "category": "thumbnails",
+   "url": "https://support.google.com/youtube/answer/13861714",
+   "description": "Native YouTube Studio A/B testing of thumbnails (and titles per secondary sources). Official help says not available for Shorts.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Native and UI-only; we can only mimic via manual swaps, so surface a 'run test in Studio' reminder in the approval queue.",
+   "tags": [
+    "ab-testing",
+    "youtube"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Thumbnail test",
+     "Title test (secondary sources: https://www.socialsamosa.com/news-2/youtube-thumbnail-testing-tool-more-creators-9498934)",
+     "Not for Shorts per official help"
+    ],
+    "pricing": "Free"
+   }
+  },
+  {
+   "id": "content-x-api-pay-per-use",
+   "name": "X API pay-per-use",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://gigazine.net/gsc_news/en/20260209-x-api-pay-per-use",
+   "description": "Since 2026-02-06 pay-per-use is default for new X developers; reported $0.015/post create, $0.20 with URL, $0.005/post read. Legacy Basic/Pro closed to new signups.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Our live X publishing and inbox polling now cost per call; add a cost meter and avoid URL-in-post and heavy read polling. Prices from third-party guides, confirm in X console.",
+   "tags": [
+    "x",
+    "pricing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Per-item read billing",
+     "URL posts cost more"
+    ],
+    "pricing": "Pay-per-use, third-party reported (https://zernio.com/blog/twitter-api-pricing)"
+   }
+  },
+  {
+   "id": "content-tiktok-content-posting-api",
+   "name": "TikTok Content Posting API",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://developers.tiktok.com/docs/en/content-posting-api-reference-direct-post",
+   "description": "Direct Post needs video.publish scope; unaudited clients are limited to private viewing. Upload (video.upload) sends drafts to creator inbox.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Ship TikTok first via Upload-to-inbox (fits our human approval queue) while the audit is pending.",
+   "tags": [
+    "tiktok",
+    "audit"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Direct Post",
+     "Upload to drafts",
+     "Audit required for public posts"
+    ],
+    "pricing": "Free; audit takes ~1-2 weeks per third-party guide https://bundle.social/blog/tiktok-api-approval"
+   }
+  },
+  {
+   "id": "content-instagram-trial-reels-via-publishing-api",
+   "name": "Instagram Trial Reels via publishing API",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://posteverywhere.ai/blog/how-to-schedule-instagram-trial-reels",
+   "description": "Vendors claim trial Reel publishing now works through the official API (graduationStrategy param per Ayrshare docs); not confirmed in Meta docs.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Trial Reels are a free hook-test loop for solo creators; verify the param in Meta docs before building.",
+   "tags": [
+    "instagram",
+    "trial-reels",
+    "ab-testing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Show to non-followers first",
+     "24h metrics",
+     "auto-graduate"
+    ],
+    "pricing": "Free; also https://www.ayrshare.com/docs/vi/apis/post/social-networks/instagram.md"
+   }
+  },
+  {
+   "id": "content-threads-api-2026-update",
+   "name": "Threads API 2026 update",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://developers.facebook.com/blog/post/2026/04/14/whats-new-in-the-threads-api/",
+   "description": "Reply approvals, publish/delete webhooks, 10,000-char text attachments, ghost posts, spoilers, GIPHY GIFs, keyword search, tokenless oEmbed, share to IG Stories.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Threads is a stub today and the API is now rich enough (webhooks + reply moderation) to feed the unified inbox.",
+   "tags": [
+    "threads",
+    "webhooks"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Reply approvals",
+     "Webhooks",
+     "Keyword search"
+    ],
+    "pricing": "Free; changelog https://developers.facebook.com/docs/threads/changelog"
+   }
+  },
+  {
+   "id": "content-beehiiv",
+   "name": "Beehiiv",
+   "kind": "tool",
+   "category": "newsletter",
+   "url": "https://techcrunch.com/2026/04/23/beehiiv-rolls-out-new-creator-tools-including-webinars-and-customizable-paywalls/",
+   "description": "2026: metered paywalls, paid trials, webinars (Apr); Summer release (Jul 16) adds AI copilot, community, podcast hosting, digital products, AI website builder.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Shows creators expect newsletter + monetization bundled; a newsletter-syndication step is the cheap match.",
+   "tags": [
+    "newsletter",
+    "monetization"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "AI copilot",
+     "Digital products",
+     "Programmatic ads"
+    ],
+    "pricing": "Freemium; summary https://www.createwith.com/tool/beehiv/updates/beehiv-rolls-out-community-ai-copilot-and-website-builder-in-summer-release"
+   }
+  },
+  {
+   "id": "content-heygen-avatar-v",
+   "name": "HeyGen Avatar V",
+   "kind": "tool",
+   "category": "avatars",
+   "url": "https://www.heygen.com/blog",
+   "description": "Apr 8 2026 Avatar V model announced; Apr 7 Seedance 2.0 integration listed on the blog index.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Benchmark for avatar/UGC-style ads; we generate locally so only watch.",
+   "tags": [
+    "avatar",
+    "dubbing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Avatar V",
+     "Video translation"
+    ],
+    "pricing": "Paid"
+   }
+  },
+  {
+   "id": "content-mirage-captions",
+   "name": "Mirage (Captions)",
+   "kind": "tool",
+   "category": "editing",
+   "url": "https://vantaige.io/ai-tool/captions-ai",
+   "description": "Captions rebranded Mirage, $75M raise Mar 2026; accent-preserving dubbing audio model; Co-Editor mode (Aug 2025). Secondary source only.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Accent-preserving multi-language dubbing is the bar for our voice pipeline.",
+   "tags": [
+    "dubbing",
+    "captions"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Dubbing",
+     "Co-Editor"
+    ],
+    "pricing": "Freemium"
+   }
+  },
+  {
+   "id": "content-vidiq",
+   "name": "vidIQ",
+   "kind": "tool",
+   "category": "analytics",
+   "url": "https://thumbnailtest.com/guides/vidiq-alternatives/",
+   "description": "Per secondary sources: AI Coach, daily AI video ideas with keyword/competition data, AI thumbnail/title generation.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Daily personalized ideas is the pattern to copy into the Brain + calendar.",
+   "tags": [
+    "youtube",
+    "ideas"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "AI Daily Ideas",
+     "AI Coach"
+    ],
+    "pricing": "Credit tiers, unverified"
+   }
+  },
+  {
+   "id": "content-spotter-studio",
+   "name": "Spotter Studio",
+   "kind": "tool",
+   "category": "ideation",
+   "url": "https://techcrunch.com/2024/09/03/spotter-launches-ai-tools-youtubers-brainstorm-video-ideas-thumbnails",
+   "description": "AI ideation, titles, and personalized thumbnails from similar-creator analysis (2024 launch; no 2026 news found).",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Packaging-first ideation workflow model.",
+   "tags": [
+    "ideation",
+    "thumbnails"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "Outlier-based ideas",
+     "Thumbnail concepts"
+    ],
+    "pricing": "Paid"
+   }
+  },
+  {
+   "id": "content-metricool",
+   "name": "Metricool",
+   "kind": "tool",
+   "category": "scheduling",
+   "url": "https://metricool.com/hootsuite-alternatives/",
+   "description": "Vendor page lists SmartLinks 2.0, AI assistant, TikTok Music as 2026 features.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Link-in-bio plus analytics in one scheduler is table stakes.",
+   "tags": [
+    "link-in-bio",
+    "analytics"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: CSA models + creator features",
+   "extra": {
+    "keyFeatures": [
+     "SmartLinks 2.0",
+     "AI assistant"
+    ],
+    "pricing": "Freemium"
+   }
+  },
+  {
+   "id": "content-opencreator-formerly-krillinai",
+   "name": "OpenCreator (formerly KrillinAI)",
+   "kind": "repo",
+   "category": "creator-workspace",
+   "url": "https://github.com/krillinai/OpenCreator",
+   "description": "Desktop creator workspace (macOS, Windows) driven by Codex CLI: video download and translation, image/video/voice generation, writing tools and agent chat; providers include OpenAI, DeepSeek, Qwen, Kimi, Gemini, Kling, Seedance, MiniMax and Edge TTS; local transcription via faster-whisper/whisper.cpp; data kept locally in SQLite. Optional paid account with credits via Stripe. Last commit 2026-10-16.",
+   "verdict": "assess",
+   "verdictNote": "conditional: only for video translation/dubbing",
+   "why": "Its KrillinAI roots (subtitle translation and dubbing) are the useful part; as a full workspace it is Codex/OpenAI-centred and duplicates a Claude-based pipeline. Many look-alike forks exist: use krillinai/OpenCreator only. Edge TTS is an unofficial Microsoft route with commercial-use doubts.",
+   "tags": [
+    "video-translation",
+    "dubbing",
+    "codex"
+   ],
+   "license": "Apache-2.0",
+   "stars": 13100,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: content-factory list"
+  },
+  {
+   "id": "content-short-video-factory",
+   "name": "Short Video Factory",
+   "kind": "repo",
+   "category": "short-video",
+   "url": "https://github.com/YILS-LIN/short-video-factory",
+   "description": "Cross-platform desktop app (v1.3.0, 2026-10-16) that turns a prompt plus your footage clips into batches of product-marketing short videos: AI copy via any OpenAI-compatible API, voiceover, auto editing, subtitles, effects. Chinese and English UI.",
+   "verdict": "skip",
+   "verdictNote": "skip for now",
+   "why": "Voice is Edge TTS only (unofficial Microsoft route; commercial use questionable), built for e-commerce product clips, and duplicates an HTML/ffmpeg or HyperFrames pipeline. AGPL is fine for desktop use.",
+   "tags": [
+    "desktop",
+    "batch",
+    "edge-tts"
+   ],
+   "license": "AGPL-3.0",
+   "stars": 5600,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: content-factory list"
+  },
+  {
+   "id": "content-podcastfy",
+   "name": "Podcastfy",
+   "kind": "repo",
+   "category": "podcast-generation",
+   "url": "https://github.com/souzatharsis/podcastfy",
+   "description": "Turns URLs, PDFs, text or images into two-host podcast conversations in many languages; transcripts from 100+ LLMs (local supported); TTS via OpenAI, Google, ElevenLabs or Edge. Python 3.11+, ffmpeg. Last commit 2026-05-04 (README only).",
+   "verdict": "assess",
+   "verdictNote": "assess: idea good, project slowing",
+   "why": "No local TTS out of the box, so every episode costs TTS fees unless you patch in a local voice; recent commits are README updates only. Worth a test only if an audio-podcast channel is planned.",
+   "tags": [
+    "notebooklm-style",
+    "tts"
+   ],
+   "license": "Apache-2.0",
+   "stars": 6600,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: content-factory list"
+  },
+  {
+   "id": "content-social-media-agent-langchain",
+   "name": "Social Media Agent (LangChain)",
+   "kind": "repo",
+   "category": "social-posting",
+   "url": "https://github.com/langchain-ai/social-media-agent",
+   "description": "LangGraph agent: URL in, X and LinkedIn post drafts out, reviewed in an Agent Inbox (approve/edit/reject) and scheduled. Needs Anthropic API, FireCrawl, Arcade, LangSmith; full setup adds Vertex AI, X/LinkedIn developer apps, GitHub token, Supabase, Slack. Maintained (fix 2026-10-12).",
+   "verdict": "reference",
+   "verdictNote": "reference: copy the review pattern",
+   "why": "Six-plus services and keys for something an n8n flow plus a scheduler like Postiz already does; the human-in-the-loop Agent Inbox is the idea worth copying. X API posting has its own costs.",
+   "tags": [
+    "langgraph",
+    "human-in-the-loop",
+    "x",
+    "linkedin"
+   ],
+   "license": "MIT",
+   "stars": 2800,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: content-factory list"
+  },
+  {
+   "id": "content-poly-haven",
+   "name": "Poly Haven",
+   "kind": "web-tool",
+   "category": "game-assets",
+   "url": "https://polyhaven.com",
+   "description": "Free HDRIs, PBR textures and 3D models, all CC0: commercial use, no attribution, redistribution allowed. blender-mcp can pull Poly Haven assets directly into Blender.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Best zero-risk source for lighting, surfaces and props. CC0 covers the assets only (logos, renders and site text are not CC0), and the Terms of Service forbid scraping or data mining without permission, so download normally rather than bulk-harvesting.",
+   "tags": [
+    "cc0",
+    "hdri",
+    "pbr-textures",
+    "3d-models",
+    "blender-mcp"
+   ],
+   "license": "CC0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-ambientcg",
+   "name": "ambientCG",
+   "kind": "web-tool",
+   "category": "game-assets",
+   "url": "https://ambientcg.com",
+   "description": "2,000+ PBR materials, HDRIs, decals, atlases, terrains and some models under CC0 1.0 Universal; commercial use without permission or credit.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Complements Poly Haven for realistic surfaces; CC0 with no attribution needed. Supporter tiers exist on Patreon/Ko-fi but assets stay free.",
+   "tags": [
+    "cc0",
+    "pbr-textures",
+    "hdri",
+    "decals"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-quaternius",
+   "name": "Quaternius",
+   "kind": "web-tool",
+   "category": "game-assets",
+   "url": "https://quaternius.com",
+   "description": "Low-poly characters, props, environment mega-kits and retargetable humanoid animation libraries (Universal Animation Library 1 and 2), well suited to lightweight web games.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Licence is the Quaternius Asset License v1.0, NOT CC0 as often claimed: royalty-free in commercial games, no credit needed, but you may not sell or redistribute the assets themselves (even modified), so never commit raw packs to a public repo. Some packs sit behind Patreon; check each pack's licence.",
+   "tags": [
+    "low-poly",
+    "characters",
+    "props",
+    "retargetable-animations"
+   ],
+   "license": "Quaternius Asset License (QAL) v1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-mixamo",
+   "name": "Mixamo",
+   "kind": "web-tool",
+   "category": "game-animation",
+   "url": "https://www.mixamo.com",
+   "description": "Adobe's free auto-rigger and animation library: upload a humanoid character, get a rig and apply animations in one click; FBX export.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Free with an Adobe ID and royalty-free for personal, commercial and non-profit projects including video games (Adobe FAQ). Not available to Enterprise/Federated IDs or China accounts. The FAQ (last updated 2021) does not cover redistributing raw files or AI training: use it to animate characters, never as model-training data. Humanoids only.",
+   "tags": [
+    "auto-rig",
+    "character-animation",
+    "adobe-id"
+   ],
+   "license": "Adobe terms (royalty-free use)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-babylon-js",
+   "name": "Babylon.js",
+   "kind": "repo",
+   "category": "game-engines",
+   "url": "https://github.com/BabylonJS/Babylon.js",
+   "description": "Full browser 3D game engine in TypeScript (scenes, physics, GUI, WebXR) with an online Playground, glTF Sandbox and shader tools. v9.17.0 tagged 2026-07-16.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "More complete game engine than three.js (which is mainly a renderer). Worth it only if a 3D browser game outgrows a custom engine or three.js; pick one 3D stack per game rather than mixing.",
+   "tags": [
+    "webgl2",
+    "webgpu",
+    "webxr",
+    "browser-games"
+   ],
+   "license": "Apache-2.0",
+   "stars": 25800,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-godot-engine",
+   "name": "Godot Engine",
+   "kind": "repo",
+   "category": "game-engines",
+   "url": "https://github.com/godotengine/godot",
+   "description": "Free, open-source 2D/3D game engine under MIT; no royalties or fees; one-click export including web. Agent bridges: godot-ai and godot-mcp (see mcp-servers).",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Already part of the toolset for side projects and prototypes; MIT means no revenue share. Check web-export size and browser support per project (not verified here).",
+   "tags": [
+    "2d",
+    "3d",
+    "web-export",
+    "no-royalties"
+   ],
+   "license": "MIT",
+   "stars": 118100,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: game assets and engines"
+  },
+  {
+   "id": "content-comic-maker-aillex",
+   "name": "comic-maker (Aillex)",
+   "kind": "repo",
+   "category": "comics",
+   "url": "https://github.com/AskAillex/comic-maker",
+   "description": "One sentence to a lettered comic, fully local: Ollama writes the script (characters with locked looks, pages, panels, dialogue, SFX), ComfyUI renders each panel (Z-Image Turbo by default; swappable in ~30 lines), a PIL compositor adds layouts of 1-9 panels, speech bubbles, SFX, title strip and CBZ export. Styles: sunday-strip, manga, noir, euro-album. Last commit 2026-07-20.",
+   "verdict": "trial",
+   "verdictNote": "trial first: best fit for a local Ollama + ComfyUI stack",
+   "why": "No cloud, no credits, MIT, stages runnable separately with a hand-editable script.json. Early cut (7 files) and consistency relies on seeds plus restated looks, not a trained character model. VRAM of the default Z-Image Turbo checkpoint not checked; swap in an 8 GB-friendly model if needed.",
+   "tags": [
+    "local",
+    "ollama",
+    "comfyui",
+    "cbz",
+    "speech-bubbles"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-storydiffusion",
+   "name": "StoryDiffusion",
+   "kind": "model",
+   "category": "comics",
+   "url": "https://github.com/HVision-NKU/StoryDiffusion",
+   "description": "Consistent Self-Attention for keeping characters the same across panels with SD1.5/SDXL models, plus a motion predictor for longer videos. Last commit 2024-09-26.",
+   "verdict": "assess",
+   "verdictNote": "catalogue for the 24 GB upgrade",
+   "why": "The README's own low-VRAM script was tested on a 24 GB GPU and is expected to need more than 20 GB, so it does not fit 8 GB. Code is Apache-2.0; base-model licences (SDXL) apply. No updates since Sept 2024. On 8 GB, get consistency from character LoRAs or reference adapters in ComfyUI instead.",
+   "tags": [
+    "character-consistency",
+    "sdxl",
+    "needs-more-vram"
+   ],
+   "license": "Apache-2.0",
+   "stars": 6500,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-manganinja",
+   "name": "MangaNinja",
+   "kind": "model",
+   "category": "comics",
+   "url": "https://github.com/ali-vilab/MangaNinjia",
+   "description": "CVPR 2025 line-art colorization that follows a colored reference image (keeps clothing and hair colors consistent) with point-click guidance. Community Windows port reports about 6 GB VRAM. Last commit 2025-03-02. Note the repo name is spelled MangaNinjia.",
+   "verdict": "skip",
+   "verdictNote": "skip for anything sold",
+   "why": "Licensed Creative Commons Attribution-NonCommercial 4.0: cannot be used for commercial comics. Fine for private experiments only.",
+   "tags": [
+    "line-art-colorization",
+    "non-commercial"
+   ],
+   "license": "CC BY-NC 4.0",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-ai-comic-factory",
+   "name": "AI Comic Factory",
+   "kind": "repo",
+   "category": "comics",
+   "url": "https://github.com/jbilcke-hf/ai-comic-factory",
+   "description": "Story description plus art style to comic pages; LLM via Hugging Face, OpenAI, Groq or Anthropic; images via Hugging Face, Replicate or OpenAI.",
+   "verdict": "skip",
+   "verdictNote": "skip: archived",
+   "why": "Archived by its owner on 2025-10-31 (read-only). Every page needs paid cloud LLM and image providers; no fully local mode.",
+   "tags": [
+    "archived"
+   ],
+   "license": "Apache-2.0",
+   "stars": 1300,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-ai-comic-generator-dapeng960208",
+   "name": "AI-Comic-Generator (Dapeng960208)",
+   "kind": "repo",
+   "category": "comics",
+   "url": "https://github.com/Dapeng960208/AI-Comic-Generator",
+   "description": "Vue + FastAPI manga tool: story to JSON storyboard, character extraction with three-view character sheets used as image references, single-panel redraw, batch drawing. Google Gemini only (gemini-3-flash-preview text, gemini-3-pro-image-preview images). Last commit 2026-01-28.",
+   "verdict": "reference",
+   "verdictNote": "reference: copy the three-view character sheet idea",
+   "why": "Locked to paid Gemini image calls, 12 stars, 20 commits. The useful pattern: generate a three-view sheet per character first and feed it as the reference for every panel.",
+   "tags": [
+    "gemini",
+    "storyboard",
+    "panel-redraw"
+   ],
+   "license": "MIT",
+   "stars": 12,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-comiccrafter-ai-balajee2k",
+   "name": "ComicCrafter AI (Balajee2k)",
+   "kind": "repo",
+   "category": "comics",
+   "url": "https://github.com/Balajee2k/AI-Comic-Crafter",
+   "description": "Streamlit app: story to comic with session memory and targeted single-panel edits (image or dialogue) that keep other panels; curated styles; PNG/PDF export. Uses Google Gemini plus the paid ClipDrop image API. Last commit 2026-05-06.",
+   "verdict": "reference",
+   "verdictNote": "reference: copy targeted panel edits",
+   "why": "Paid APIs, and the MIT badge has no LICENSE file behind it, so reuse rights are unclear. One preset imitates the Tintin look: avoid styles named after real franchises.",
+   "tags": [
+    "gemini",
+    "clipdrop",
+    "panel-edit"
+   ],
+   "license": "unclear (MIT badge, no LICENSE file)",
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-comic-studio-callmetruong",
+   "name": "Comic_Studio (CallmeTruong)",
+   "kind": "repo",
+   "category": "comics",
+   "url": "https://github.com/CallmeTruong/Comic_Studio",
+   "description": "LangGraph comic agent: plans story, storyboard and dialogue with an OpenAI-compatible model, renders panels with a local SD 1.5 checkpoint, then a vision model checks each page for missing characters, props, actions and dialogue mismatches and re-renders up to 3 times; panels and bubbles editable individually. Last commit 2026-09-14.",
+   "verdict": "reference",
+   "verdictNote": "reference: copy the vision-QA retry loop",
+   "why": "No licence (all rights reserved by default) and 1 star, so don't reuse the code. Its default checkpoint is an adult-oriented SD 1.5 model; swap it. The inspect-then-regenerate loop is worth rebuilding in your own pipeline.",
+   "tags": [
+    "langgraph",
+    "vision-qa",
+    "sd15"
+   ],
+   "license": "none stated",
+   "stars": 1,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-shot-cafe",
+   "name": "SHOT.CAFE",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://shot.cafe",
+   "description": "Searchable database of 24,321 film and commercial stills (187 films) with filters for shot size, angle, day/night, interior/exterior, colour, director and cinematographer; collections with a login.",
+   "verdict": "reference",
+   "verdictNote": "step 1: find reference shots",
+   "why": "Fastest way to find a reference frame by shot type. Stills belong to their studios and are shown for education: use them to describe a shot, never as image inputs for published work.",
+   "tags": [
+    "film-stills",
+    "shot-reference"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-filmgrab",
+   "name": "FILMGRAB",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://film-grab.com",
+   "description": "Galleries of film stills organised by director, cinematographer, production designer, genre and year (about 4,000 entries, estimated from page counts); Patreon-supported.",
+   "verdict": "reference",
+   "verdictNote": "step 2: study composition and colour",
+   "why": "Whole-film galleries show a consistent palette and framing language. Fair-dealing educational use only.",
+   "tags": [
+    "film-stills",
+    "composition",
+    "color"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-eyecannndy",
+   "name": "Eyecannndy",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://eyecannndy.com",
+   "description": "Free visual technique library (about 136 techniques, Aerial to Zoom) with example clips, run by Jacobi Mehringer and community-curated.",
+   "verdict": "reference",
+   "verdictNote": "step 3: learn technique names",
+   "why": "Gives the exact names for effects you see, which makes prompts precise. Self-described as never 100% accurate.",
+   "tags": [
+    "techniques",
+    "vocabulary"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-melies-cinematic-techniques",
+   "name": "Melies cinematic techniques",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://melies.co/cinematic-techniques",
+   "description": "424 cinematic techniques (camera moves, framing, shot size, angles, lighting, composition, effects) with definitions, video examples and ready prompts on most, from the Melies AI video product.",
+   "verdict": "adopt",
+   "verdictNote": "step 4: technique to prompt",
+   "why": "Most useful of the six: definitions plus prompts in one place, free. It sits inside a commercial AI-video product's site, so expect upsell.",
+   "tags": [
+    "prompts",
+    "lighting",
+    "camera-movement"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-ai-camera-movements",
+   "name": "AI Camera Movements",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://aicameramovements.com",
+   "description": "46 camera movements in 7 categories with looping previews and one copyable prompt each, written for Kling, Seedance, Higgsfield and Runway.",
+   "verdict": "reference",
+   "verdictNote": "step 5: camera move to prompt",
+   "why": "Quick copy-paste camera prompts for the video models already in use. Its 'Turn into video' buttons are Higgsfield referral links.",
+   "tags": [
+    "camera-movement",
+    "prompts",
+    "kling",
+    "seedance"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-grokfilm",
+   "name": "GrokFilm",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://grokfilm.app",
+   "description": "Cinema technique index of prompts and example reels for xAI's Grok Imagine (about 300 techniques claimed); Studio feature marked 'coming soon'. Run by TETSUO CORP, built by AgenC; no stated xAI affiliation.",
+   "verdict": "assess",
+   "verdictNote": "optional step 6",
+   "why": "Prompts are tuned for Grok Imagine, not the video models in use; counters were placeholders and pricing is not stated. Melies covers lighting and editing already.",
+   "tags": [
+    "grok-imagine",
+    "prompts"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "unknown",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: AI comics and cinematic references"
+  },
+  {
+   "id": "content-triposr",
+   "name": "TripoSR",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://github.com/VAST-AI-Research/TripoSR",
+   "description": "Single image to 3D mesh in under 0.5 s on an A100; about 6 GB VRAM by default; vertex colours by default, optional baked texture. Last commit 2026-06-04.",
+   "verdict": "trial",
+   "verdictNote": "trial: MIT fallback to Stable Fast 3D",
+   "why": "Fits 8 GB. Stable Fast 3D is its successor with better UVs and textures, but SF3D needs Stability registration and visible 'Powered by Stability AI' credit; TripoSR is plain MIT with no such strings. Quality is prototype-grade: use for greybox props, then refine.",
+   "tags": [
+    "fits-8gb",
+    "image-to-3d"
+   ],
+   "license": "MIT",
+   "stars": 6900,
+   "cost": "self-host",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "content-drei",
+   "name": "Drei",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/pmndrs/drei",
+   "description": "Ready-made helpers for React Three Fiber: camera controls, environments, skies, shadows, text, model loading and more. Last commit 2026-09-30.",
+   "verdict": "trial",
+   "verdictNote": "adopt if the game or site is built on React Three Fiber",
+   "why": "The standard companion to React Three Fiber; saves days of boilerplate. Only relevant if the stack is React; a plain three.js or custom engine gets nothing from it.",
+   "tags": [
+    "react-three-fiber"
+   ],
+   "license": "MIT",
+   "stars": 10000,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "content-react-postprocessing",
+   "name": "React Postprocessing",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/pmndrs/react-postprocessing",
+   "description": "Post-processing effects for React Three Fiber (bloom, depth of field, noise, vignette and more), wrapping the postprocessing library. Last commit 2026-10-19.",
+   "verdict": "trial",
+   "verdictNote": "conditional on a React Three Fiber stack",
+   "why": "Biggest visual upgrade per line of code for R3F scenes; each effect costs GPU time, so test on phones before shipping.",
+   "tags": [
+    "react-three-fiber",
+    "bloom",
+    "depth-of-field"
+   ],
+   "license": "MIT",
+   "stars": 1400,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  }
+ ]
+}

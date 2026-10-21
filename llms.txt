@@ -1,0 +1,203 @@
+# Public AI Library
+
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.20+70a08aeba4e9, 2420 items, updated 2026-10-20.
+
+How to use this repo as an AI assistant:
+- Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
+- Source of truth: library/*.json. Generated views: INDEX.md (human), MINDMAP.md (Mermaid), MINDMAP.graphql (query map), dist/library.json (full bundle).
+- Raw bundle URL: https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/dist/library.json
+- Query language: schema.graphql (run through the MCP `graphql` tool).
+
+## Files
+
+- [README.md](README.md): what this is and how to connect
+- [CONNECT.md](CONNECT.md): step-by-step setup for Claude (web, desktop, Claude Code)
+- [INDEX.md](INDEX.md): every curated item by collection and category
+- [MINDMAP.graphql](MINDMAP.graphql): runnable query per category with items by verdict
+- [schema.graphql](schema.graphql): item shape and query fields
+- [CHANGELOG.md](CHANGELOG.md): what was added when
+
+## Collections
+
+- content-tools: AI content-creation tools (121) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
+- mcp-servers: MCP servers (35) — Model Context Protocol servers worth connecting to Claude.
+- skills: Agent skills & plugins (41) — Claude/agent skills, plugins and marketplaces, with verdicts.
+- agent-tools: Agent tools & frameworks (107) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- directories: Directories & registries (9) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
+- web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
+- design-resources: Design resources (36) — Template libraries, UI kits and design references.
+- assessments: Deep assessments (17) — Repos and models evaluated in depth, with warnings and what to steal.
+- skill-capabilities: Skill capabilities (20) — What specific skills unlock and what manual work they remove.
+- api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
+- compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
+- notes: Research notes (58) — Free-text findings from past research batches.
+- apis: Public APIs (1831) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
+- api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
+
+## Adopted (recommended) items
+
+- VoiceStudio [content-tools/media] https://github.com/debpalash/VoiceStudio
+- n8n-io/n8n [content-tools/automation] https://github.com/n8n-io/n8n
+- ComfyUI [content-tools/comfyui] https://github.com/Comfy-Org/ComfyUI
+- Wan2GP (WanGP) [content-tools/video-gen] https://github.com/deepbeepmeep/Wan2GP
+- ComfyUI-GGUF [content-tools/comfyui] https://github.com/city96/ComfyUI-GGUF
+- ComfyUI-Manager [content-tools/comfyui] https://github.com/ltdrdata/ComfyUI-Manager
+- ComfyUI-VideoHelperSuite [content-tools/comfyui] https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite
+- FLUX.2 [klein] [content-tools/image-gen] https://github.com/black-forest-labs/flux2
+- Real-ESRGAN [content-tools/upscale] https://github.com/xinntao/Real-ESRGAN
+- rembg [content-tools/background-removal] https://github.com/danielgatis/rembg
+- Kokoro TTS [content-tools/tts-voice] https://github.com/hexgrad/kokoro
+- Chatterbox TTS [content-tools/tts-voice] https://github.com/resemble-ai/chatterbox
+- ACE-Step 1.5 / 1.5 XL [content-tools/music-gen] https://github.com/ACE-Step/ACE-Step-1.5
+- WhisperX [content-tools/captions] https://github.com/m-bain/whisperX
+- faster-whisper [content-tools/captions] https://github.com/SYSTRAN/faster-whisper
+- Revideo [content-tools/programmatic-video] https://github.com/redotvideo/revideo
+- MoviePy [content-tools/programmatic-video] https://github.com/Zulko/moviepy
+- Pexels API [content-tools/stock-media] https://www.pexels.com/api/documentation/
+- Pixabay API [content-tools/stock-media] https://pixabay.com/api/docs/
+- Supertonic 3 [content-tools/tts] https://github.com/supertone-inc/supertonic
+- HyperFrames [content-tools/video-render] https://github.com/heygen-com/hyperframes
+- TRELLIS.2 [content-tools/3d-generation] https://github.com/microsoft/TRELLIS.2
+- SuperSplat [content-tools/gaussian-splats] https://github.com/playcanvas/supersplat
+- Wan 2.2 (TI2V-5B / A14B GGUF) [content-tools/video-gen] https://insiderllm.com/guides/local-ai-video-generation/
+- fal.ai [content-tools/aggregator] https://fal.ai/learn/tools/ai-video-generators
+- FLUX.2 [klein] 4B [content-tools/image-gen] https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence
+- Kokoro [content-tools/tts-voice] https://tts.ai/blog/open-source-text-to-speech-guide-2026/
+- Threads API 2026 update [content-tools/platform-api] https://developers.facebook.com/blog/post/2026/04/14/whats-new-in-the-threads-api/
+- Poly Haven [content-tools/game-assets] https://polyhaven.com
+- ambientCG [content-tools/game-assets] https://ambientcg.com
+- Quaternius [content-tools/game-assets] https://quaternius.com
+- Mixamo [content-tools/game-animation] https://www.mixamo.com
+- Melies cinematic techniques [content-tools/cinematography-reference] https://melies.co/cinematic-techniques
+- microsoft/playwright-mcp [mcp-servers/mcp-browser] https://github.com/microsoft/playwright-mcp
+- ChromeDevTools/chrome-devtools-mcp [mcp-servers/mcp-browser] https://github.com/ChromeDevTools/chrome-devtools-mcp
+- Claude in Chrome [mcp-servers/Browser agent]
+- Firecrawl MCP [mcp-servers/Crawl → Markdown] https://github.com/firecrawl/firecrawl-mcp-server
+- Crawl4AI [mcp-servers/Crawl → Markdown] https://github.com/unclecode/crawl4ai
+- Fetch (Anthropic reference) [mcp-servers/Read one URL] https://github.com/modelcontextprotocol/servers
+- Exa MCP [mcp-servers/AI search + find-similar] https://github.com/exa-labs/exa-mcp-server
+- Tavily MCP [mcp-servers/AI search] https://github.com/tavily-ai/tavily-mcp
+- SearXNG MCP [mcp-servers/Meta-search]
+- Apify MCP [mcp-servers/Ready-made scrapers] https://github.com/apify/actors-mcp-server
+- Markitdown MCP (Microsoft) [mcp-servers/Files → Markdown] https://github.com/microsoft/markitdown
+- upstash/context7 [mcp-servers/mcp-docs] https://github.com/upstash/context7
+- Supabase MCP [mcp-servers/Database + storage]
+- Memory (knowledge graph) [mcp-servers/Long-term facts] https://github.com/modelcontextprotocol/servers
+- github/github-mcp-server [mcp-servers/mcp-github] https://github.com/github/github-mcp-server
+- n8n MCP [mcp-servers/Workflow runner]
+- YouTube transcript MCP [mcp-servers/Video → text]
+- Stripe MCP [mcp-servers/Payments] https://github.com/stripe/agent-toolkit
+- Whop, Gmail, Calendar, Drive, Canva, Vercel [mcp-servers/Business tools]
+- VirusTotal MCP [mcp-servers/URL safety checks]
+- Time MCP [mcp-servers/Time zones] https://github.com/modelcontextprotocol/servers
+- blender-mcp [mcp-servers/3d-tools] https://github.com/ahujasid/blender-mcp
+- last30days [skills/research]
+- user-research [skills/research]
+- graphify [skills/engineering]
+- napkin [skills/engineering] https://github.com/blader/napkin
+- tech-debt-audit [skills/engineering]
+- scroll-world [skills/create]
+- claude-seo [skills/grow-ship]
+- humanizer [skills/grow-ship] https://github.com/blader/humanizer
+- video-shotcraft [skills/grow-ship]
+- ffmpeg-skill [skills/grow-ship]
+- anthropics/skills [skills/claude-skill] https://github.com/anthropics/skills
+- image-blaster [skills/3d-generation] https://github.com/neilsonnn/image-blaster
+- Papermorph [skills/explainer-video] https://github.com/DozenTwelve/Papermorph
+- product-launch-motion [skills/motion-graphics-skills] https://github.com/AbubakrChan/product-launch-motion
+- LottieFiles motion-design-skill [skills/motion-graphics-skills] https://github.com/LottieFiles/motion-design-skill
+- threejs-skills [skills/web-3d] https://github.com/cloudai-x/threejs-skills
+- karpathy-skills [agent-tools/build-workflow]
+- superpowers [agent-tools/build-workflow]
+- taste-skill [agent-tools/skills]
+- mattpocock skills [agent-tools/skills]
+- wshobson agents [agent-tools/skills]
+- addyosmani skills [agent-tools/skills]
+- planning-with-files [agent-tools/context]
+- graphify [agent-tools/context]
+- repomix [agent-tools/context]
+- beads [agent-tools/context]
+- serena [agent-tools/tools]
+- codex-plugin-cc [agent-tools/prompts-usage]
+- claude-hud [agent-tools/prompts-usage]
+- rtk [agent-tools/prompts-usage]
+- dspy [agent-tools/orchestrate]
+- vercel-ai-sdk [agent-tools/act-execute]
+- e2b [agent-tools/act-execute]
+- agentops [agent-tools/memory-eval-ship]
+- elevenlabs + deepgram [agent-tools/memory-eval-ship]
+- anthropics/claude-code [agent-tools/coding-agent] https://github.com/anthropics/claude-code
+- modelcontextprotocol/servers [agent-tools/mcp-reference] https://github.com/modelcontextprotocol/servers
+- modelcontextprotocol/typescript-sdk [agent-tools/mcp-sdk] https://github.com/modelcontextprotocol/typescript-sdk
+- BerriAI/litellm [agent-tools/llm-gateway] https://github.com/BerriAI/litellm
+- ollama/ollama [agent-tools/local-llm] https://github.com/ollama/ollama
+- Claude (Opus 5.5 / Sonnet 5.5 / Haiku 5.5) [agent-tools/llm] https://www.anthropic.com/claude
+- Qwen3.5 9B (Q4_K_M) [agent-tools/llm] https://runaihome.com/blog/best-local-ai-models-8gb-vram-august-2026/
+- Health Connect Jetpack client (androidx.health.connect:connect-client) [agent-tools/android-health] https://developer.android.com/health-and-fitness/guides/health-connect
+- requests-cache [agent-tools/http-caching] https://github.com/requests-cache/requests-cache
+- MCP Registry [directories/registry] https://github.com/modelcontextprotocol/registry
+- punkpeye/awesome-mcp-servers [directories/mcp-list] https://github.com/punkpeye/awesome-mcp-servers
+- unpaywall.org [web-tools/API] https://unpaywall.org
+- openlibrary.org [web-tools/API] https://openlibrary.org
+- doaj.org [web-tools/API] https://doaj.org
+- alternativeto.net [web-tools/Browser agent] https://alternativeto.net
+- archive.org [web-tools/API] https://archive.org
+- gutenberg.org [web-tools/API] https://gutenberg.org
+- openstax.org [web-tools/Browser agent] https://openstax.org
+- openculture.com [web-tools/Browser agent] https://openculture.com
+- wolframalpha.com [web-tools/API] https://wolframalpha.com
+- remove.bg [web-tools/API] https://remove.bg
+- carbon.now.sh [web-tools/Browser agent] https://carbon.now.sh
+- ray.so [web-tools/Browser agent] https://ray.so
+- shots.so [web-tools/Browser agent] https://shots.so
+- haveibeenpwned.com [web-tools/API] https://haveibeenpwned.com
+- virustotal.com [web-tools/API] https://virustotal.com
+- musicforprogramming.net [web-tools/Browser agent] https://musicforprogramming.net
+- elicit.org [web-tools/Browser agent] https://elicit.org
+- consensus.app [web-tools/Browser agent] https://consensus.app
+- semanticscholar.org [web-tools/API] https://semanticscholar.org
+- scispace.com [web-tools/Browser agent] https://scispace.com
+- explainshell.com [web-tools/Browser agent] https://explainshell.com
+- raindrop.io [web-tools/API] https://raindrop.io
+- tineye.com [web-tools/API] https://tineye.com
+- ilovepdf.com [web-tools/API] https://ilovepdf.com
+- Wayback Machine Save Page Now [web-tools/API]
+- OpenAlex [web-tools/API]
+- arXiv API [web-tools/API]
+- crt.sh [web-tools/API]
+- urlscan.io [web-tools/API]
+- AbuseIPDB [web-tools/API]
+- MusicBrainz [web-tools/API]
+- Radio Browser [web-tools/API]
+- TMDB [web-tools/API]
+- Wikidata SPARQL [web-tools/API]
+- Common Crawl [web-tools/Bulk data]
+- Diffchecker [web-tools/Web]
+- Snapdrop / PairDrop [web-tools/Web (open source)]
+- PlayPhrase.me [web-tools/Web]
+- StillTasty [web-tools/Web]
+- ToS;DR [web-tools/API]
+- Pexels / Pixabay [web-tools/API]
+- rembg / IOPaint [web-tools/Open source]
+- Aceternity UI [design-resources/React + Tailwind] https://ui.aceternity.com/
+- Magic UI [design-resources/React + Tailwind] https://magicui.design/
+- React Bits [design-resources/React] https://reactbits.dev/
+- Motion (formerly Framer Motion) [design-resources/JS / React] https://motion.dev/
+- GSAP [design-resources/JS] https://gsap.com/
+- Lenis [design-resources/JS] https://lenis.darkroom.engineering/
+- DESIGN.md format (Google) + designmd.ai [design-resources/Markdown file + CLI (npx @google/design.md)] https://designmd.ai
+- shadcn/ui [design-resources/React + Tailwind (copy into your project)] https://ui.shadcn.com
+- Anime.js [design-resources/JS library (one script tag, no build)] https://animejs.com
+- Motion Primitives [design-resources/React + Tailwind + Motion] https://motion-primitives.com
+- 21st.dev [design-resources/React + Tailwind, shadcn registry; MCP and CLI] https://21st.dev
+- Uiverse [design-resources/HTML/CSS, Tailwind, React, Figma copy] https://uiverse.io
+- CSS Text Effects [design-resources/Pure CSS, no JavaScript] https://text-effects.colorion.co
+- MicroKit UI [design-resources/React, CSS and Tailwind (copy-paste, no npm package)] https://microkit.co
+- mapcn [design-resources/React + MapLibre GL] https://mapcn.dev
+- Kitbitz [design-resources/SVG/PNG downloads, Figma plugin, read-only MCP] https://kitbitz.art
+- 3dicons [design-resources/PNG, Figma plugin, Blender files] https://3dicons.co
+- Component Gallery [design-resources/Reference website] https://component.gallery
+- Jev ecosystem (agents/memory/safety/tools/open models) [assessments/deep-assessment] https://github.com/typesafe-ai
+- Ghidra [assessments/reverse-engineering] https://github.com/NationalSecurityAgency/ghidra
+- GhidraMCP [assessments/reverse-engineering] https://github.com/LaurieWired/GhidraMCP
+- mitmproxy [assessments/reverse-engineering] https://github.com/mitmproxy/mitmproxy

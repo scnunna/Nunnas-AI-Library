@@ -1,0 +1,54 @@
+# Public AI Library — GraphQL schema
+# Executed by the MCP `graphql` tool (mcp/core.mjs). Supports root fields with literal
+# arguments, aliases and nested selections; no variables, fragments or introspection.
+#
+# Examples
+#   { stats { total byVerdict } }
+#   { items(collection: "content-tools", category: "tts", verdict: "adopt") { name url why } }
+#   { items(search: "browser", kind: "mcp", limit: 5) { id name stars url } }
+#   { apis(search: "weather", noKey: true, cors: true, limit: 10) { name url extra } }
+#   { why(name: "langchain") { verdict why } }
+#   { new: items(since: "2026-10-01", limit: 50) { name collection asOf } }
+
+schema { query: Query }
+
+type Query {
+  stats: Stats!
+  collections: [Collection!]!
+  categories(collection: String): [CategoryCount!]!
+  item(id: ID!): Item
+  items(collection: String, kind: String, category: String, verdict: Verdict, tag: String,
+        relevance: String, search: String, since: String, limit: Int = 20, offset: Int = 0): [Item!]!
+  apis(search: String, category: String, noKey: Boolean, https: Boolean, cors: Boolean, limit: Int = 25): [Item!]!
+  why(name: String!): [Verdict_Record!]!
+}
+
+enum Verdict { adopt have trial assess reference skip }
+
+type Item {
+  id: ID!
+  name: String!
+  collection: String!     # apis | mcp-servers | skills | agent-tools | content-tools | directories | web-tools | design-resources | assessments | ...
+  kind: String!           # api | mcp | skill | plugin | repo | framework | model | tool | node-pack | registry | list | web-tool | rule | note
+  category: String!
+  url: String
+  description: String
+  verdict: Verdict
+  verdictNote: String     # original free-text verdict
+  why: String             # reasoning behind the verdict
+  tags: [String!]!
+  license: String
+  stars: Int
+  cost: String            # free | freemium | paid | self-host
+  relevance: [String!]!   # content-studio | finance-content | games | general
+  verified: Boolean!      # URL/page seen by the researcher
+  asOf: String!           # YYYY-MM-DD last added/verified
+  source: String
+  extra: JSON
+}
+
+type Verdict_Record { id: ID!, name: String!, collection: String!, verdict: Verdict, verdictNote: String, why: String, description: String, url: String, asOf: String, extra: JSON }
+type Stats { total: Int!, version: String, builtAt: String, byVerdict: JSON, byKind: JSON }
+type Collection { name: String!, title: String!, description: String, count: Int! }
+type CategoryCount { name: String!, count: Int! }
+scalar JSON

@@ -1,0 +1,236 @@
+{
+ "collection": "directories",
+ "title": "Directories & registries",
+ "description": "Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.",
+ "items": [
+  {
+   "id": "dir-composiohq-awesome-claude-skills",
+   "name": "ComposioHQ/awesome-claude-skills",
+   "kind": "list",
+   "category": "claude-skill",
+   "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+   "description": "Curated list of 1,000+ Claude skills and plugins across Claude.ai, Claude Code and other agents.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Good discovery source; vet individual skills before installing.",
+   "tags": [
+    "skills",
+    "awesome-list"
+   ],
+   "license": "Apache-2.0",
+   "stars": 77193,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-09-18",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "dir-hesreallyhim-awesome-claude-code",
+   "name": "hesreallyhim/awesome-claude-code",
+   "kind": "list",
+   "category": "claude-skill",
+   "url": "https://github.com/hesreallyhim/awesome-claude-code",
+   "description": "Hand-picked collection of resources for Claude Code: skills, hooks, slash commands, plugins.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Best curated Claude Code resource index.",
+   "tags": [
+    "claude-code",
+    "awesome-list"
+   ],
+   "license": null,
+   "stars": 55774,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "dir-behisecc-awesome-claude-skills",
+   "name": "BehiSecc/awesome-claude-skills",
+   "kind": "list",
+   "category": "claude-skill",
+   "url": "https://ossinsight.io/analyze/BehiSecc/awesome-claude-skills",
+   "description": "Awesome-list of Claude skills (about 8.4k stars as of April 2026 per Star History).",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Alternative skills list; smaller than Composio.",
+   "tags": [
+    "skills",
+    "awesome-list"
+   ],
+   "license": null,
+   "stars": 8400,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "dir-claudemarketplaces-com",
+   "name": "claudemarketplaces.com",
+   "kind": "registry",
+   "category": "marketplace",
+   "url": "https://claudemarketplaces.com/",
+   "description": "Independent directory of Claude Code plugins, skills and MCP servers ranked by installs, stars and votes.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Handy browsing; not affiliated with Anthropic.",
+   "tags": [
+    "directory"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "dir-mcp-registry",
+   "name": "MCP Registry",
+   "kind": "registry",
+   "category": "registry",
+   "url": "https://github.com/modelcontextprotocol/registry",
+   "description": "Community-driven registry service for MCP servers; live at registry.modelcontextprotocol.io.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Canonical discovery source for MCP servers.",
+   "tags": [
+    "mcp",
+    "registry"
+   ],
+   "license": null,
+   "stars": 7365,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "dir-punkpeye-awesome-mcp-servers",
+   "name": "punkpeye/awesome-mcp-servers",
+   "kind": "list",
+   "category": "mcp-list",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "description": "Large categorized list of MCP servers, linked to glama.ai/mcp/servers.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Largest MCP index; use to find YouTube/video/image/social servers.",
+   "tags": [
+    "mcp",
+    "awesome-list"
+   ],
+   "license": "MIT",
+   "stars": 96405,
+   "cost": "free",
+   "relevance": [
+    "general",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "dir-glama-mcp-multimedia-category",
+   "name": "Glama MCP multimedia category",
+   "kind": "registry",
+   "category": "mcp-media",
+   "url": "https://glama.ai/mcp/categories/multimedia-processing",
+   "description": "Glama directory category for multimedia MCP servers.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Browse for vetted media servers.",
+   "tags": [
+    "directory",
+    "media"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "dir-glama-mcp-servers-directory",
+   "name": "Glama MCP servers directory",
+   "kind": "registry",
+   "category": "registry",
+   "url": "https://glama.ai/mcp/servers",
+   "description": "MCP server directory backing awesome-mcp-servers.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Search for YouTube/social MCPs.",
+   "tags": [
+    "directory"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "dir-awesome-motion-design-agent-skills",
+   "name": "awesome-motion-design-agent-skills",
+   "kind": "list",
+   "category": "motion-skills",
+   "url": "https://github.com/frankxai/awesome-motion-design-agent-skills",
+   "description": "A map of 5 first-party skills, 10 engine projects (GSAP, Motion, R3F, Remotion, Anime.js, Rive, dotLottie, Phaser) and 7 third-party packs, with link checks and advice to scan third-party packs before installing. Search also showed a larger catalogue, zhuyansen/awesome-claude-video-skills (about 180 repos, each security-graded): not opened.",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE: use as a directory; never install from a list without reading the skill.",
+   "why": "2 stars; counts are 'discovery signals, not rankings'",
+   "tags": [],
+   "license": "CC0-1.0",
+   "stars": 2,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  }
+ ]
+}

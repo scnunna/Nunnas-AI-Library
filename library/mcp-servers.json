@@ -1,0 +1,845 @@
+{
+ "collection": "mcp-servers",
+ "title": "MCP servers",
+ "description": "Model Context Protocol servers worth connecting to Claude.",
+ "items": [
+  {
+   "id": "mcp-playwright-mcp-microsoft",
+   "name": "microsoft/playwright-mcp",
+   "kind": "mcp",
+   "category": "mcp-browser",
+   "url": "https://github.com/microsoft/playwright-mcp",
+   "description": "Playwright MCP server giving LLMs browser automation via accessibility tree.",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Ideal for game QA and web app testing.",
+   "tags": [
+    "browser",
+    "testing"
+   ],
+   "license": "Apache-2.0",
+   "stars": 38204,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/microsoft/playwright-mcp",
+    "pushedAt": "2026-10-08",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-chrome-devtools-mcp-google",
+   "name": "ChromeDevTools/chrome-devtools-mcp",
+   "kind": "mcp",
+   "category": "mcp-browser",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "description": "Chrome DevTools for coding agents: performance tracing, debugging, automation of live Chrome.",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Perf-profile browser games and debug web UIs.",
+   "tags": [
+    "browser",
+    "devtools"
+   ],
+   "license": "Apache-2.0",
+   "stars": 53605,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/ChromeDevTools/chrome-devtools-mcp",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-claude-in-chrome",
+   "name": "Claude in Chrome",
+   "kind": "mcp",
+   "category": "Browser agent",
+   "url": null,
+   "description": "Browser agent",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Works inside your logged-in browser for sites that need your session.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "In your plan",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "claude.com"
+   }
+  },
+  {
+   "id": "mcp-firecrawl-mcp",
+   "name": "Firecrawl MCP",
+   "kind": "mcp",
+   "category": "Crawl → Markdown",
+   "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+   "description": "Crawl → Markdown",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Clean Markdown, site maps, structured extraction, page actions.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 7610,
+   "cost": "1,000 free credits/mo, then paid",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/firecrawl/firecrawl-mcp-server",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-crawl4ai",
+   "name": "Crawl4AI",
+   "kind": "mcp",
+   "category": "Crawl → Markdown",
+   "url": "https://github.com/unclecode/crawl4ai",
+   "description": "Crawl → Markdown",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Open-source alternative to Firecrawl; runs on your VPS.",
+   "tags": [],
+   "license": "Apache-2.0",
+   "stars": 85622,
+   "cost": "Free, self-hosted",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/unclecode/crawl4ai",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-fetch-anthropic-reference",
+   "name": "Fetch (Anthropic reference)",
+   "kind": "mcp",
+   "category": "Read one URL",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "description": "Read one URL",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Simplest page reader.",
+   "tags": [],
+   "license": null,
+   "stars": 91289,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/modelcontextprotocol/servers",
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-exa-mcp",
+   "name": "Exa MCP",
+   "kind": "mcp",
+   "category": "AI search + find-similar",
+   "url": "https://github.com/exa-labs/exa-mcp-server",
+   "description": "AI search + find-similar",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Returns full page text; replaces similarsites.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 5134,
+   "cost": "Free credits, then paid",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/exa-labs/exa-mcp-server",
+    "pushedAt": "2026-10-07",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-tavily-mcp",
+   "name": "Tavily MCP",
+   "kind": "mcp",
+   "category": "AI search",
+   "url": "https://github.com/tavily-ai/tavily-mcp",
+   "description": "AI search",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Search with source citations for research agents.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 2434,
+   "cost": "Free monthly credits",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/tavily-ai/tavily-mcp",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-searxng-mcp",
+   "name": "SearXNG MCP",
+   "kind": "mcp",
+   "category": "Meta-search",
+   "url": null,
+   "description": "Meta-search",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "No per-query cost; aggregates many engines.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, self-hosted",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "searxng + community MCP"
+   }
+  },
+  {
+   "id": "mcp-apify-mcp",
+   "name": "Apify MCP",
+   "kind": "mcp",
+   "category": "Ready-made scrapers",
+   "url": "https://github.com/apify/actors-mcp-server",
+   "description": "Ready-made scrapers",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Thousands of maintained scrapers for specific sites.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 11422,
+   "cost": "$5/mo free credit",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/apify/actors-mcp-server",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-markitdown-mcp-microsoft",
+   "name": "Markitdown MCP (Microsoft)",
+   "kind": "mcp",
+   "category": "Files → Markdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "description": "Files → Markdown",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "PDF, Word, Excel, PowerPoint into LLM-ready text; replaces online PDF tools.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 190424,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/microsoft/markitdown",
+    "pushedAt": "2026-10-04",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-context7",
+   "name": "upstash/context7",
+   "kind": "mcp",
+   "category": "mcp-docs",
+   "url": "https://github.com/upstash/context7",
+   "description": "Up-to-date version-specific library docs for AI agents.",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Reduces hallucinated APIs for Three.js/Supabase work.",
+   "tags": [
+    "docs"
+   ],
+   "license": "MIT",
+   "stars": 63102,
+   "cost": "freemium",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/upstash/context7",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-supabase-mcp",
+   "name": "Supabase MCP",
+   "kind": "mcp",
+   "category": "Database + storage",
+   "url": null,
+   "description": "Database + storage",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Where everything is indexed and saved.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free tier (connected)",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "Connected"
+   }
+  },
+  {
+   "id": "mcp-memory-knowledge-graph",
+   "name": "Memory (knowledge graph)",
+   "kind": "mcp",
+   "category": "Long-term facts",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "description": "Long-term facts",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Entity/relation memory across sessions.",
+   "tags": [],
+   "license": null,
+   "stars": 91289,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/modelcontextprotocol/servers",
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-github-mcp-official",
+   "name": "github/github-mcp-server",
+   "kind": "mcp",
+   "category": "mcp-github",
+   "url": "https://github.com/github/github-mcp-server",
+   "description": "GitHub official MCP server.",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Official replacement for archived reference GitHub server.",
+   "tags": [
+    "github"
+   ],
+   "license": "MIT",
+   "stars": 33647,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/github/github-mcp-server",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-n8n-mcp",
+   "name": "n8n MCP",
+   "kind": "mcp",
+   "category": "Workflow runner",
+   "url": null,
+   "description": "Workflow runner",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Lets Claude trigger and inspect your n8n workflows.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Self-hosted (you have n8n)",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "n8n built-in MCP trigger + community servers"
+   }
+  },
+  {
+   "id": "mcp-youtube-transcript-mcp",
+   "name": "YouTube transcript MCP",
+   "kind": "mcp",
+   "category": "Video → text",
+   "url": null,
+   "description": "Video → text",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Replaces summarize.tech with timestamped quotes.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "community (several; pick a maintained one)"
+   }
+  },
+  {
+   "id": "mcp-stripe-mcp",
+   "name": "Stripe MCP",
+   "kind": "mcp",
+   "category": "Payments",
+   "url": "https://github.com/stripe/agent-toolkit",
+   "description": "Payments",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Billing for anything you sell outside Whop.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 1952,
+   "cost": "Pay per transaction",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/stripe/agent-toolkit",
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-whop-gmail-calendar-drive-canva-vercel",
+   "name": "Whop, Gmail, Calendar, Drive, Canva, Vercel",
+   "kind": "mcp",
+   "category": "Business tools",
+   "url": null,
+   "description": "Business tools",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Already available in your Claude.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Connected",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "Connected"
+   }
+  },
+  {
+   "id": "mcp-virustotal-mcp",
+   "name": "VirusTotal MCP",
+   "kind": "mcp",
+   "category": "URL safety checks",
+   "url": null,
+   "description": "URL safety checks",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Screen every unknown URL before an agent opens it.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free key (non-commercial)",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "community (verify maintainer)"
+   }
+  },
+  {
+   "id": "mcp-time-mcp",
+   "name": "Time MCP",
+   "kind": "mcp",
+   "category": "Time zones",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "description": "Time zones",
+   "verdict": "adopt",
+   "verdictNote": "in recommended MCP stack",
+   "why": "Accurate scheduling across market sessions.",
+   "tags": [],
+   "license": null,
+   "stars": 91289,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "src": "github.com/modelcontextprotocol/servers",
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-supabase-community-supabase-mcp",
+   "name": "supabase-community/supabase-mcp",
+   "kind": "mcp",
+   "category": "mcp-database",
+   "url": "https://github.com/supabase-community/supabase-mcp",
+   "description": "Connects Supabase projects to AI assistants.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Stack uses Supabase; already connected via claude.ai.",
+   "tags": [
+    "supabase",
+    "database"
+   ],
+   "license": "Apache-2.0",
+   "stars": 2953,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-pastorsimon1798-mcp-video",
+   "name": "pastorsimon1798/mcp-video",
+   "kind": "mcp",
+   "category": "mcp-video",
+   "url": "https://github.com/pastorsimon1798/mcp-video",
+   "description": "Video editing MCP with 19 tools: trim, merge, overlays, subtitles, watermark, format conversion.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Fits short-form content pipeline (WHT shorts).",
+   "tags": [
+    "video",
+    "ffmpeg"
+   ],
+   "license": "Apache-2.0",
+   "stars": 206,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "mcp-legolev-mediamcp",
+   "name": "legolev/mediamcp",
+   "kind": "mcp",
+   "category": "mcp-image",
+   "url": "https://enterprisedna.co/directories/mcp/legolev-mediamcp",
+   "description": "Image creation/editing and video generation via OpenRouter or OpenAI-compatible APIs; about 3 stars.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Barely vetted; local ComfyUI pipeline preferred.",
+   "tags": [
+    "image-gen"
+   ],
+   "license": null,
+   "stars": 3,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "mcp-meshy-mcp-server",
+   "name": "meshy-mcp-server",
+   "kind": "mcp",
+   "category": "3d-generation",
+   "url": "https://github.com/meshy-dev/meshy-mcp-server",
+   "description": "MCP with 24 tools: text or image to 3D, remesh, retexture, rig, animate, convert, UV unwrap, 3D-print checks, balance.",
+   "verdict": "skip",
+   "verdictNote": "SKIP for now. Revisit one month of Pro only when a 3D character needs rigging.",
+   "why": "Needs a Meshy API key on Pro or above: $20/month (1,000 credits), Premium $40, Ultra $100 (meshy.ai, Oct 2026) Free plan outputs are CC BY 4.0 (attribution required) and have no API 24 stars, 9 commits",
+   "tags": [],
+   "license": "MIT (server); Meshy plan terms for outputs",
+   "stars": 24,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-blender-mcp",
+   "name": "blender-mcp",
+   "kind": "mcp",
+   "category": "3d-tools",
+   "url": "https://github.com/ahujasid/blender-mcp",
+   "description": "Blender add-on plus MCP server: the agent builds and edits scenes in a live Blender, can run Python inside Blender, pulls Poly Haven (CC0) models, textures and HDRIs, searches Sketchfab and Poly Pizza, and can call Hyper3D Rodin or Hunyuan3D.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT on an 8 GB GPU (Blender is already in the stack), with telemetry off and safe mode on.",
+   "why": "It runs arbitrary Python in Blender over an UNAUTHENTICATED local socket: keep it on localhost and turn on BLENDER_MCP_SAFE_MODE=1 Telemetry is ON by default and may be used to train AI models: set DISABLE_TELEMETRY=true Sketchfab and Poly Pizza models have mixed licences (CC-BY needs credit); Poly Haven is CC0 Save the.blend file before letting the agent run code",
+   "tags": [
+    "fits-8gb"
+   ],
+   "license": "MIT",
+   "stars": 28700,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "gpu": {
+     "vramNeeded": "Blender viewport works on 8 GB; heavy Cycles renders slower",
+     "fits8GB": true,
+     "on8GB": "Use now for mesh clean-up and GLB export",
+     "at24GB": "Faster Cycles renders",
+     "blockerBeyondVram": null
+    }
+   }
+  },
+  {
+   "id": "mcp-unity-mcp-coplaydev",
+   "name": "unity-mcp (CoplayDev)",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/CoplayDev/unity-mcp",
+   "description": "Drives the Unity Editor from an agent: assets, scenes, C# scripts, tests, builds (50 tools). Unity 2021.3 to 6.x; v10.3.0 released Oct 4, 2026.",
+   "verdict": "skip",
+   "verdictNote": "SKIP unless indie web-game moves an engine.",
+   "why": "indie web-game builds on its own web a custom web game engine, not Unity",
+   "tags": [],
+   "license": "MIT",
+   "stars": 14900,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-godot-ai",
+   "name": "godot-ai",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/hi-godot/godot-ai",
+   "description": "46 tools / 120+ operations for a live Godot 4.7+ editor: scenes, scripts, signals, UI, particles; authenticated loopback connection.",
+   "verdict": "assess",
+   "verdictNote": "CONDITIONAL: install only for a Godot project, telemetry off.",
+   "why": "Telemetry ON by default (install ID, events, platform): set GODOT_AI_DISABLE_TELEMETRY=true It writes and hot-reloads GDScript, so it executes code in your project Several copy forks exist: use hi-godot only",
+   "tags": [],
+   "license": "MIT",
+   "stars": 2900,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-unreal-engine-mcp",
+   "name": "unreal-engine-mcp",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/flopperam/unreal-engine-mcp",
+   "description": "Controls a live Unreal Editor 5.5+. The project was acquired by Aura; the recommended hosted server needs an API key and a separate plugin; the open-source local server is basic.",
+   "verdict": "skip",
+   "verdictNote": "SKIP.",
+   "why": "Unreal 5 is far too heavy for web games and an 8 GB GPU Hosted tools include arbitrary Python and C++ execution",
+   "tags": [],
+   "license": "MIT (local server)",
+   "stars": 1100,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-playcanvas-editor-mcp-server",
+   "name": "PlayCanvas editor-mcp-server",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/playcanvas/editor-mcp-server",
+   "description": "MCP for the PlayCanvas web editor; its runtime tools launch the game, take screenshots, read console logs, inspect live state and inject keyboard/mouse/touch input, so the agent checks the scene really runs.",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE: copy the run-and-verify pattern into the indie web-game playtest bot.",
+   "why": "Needs a PlayCanvas cloud editor login (plan requirements not stated) 137 stars",
+   "tags": [],
+   "license": "MIT",
+   "stars": 137,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-unity-mcp",
+   "name": "Unity MCP",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://unity.com/blog/unity-ai-mcp-how-to-get-started",
+   "description": "Unity's own MCP server inside the AI Assistant package (blog dated May 11, 2026, so not new): Claude Code, Cursor, Codex and others drive the Unity 6 editor. Needs Unity Cloud and an AI-tools subscription; pricing not on the page.",
+   "verdict": "skip",
+   "verdictNote": "SKIP (wrong engine). The post's 'Unity just opened' headline refers to a May 2026 beta.",
+   "why": "indie web-game does not use Unity Paid AI-tools subscription required",
+   "tags": [],
+   "license": "Unity terms; needs a Unity AI tools trial or subscription (open beta)",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-unity-mcp-ivanmurzak",
+   "name": "Unity-MCP (IvanMurzak)",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/IvanMurzak/Unity-MCP",
+   "description": "Agent bridge for the Unity editor and, unusually, inside a compiled game at runtime.",
+   "verdict": "skip",
+   "verdictNote": "SKIP. Lesson for a custom web game engine: never ship an agent hook or key inside a public build.",
+   "why": "Authorization defaults to none on port 8080; script-execute compiles and runs C# indie web-game does not use Unity",
+   "tags": [],
+   "license": "Apache-2.0",
+   "stars": 4000,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-godot-mcp",
+   "name": "godot-mcp",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/Coding-Solo/godot-mcp",
+   "description": "14 tools: launch the editor, run the project in debug, read the error output, create scenes, add nodes, load sprites. 60 commits.",
+   "verdict": "assess",
+   "verdictNote": "CONDITIONAL (Godot projects only): simpler than godot-ai.",
+   "why": "Sample config auto-approves every tool: don't copy that Overlaps godot-ai (46 tools) already catalogued: pick one per project",
+   "tags": [],
+   "license": "MIT",
+   "stars": 5600,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-unreal-tools-unrealclaude-unreal-mcp-vibeue-unreal-engine-skills-unrealgenai",
+   "name": "Unreal tools: UnrealClaude, Unreal_mcp, VibeUE, unreal-engine-skills, UnrealGenAISupport",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/Natfii/UnrealClaude",
+   "description": "Five Unreal Engine 5 agent tools. UnrealClaude (907 stars, UE 5.7, 20+ tools, script execution denied by default). Unreal_mcp by ChiR24 (856 stars, UE 5.0-5.8, capability token ON by default: the safest of the group). VibeUE (589 stars, UE 5.8+, rides Epic's own Unreal MCP plugin; terrain, Niagara, profiling). unreal-engine-skills (335 stars, 27 skills, 1 commit; the post said 31). UnrealGenAISupport (634 stars, LLM NPCs; its MCP is no longer developed; warns that API keys in shipped builds are a security risk).",
+   "verdict": "skip",
+   "verdictNote": "SKIP for indie web-game web games; if a PC 3D title ever happens, start with Epic's official MCP + VibeUE or ChiR24's Unreal_mcp.",
+   "why": "Unreal 5 is too heavy for web games and for an 8 GB GPU Several can run arbitrary Python or C++ in the editor",
+   "tags": [],
+   "license": "All MIT",
+   "stars": 907,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "mcp-mcp-unity-codergamester",
+   "name": "mcp-unity (CoderGamester)",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://github.com/CoderGamester/mcp-unity",
+   "description": "MCP bridge for the Unity 6 editor: 32 tools for scenes, GameObjects, assets, materials, tests, console errors and play mode; Node 18+. Last commit 2026-10-11.",
+   "verdict": "skip",
+   "verdictNote": "skip unless a Unity project starts",
+   "why": "Best-maintained of the Unity bridges reviewed, but irrelevant for web-engine games. Its WebSocket (port 8090) has no stated authentication; never enable 'Allow Remote Connections'.",
+   "tags": [
+    "unity"
+   ],
+   "license": "MIT",
+   "stars": 1900,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  }
+ ]
+}

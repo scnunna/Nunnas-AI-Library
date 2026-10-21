@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Public AI Library</title>
+<meta name="description" content="Searchable catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools — each with a verdict.">
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--fg:#1d1d1b;--mute:#6b6b66;--line:#e4e4df;--acc:#3b5bdb;
+--adopt:#2b8a3e;--have:#5c940d;--trial:#1971c2;--assess:#e67700;--reference:#6741d9;--skip:#c92a2a}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--fg:#ecece8;--mute:#9a9a94;--line:#2e2e2b;--acc:#7c9cff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:28px 16px 12px;max-width:1100px;margin:auto}h1{margin:0 0 4px;font-size:26px}
+.sub{color:var(--mute)}.sub a{color:var(--acc)}
+.bar{position:sticky;top:0;background:var(--bg);padding:10px 16px;max-width:1100px;margin:auto;display:flex;flex-wrap:wrap;gap:8px;z-index:2;border-bottom:1px solid var(--line)}
+input,select{font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+input{flex:1 1 260px}select{flex:0 1 auto;max-width:100%}
+main{max-width:1100px;margin:auto;padding:12px 16px 60px}
+.count{color:var(--mute);margin:6px 0 12px}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
+.card h3{margin:0 0 4px;font-size:15px;overflow-wrap:anywhere}.card h3 a{color:var(--fg);text-decoration:none}.card h3 a:hover{color:var(--acc)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--mute);margin-bottom:6px}
+.pill{border:1px solid var(--line);border-radius:99px;padding:1px 8px}
+.v{color:#fff;border:0}.v.adopt{background:var(--adopt)}.v.have{background:var(--have)}.v.trial{background:var(--trial)}.v.assess{background:var(--assess)}.v.reference{background:var(--reference)}.v.skip{background:var(--skip)}
+.d{font-size:13.5px}.why{font-size:13px;color:var(--mute);margin-top:6px;font-style:italic}
+button{font:inherit;padding:9px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer;margin:16px auto;display:block}
+</style>
+</head>
+<body>
+<header>
+  <h1>Public AI Library</h1>
+  <div class="sub" id="sub">Loading…</div>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search APIs, MCP servers, skills, tools…" autofocus>
+  <select id="col"><option value="">All collections</option></select>
+  <select id="ver"><option value="">Any verdict</option><option>adopt</option><option>have</option><option>trial</option><option>assess</option><option>reference</option><option>skip</option></select>
+  <select id="rel"><option value="">Any use</option><option value="content-studio">Content Studio</option><option value="finance-content">Finance content</option><option value="games">Games</option><option value="general">General</option></select>
+</div>
+<main><div class="count" id="count"></div><div class="grid" id="grid"></div><button id="more" hidden>Show more</button></main>
+<script>
+const RAW="https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/dist/library.json";
+const $=id=>document.getElementById(id);let ITEMS=[],shown=60;
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+fetch(RAW).then(r=>r.json()).then(b=>{
+  for(const [n,c] of Object.entries(b.collections)){$("col").add(new Option(`${c.title} (${c.items.length})`,n));for(const i of c.items)ITEMS.push({...i,collection:n,_b:[i.name,i.category,i.description,i.why,(i.tags||[]).join(" "),i.url].join(" ").toLowerCase()})}
+  $("sub").innerHTML=`${b.meta.total} items · updated ${b.meta.updatedAt} · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/INDEX.md">Index</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/MINDMAP.md">Mind map</a>`;
+  const p=new URLSearchParams(location.hash.slice(1));for(const k of["q","col","ver","rel"])if(p.get(k))$(k).value=p.get(k);render();
+}).catch(e=>$("sub").textContent="Could not load library: "+e.message);
+const rank={adopt:0,have:1,trial:2,assess:3,reference:4,skip:5};
+function render(){
+  const q=$("q").value.toLowerCase().split(/\s+/).filter(Boolean),c=$("col").value,v=$("ver").value,r=$("rel").value;
+  let res=ITEMS.filter(i=>(!c||i.collection===c)&&(!v||i.verdict===v)&&(!r||(i.relevance||[]).includes(r))&&q.every(t=>i._b.includes(t)));
+  res.sort((a,b)=>(a.collection==="apis")-(b.collection==="apis")||(rank[a.verdict]??6)-(rank[b.verdict]??6)||(b.stars||0)-(a.stars||0));
+  $("count").textContent=`${res.length} result${res.length===1?"":"s"}`;
+  $("grid").innerHTML=res.slice(0,shown).map(i=>`<div class="card"><h3>${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.name)}</a>`:esc(i.name)}</h3>
+  <div class="meta">${i.verdict?`<span class="pill v ${i.verdict}">${i.verdict}</span>`:""}<span class="pill">${esc(i.collection)}</span><span class="pill">${esc(i.category)}</span>${i.stars?`<span>★ ${i.stars.toLocaleString()}</span>`:""}${i.license?`<span>${esc(i.license)}</span>`:""}</div>
+  <div class="d">${esc(i.description)}</div>${i.why?`<div class="why">${esc(i.why)}</div>`:""}</div>`).join("");
+  $("more").hidden=res.length<=shown;
+  history.replaceState(null,"","#"+new URLSearchParams(Object.fromEntries(["q","col","ver","rel"].map(k=>[k,$(k).value]).filter(x=>x[1]))));
+}
+for(const k of["q","col","ver","rel"])$(k).addEventListener("input",()=>{shown=60;render()});
+$("more").onclick=()=>{shown+=60;render()};
+</script>
+</body>
+</html>

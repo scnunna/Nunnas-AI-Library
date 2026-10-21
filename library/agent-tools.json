@@ -1,0 +1,2626 @@
+{
+ "collection": "agent-tools",
+ "title": "Agent tools & frameworks",
+ "description": "Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.",
+ "items": [
+  {
+   "id": "tool-learn-claude-code",
+   "name": "learn-claude-code",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Covered by docs and this work",
+   "verdict": "assess",
+   "verdictNote": "optional",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 1
+   }
+  },
+  {
+   "id": "tool-karpathy-skills",
+   "name": "karpathy-skills",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Gap",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 2
+   }
+  },
+  {
+   "id": "tool-superpowers",
+   "name": "superpowers",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Gap: no coding discipline layer",
+   "verdict": "adopt",
+   "verdictNote": "adopt-anchor",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 3
+   }
+  },
+  {
+   "id": "tool-ponytail",
+   "name": "ponytail",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Unverified from the 20-list",
+   "verdict": "assess",
+   "verdictNote": "verify",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 4
+   }
+  },
+  {
+   "id": "tool-gstack",
+   "name": "gstack",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Overlaps superpowers",
+   "verdict": "trial",
+   "verdictNote": "pick-one",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 5
+   }
+  },
+  {
+   "id": "tool-ecc",
+   "name": "ECC",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Overlaps superpowers",
+   "verdict": "trial",
+   "verdictNote": "pick-one",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 6
+   }
+  },
+  {
+   "id": "tool-oh-my-claudecode",
+   "name": "oh-my-claudecode",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Overlaps superpowers",
+   "verdict": "trial",
+   "verdictNote": "pick-one",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 7
+   }
+  },
+  {
+   "id": "tool-archon",
+   "name": "Archon",
+   "kind": "repo",
+   "category": "build-workflow",
+   "url": null,
+   "description": "Overlaps superpowers",
+   "verdict": "trial",
+   "verdictNote": "pick-one",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 8
+   }
+  },
+  {
+   "id": "tool-taste-skill",
+   "name": "taste-skill",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Gap: design judgement",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 9
+   }
+  },
+  {
+   "id": "tool-anthropics-skills",
+   "name": "anthropics skills",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Built in",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 10
+   }
+  },
+  {
+   "id": "tool-mattpocock-skills",
+   "name": "mattpocock skills",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Gap for TypeScript work",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 11
+   }
+  },
+  {
+   "id": "tool-wshobson-agents",
+   "name": "wshobson agents",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Gap: specialist subagents",
+   "verdict": "adopt",
+   "verdictNote": "adopt-selectively",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 12
+   }
+  },
+  {
+   "id": "tool-claude-plugins",
+   "name": "claude-plugins",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Built in",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 13
+   }
+  },
+  {
+   "id": "tool-addyosmani-skills",
+   "name": "addyosmani skills",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Gap: performance and accessibility checks",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 14
+   }
+  },
+  {
+   "id": "tool-ui-ux-pro-max",
+   "name": "ui-ux-pro-max",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "frontend-design skill, Design artifacts",
+   "verdict": "skip",
+   "verdictNote": "duplicate",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 15
+   }
+  },
+  {
+   "id": "tool-awesome-claude-skills",
+   "name": "awesome-claude-skills",
+   "kind": "repo",
+   "category": "skills",
+   "url": null,
+   "description": "Reference directory",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 16
+   }
+  },
+  {
+   "id": "tool-planning-with-files",
+   "name": "planning-with-files",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Gap: plans live in chat",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 17
+   }
+  },
+  {
+   "id": "tool-claude-mem",
+   "name": "claude-mem",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Claude memory + Supabase",
+   "verdict": "trial",
+   "verdictNote": "pick-one-of-18-22",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 18
+   }
+  },
+  {
+   "id": "tool-codegraph",
+   "name": "codegraph",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "graphify chosen",
+   "verdict": "skip",
+   "verdictNote": "duplicate",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 19
+   }
+  },
+  {
+   "id": "tool-graphify",
+   "name": "graphify",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Adopted from the 20-list",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 20
+   }
+  },
+  {
+   "id": "tool-repomix",
+   "name": "repomix",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Gap: handing whole repos to an agent",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 21
+   }
+  },
+  {
+   "id": "tool-agentmemory",
+   "name": "agentmemory",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Supabase is canonical store",
+   "verdict": "trial",
+   "verdictNote": "pick-one-of-18-22",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 22
+   }
+  },
+  {
+   "id": "tool-beads",
+   "name": "beads",
+   "kind": "repo",
+   "category": "context",
+   "url": null,
+   "description": "Gap: no cross-session tracker for code work",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 23
+   }
+  },
+  {
+   "id": "tool-multica",
+   "name": "multica",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "Overlaps beads and vibe-kanban",
+   "verdict": "skip",
+   "verdictNote": "duplicate",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 24
+   }
+  },
+  {
+   "id": "tool-firecrawl",
+   "name": "firecrawl",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "In MCP stack",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 25
+   }
+  },
+  {
+   "id": "tool-cc-switch",
+   "name": "cc-switch",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "Not needed",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 26
+   }
+  },
+  {
+   "id": "tool-context7",
+   "name": "context7",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "In MCP stack",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 27
+   }
+  },
+  {
+   "id": "tool-vibe-kanban",
+   "name": "vibe-kanban",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "n8n + ops_jobs cover it",
+   "verdict": "assess",
+   "verdictNote": "optional",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 28
+   }
+  },
+  {
+   "id": "tool-github-mcp",
+   "name": "github-mcp",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "In MCP stack",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 29
+   }
+  },
+  {
+   "id": "tool-playwright-mcp",
+   "name": "playwright-mcp",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "In MCP stack",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 30
+   }
+  },
+  {
+   "id": "tool-serena",
+   "name": "serena",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "Gap: token-cheap code search and edit",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 31
+   }
+  },
+  {
+   "id": "tool-claude-code-router",
+   "name": "claude-code-router",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "LiteLLM routes our agents",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 32
+   }
+  },
+  {
+   "id": "tool-awesome-mcp-servers",
+   "name": "awesome-mcp-servers",
+   "kind": "repo",
+   "category": "tools",
+   "url": null,
+   "description": "Catalog and MCP stack cover it",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 33
+   }
+  },
+  {
+   "id": "tool-system-prompts-ai",
+   "name": "system-prompts-ai",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Collections of leaked prompts",
+   "verdict": "skip",
+   "verdictNote": "avoid",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 34
+   }
+  },
+  {
+   "id": "tool-best-practice",
+   "name": "best-practice",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Official docs",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 35
+   }
+  },
+  {
+   "id": "tool-codex-plugin-cc",
+   "name": "codex-plugin-cc",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Gap: independent second-model review",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 36
+   }
+  },
+  {
+   "id": "tool-claude-hud",
+   "name": "claude-hud",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "model_calls covers API spend only",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 37
+   }
+  },
+  {
+   "id": "tool-rtk",
+   "name": "rtk",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Gap: noisy command output burns context",
+   "verdict": "adopt",
+   "verdictNote": "adopt-with-care",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 38
+   }
+  },
+  {
+   "id": "tool-headroom",
+   "name": "headroom",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Context compression",
+   "verdict": "assess",
+   "verdictNote": "careful",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 39
+   }
+  },
+  {
+   "id": "tool-caveman",
+   "name": "caveman",
+   "kind": "repo",
+   "category": "prompts-usage",
+   "url": null,
+   "description": "Much shorter replies",
+   "verdict": "skip",
+   "verdictNote": "avoid",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentToolkit40",
+    "n": 40
+   }
+  },
+  {
+   "id": "fw-ollama",
+   "name": "ollama",
+   "kind": "framework",
+   "category": "run-build",
+   "url": null,
+   "description": "Core on laptop and VPS",
+   "verdict": "have",
+   "verdictNote": "have",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 1
+   }
+  },
+  {
+   "id": "fw-langchain",
+   "name": "langchain",
+   "kind": "framework",
+   "category": "run-build",
+   "url": null,
+   "description": "n8n + direct API calls",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 2
+   }
+  },
+  {
+   "id": "fw-open-interpreter",
+   "name": "open-interpreter",
+   "kind": "framework",
+   "category": "run-build",
+   "url": null,
+   "description": "Claude Code covers it",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 3
+   }
+  },
+  {
+   "id": "fw-autogen",
+   "name": "autogen",
+   "kind": "framework",
+   "category": "run-build",
+   "url": null,
+   "description": "n8n coordinates agents",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 4
+   }
+  },
+  {
+   "id": "fw-aider",
+   "name": "aider",
+   "kind": "framework",
+   "category": "run-build",
+   "url": null,
+   "description": "Claude Code covers it",
+   "verdict": "assess",
+   "verdictNote": "optional",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 5
+   }
+  },
+  {
+   "id": "fw-autogpt",
+   "name": "autogpt",
+   "kind": "framework",
+   "category": "orchestrate",
+   "url": null,
+   "description": "Early autonomous-loop design",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 6
+   }
+  },
+  {
+   "id": "fw-metagpt",
+   "name": "metagpt",
+   "kind": "framework",
+   "category": "orchestrate",
+   "url": null,
+   "description": "Simulated software team",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 7
+   }
+  },
+  {
+   "id": "fw-crewai",
+   "name": "crewai",
+   "kind": "framework",
+   "category": "orchestrate",
+   "url": null,
+   "description": "Overlaps n8n",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 8
+   }
+  },
+  {
+   "id": "fw-dspy",
+   "name": "dspy",
+   "kind": "framework",
+   "category": "orchestrate",
+   "url": null,
+   "description": "Nothing: prompts tuned by hand",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 9
+   }
+  },
+  {
+   "id": "fw-camel",
+   "name": "camel",
+   "kind": "framework",
+   "category": "orchestrate",
+   "url": null,
+   "description": "Research framework",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 10
+   }
+  },
+  {
+   "id": "fw-flowise",
+   "name": "flowise",
+   "kind": "framework",
+   "category": "act-execute",
+   "url": null,
+   "description": "n8n",
+   "verdict": "skip",
+   "verdictNote": "duplicate",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 11
+   }
+  },
+  {
+   "id": "fw-continue",
+   "name": "continue",
+   "kind": "framework",
+   "category": "act-execute",
+   "url": null,
+   "description": "No IDE-side local model use",
+   "verdict": "assess",
+   "verdictNote": "optional",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 12
+   }
+  },
+  {
+   "id": "fw-vercel-ai-sdk",
+   "name": "vercel-ai-sdk",
+   "kind": "framework",
+   "category": "act-execute",
+   "url": null,
+   "description": "Nothing for customer-facing apps",
+   "verdict": "adopt",
+   "verdictNote": "adopt-when-building",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 13
+   }
+  },
+  {
+   "id": "fw-e2b",
+   "name": "e2b",
+   "kind": "framework",
+   "category": "act-execute",
+   "url": null,
+   "description": "Generated code runs beside Sierra Chart",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 14
+   }
+  },
+  {
+   "id": "fw-composio",
+   "name": "composio",
+   "kind": "framework",
+   "category": "act-execute",
+   "url": null,
+   "description": "MCP connectors + n8n",
+   "verdict": "assess",
+   "verdictNote": "optional",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 15
+   }
+  },
+  {
+   "id": "fw-privategpt",
+   "name": "privategpt",
+   "kind": "framework",
+   "category": "memory-eval-ship",
+   "url": null,
+   "description": "Supabase pgvector + index_url",
+   "verdict": "skip",
+   "verdictNote": "duplicate",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 16
+   }
+  },
+  {
+   "id": "fw-mem0",
+   "name": "mem0",
+   "kind": "framework",
+   "category": "memory-eval-ship",
+   "url": null,
+   "description": "Claude memory + Supabase",
+   "verdict": "trial",
+   "verdictNote": "pick-one-memory-layer",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 17
+   }
+  },
+  {
+   "id": "fw-agentops",
+   "name": "agentops",
+   "kind": "framework",
+   "category": "memory-eval-ship",
+   "url": null,
+   "description": "model_calls has cost, no traces",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 18
+   }
+  },
+  {
+   "id": "fw-agentbench",
+   "name": "agentbench",
+   "kind": "framework",
+   "category": "memory-eval-ship",
+   "url": null,
+   "description": "12-case golden set is the right eval",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 19
+   }
+  },
+  {
+   "id": "fw-elevenlabs-deepgram",
+   "name": "elevenlabs + deepgram",
+   "kind": "framework",
+   "category": "memory-eval-ship",
+   "url": null,
+   "description": "ElevenLabs planned; no speech-to-text yet",
+   "verdict": "adopt",
+   "verdictNote": "adopt-stt (Whisper first, Deepgram fallback)",
+   "why": null,
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "list": "agentFrameworks20",
+    "n": 20
+   }
+  },
+  {
+   "id": "tool-litellm-claude-code-plugin-marketplace",
+   "name": "LiteLLM Claude Code plugin marketplace",
+   "kind": "tool",
+   "category": "marketplace",
+   "url": "https://docs.litellm.ai/docs/tutorials/claude_code_plugin_marketplace",
+   "description": "LiteLLM AI gateway can act as a governed private registry of Claude Code plugins.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Enterprise governance; overkill for a solo builder.",
+   "tags": [
+    "gateway",
+    "plugins"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem"
+  },
+  {
+   "id": "tool-anthropics-claude-code",
+   "name": "anthropics/claude-code",
+   "kind": "tool",
+   "category": "coding-agent",
+   "url": "https://github.com/anthropics/claude-code",
+   "description": "Anthropic agentic coding tool for the terminal, IDE and GitHub (@claude).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Core tool already in use.",
+   "tags": [
+    "claude-code",
+    "cli"
+   ],
+   "license": null,
+   "stars": 151065,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-modelcontextprotocol-servers",
+   "name": "modelcontextprotocol/servers",
+   "kind": "repo",
+   "category": "mcp-reference",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "description": "Reference MCP servers: Everything, Fetch, Filesystem, Git, Memory (knowledge graph), Sequential Thinking, Time. Others archived.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Filesystem/Memory/Fetch are the stable basics.",
+   "tags": [
+    "mcp",
+    "official"
+   ],
+   "license": "Apache-2.0/MIT",
+   "stars": 91289,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-modelcontextprotocol-typescript-sdk",
+   "name": "modelcontextprotocol/typescript-sdk",
+   "kind": "repo",
+   "category": "mcp-sdk",
+   "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+   "description": "Official TypeScript SDK for MCP servers and clients.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Use when building custom MCP servers for content and finance projects.",
+   "tags": [
+    "mcp",
+    "sdk"
+   ],
+   "license": "Apache-2.0/MIT",
+   "stars": 13588,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-modelcontextprotocol-inspector",
+   "name": "modelcontextprotocol/inspector",
+   "kind": "tool",
+   "category": "mcp-devtool",
+   "url": "https://github.com/modelcontextprotocol/inspector",
+   "description": "Visual testing tool for MCP servers (web UI, CLI, TUI).",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Useful when debugging own MCP servers.",
+   "tags": [
+    "mcp",
+    "debug"
+   ],
+   "license": "Apache-2.0/MIT",
+   "stars": 11084,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-browser-use-browser-use",
+   "name": "browser-use/browser-use",
+   "kind": "repo",
+   "category": "mcp-browser",
+   "url": "https://github.com/browser-use/browser-use",
+   "description": "Python library for AI browser agents plus hosted cloud.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Alternative to Playwright MCP for autonomous web tasks.",
+   "tags": [
+    "browser",
+    "agent"
+   ],
+   "license": "MIT",
+   "stars": 118096,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-firecrawl-mendableai-firecrawl",
+   "name": "firecrawl/firecrawl",
+   "kind": "tool",
+   "category": "scraping",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "description": "Web data API/scraper for AI agents with MCP server; self-hostable.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Good for ingesting docs/competitor sites.",
+   "tags": [
+    "scraping",
+    "crawl"
+   ],
+   "license": "AGPL-3.0",
+   "stars": 191900,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio",
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-mem0ai-mem0",
+   "name": "mem0ai/mem0",
+   "kind": "repo",
+   "category": "agent-memory",
+   "url": "https://github.com/mem0ai/mem0",
+   "description": "Memory layer for AI agents.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Persistent memory for Studio agents.",
+   "tags": [
+    "memory"
+   ],
+   "license": "Apache-2.0",
+   "stars": 67239,
+   "cost": "freemium",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-getzep-graphiti",
+   "name": "getzep/graphiti",
+   "kind": "repo",
+   "category": "agent-memory",
+   "url": "https://github.com/getzep/graphiti",
+   "description": "Real-time knowledge graphs for AI agents.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Heavier than needed now.",
+   "tags": [
+    "knowledge-graph",
+    "memory"
+   ],
+   "license": "Apache-2.0",
+   "stars": 31796,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-langchain-ai-langgraph",
+   "name": "langchain-ai/langgraph",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/langchain-ai/langgraph",
+   "description": "Library for building resilient stateful agents.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Powerful but heavy for solo use.",
+   "tags": [
+    "orchestration"
+   ],
+   "license": "MIT",
+   "stars": 43323,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-crewaiinc-crewai",
+   "name": "crewAIInc/crewAI",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/crewAIInc/crewAI",
+   "description": "Framework for orchestrating role-playing autonomous AI agents.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Role-based crews map to content pipelines.",
+   "tags": [
+    "multi-agent"
+   ],
+   "license": "MIT",
+   "stars": 59743,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-mastra-ai-mastra",
+   "name": "mastra-ai/mastra",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/mastra-ai/mastra",
+   "description": "TypeScript framework for AI apps and agents: workflows, memory, MCP, evals.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "TS-native; fits Next.js/Supabase stack.",
+   "tags": [
+    "typescript"
+   ],
+   "license": "Apache-2.0 (ee/ enterprise)",
+   "stars": 28835,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-openai-openai-agents-python",
+   "name": "openai/openai-agents-python",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/openai/openai-agents-python",
+   "description": "Lightweight framework for multi-agent workflows.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Provider-agnostic; light.",
+   "tags": [
+    "multi-agent"
+   ],
+   "license": "MIT",
+   "stars": 30058,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-pydantic-pydantic-ai",
+   "name": "pydantic/pydantic-ai",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/pydantic/pydantic-ai",
+   "description": "Typed Python agent framework for agents, voice, images, embeddings.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Good for typed Python agents.",
+   "tags": [
+    "python",
+    "typed"
+   ],
+   "license": "MIT",
+   "stars": 20644,
+   "cost": "free",
+   "relevance": [
+    "finance-content"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-microsoft-autogen",
+   "name": "microsoft/autogen",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/microsoft/autogen",
+   "description": "Programming framework for agentic AI; now maintenance mode, Microsoft Agent Framework recommended.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Maintenance mode.",
+   "tags": [
+    "multi-agent"
+   ],
+   "license": "MIT",
+   "stars": 61426,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-04-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-significant-gravitas-autogpt",
+   "name": "Significant-Gravitas/AutoGPT",
+   "kind": "framework",
+   "category": "agent-framework",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "description": "Open platform for building and running AI agents.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Platform license restrictions; low fit.",
+   "tags": [
+    "agents"
+   ],
+   "license": "Polyform Shield / MIT",
+   "stars": 187601,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-langgenius-dify",
+   "name": "langgenius/dify",
+   "kind": "tool",
+   "category": "agent-platform",
+   "url": "https://github.com/langgenius/dify",
+   "description": "Open-source LLM app platform with visual workflows, RAG, agents, observability.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "License has extra conditions; check before SaaS use.",
+   "tags": [
+    "no-code",
+    "workflows"
+   ],
+   "license": "Dify Open Source License",
+   "stars": 158591,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-aider-ai-aider",
+   "name": "Aider-AI/aider",
+   "kind": "tool",
+   "category": "coding-agent",
+   "url": "https://github.com/Aider-AI/aider",
+   "description": "AI pair programming in your terminal.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Claude Code covers this.",
+   "tags": [
+    "cli"
+   ],
+   "license": "Apache-2.0",
+   "stars": 49568,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-05-22",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-langfuse-langfuse",
+   "name": "langfuse/langfuse",
+   "kind": "tool",
+   "category": "observability",
+   "url": "https://github.com/langfuse/langfuse",
+   "description": "Open-source LLM observability, evals, prompt management.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Self-host to trace Studio AI generations and costs.",
+   "tags": [
+    "tracing",
+    "evals"
+   ],
+   "license": "MIT (ee excluded)",
+   "stars": 35878,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-arize-ai-phoenix",
+   "name": "Arize-ai/phoenix",
+   "kind": "tool",
+   "category": "observability",
+   "url": "https://github.com/Arize-ai/phoenix",
+   "description": "AI observability and evaluation: tracing, evals, datasets, playground.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Langfuse alternative.",
+   "tags": [
+    "tracing"
+   ],
+   "license": "Elastic-2.0",
+   "stars": 11858,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-berriai-litellm",
+   "name": "BerriAI/litellm",
+   "kind": "tool",
+   "category": "llm-gateway",
+   "url": "https://github.com/BerriAI/litellm",
+   "description": "AI gateway calling 100+ LLM APIs in OpenAI format with cost tracking and load balancing.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: the gateway for every model call",
+   "why": "Already the planned router. Turn on its per-key/per-project budgets and caching before adding any other cost tool; it also covers retries and cooldowns, so Portkey, PyBreaker and GPTCache are mostly redundant behind it.",
+   "tags": [
+    "gateway",
+    "cost"
+   ],
+   "license": null,
+   "stars": 61334,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-ollama-ollama",
+   "name": "ollama/ollama",
+   "kind": "tool",
+   "category": "local-llm",
+   "url": "https://github.com/ollama/ollama",
+   "description": "Run open models (Kimi, GLM, DeepSeek, gpt-oss, Qwen, Gemma) locally.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Easiest local LLM runner.",
+   "tags": [
+    "local"
+   ],
+   "license": "MIT",
+   "stars": 183323,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-ggml-org-llama-cpp",
+   "name": "ggml-org/llama.cpp",
+   "kind": "tool",
+   "category": "local-llm",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "description": "LLM inference in C/C++.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Underlies Ollama; use directly for RTX 4060 tuning.",
+   "tags": [
+    "local"
+   ],
+   "license": "MIT",
+   "stars": 131307,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-vllm-project-vllm",
+   "name": "vllm-project/vllm",
+   "kind": "tool",
+   "category": "local-llm",
+   "url": "https://github.com/vllm-project/vllm",
+   "description": "High-throughput LLM inference and serving engine.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Server-grade; limited gain on a 4060.",
+   "tags": [
+    "serving"
+   ],
+   "license": "Apache-2.0",
+   "stars": 93869,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: agent ecosystem",
+   "extra": {
+    "pushedAt": "2026-10-15",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "tool-claude-opus-5-5-sonnet-5-5-haiku-5-5",
+   "name": "Claude (Opus 5.5 / Sonnet 5.5 / Haiku 5.5)",
+   "kind": "api",
+   "category": "llm",
+   "url": "https://www.anthropic.com/claude",
+   "description": "Current Claude 5 family; owner uses it via the Claude CLI subscription for scripts, agents and the command chat.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Keep using via the existing subscription (zero marginal cost); check current API pricing on anthropic.com before any API use.",
+   "tags": [
+    "llm"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: LLM tiers",
+   "extra": {
+    "note": "Third-party price lists citing 4.x models were stale and dropped."
+   }
+  },
+  {
+   "id": "tool-gemini-3-1-pro-gpt-5-2",
+   "name": "Gemini 3.1 Pro / GPT-5.2",
+   "kind": "api",
+   "category": "llm",
+   "url": "https://evolink.ai/blog/claude-api-pricing-guide-2026",
+   "description": "Reseller lists GPT-5.2 $1.75/$14 and Gemini 3.1 Pro $2/$12 per M tokens.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Not needed given Claude subscription; unverified reseller prices.",
+   "tags": [
+    "llm"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "paid",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: LLM tiers",
+   "extra": {
+    "pricePerAsset": "see description",
+    "vram": "n/a",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "tool-qwen3-5-9b-q4-k-m",
+   "name": "Qwen3.5 9B (Q4_K_M)",
+   "kind": "model",
+   "category": "llm",
+   "url": "https://runaihome.com/blog/best-local-ai-models-8gb-vram-august-2026/",
+   "description": "Top 8GB local pick (~5.7GB, ~38 tok/s); Qwen3.5 4B 2.7GB for CPU/long context.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Best local drafting model on the 4060; keep context 4-8K.",
+   "tags": [
+    "local",
+    "gguf"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: LLM tiers",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "~5.7-7GB",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "tool-gemma-4-e4b-12b-qat",
+   "name": "Gemma 4 (E4B / 12B QAT)",
+   "kind": "model",
+   "category": "llm",
+   "url": "https://www.mayhemcode.com/2026/06/best-local-llms-for-4gb-6gb-and-8gb.html",
+   "description": "Writing-quality alternative; 12B QAT ~6.6GB, E4B small; sources conflict on sizes.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Try for prose; verify variant sizes.",
+   "tags": [
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10-15: LLM tiers",
+   "extra": {
+    "pricePerAsset": "$0",
+    "vram": "~6.6GB (12B QAT)",
+    "released": "2026"
+   }
+  },
+  {
+   "id": "tool-health-connect-jetpack-client-androidx-health-connect-connect-client",
+   "name": "Health Connect Jetpack client (androidx.health.connect:connect-client)",
+   "kind": "framework",
+   "category": "android-health",
+   "url": "https://developer.android.com/health-and-fitness/guides/health-connect",
+   "description": "Android's on-device health data hub API: read/write steps, exercise, sleep, mindfulness sessions etc. 1.1.0 stable includes MindfulnessSessionRecord (WRITE_MINDFULNESS, experimental opt-in, needs FEATURE_MINDFULNESS_SESSION check).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Standard offline way for a native Android app to share fitness/mindful minutes with the rest of the phone; needs a privacy-rationale activity in the manifest.",
+   "tags": [
+    "android",
+    "kotlin",
+    "health",
+    "offline"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: Android Health Connect mindfulness"
+  },
+  {
+   "id": "tool-local-deep-research",
+   "name": "Local Deep Research",
+   "kind": "repo",
+   "category": "research-agent",
+   "url": "https://github.com/LearningCircuit/local-deep-research",
+   "description": "Local multi-step research assistant with citations: quick summaries, detailed reports, document analysis over your own files (encrypted per-user SQLCipher library). Runs on Ollama, LM Studio, llama.cpp or vLLM, or cloud models; free search via SearXNG, arXiv, PubMed, Semantic Scholar, Wikipedia, GitHub; REST/Python API and a local STDIO MCP server for Claude Code. 8,270 commits, last commit 2026-10-16.",
+   "verdict": "trial",
+   "verdictNote": "trial: research reports at $0 on a local 9B model",
+   "why": "Fills the 'topic to cited report' step at zero API cost; self-reported SimpleQA 91.2% with Qwen3.5-9B (95.7% with a 27B model on a 24 GB card), small sample and LLM-graded. Docker on Windows needs the port-mapped compose; egress guard is best-effort and self-hosted SearXNG still forwards queries upstream; back up before upgrading (v1.10.7 warning).",
+   "tags": [
+    "fits-8gb",
+    "ollama",
+    "searxng",
+    "mcp"
+   ],
+   "license": "MIT",
+   "stars": 9200,
+   "cost": "self-host",
+   "relevance": [
+    "content-studio",
+    "finance-content",
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-16",
+   "source": "research 2026-10-16: content-factory list"
+  },
+  {
+   "id": "tool-react-three-rapier",
+   "name": "React Three Rapier",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/pmndrs/react-three-rapier",
+   "description": "Rapier (WASM) physics for React Three Fiber: rigid bodies, colliders, joints, collision events. v2 needs @react-three/fiber v9 and React 19 (v1 for React 18). Last commit 2025-11-03.",
+   "verdict": "trial",
+   "verdictNote": "conditional on a React Three Fiber stack",
+   "why": "Easiest physics for R3F games. Commit activity has slowed (last Nov 2025). For non-React three.js games use Rapier's own JS package directly.",
+   "tags": [
+    "react-three-fiber",
+    "physics",
+    "wasm"
+   ],
+   "license": "MIT",
+   "stars": 1400,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "tool-yuka",
+   "name": "Yuka",
+   "kind": "repo",
+   "category": "game-ai",
+   "url": "https://github.com/Mugen87/yuka",
+   "description": "Engine-agnostic JavaScript game-AI library: state- and goal-driven agents, steering behaviours, graphs and navmesh pathfinding, perception with memory and vision, triggers, fuzzy logic, JSON save/load.",
+   "verdict": "assess",
+   "verdictNote": "assess: good design, no commits since 2023",
+   "why": "Works with any web engine, including a custom one. Last commit 2023-01-16, so expect no fixes; small and readable enough to vendor and maintain yourself if adopted.",
+   "tags": [
+    "npc-ai",
+    "steering",
+    "pathfinding",
+    "navmesh",
+    "engine-agnostic"
+   ],
+   "license": "MIT",
+   "stars": 1400,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "tool-three-quarks",
+   "name": "three.quarks",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/Alchemist0823/three.quarks",
+   "description": "Particle and VFX system for three.js (sparks, smoke, trails, magic) with a WYSIWYG editor at quarks.art that exports JSON. WebGPU rendering still on the roadmap. Last commit 2026-05-20.",
+   "verdict": "trial",
+   "verdictNote": "trial for three.js-based games",
+   "why": "Fills a real gap: designed effects without hand-writing shaders. Editor pricing not stated; WebGL only for now.",
+   "tags": [
+    "particles",
+    "vfx",
+    "threejs"
+   ],
+   "license": "MIT",
+   "stars": 1000,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "tool-colyseus",
+   "name": "Colyseus",
+   "kind": "repo",
+   "category": "multiplayer",
+   "url": "https://github.com/colyseus/colyseus",
+   "description": "Authoritative multiplayer framework for Node.js: rooms, matchmaking, reconnection and automatic state sync, with client SDKs for JavaScript, Unity, Godot, Defold and Construct. Pre-1.0; last commit 2026-10-16.",
+   "verdict": "assess",
+   "verdictNote": "assess when a multiplayer game is planned",
+   "why": "MIT and self-hostable, so the cost is the server it runs on; the maintainers' paid Colyseus Cloud (pricing not shown) funds the project. Multiplayer adds hosting, cheating and moderation work: only worth it for a game designed around it.",
+   "tags": [
+    "multiplayer",
+    "matchmaking",
+    "state-sync",
+    "nodejs"
+   ],
+   "license": "MIT",
+   "stars": 7300,
+   "cost": "self-host",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-19",
+   "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "tool-semantic-router",
+   "name": "Semantic Router",
+   "kind": "repo",
+   "category": "llm-routing",
+   "url": "https://github.com/aurelio-labs/semantic-router",
+   "description": "Routes a request to a predefined workflow by embedding similarity instead of asking an LLM to decide; works with local embedding models. Last commit 2026-10-19.",
+   "verdict": "trial",
+   "verdictNote": "trial for intent/route classification",
+   "why": "Replaces an LLM classification call with a near-free embedding lookup; needs good example utterances per route and a fallback when nothing matches.",
+   "tags": [
+    "embeddings",
+    "routing",
+    "fits-8gb"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-routellm",
+   "name": "RouteLLM",
+   "kind": "repo",
+   "category": "llm-routing",
+   "url": "https://github.com/lm-sys/RouteLLM",
+   "description": "Trained routers that send easier prompts to a cheaper model and harder ones to a stronger model.",
+   "verdict": "skip",
+   "verdictNote": "skip: stale",
+   "why": "Last commit 2024-08-10; its routers were trained on an older strong/weak model pair. A rules-plus-fallback tier chain in LiteLLM is simpler and measurable.",
+   "tags": [
+    "stale"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-gptcache",
+   "name": "GPTCache",
+   "kind": "repo",
+   "category": "llm-caching",
+   "url": "https://github.com/zilliztech/GPTCache",
+   "description": "Semantic cache for LLM answers: reuses a stored answer when a new request is similar enough. Last commit 2026-09-22.",
+   "verdict": "assess",
+   "verdictNote": "assess: only for truly repetitive questions",
+   "why": "A wrong 'similar enough' match returns a confidently stale or wrong answer. Use LiteLLM's built-in cache first; add semantic matching only where requests really repeat and freshness rules are clear.",
+   "tags": [
+    "semantic-cache"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-requests-cache",
+   "name": "requests-cache",
+   "kind": "repo",
+   "category": "http-caching",
+   "url": "https://github.com/requests-cache/requests-cache",
+   "description": "Drop-in persistent cache for Python requests with expiry rules per URL. Last commit 2026-10-15.",
+   "verdict": "adopt",
+   "verdictNote": "adopt in Python fetch scripts",
+   "why": "One line stops scripts re-downloading the same public API data; set expiry per source so prices and news stay fresh.",
+   "tags": [
+    "python",
+    "requests"
+   ],
+   "license": "BSD-2-Clause",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-hishel",
+   "name": "Hishel",
+   "kind": "repo",
+   "category": "http-caching",
+   "url": "https://github.com/karpetrosyan/hishel",
+   "description": "HTTP caching and revalidation (ETag/Last-Modified) for the Python httpx client. Last commit 2026-10-05.",
+   "verdict": "assess",
+   "verdictNote": "use only in httpx-based code",
+   "why": "Same job as requests-cache for httpx; pick the one matching the HTTP client a script already uses.",
+   "tags": [
+    "python",
+    "httpx"
+   ],
+   "license": "BSD",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-chonkie",
+   "name": "Chonkie",
+   "kind": "repo",
+   "category": "rag",
+   "url": "https://github.com/feyninc/chonkie",
+   "description": "Lightweight document chunking library (token, sentence, semantic and other chunkers) for retrieval pipelines. Last commit 2026-08-26.",
+   "verdict": "trial",
+   "verdictNote": "trial when building document retrieval",
+   "why": "Sending the relevant chunks instead of whole documents is one of the largest token savings; only matters once there is a document-search step.",
+   "tags": [
+    "chunking",
+    "python"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-flagembedding-bge",
+   "name": "FlagEmbedding (BGE)",
+   "kind": "repo",
+   "category": "rag",
+   "url": "https://github.com/FlagOpen/FlagEmbedding",
+   "description": "BAAI's BGE embedding and reranker models plus training code; rerankers re-score retrieved passages so only the strongest evidence reaches the prompt. Last commit 2026-08-24.",
+   "verdict": "trial",
+   "verdictNote": "trial: local reranker for retrieval",
+   "why": "Reranking before generation cuts prompt size and improves accuracy. Check each model card's licence and VRAM; the smaller rerankers are expected to fit an 8 GB GPU (not measured).",
+   "tags": [
+    "embeddings",
+    "reranker",
+    "local"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-llmlingua",
+   "name": "LLMLingua",
+   "kind": "repo",
+   "category": "prompt-compression",
+   "url": "https://github.com/microsoft/LLMLingua",
+   "description": "Microsoft's prompt compression (LLMLingua, LongLLMLingua, LLMLingua-2) that drops low-information tokens before the model reads them. Last commit 2026-09-10.",
+   "verdict": "assess",
+   "verdictNote": "assess against a golden set first",
+   "why": "Compression can silently drop numbers, negations and conditions. Only keep it where a before/after test on real tasks shows no accuracy loss; fix oversized inputs upstream first.",
+   "tags": [
+    "compression"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-prefect",
+   "name": "Prefect",
+   "kind": "repo",
+   "category": "orchestration",
+   "url": "https://github.com/PrefectHQ/prefect",
+   "description": "Python workflow orchestration with retries, scheduling and task-result caching keyed on inputs; optional paid Prefect Cloud. Last commit 2026-10-19.",
+   "verdict": "skip",
+   "verdictNote": "skip while n8n is the orchestrator",
+   "why": "Good for code-heavy Python pipelines, but duplicates n8n plus a database job queue for a no-code-first setup.",
+   "tags": [
+    "python",
+    "workflows",
+    "caching"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-celery",
+   "name": "Celery",
+   "kind": "repo",
+   "category": "orchestration",
+   "url": "https://github.com/celery/celery",
+   "description": "Distributed Python task queue; needs a broker such as Redis or RabbitMQ. Last commit 2026-10-18.",
+   "verdict": "skip",
+   "verdictNote": "skip for now",
+   "why": "Adds a broker to run and monitor; a database-backed job queue driven by n8n covers the same need at this scale.",
+   "tags": [
+    "python",
+    "task-queue"
+   ],
+   "license": "BSD-3-Clause",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-apscheduler",
+   "name": "APScheduler",
+   "kind": "repo",
+   "category": "orchestration",
+   "url": "https://github.com/agronholm/apscheduler",
+   "description": "In-process Python job scheduler (cron, interval, date triggers). Last commit 2026-10-13.",
+   "verdict": "reference",
+   "verdictNote": "reference",
+   "why": "Handy inside a standalone Python script; n8n schedules already cover workflow timing.",
+   "tags": [
+    "python",
+    "scheduling"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-pybreaker",
+   "name": "PyBreaker",
+   "kind": "repo",
+   "category": "reliability",
+   "url": "https://github.com/danielfm/pybreaker",
+   "description": "Circuit breaker for Python: stops calling a failing service after a threshold, then retries after a cool-off. Last commit 2026-09-25.",
+   "verdict": "reference",
+   "verdictNote": "reference",
+   "why": "The pattern matters (stop runaway retry loops); for model calls LiteLLM's allowed-fails and cooldown settings already do it. Use PyBreaker only for non-LLM services called from Python.",
+   "tags": [
+    "python",
+    "circuit-breaker"
+   ],
+   "license": "BSD",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-portkey-gateway",
+   "name": "Portkey Gateway",
+   "kind": "repo",
+   "category": "llm-gateway",
+   "url": "https://github.com/Portkey-AI/gateway",
+   "description": "Open-source AI gateway with routing, fallbacks, retries and caching across many providers; hosted Portkey adds paid features. Last commit 2026-05-25.",
+   "verdict": "skip",
+   "verdictNote": "skip: one gateway is enough",
+   "why": "Overlaps LiteLLM almost entirely; running two gateways doubles the configuration for no saving.",
+   "tags": [
+    "gateway",
+    "caching",
+    "fallbacks"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-20",
+   "source": "research 2026-10-19: cost-reduction stack"
+  }
+ ]
+}

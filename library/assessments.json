@@ -1,0 +1,540 @@
+{
+ "collection": "assessments",
+ "title": "Deep assessments",
+ "description": "Repos and models evaluated in depth, with warnings and what to steal.",
+ "items": [
+  {
+   "id": "assess-atlas-gic",
+   "name": "atlas-gic",
+   "kind": "repo",
+   "category": "deep-assessment",
+   "url": "https://github.com/chrisworsey55/atlas-gic",
+   "description": "Self-improving trading agent framework: 4 agent layers, evolutionary prompt selection scored by Sharpe ratio, regime-specific cohorts, automatic specialist spawning. Claude Sonnet + FMP/Finnhub/Polygon/FRED.",
+   "verdict": "trial",
+   "verdictNote": "steal the architecture, do not deploy",
+   "why": [
+    "Prompt variants competing on a measured score (same idea as dspy + golden set)",
+    "Automatic retirement of bottom performers, which our Improver only suggests today",
+    "Spawn a specialist when the same gap repeats - a clean trigger rule for the swarm",
+    "Regime-specific cohorts: a prompt tuned in one regime is not tuned for another"
+   ],
+   "tags": [],
+   "license": null,
+   "stars": 2320,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "warnings": [
+     "The +22% over 173 days backtest is self-reported, unaudited, single-window; stars do not validate returns",
+     "Autonomous self-improving loop next to real money is the highest risk category in this brief",
+     "Apply the selection loop to extraction accuracy, listings and content - not to a live account"
+    ],
+    "pushedAt": "2026-09-22",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "assess-threejs-particle-fluids",
+   "name": "threejs-particle-fluids",
+   "kind": "repo",
+   "category": "deep-assessment",
+   "url": "https://github.com/dgreenheck/threejs-particle-fluids",
+   "description": "MIT-licensed GPU particle fluid/cloth/smoke simulation in Three.js using WebGPU and TSL; nine presets, live controls, perf diagnostics; CC0 bundled assets",
+   "verdict": "reference",
+   "verdictNote": "reference only for now",
+   "why": [
+    "Effects technique and preset structure for future visual work"
+   ],
+   "tags": [],
+   "license": "MIT",
+   "stars": 306,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "warnings": [
+     "WebGPU mandatory with NO WebGL fallback - disqualifying for indie browser games that must run on phones and older laptops",
+     "4 stars, 0 forks: unproven",
+     "Revisit when WebGPU support is broad enough that no fallback is needed"
+    ],
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "assess-jev-ecosystem-agents-memory-safety-tools-open-models",
+   "name": "Jev ecosystem (agents/memory/safety/tools/open models)",
+   "kind": "repo",
+   "category": "deep-assessment",
+   "url": "https://github.com/typesafe-ai",
+   "description": "Official TypeSafe org publishes JS and Python SDKs, an agent-skills repo and system-one-adapter-python, each at roughly 15-35 stars. Community projects listed by the user arrived truncated and could not be opened.",
+   "verdict": "adopt",
+   "verdictNote": "one immediate adopt, rest watch",
+   "why": [
+    "typesafe-ai/system-one-adapter-python: drop-in TypeSafe client backed by ordinary LLM APIs - design and test the Jev gate against the golden set using Haiku BEFORE buying a key or adding a sixth vendor"
+   ],
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "warnings": [
+     "Jev launched 2026-09-15; every project here is at most two weeks old",
+     "Memory/compaction projects overlap decisions already made (Supabase canonical, one memory layer)",
+     "Guard project overlaps our accuracy guard",
+     "Open-model clones matter only if Jev pricing or access changes",
+     "jev-trader carries the same live-money warning as atlas-gic",
+     "Community links unverified - treat awesome-lists as a map of attempts, not recommendations"
+    ]
+   }
+  },
+  {
+   "id": "assess-unimate-articulated-motion-generation",
+   "name": "UniMate (articulated motion generation)",
+   "kind": "repo",
+   "category": "deep-assessment",
+   "url": "https://linzhanmou.com/unimate/ ; arXiv 2609.05415 ; code MIT, weights+dataset on HuggingFace",
+   "description": "SIGGRAPH Asia 2026 paper (Princeton/UC Berkeley/MIT). Rigged 3D asset + text prompt -> motion for ARBITRARY skeletons, no per-skeleton fine-tuning. Topology-aware diffusion transformer trained on UniML3D (13,006 sequences, creatures and objects). Zero-shot motion editing, in-betweening, expansion.",
+   "verdict": "assess",
+   "verdictNote": "high potential for indie 3D games, blocked on training-data licensing",
+   "why": [
+    "Targets indie-game's most expensive step: animation, which is the hard part of a weekly release cadence",
+    "Arbitrary skeletons is the key differentiator - most motion models are human-mocap only and cannot animate a dragon, cat or mech",
+    "Zero-shot in-betweening and editing would cut per-asset animation work substantially if clearable"
+   ],
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "warnings": [
+     "MIT code does NOT make the weights commercially clear: training data is Mixamo (Adobe terms) + Objaverse-XL (per-object licences) + Truebones ZOO (commercial licence); repo instructs users to comply with source licences",
+     "Selling a game containing this model's output is an unsettled question - needs a lawyer before any paid release; answer may differ for free portal vs paid Steam",
+     "BLOCKING UNKNOWN: is the target game 2D or 3D? If 2D sprite games, skeletal motion synthesis is irrelevant",
+     "VRAM requirements unstated; diffusion transformer on an 8GB 4060 shared with ComfyUI and VoiceStudio is not a safe assumption",
+     "Export format unverified - value depends on glTF/FBX/BVH importing cleanly into a custom web engine or Godot",
+     "Posted ~2026-09-14, roughly two weeks old; research code, not a production dependency for weekly shipping"
+    ],
+    "unblockedAlternative": "Mixamo's own library is free and explicitly licensed for commercial game use (humanoid). For non-humanoid, hand-authored Blender cycles or procedural animation; a small reusable cycle library beats an unclearable research model for a weekly cadence."
+   }
+  },
+  {
+   "id": "assess-aeris-10-plfm-radar",
+   "name": "AERIS-10 (PLFM_RADAR)",
+   "kind": "repo",
+   "category": "hardware",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "description": "Open-source 10.5 GHz PLFM phased array radar; 3 km and 20 km variants; +/-45 deg electronic beam steering, 360 deg mechanical scan; Xilinx XC7A50T FPGA + STM32F746; Python GUI with maps; GPS/IMU. Alpha / work in progress.",
+   "verdict": "reference",
+   "verdictNote": "reference only - do not build",
+   "why": [
+    "Requires custom multi-layer RF PCBs at 10.5 GHz vs current off-the-shelf ESP32/nRF52840 modules",
+    "Requires VHDL/Verilog FPGA work; user prefers no-code and has negligible coding experience",
+    "Requires VNA and spectrum analyser past 10 GHz; thousands in parts plus test gear",
+    "25.4k stars against 348 commits and Alpha badge: viral ahead of maturity, designs unproven"
+   ],
+   "tags": [],
+   "license": "CERN-OHL-P (hardware) + MIT (software)",
+   "stars": 26953,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "legalBlockers": [
+     "Transmitting at 10.5 GHz with PAs at km range is not licence-exempt in Canada; verify with ISED licence-exempt standards; amateur licence is the only realistic hobby route",
+     "Radar is dual-use; a 20 km phased array may fall under Canada's Export Control List, restricting kit sales, board shipping and cross-border design-file sharing"
+    ],
+    "patternsToSteal": [
+     "CERN-OHL-P (hardware) + MIT (software) licence split - copy for the LoRa find-my-car release",
+     "Two-tier product ladder (short-range / long-range from one architecture) as the kit pricing model",
+     "Python GUI with map integration - reusable for the find-my-car tracker UI",
+     "GPS + IMU fusion pattern - same problem the tracker solves",
+     "Open-hardware repo structure: docs layout, contribution guidelines, status badges"
+    ],
+    "shippableAlternative": {
+     "name": "Seeed MR60BHA2 60 GHz mmWave sensor",
+     "url": "https://www.seeedstudio.com/MR60BHA2-60GHz-mmWave-Sensor-Breathing-and-Heartbeat-Module-p-5945.html",
+     "esphome": "https://esphome.io/components/seeed_mr60bha2/",
+     "why": "Certified module paired with XIAO ESP32C6, maintained ESPHome component, no RF design needed; upgrades the DFRobot baby camera into a contactless breathing-and-presence monitor inside existing ESP32 skills and budget",
+     "caution": "Keep wording descriptive; a movement and breathing-rate sensor is not a medical device and must not be sold as one"
+    },
+    "pushedAt": "2026-10-14",
+    "checkedAt": "2026-10-15"
+   }
+  },
+  {
+   "id": "assess-jev-system-one",
+   "name": "Jev (TypeSafe AI), launched 2026-09-15",
+   "kind": "model",
+   "category": "decision-model",
+   "url": "https://api.typesafe.ai",
+   "description": "System One model: typed, calibrated decisions; generates no text",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "'Cannot hallucinate' means schema-constrained only; it can still pick the wrong option Vendor benchmark 67.8% vs Opus 5 73.1%, self-run and unreproduced Adds a sixth vendor; wire it behind LiteLLM as a gate on one workflow and compare against the golden set",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "model": "Jev (TypeSafe AI), launched 2026-09-15",
+    "category": "System One model: typed, calibrated decisions; generates no text",
+    "primitives": [
+     "Choice (pick from up to 255 options)",
+     "Score (position on a scale)",
+     "Noul (calibrated yes/no probability)"
+    ],
+    "api": {
+     "endpoint": "POST https://api.typesafe.ai/v1/systemone",
+     "model_alias": "jev-latest",
+     "price": "$0.042 per M input tokens; output free",
+     "latency": "70-500 ms vendor-reported",
+     "limits": "32k tokens/request, 1200 req/min, early access"
+    },
+    "availableVia": [
+     "direct API",
+     "Vercel AI Gateway (from 2026-09-16)",
+     "MotherDuck prompt_jev",
+     "open-weights clone (OpenJev)"
+    ],
+    "replacesInOurStack": [
+     "classification, routing, scoring, tagging currently sent to Qwen or Haiku",
+     "first-pass compliance gate before Sonnet review"
+    ],
+    "doesNotReplace": [
+     "text generation, drafting, code, research (Claude)",
+     "field and number extraction (returns no strings)",
+     "accuracy guard arithmetic and hard limits (stay in code)"
+    ],
+    "economics": {
+     "classificationCall": "~2k in / 50 out: ~$0.0023 Haiku vs ~$0.00008 Jev (~25x)",
+     "batching": "TypeSafe cookbook: 13 questions in one call = 12.2x cheaper, 10x faster than sequential",
+     "realSaving": "Tier 1 is already free local Qwen; the win is gating Sonnet review — roughly 80% less review spend, about $10-40/mo at full volume",
+     "status": "estimate; measure in model_calls before trusting"
+    },
+    "caveats": [
+     "'Cannot hallucinate' means schema-constrained only; it can still pick the wrong option",
+     "Vendor benchmark 67.8% vs Opus 5 73.1%, self-run and unreproduced",
+     "Adds a sixth vendor; wire it behind LiteLLM as a gate on one workflow and compare against the golden set"
+    ],
+    "promptScreenshotNote": "The circulating prompt is partly advertising for agenkit.xyz, a paid subscription product; Jev works without it. Its autonomous live-trading premise is a separate risk category — paper-trade first and keep it out of a finance-education brand."
+   }
+  },
+  {
+   "id": "assess-rsigame",
+   "name": "RSIGame",
+   "kind": "repo",
+   "category": "deep-assessment",
+   "url": "https://github.com/WenyiWU0111/RSIGame",
+   "description": "Paper arXiv 2609.39045 (Sept 30 2026) + Apache-2.0 repo (28k lines Python). Loop per round: Explore (agent plays the built game, records logs/frames) -> Diagnose (one objective with most headroom) -> Edit (repair agent) -> Verify (independent agent replays; did it land, did anything regress). Outer 'Global Quality Monitor' keeps the best checkpoint and stops after K=3 checkpoints with no new champion. Evolving checklist of what the task asked for. Targets Godot 4 and Phaser. Second half: distils successful sessions into a LoRA on Qwen3.8-27B.",
+   "verdict": "reference",
+   "verdictNote": "reference, not adopt-to-run. Steal five patterns now; revisit the code if weights/corpus are released and indie web-game games run on Godot.",
+   "why": "Champion + saturation stop: keep the best build seen; stop after 3 checkpoints with no improvement. Apply to every swarm self-improve loop (Printables, finance-education shorts, indie web-game polish) - caps token spend and prevents late rounds undoing earlier gains Independent verifier: the agent that checks a change is not the one that made it, and must test for regressions, not just 'did it work' 'Silence does not write' checklist: an item not observed this round keeps its status; only evidence moves it. Fixes oscillating scores from noisy LLM judges (they measured 10% of items flipping between readings of the same trace) One objective per round: diagnose the single place with most headroom, edit against that only Cost metering through one loopback proxy that logs every call (prompt/completion/cached/reasoning tokens, dollars). A LiteLLM router with a cost-logging table already does the same; confirm cached and reasoning tokens are captured Hygiene to copy into Claude Code handoff: 'rsigame check' preflight before a run; test that scans the repo for secrets/personal paths; test that resolves every import including those inside functions; 3-layer config (defaults -> experiment -> env)",
+   "tags": [],
+   "license": null,
+   "stars": 6,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-04",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Numbers are the authors' own, on their own benchmark (GameCraft-Bench, 140 tasks), scored by an LLM judge; no independent reproduction yet. Repo has 6 stars and is 2 days old",
+     "Headline 'Qwen3.8-27B beats GPT-5.5 one-shot, 11x fewer generation tokens' needs 4x H100 80GB training and is about generation tokens after fine-tuning, not total loop cost. Not reproducible on an an 8 GB GPU",
+     "Weights, supervised corpus and base games are 'coming soon' pending the authors' company review; only table artefacts are published",
+     "`rsigame develop <game>` only accepts names from the benchmark's tasks/ folder (141 tasks). Running it on an existing game means writing them up as benchmark tasks (spec, base project, scripted demo inputs) - unverified how much work",
+     "Needs Godot 4 (or Node + OpenGame for Phaser) and an OpenRouter key; indie web-game in-house a custom web game engine is not supported without writing an adapter (the authors say the engine-specific part is ~900 of 48k lines)",
+     "No cost-per-game figure published. Their runs were 30-64 rounds with up to 1800 s repair budgets; run one game with a hard spend cap before committing",
+     "Code quality: strong design documentation and tests of the key logic, but declared Python >=3.11 while project_map.py uses 3.12-only f-string syntax (fails to compile on 3.11 and breaks 2 tests); ~6 undefined-name bugs in rarely-run scripts; huge functions (one_round 398 lines, explore 408); only ~1k lines of tests for 28k of source",
+     "Dependency licences checked: GameCraft-Bench Apache-2.0, OpenGame Apache-2.0 (per authors' NOTICE, not independently opened)"
+    ]
+   }
+  },
+  {
+   "id": "assess-rea",
+   "name": "REA",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/morluto/rea",
+   "description": "MIT MCP server and CLI that connects agents to Ghidra, IDA, Hopper, JEB, JADX, Apktool, Binwalk/Unblob, GDB, TShark, mitmdump, adb and a browser: one entry point for binaries, Electron,.NET, Android and websites. 2,633 commits, 40.8k forks. Install: npx rea-agents setup (changes your agent config, keeps backups).",
+   "verdict": "trial",
+   "verdictNote": "CONDITIONAL ADOPT: the one entry point if you do RE at all, installed only inside an isolated VM.",
+   "why": "One MCP instead of five separate bridges Commercial tools (IDA, Hopper, JEB) are optional and must be bought separately",
+   "tags": [],
+   "license": null,
+   "stars": 170700,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Star count on the page is 170.7k but a banner says 110k: popularity figures are inconsistent; neither is an audit",
+     "Runtime capture runs the target with your user permissions: never on a production server or a machine with API keys",
+     "Decompiled code you send to the agent goes to the model provider"
+    ]
+   }
+  },
+  {
+   "id": "assess-ghidra",
+   "name": "Ghidra",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "description": "Free decompiler and disassembler (Apache-2.0); needs JDK 25. No built-in AI; agents reach it through GhidraMCP or REA.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT inside the RE VM (free core tool).",
+   "why": "Audit your own builds and firmware",
+   "tags": [],
+   "license": null,
+   "stars": 85800,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Large Java install; keep in the VM"
+    ]
+   }
+  },
+  {
+   "id": "assess-ghidramcp",
+   "name": "GhidraMCP",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/LaurieWired/GhidraMCP",
+   "description": "Apache-2.0 bridge: Ghidra plugin + HTTP server (localhost:8080) + Python MCP; headless mode via PyGhidra. 64 commits. Needs Ghidra 12.1.4.",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT as the lightweight alternative to REA when you only need binaries.",
+   "why": "Simpler than REA; fewer moving parts",
+   "tags": [],
+   "license": null,
+   "stars": 11200,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "HTTP server has no stated authentication: keep it on localhost"
+    ]
+   }
+  },
+  {
+   "id": "assess-mitmproxy",
+   "name": "mitmproxy",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/mitmproxy/mitmproxy",
+   "description": "MIT interactive HTTPS-intercepting proxy (mitmproxy, mitmdump, mitmweb).",
+   "verdict": "adopt",
+   "verdictNote": "ADOPT now: the most useful tool in this list for you.",
+   "why": "Debug your own Public API MCP and n8n calls See exactly what the IoT devices, games and apps send (privacy claims, hidden telemetry in tools you install) Consulting: authorised traffic reviews",
+   "tags": [],
+   "license": null,
+   "stars": 44900,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Install its certificate only on test devices; remove after",
+     "Do not use it to lift other services' private APIs into the catalogue"
+    ]
+   }
+  },
+  {
+   "id": "assess-imhex",
+   "name": "ImHex",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/WerWolv/ImHex",
+   "description": "Hex editor with a pattern language for binary formats (GPL-2.0, parts LGPL).",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE: useful hex editor; the post's 'with MCP server' is NOT in its README (a third-party jmpnop/imhexMCP exists, unchecked).",
+   "why": "Inspect save files and asset formats of your own games",
+   "tags": [],
+   "license": null,
+   "stars": 54500,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "GPL: fine to use, careful if you ever ship code derived from it"
+    ]
+   }
+  },
+  {
+   "id": "assess-ilspy",
+   "name": "ILSpy",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/icsharpcode/ILSpy",
+   "description": "MIT.NET decompiler (GUI, ilspycmd CLI, PowerShell).",
+   "verdict": "assess",
+   "verdictNote": "CONDITIONAL: only for.NET/Unity builds you own or are authorised to inspect.",
+   "why": "Check what your own Unity/.NET builds expose if indie web-game ever ships one",
+   "tags": [],
+   "license": null,
+   "stars": 26100,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Decompiling other people's games to copy code is infringement"
+    ]
+   }
+  },
+  {
+   "id": "assess-frida",
+   "name": "Frida",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/frida/frida",
+   "description": "Runtime hooking toolkit for desktop and mobile with Python/Node bindings.",
+   "verdict": "skip",
+   "verdictNote": "SKIP for now: powerful but high-risk; revisit for testing your own mobile apps.",
+   "why": "Runtime tests of your own apps",
+   "tags": [],
+   "license": null,
+   "stars": 22000,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Licence not named on the repo page; injection into apps you do not own breaks their terms"
+    ]
+   }
+  },
+  {
+   "id": "assess-android-reverse-engineering-skill",
+   "name": "Android Reverse Engineering skill",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+   "description": "Apache-2.0 Claude Code skill: decompiles APK/XAPK/JAR/AAR with jadx (optional Vineflower/Fernflower) and lists HTTP endpoints, auth headers, tokens and signing schemes. 31 commits. Disclaims misuse.",
+   "verdict": "assess",
+   "verdictNote": "CONDITIONAL: own apps or written client authorisation only.",
+   "why": "Security review of an app you build or a client asks you to test",
+   "tags": [],
+   "license": null,
+   "stars": 7800,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Using it to find another company's private API and then calling it breaks their terms and can break Canadian law; never feed results into the public API catalogue"
+    ]
+   }
+  },
+  {
+   "id": "assess-universal-modder",
+   "name": "Universal Modder",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "description": "MIT skills, CLI and a fal MCP to mod PC games you own: engine playbooks (Unity, Unreal,.NET/XNA, Godot, Source, Bethesda, Minecraft...), fal-generated art/3D/audio, in-game testing, showcase videos. Refuses anti-cheat, DRM and online cheating. 193 commits.",
+   "verdict": "reference",
+   "verdictNote": "REFERENCE: read its engine playbooks to learn how games are structured; modding others' games is not a business line for you.",
+   "why": "Engine knowledge for indie web-game 3D move Possible content idea: 'AI mods a classic' videos, only for games whose EULA allows mods",
+   "tags": [],
+   "license": null,
+   "stars": 7200,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "fal asset generation costs money (price not stated)",
+     "Respect each game's EULA; single-player only"
+    ]
+   }
+  },
+  {
+   "id": "assess-cpp2il",
+   "name": "Cpp2IL",
+   "kind": "repo",
+   "category": "reverse-engineering",
+   "url": "https://github.com/SamboyCoding/Cpp2IL",
+   "description": "MIT, work-in-progress tool that reverses Unity IL2CPP builds back to.NET DLLs for ILSpy.",
+   "verdict": "skip",
+   "verdictNote": "SKIP: WIP and only relevant to Unity games you do not make.",
+   "why": "",
+   "tags": [],
+   "license": null,
+   "stars": 2800,
+   "cost": null,
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: deep assessments",
+   "extra": {
+    "warnings": [
+     "Major rewrite in progress"
+    ]
+   }
+  }
+ ]
+}

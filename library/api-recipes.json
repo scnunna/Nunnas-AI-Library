@@ -1,0 +1,489 @@
+{
+ "collection": "api-recipes",
+ "title": "API recipes",
+ "description": "Combinations of public APIs that make a content product.",
+ "items": [
+  {
+   "id": "combo-rate-cut-radar",
+   "name": "Rate-Cut Radar",
+   "kind": "recipe",
+   "category": "Finance",
+   "url": null,
+   "description": "Daily macro pulse: yields, CPI surprises, CAD/USD move and top market headlines, turned into a 45-second script.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "FRED",
+    "Fed Treasury",
+    "Frankfurter",
+    "Finnhub"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "FRED",
+     "Fed Treasury",
+     "Frankfurter",
+     "Finnhub"
+    ],
+    "monetization": "YouTube Shorts + paid newsletter tier",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-insider-echo",
+   "name": "Insider Echo",
+   "kind": "recipe",
+   "category": "Finance",
+   "url": null,
+   "description": "Flags Form 4 insider buys and congressional trades, then checks price reaction 5 days later.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "SEC EDGAR Data",
+    "CongressInvests",
+    "Polygon"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0–29/mo",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "SEC EDGAR Data",
+     "CongressInvests",
+     "Polygon"
+    ],
+    "monetization": "Paid Telegram/Discord alert channel",
+    "speed": "1 week"
+   }
+  },
+  {
+   "id": "combo-fear-greed-shorts",
+   "name": "Fear & Greed Shorts",
+   "kind": "recipe",
+   "category": "Crypto",
+   "url": null,
+   "description": "Crypto mood gauge + top movers, skips market holidays automatically.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "CoinGecko",
+    "Alternative.me*",
+    "Nager.Date"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "CoinGecko",
+     "Alternative.me*",
+     "Nager.Date"
+    ],
+    "monetization": "Sponsored Shorts, exchange affiliate links",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-patent-pulse",
+   "name": "Patent Pulse",
+   "kind": "recipe",
+   "category": "Research",
+   "url": null,
+   "description": "Finds newly granted patents in a niche and matches them to open-source projects building similar things.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "USPTO",
+    "GitHub",
+    "Wikipedia"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "USPTO",
+     "GitHub",
+     "Wikipedia"
+    ],
+    "monetization": "Invention-scouting reports sold on Gumroad; speaker content",
+    "speed": "1–2 weeks"
+   }
+  },
+  {
+   "id": "combo-holiday-pod",
+   "name": "Holiday Print Calendar",
+   "kind": "recipe",
+   "category": "Commerce",
+   "url": null,
+   "description": "Lists every public holiday per country 60 days out so print-on-demand designs launch before demand peaks.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Nager.Date",
+    "Unsplash",
+    "Etsy"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Nager.Date",
+     "Unsplash",
+     "Etsy"
+    ],
+    "monetization": "Etsy / print-on-demand sales",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-recall-watch",
+   "name": "Recall Watch",
+   "kind": "recipe",
+   "category": "Consumer",
+   "url": null,
+   "description": "Enter a VIN or product; get pinged when a recall is issued.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "NHTSA",
+    "openFDA",
+    "Telegram Bot"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "NHTSA",
+     "openFDA",
+     "Telegram Bot"
+    ],
+    "monetization": "Freemium app, insurance/auto-shop referral fees",
+    "speed": "1–2 weeks"
+   }
+  },
+  {
+   "id": "combo-sky-deals",
+   "name": "Sky Deals Bot",
+   "kind": "recipe",
+   "category": "Travel",
+   "url": null,
+   "description": "Live flight traffic + currency swings surface cheap-destination moments for Canadians.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "OpenSky Network",
+    "Frankfurter",
+    "Telegram Bot"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "OpenSky Network",
+     "Frankfurter",
+     "Telegram Bot"
+    ],
+    "monetization": "Paid Telegram channel, travel affiliate links",
+    "speed": "1 week"
+   }
+  },
+  {
+   "id": "combo-quiz-factory",
+   "name": "Quiz Content Factory",
+   "kind": "recipe",
+   "category": "Content",
+   "url": null,
+   "description": "Auto-generates themed quiz carousels and Shorts with fact-checked answers.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Open Trivia",
+    "Wikipedia",
+    "REST Countries"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Open Trivia",
+     "Wikipedia",
+     "REST Countries"
+    ],
+    "monetization": "Faceless channel ad revenue, classroom packs on TpT",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-grant-scout",
+   "name": "Gov Contract Scout",
+   "kind": "recipe",
+   "category": "B2B",
+   "url": null,
+   "description": "Finds agencies spending on AI/automation and who won past awards.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "USAspending.gov",
+    "Open Government, Canada",
+    "Clearbit Logo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "USAspending.gov",
+     "Open Government, Canada",
+     "Clearbit Logo"
+    ],
+    "monetization": "Consulting lead-gen for your own practice",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-clean-air-kit",
+   "name": "Clean-Air Home Kit",
+   "kind": "recipe",
+   "category": "Hardware",
+   "url": null,
+   "description": "Pairs outdoor air and weather data with a DIY indoor sensor to tell you when to open windows.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "OpenAQ",
+    "IQAir",
+    "Open-Meteo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0 + parts",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "OpenAQ",
+     "IQAir",
+     "Open-Meteo"
+    ],
+    "monetization": "Hardware kit + subscription dashboard",
+    "speed": "2–4 weeks"
+   }
+  },
+  {
+   "id": "combo-pantry-planner",
+   "name": "Pantry-to-Plate",
+   "kind": "recipe",
+   "category": "Consumer",
+   "url": null,
+   "description": "Scan barcodes, get recipes from what you own, push missing items to a cart.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Open Food Facts",
+    "TheMealDB",
+    "Kroger"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Open Food Facts",
+     "TheMealDB",
+     "Kroger"
+    ],
+    "monetization": "Micro-SaaS, grocery affiliate",
+    "speed": "2 weeks"
+   }
+  },
+  {
+   "id": "combo-skills-gap",
+   "name": "Skills Gap Report",
+   "kind": "recipe",
+   "category": "Careers",
+   "url": null,
+   "description": "Monthly report of which tools employers ask for vs. what's trending on GitHub.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Arbeitnow",
+    "Adzuna",
+    "GitHub"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Arbeitnow",
+     "Adzuna",
+     "GitHub"
+    ],
+    "monetization": "Sell to bootcamps, resume-service upsell",
+    "speed": "1 week"
+   }
+  },
+  {
+   "id": "combo-name-forge",
+   "name": "Brand Name Forge",
+   "kind": "recipe",
+   "category": "B2B",
+   "url": null,
+   "description": "Generates brandable names, checks domain collisions, shows competitor logos.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Datamuse",
+    "Domainsdb.info",
+    "Clearbit Logo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Datamuse",
+     "Domainsdb.info",
+     "Clearbit Logo"
+    ],
+    "monetization": "Fiverr naming gig, domain registrar affiliate",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-game-day",
+   "name": "Game-Day Edge",
+   "kind": "recipe",
+   "category": "Sports",
+   "url": null,
+   "description": "Player stats + stadium weather for pre-game content.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "balldontlie",
+    "Open-Meteo",
+    "REST Countries"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "balldontlie",
+     "Open-Meteo",
+     "REST Countries"
+    ],
+    "monetization": "Sports content sponsorships",
+    "speed": "Days"
+   }
+  },
+  {
+   "id": "combo-iss-tonight",
+   "name": "Look Up Tonight",
+   "kind": "recipe",
+   "category": "Science",
+   "url": null,
+   "description": "Tells you when the ISS passes and whether clouds will block it.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "Open Notify",
+    "NASA",
+    "Open-Meteo"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "$0",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "apis": [
+     "Open Notify",
+     "NASA",
+     "Open-Meteo"
+    ],
+    "monetization": "Kids' science newsletter, telescope affiliate",
+    "speed": "Days"
+   }
+  }
+ ]
+}

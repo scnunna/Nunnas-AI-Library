@@ -1,0 +1,37 @@
+name: Build & maintain library
+
+on:
+  push:
+    branches: [main]
+    paths: ["library/**", "scripts/**"]
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC: refresh stars/archived status, rebuild index
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: { group: library, cancel-in-progress: false }
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Refresh GitHub metadata (weekly only)
+        if: github.event_name != 'push'
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: node scripts/maintain.mjs
+      - name: Validate + regenerate index, mindmap, bundle
+        run: node scripts/build.mjs -v
+      - name: Commit generated files
+        run: |
+          git config user.name "library-bot"
+          git config user.email "library-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "index up to date"; exit 0; fi
+          git commit -m "chore: rebuild library index [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,1068 @@
+{
+ "collection": "design-resources",
+ "title": "Design resources",
+ "description": "Template libraries, UI kits and design references.",
+ "items": [
+  {
+   "id": "design-oversight-supply",
+   "name": "Oversight Supply",
+   "kind": "design-resource",
+   "category": "Webflow + Framer (closed builders)",
+   "url": "https://supply.madebyoversight.com/",
+   "description": "192+ Webflow templates, Framer templates and reusable sections by Oversight Studio LLC. Previews are free.",
+   "verdict": "reference",
+   "verdictNote": "free reference only; client work if a client wants Webflow",
+   "why": "192+ Webflow templates, Framer templates and reusable sections by Oversight Studio LLC. Previews are free.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Membership: monthly credits or lifetime",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "blockers": [
+     "Webflow templates only run inside Webflow; code export needs a PAID Webflow plan on top of the membership",
+     "Exported Webflow code is static - CMS and form handling do not travel with it",
+     "Framer export is more limited still",
+     "Our targets are self-contained artifact pages and Vercel; neither accepts a Webflow/Framer template",
+     "Net effect: pay Supply + pay Webflow + still rebuild for our stack, against a $100/mo total budget"
+    ],
+    "useFor": [
+     "Free design-direction reference before designing a page",
+     "Consulting client projects where the client specifically wants Webflow so they can self-edit"
+    ]
+   }
+  },
+  {
+   "id": "design-aceternity-ui",
+   "name": "Aceternity UI",
+   "kind": "design-resource",
+   "category": "React + Tailwind",
+   "url": "https://ui.aceternity.com/",
+   "description": "Animated hero, card and scroll components - the 'expensive-looking' effects, copy-paste into a page we control",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "Animated hero, card and scroll components - the 'expensive-looking' effects, copy-paste into a page we control",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "blockers": [],
+    "useFor": [
+     "Curiosity sites",
+     "finance landing pages",
+     "game pages"
+    ]
+   }
+  },
+  {
+   "id": "design-magic-ui",
+   "name": "Magic UI",
+   "kind": "design-resource",
+   "category": "React + Tailwind",
+   "url": "https://magicui.design/",
+   "description": "Same category as Aceternity, different catalogue",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "Same category as Aceternity, different catalogue",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "blockers": [],
+    "useFor": [
+     "Landing pages",
+     "Product pages"
+    ]
+   }
+  },
+  {
+   "id": "design-react-bits",
+   "name": "React Bits",
+   "kind": "design-resource",
+   "category": "React",
+   "url": "https://reactbits.dev/",
+   "description": "Third animated-component catalogue; between the three, most premium effects are already solved",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "Third animated-component catalogue; between the three, most premium effects are already solved",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "blockers": [],
+    "useFor": [
+     "Landing pages"
+    ]
+   }
+  },
+  {
+   "id": "design-motion-formerly-framer-motion",
+   "name": "Motion (formerly Framer Motion)",
+   "kind": "design-resource",
+   "category": "JS / React",
+   "url": "https://motion.dev/",
+   "description": "The animation engine Framer itself is built on - Framer-quality motion without paying for Framer Re-checked Oct 13: MIT, 33.9k stars; free official MCP (mcp.motion.dev) and free /motion agent skill (npx motion-ai); Motion+ is the paid tier (premium APIs, tutorials, AI Kit).",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "The animation engine Framer itself is built on - Framer-quality motion without paying for Framer Re-checked Oct 13: MIT, 33.9k stars; free official MCP (mcp.motion.dev) and free /motion agent skill (npx motion-ai); Motion+ is the paid tier (premium APIs, tutorials, AI Kit).",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, open source",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: re-check",
+   "extra": {
+    "blockers": []
+   }
+  },
+  {
+   "id": "design-gsap",
+   "name": "GSAP",
+   "kind": "design-resource",
+   "category": "JS",
+   "url": "https://gsap.com/",
+   "description": "Industry-standard timeline animation, now free following the Webflow acquisition Re-checked Oct 13: the current licence allows commercial use but prohibits use in tools that let people build visual animations without code and compete with Webflow. Fine for the pages and videos; do not build a no-code animation builder on it.",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "Industry-standard timeline animation, now free following the Webflow acquisition Re-checked Oct 13: the current licence allows commercial use but prohibits use in tools that let people build visual animations without code and compete with Webflow. Fine for the pages and videos; do not build a no-code animation builder on it.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free; commercial use covered by the standard licence (effective Apr 30, 2025)",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: re-check",
+   "extra": {
+    "blockers": [
+     "Do not build a no-code visual animation tool for others on GSAP",
+     "Vendor the file instead of loading it from a CDN when rendering video (HyperFrames blocks a render when the CDN script fails)"
+    ]
+   }
+  },
+  {
+   "id": "design-lenis",
+   "name": "Lenis",
+   "kind": "design-resource",
+   "category": "JS",
+   "url": "https://lenis.darkroom.engineering/",
+   "description": "Smooth scroll - the single biggest 'feels expensive' upgrade per line of code",
+   "verdict": "adopt",
+   "verdictNote": "adopt",
+   "why": "Smooth scroll - the single biggest 'feels expensive' upgrade per line of code",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-09-17",
+   "source": "money-swarm-brain-2026-09",
+   "extra": {
+    "blockers": [],
+    "useFor": [
+     "Every long-scroll page"
+    ]
+   }
+  },
+  {
+   "id": "design-three-js",
+   "name": "Three.js",
+   "kind": "design-resource",
+   "category": "JS / WebGL",
+   "url": "https://threejs.org/",
+   "description": "3D and WebGL moments Re-checked Oct 13: MIT, 115k stars. Pair with threejs-skills for the agent, and react-three-fiber on React sites.",
+   "verdict": "have",
+   "verdictNote": "already in stack",
+   "why": "3D and WebGL moments Re-checked Oct 13: MIT, 115k stars. Pair with threejs-skills for the agent, and react-three-fiber on React sites.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-15",
+   "source": "research 2026-10: re-check",
+   "extra": {
+    "blockers": [
+     "WebGPU-only libraries like threejs-particle-fluids remain unsuitable for mobile browser games"
+    ]
+   }
+  },
+  {
+   "id": "design-design-md-format-google-designmd-ai",
+   "name": "DESIGN.md format (Google) + designmd.ai",
+   "kind": "design-resource",
+   "category": "Markdown file + CLI (npx @google/design.md)",
+   "url": "https://designmd.ai",
+   "description": "One markdown file per brand: YAML tokens (colours, type, radius, spacing) plus plain-English rationale that coding agents read. The CLI lints it (broken references, WCAG contrast), diffs versions, and exports to Tailwind v3/v4 or W3C tokens. This is the cleanest fix for 'every page you generate looks different': one DESIGN.md per venture.",
+   "verdict": "adopt",
+   "verdictNote": "adopt the FORMAT; use the website only for ideas",
+   "why": "Format is alpha: the spec is under active development and may change designmd.ai is a community upload site: operator not named on the page, no licence stated, 'hundreds' of systems, no count; I could not confirm whether listed systems copy real brands (Stripe, Apple, etc.). Do not ship a look-alike of a real brand designmd.ai MCP needs a free API key for downloads (7 tools, about 2K tokens of context); not tested",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Format: free, Apache-2.0 (github.com/google-labs-code/design.md, 26.3k stars, v0.3.0 Jun 2026, alpha). designmd.ai: free, free API key to download",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Format is alpha: the spec is under active development and may change",
+     "designmd.ai is a community upload site: operator not named on the page, no licence stated, 'hundreds' of systems, no count; I could not confirm whether listed systems copy real brands (Stripe, Apple, etc.). Do not ship a look-alike of a real brand",
+     "designmd.ai MCP needs a free API key for downloads (7 tools, about 2K tokens of context); not tested"
+    ],
+    "useFor": [
+     "One DESIGN.md each for finance-education content, indie web-game, consulting, content studio",
+     "Lint contrast before publishing any page or thumbnail template",
+     "Export tokens to Tailwind for the animated-page kit"
+    ]
+   }
+  },
+  {
+   "id": "design-refero-styles",
+   "name": "Refero Styles",
+   "kind": "design-resource",
+   "category": "Website + MCP (Cursor, Claude, Windsurf)",
+   "url": "https://styles.refero.design",
+   "description": "2,000+ real product styles written as DESIGN.md files (colours, type, spacing, components), added weekly, in beta. Good for picking a visual direction before generating UI.",
+   "verdict": "reference",
+   "verdictNote": "free reference; try the MCP only if the free tier is confirmed",
+   "why": "Beta; terms of use and licence for the style files not stated on the page Styles describe real products: use for direction, never to clone a brand MCP pricing for individuals not found: do not assume free",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to browse (as far as the page shows); MCP free-tier limits NOT found. Integrator pricing is $0.001/request with a $2,000 minimum (business page) and does not apply to you",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Beta; terms of use and licence for the style files not stated on the page",
+     "Styles describe real products: use for direction, never to clone a brand",
+     "MCP pricing for individuals not found: do not assume free"
+    ],
+    "useFor": [
+     "Mood research before a finance-education page redesign",
+     "Starting point for your own DESIGN.md"
+    ]
+   }
+  },
+  {
+   "id": "design-shadcn-ui",
+   "name": "shadcn/ui",
+   "kind": "design-resource",
+   "category": "React + Tailwind (copy into your project)",
+   "url": "https://ui.shadcn.com",
+   "description": "The de facto standard component base; Aceternity, Magic UI, 21st.dev, Motion Primitives and UIAble are all built on or around it. The repo has a skills folder, but I did not read its contents, and I did not verify any MCP server.",
+   "verdict": "adopt",
+   "verdictNote": "adopt as the base for any real app UI (dashboards, Vercel sites); not for self-contained artifacts",
+   "why": "Needs a project with a build step: it does not paste into a single-file artifact The claims about CLI, registry, MCP and skills come from the repo listing, not from docs I read",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT (125k stars, source on GitHub)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Needs a project with a build step: it does not paste into a single-file artifact",
+     "The claims about CLI, registry, MCP and skills come from the repo listing, not from docs I read"
+    ],
+    "useFor": [
+     "finance-education dashboard and Whop-adjacent pages on Vercel",
+     "Sports analytics dashboard (Phase 5)"
+    ]
+   }
+  },
+  {
+   "id": "design-anime-js",
+   "name": "Anime.js",
+   "kind": "design-resource",
+   "category": "JS library (one script tag, no build)",
+   "url": "https://animejs.com",
+   "description": "v4 modular build, 24.5 KB total: timeline, scroll-triggered animation, SVG line drawing, morphing and motion paths, draggable, WAAPI. Works from a single script tag, so it fits the self-contained HTML artifacts better than React-only libraries. Also an option for content studio explainer scenes.",
+   "verdict": "adopt",
+   "verdictNote": "adopt for artifact pages",
+   "why": "Overlaps Motion and GSAP already adopted: pick ONE per page to keep size down I did not run it; the 4.0.0 version and size figures come from its site header",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT (72.5k stars); maintainer Julian Garnier, funded by sponsors",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Overlaps Motion and GSAP already adopted: pick ONE per page to keep size down",
+     "I did not run it; the 4.0.0 version and size figures come from its site header"
+    ],
+    "useFor": [
+     "Curiosity-site motion moments",
+     "Animated SVG diagrams for finance-education concept pages"
+    ]
+   }
+  },
+  {
+   "id": "design-motion-primitives",
+   "name": "Motion Primitives",
+   "kind": "design-resource",
+   "category": "React + Tailwind + Motion",
+   "url": "https://motion-primitives.com",
+   "description": "Ready-made text effects, transitions, carousels, accordions built on the Motion library you already adopted. The site fetch failed in my session, so facts come from the GitHub page.",
+   "verdict": "adopt",
+   "verdictNote": "adopt (small, tidy complement to Motion)",
+   "why": "React and build step needed, not artifact-friendly Site not verified in this session (fetch error); install method read only as 'CLI folder present'",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT (6.2k stars, 155 commits)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "React and build step needed, not artifact-friendly",
+     "Site not verified in this session (fetch error); install method read only as 'CLI folder present'"
+    ],
+    "useFor": [
+     "Animated components in the Vercel kit"
+    ]
+   }
+  },
+  {
+   "id": "design-21st-dev",
+   "name": "21st.dev",
+   "kind": "design-resource",
+   "category": "React + Tailwind, shadcn registry; MCP and CLI",
+   "url": "https://21st.dev",
+   "description": "Community catalogue of components, templates, shaders and shadcn themes by 21st Labs, Inc. Components install by 'copy prompt' into Claude Code or by shadcn CLI command; an MCP (formerly Magic MCP) lets the agent search and install.",
+   "verdict": "adopt",
+   "verdictNote": "adopt the free tier as a catalogue; check each component's licence",
+   "why": "Two installs a day on the free tier No licence stated on the page; every component has its own author, who may sell templates: confirm per component Generate-UI feature burns paid credits; skip it MCP setup details and key requirement not confirmed",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to browse; free tier = 2 component installs per day; membership for unlimited; separate paid AI credits",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Two installs a day on the free tier",
+     "No licence stated on the page; every component has its own author, who may sell templates: confirm per component",
+     "Generate-UI feature burns paid credits; skip it",
+     "MCP setup details and key requirement not confirmed"
+    ],
+    "useFor": [
+     "Finding a polished section to rebuild in your own style"
+    ]
+   }
+  },
+  {
+   "id": "design-uiverse",
+   "name": "Uiverse",
+   "kind": "design-resource",
+   "category": "HTML/CSS, Tailwind, React, Figma copy",
+   "url": "https://uiverse.io",
+   "description": "7,449 community-made elements you copy as plain HTML and CSS: the best match for single-file artifacts and for non-coders.",
+   "verdict": "adopt",
+   "verdictNote": "adopt for artifact pages (buttons, toggles, cards, loaders)",
+   "why": "No stated review process: quality and accessibility vary widely, so check each element Operator shown only as Pixel Galaxies; contributors are anonymous, so MIT is the site's claim about thousands of uploaders Many elements animate constantly: respect reduced-motion before shipping",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free; site states all elements are MIT and free for commercial use (github.com/uiverse-io/galaxy 13.0k stars, MIT)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "No stated review process: quality and accessibility vary widely, so check each element",
+     "Operator shown only as Pixel Galaxies; contributors are anonymous, so MIT is the site's claim about thousands of uploaders",
+     "Many elements animate constantly: respect reduced-motion before shipping"
+    ],
+    "useFor": [
+     "Buttons, loaders, toggles on curiosity sites",
+     "Quick UI for indie web-game web pages"
+    ]
+   }
+  },
+  {
+   "id": "design-css-text-effects",
+   "name": "CSS Text Effects",
+   "kind": "design-resource",
+   "category": "Pure CSS, no JavaScript",
+   "url": "https://text-effects.colorion.co",
+   "description": "99 copy-paste animated text effects by Colorion Tools; stated MIT and fine for commercial use.",
+   "verdict": "adopt",
+   "verdictNote": "adopt (artifact-friendly)",
+   "why": "Some effects use non-standard features (-webkit-box-reflect) and degrade gracefully Animated headlines hurt readability and accessibility if overused; one per page",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT per its FAQ (repo ckissi/colorion-text-effects)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Some effects use non-standard features (-webkit-box-reflect) and degrade gracefully",
+     "Animated headlines hurt readability and accessibility if overused; one per page"
+    ],
+    "useFor": [
+     "Hero headline on the finance-education site",
+     "Titles in Shorts thumbnails if rendered as stills"
+    ]
+   }
+  },
+  {
+   "id": "design-microkit-ui",
+   "name": "MicroKit UI",
+   "kind": "design-resource",
+   "category": "React, CSS and Tailwind (copy-paste, no npm package)",
+   "url": "https://microkit.co",
+   "description": "49 micro-interactions (animated buttons, hover effects, tabs, inputs). Works with Tailwind v4 and Next.js; CSS versions fit artifacts.",
+   "verdict": "adopt",
+   "verdictNote": "adopt with attribution check",
+   "why": "Author says some interactions are adapted from public examples and Webflow exports and asks for an issue if attribution is needed: keep a note of what you use Maintained apparently by one person (Henrique Barone, inferred from social links)",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT; commercial use allowed per FAQ",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Author says some interactions are adapted from public examples and Webflow exports and asks for an issue if attribution is needed: keep a note of what you use",
+     "Maintained apparently by one person (Henrique Barone, inferred from social links)"
+    ],
+    "useFor": [
+     "Polish on forms and buttons in the animated-page kit"
+    ]
+   }
+  },
+  {
+   "id": "design-kinetics",
+   "name": "Kinetics",
+   "kind": "design-resource",
+   "category": "CSS and React; also copy as AI prompt",
+   "url": "https://kinetics.colorion.co",
+   "description": "153 spring-physics interactions rather than fixed-duration easing, which is what makes motion feel natural. Copy as CSS, React or a prompt.",
+   "verdict": "reference",
+   "verdictNote": "reference now; use the CSS only after the repo licence is confirmed",
+   "why": "No licence or terms found on the page or in the repo listing I fetched Very young repo (15 commits)",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to browse; licence not confirmed (repo ckissi/kinetics: 572 stars, 15 commits)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "No licence or terms found on the page or in the repo listing I fetched",
+     "Very young repo (15 commits)"
+    ],
+    "useFor": [
+     "Pattern reference for spring motion; ask Claude to write your own spring CSS from the idea"
+    ]
+   }
+  },
+  {
+   "id": "design-mapcn",
+   "name": "mapcn",
+   "kind": "design-resource",
+   "category": "React + MapLibre GL",
+   "url": "https://mapcn.dev",
+   "description": "Map components (markers, routes, popups) in shadcn style. Useful for sports analytics venues, electronics find-my-car and travel pages.",
+   "verdict": "adopt",
+   "verdictNote": "adopt with a tile-provider fix",
+   "why": "Default basemap is CARTO: the README says COMMERCIAL use needs a CARTO Enterprise licence. Use another MapLibre-compatible provider before monetising Plain OpenStreetMap tiles have their own usage policy and are not meant for heavy traffic Needs a build step",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT (12.2k stars)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Default basemap is CARTO: the README says COMMERCIAL use needs a CARTO Enterprise licence. Use another MapLibre-compatible provider before monetising",
+     "Plain OpenStreetMap tiles have their own usage policy and are not meant for heavy traffic",
+     "Needs a build step"
+    ],
+    "useFor": [
+     "Find-my-car docs site",
+     "Sports analytics venue maps"
+    ]
+   }
+  },
+  {
+   "id": "design-liquid-glass-samasante",
+   "name": "Liquid Glass (samasante)",
+   "kind": "design-resource",
+   "category": "React, zero dependencies",
+   "url": "https://glass.samasante.com",
+   "description": "Apple-style refraction using an SVG displacement map. Real page-bending only works in Chrome and Edge; Safari and Firefox get frost, tint and edge light unless content is copied into the lens.",
+   "verdict": "assess",
+   "verdictNote": "experimental: decorative accents only",
+   "why": "Brand new and tiny; performance and accessibility not documented Effect differs by browser, so a design relying on it breaks on iPhone Overused glass hurts text contrast",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, MIT (574 stars, only 2 commits)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Brand new and tiny; performance and accessibility not documented",
+     "Effect differs by browser, so a design relying on it breaks on iPhone",
+     "Overused glass hurts text contrast"
+    ],
+    "useFor": [
+     "One hero card on a showcase page, nothing essential"
+    ]
+   }
+  },
+  {
+   "id": "design-kitbitz",
+   "name": "Kitbitz",
+   "kind": "design-resource",
+   "category": "SVG/PNG downloads, Figma plugin, read-only MCP",
+   "url": "https://kitbitz.art",
+   "description": "2,000+ hand-drawn illustrations for sites, thumbnails and decks. CC0 means no attribution and commercial use.",
+   "verdict": "adopt",
+   "verdictNote": "adopt for accents; never as the sole art of a product",
+   "why": "Operator not named on the page and I could not confirm the artists owned what they uploaded: CC0 cannot fix that Same free art is used by many people: do not build Printables or KDP products from it alone (Amazon/Etsy want original value) MCP setup and any key requirement not confirmed",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free; CC0 per the site and its Product Hunt/Figma listings",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Operator not named on the page and I could not confirm the artists owned what they uploaded: CC0 cannot fix that",
+     "Same free art is used by many people: do not build Printables or KDP products from it alone (Amazon/Etsy want original value)",
+     "MCP setup and any key requirement not confirmed"
+    ],
+    "useFor": [
+     "Blog and newsletter art, finance-education site accents, indie web-game web pages"
+    ]
+   }
+  },
+  {
+   "id": "design-3dicons",
+   "name": "3dicons",
+   "kind": "design-resource",
+   "category": "PNG, Figma plugin, Blender files",
+   "url": "https://3dicons.co",
+   "description": "Free 3D icon library by Vijay Verma (Overlayz Studio). Page counts disagree (1,500+, 1,440+, 200 icons / 1,400+ renders): read it as roughly 200 designs in many angles and colours.",
+   "verdict": "adopt",
+   "verdictNote": "adopt for thumbnails and site icons",
+   "why": "Counts inconsistent on the site Generic look: many sites use them Pro tier unpriced; ignore",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free, CC0 for the current version; Pro in early access (no price shown)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Counts inconsistent on the site",
+     "Generic look: many sites use them",
+     "Pro tier unpriced; ignore"
+    ],
+    "useFor": [
+     "finance-education thumbnails and landing pages",
+     "content studio cover frames"
+    ]
+   }
+  },
+  {
+   "id": "design-jiro",
+   "name": "Jiro",
+   "kind": "design-resource",
+   "category": "Web library + Chrome extension + MCP (React/Tailwind sections)",
+   "url": "https://jiro.build",
+   "description": "Claims 1,272 design prompts and sections, copy-paste into Bolt, Lovable, v0, Cursor or Claude Code; the MCP adds a section from one sentence.",
+   "verdict": "assess",
+   "verdictNote": "hold: do not buy until price, free tier and client-work terms are read",
+   "why": "Pricing, licence and client-work answers are in FAQ answers I could not see Owner not named on the page; launched by an X user called Tanzil per a testimonial Prompts are cheap to write ourselves with the artifact-design skill and a DESIGN.md Terms unread",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Paid one-time access; amounts NOT shown on the pages I could read. A free filter exists, gate unclear",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Pricing, licence and client-work answers are in FAQ answers I could not see",
+     "Owner not named on the page; launched by an X user called Tanzil per a testimonial",
+     "Prompts are cheap to write ourselves with the artifact-design skill and a DESIGN.md",
+     "Terms unread"
+    ],
+    "useFor": [
+     "Revisit only if the free tier is generous"
+    ]
+   }
+  },
+  {
+   "id": "design-kage",
+   "name": "Kage",
+   "kind": "design-resource",
+   "category": "Web library + MCP (Claude Code, Codex, Cursor)",
+   "url": "https://kage.design",
+   "description": "442 designs, 2,318 components from 244 real products, 17 skills, 9 tools; turns a reference into a prompt for coding agents. Screenshots belong to their owners.",
+   "verdict": "reference",
+   "verdictNote": "free reference; test the MCP once",
+   "why": "Pricing and terms not visible to me; MCP page failed to load Operator not named",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Not stated; Sponsor link only",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Pricing and terms not visible to me; MCP page failed to load",
+     "Operator not named"
+    ],
+    "useFor": [
+     "Pick a pattern before designing a page"
+    ]
+   }
+  },
+  {
+   "id": "design-component-gallery",
+   "name": "Component Gallery",
+   "kind": "design-resource",
+   "category": "Reference website",
+   "url": "https://component.gallery",
+   "description": "60 component types, 95 design systems, 2,671 examples by Iain Bean. Shows how real design systems name and build the same element (tabs, accordion, date picker), which sharpens prompts.",
+   "verdict": "adopt",
+   "verdictNote": "adopt as a reference (not code)",
+   "why": "It links to examples; it does not give licensed code No licence or API stated",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free as far as the site shows; no terms stated",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "It links to examples; it does not give licensed code",
+     "No licence or API stated"
+    ],
+    "useFor": [
+     "Vocabulary and anatomy when briefing an agent"
+    ]
+   }
+  },
+  {
+   "id": "design-minimal-gallery",
+   "name": "Minimal Gallery",
+   "kind": "design-resource",
+   "category": "Reference website",
+   "url": "https://minimal.gallery",
+   "description": "Curated high-end site inspiration since 2013, founded by Piet; 131 pages of sites. Strong for restraint-and-typography taste, which fits the 'premium by restraint' note.",
+   "verdict": "reference",
+   "verdictNote": "free reference",
+   "why": "Other people's designs: take direction, never copy No API or export; no total count stated",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free; weekly email; sponsorship ads; premium templates mentioned, not priced",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Other people's designs: take direction, never copy",
+     "No API or export; no total count stated"
+    ],
+    "useFor": [
+     "Mood board for finance-education premium positioning"
+    ]
+   }
+  },
+  {
+   "id": "design-appshot-gallery",
+   "name": "AppShot Gallery",
+   "kind": "design-resource",
+   "category": "Reference website",
+   "url": "https://appshot.gallery",
+   "description": "Curated mobile app screenshots for App Store optimisation and UI inspiration, part of ogimage.gallery.",
+   "verdict": "reference",
+   "verdictNote": "free reference",
+   "why": "Screenshots belong to the apps; no terms shown Operator not named; count not stated",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free as far as the site shows; support via Buy Me a Coffee",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Screenshots belong to the apps; no terms shown",
+     "Operator not named; count not stated"
+    ],
+    "useFor": [
+     "indie web-game store-page screenshots, Whop/app storefront layouts"
+    ]
+   }
+  },
+  {
+   "id": "design-vibeprompt",
+   "name": "VibePrompt",
+   "kind": "design-resource",
+   "category": "Prompt library (Tailwind output)",
+   "url": "https://vibeprompts.dev",
+   "description": "286 UI prompts across 15 categories. No pricing, licence, owner or quality evidence shown; a prompt for a pricing table is something Claude writes in seconds.",
+   "verdict": "skip",
+   "verdictNote": "skip",
+   "why": "No terms or operator on the page",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Not stated",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "No terms or operator on the page"
+    ],
+    "useFor": []
+   }
+  },
+  {
+   "id": "design-uiable",
+   "name": "UIAble",
+   "kind": "design-resource",
+   "category": "shadcn + Base UI + Tailwind + Motion",
+   "url": "https://uiable.com",
+   "description": "CodedThemes' shadcn design system: 779+ components, 393+ blocks, 6 templates, 3 dashboards. Overlaps what shadcn, Aceternity and Magic UI already give you.",
+   "verdict": "skip",
+   "verdictNote": "skip Pro; free tier only if a needed block is missing",
+   "why": "Pro unpriced and outside a a small monthly budget until proven Dashboard templates are exactly the generic look you want to avoid",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Community tier free (MIT); Pro is a one-time payment, launch 70% off, price not shown",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Pro unpriced and outside a a small monthly budget until proven",
+     "Dashboard templates are exactly the generic look you want to avoid"
+    ],
+    "useFor": []
+   }
+  },
+  {
+   "id": "design-gradient-buttons",
+   "name": "Gradient Buttons",
+   "kind": "design-resource",
+   "category": "Plain CSS",
+   "url": "https://gradientbuttons.colorion.co",
+   "description": "Hundreds of gradient button snippets (48 per page, 5 pages).",
+   "verdict": "reference",
+   "verdictNote": "reference only; write your own",
+   "why": "Licence unclear: it is not MIT like the sister sites A gradient button is a few lines of CSS",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to copy; footer 'All rights reserved'; terms not read",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Licence unclear: it is not MIT like the sister sites",
+     "A gradient button is a few lines of CSS"
+    ],
+    "useFor": []
+   }
+  },
+  {
+   "id": "design-circle-loaders",
+   "name": "Circle Loaders",
+   "kind": "design-resource",
+   "category": "24 standalone SVGs with built-in CSS animation",
+   "url": "https://circleloaders.dominikakissi.com",
+   "description": "24 circular loaders by Domi Kissi: single-file SVGs that work in an <img> tag, no JavaScript.",
+   "verdict": "assess",
+   "verdictNote": "use only after licence is confirmed",
+   "why": "Licence not found Tiny value: Uiverse has thousands",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to copy; licence not stated",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-09",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Licence not found",
+     "Tiny value: Uiverse has thousands"
+    ],
+    "useFor": []
+   }
+  },
+  {
+   "id": "design-awwwards",
+   "name": "Awwwards",
+   "kind": "design-resource",
+   "category": "Reference website",
+   "url": "https://www.awwwards.com/websites/",
+   "description": "Award winners (Site of the Day/Month/Year, nominees) with filters by technology (GSAP, Three.js, WebGL, React, Webflow, Framer), category, font and colour. Filtering by GSAP or Three.js shows what the libraries you already adopted can do.",
+   "verdict": "reference",
+   "verdictNote": "free reference (top pick)",
+   "why": "Winning sites are other people's work: study the idea, never copy layout or assets Many winners are slow, heavy WebGL sites: judge on a phone, not just a desktop",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to browse winners; courses $12/month (Creative Pass); Pro and submission prices not shown",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Winning sites are other people's work: study the idea, never copy layout or assets",
+     "Many winners are slow, heavy WebGL sites: judge on a phone, not just a desktop"
+    ],
+    "useFor": [
+     "Pick the one 'signature motion moment' for each new site",
+     "Find GSAP/Three.js examples before writing a brief"
+    ]
+   }
+  },
+  {
+   "id": "design-godly-now-redirects-to-recent-recent-design",
+   "name": "Godly (now redirects to Recent, recent.design)",
+   "kind": "design-resource",
+   "category": "Reference website",
+   "url": "https://recent.design/",
+   "description": "godly.website now answers with a 302 redirect to recent.design ('Recent: the best design inspiration on the Internet'), a feed of web, interface, branding and motion work. I could not confirm whether it is a rebrand or a new owner.",
+   "verdict": "reference",
+   "verdictNote": "free reference",
+   "why": "Operator and terms not shown on the page I read No site count stated",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free to browse; no plans shown",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Operator and terms not shown on the page I read",
+     "No site count stated"
+    ],
+    "useFor": [
+     "Mood research alongside Minimal Gallery"
+    ]
+   }
+  },
+  {
+   "id": "design-supahero",
+   "name": "Supahero",
+   "kind": "design-resource",
+   "category": "Reference website (now part of screensdesign.com)",
+   "url": "https://supahero.io",
+   "description": "About 573 curated hero sections (the first screen of a site), the part of a landing page that matters most. Screenshots only; no code stated.",
+   "verdict": "reference",
+   "verdictNote": "free reference for hero sections",
+   "why": "Pricing and terms not visible Heroes from real brands: borrow structure, not look",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Not stated on the page I read",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Pricing and terms not visible",
+     "Heroes from real brands: borrow structure, not look"
+    ],
+    "useFor": [
+     "Choose a hero layout before building each site"
+    ]
+   }
+  },
+  {
+   "id": "design-scrolltide",
+   "name": "Scrolltide",
+   "kind": "design-resource",
+   "category": "Prompt + code library (Next.js, React, Tailwind, Framer Motion, GSAP, Three.js, Lenis, shaders)",
+   "url": "https://scrolltide.co",
+   "description": "Scroll-driven and 3D site templates delivered as prompts to paste into Claude, Cursor or v0. The page counts 119 templates, 46 components, 55 shaders, 18 sections and 14 UI screens (the '600+' figure in your list is not on the page). States personal and client use.",
+   "verdict": "assess",
+   "verdictNote": "hold: try the free templates; buy only for a paying client's 3D/scroll site",
+   "why": "$299 is a large one-off spend for a small monthly budget Same libraries as the free kit (GSAP, Three.js, Lenis, Motion) Terms page not read; operator not named Next.js output needs a build step and Vercel, not a single-file artifact",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "$299 one-time lifetime early access; a free-template section exists (size not stated)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "$299 is a large one-off spend for a small monthly budget",
+     "Same libraries as the free kit (GSAP, Three.js, Lenis, Motion)",
+     "Terms page not read; operator not named",
+     "Next.js output needs a build step and Vercel, not a single-file artifact"
+    ],
+    "useFor": [
+     "Only if a paying client wants an award-style 3D scroll site"
+    ]
+   }
+  },
+  {
+   "id": "design-mobbin",
+   "name": "Mobbin",
+   "kind": "design-resource",
+   "category": "Reference library (app and web UI screens and flows) + MCP on paid plans",
+   "url": "https://mobbin.com",
+   "description": "The largest library of real app screens and user flows. Strong for mobile apps, much less useful for marketing websites. A competitor's blog says its MCP is paid-plan only.",
+   "verdict": "skip",
+   "verdictNote": "skip for websites; one paid month only for indie web-game or app work",
+   "why": "Prices from third-party trackers, not confirmed on mobbin.com MCP claim comes from a competitor's blog AppShot Gallery and Refero cover most of the free need",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "Free tier with limited browsing; Pro about $10/month billed yearly ($120) or $15/month quarterly; Team about $16 per seat (third-party price trackers, June 2026; Mobbin's own pricing page did not load for me)",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-10-13",
+   "source": "research 2026-10: design resources",
+   "extra": {
+    "blockers": [
+     "Prices from third-party trackers, not confirmed on mobbin.com",
+     "MCP claim comes from a competitor's blog",
+     "AppShot Gallery and Refero cover most of the free need"
+    ],
+    "useFor": [
+     "indie web-game mobile store pages or an app UI, one month at a time"
+    ]
+   }
+  }
+ ]
+}
