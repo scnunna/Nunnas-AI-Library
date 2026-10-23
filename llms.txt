@@ -1,6 +1,6 @@
 # Public AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.20+2b96403fbcf6, 2420 items, updated 2026-10-20.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.20+b6a36e6e34f6, 2422 items, updated 2026-10-20.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -31,7 +31,7 @@ How to use this repo as an AI assistant:
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
 - notes: Research notes (58) — Free-text findings from past research batches.
-- apis: Public APIs (1831) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
+- apis: Public APIs (1833) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
 
 ## Adopted (recommended) items

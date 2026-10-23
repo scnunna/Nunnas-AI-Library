@@ -51317,6 +51317,59 @@
     "https": true,
     "cors": "No"
    }
+  },
+  {
+   "id": "api-instagram-trial-reels-via-publishing-api",
+   "name": "Instagram Trial Reels via publishing API",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://developers.facebook.com/docs/instagram-platform/content-publishing/",
+   "description": "Official Instagram Graph API supports trial Reels (shown to non-followers first) via trial_params on the media container; 100 API posts per 24h per account.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Now in Meta's own Content Publishing docs: REELS container + trial_params.graduation_strategy (MANUAL | SS_PERFORMANCE) — usable as a free hook A/B test.",
+   "tags": [
+    "instagram",
+    "reels",
+    "meta"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "wff"
+   ],
+   "verified": true,
+   "asOf": "2026-10-18",
+   "source": "research 2026-10-18: Instagram auto-posting for WFF"
+  },
+  {
+   "id": "api-instagram-api-with-instagram-login",
+   "name": "Instagram API with Instagram Login",
+   "kind": "api",
+   "category": "platform-api",
+   "url": "https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/get-started.md",
+   "description": "Business-type Meta app + instagram_business_basic/instagram_business_content_publish; container -> poll FINISHED -> media_publish; media must be a public URL (resumable local upload is Facebook-Login only).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Simplest official IG auto-posting path: no Facebook Page needed, graph.instagram.com, dashboard 'Generate token' gives a 60-day token refreshable via refresh_access_token; App Review only for Advanced Access (other people's accounts).",
+   "tags": [
+    "instagram",
+    "meta",
+    "publishing",
+    "free"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio",
+    "wff"
+   ],
+   "verified": true,
+   "asOf": "2026-10-18",
+   "source": "research 2026-10-18: Instagram auto-posting for WFF"
   }
  ]
 }

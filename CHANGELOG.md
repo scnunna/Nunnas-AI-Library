@@ -348,3 +348,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-apscheduler -> agent-tools
 - added tool-pybreaker -> agent-tools
 - added tool-portkey-gateway -> agent-tools
+
+## 2026-10-23 — research 2026-10-18: Instagram auto-posting for WFF
+- added api-instagram-trial-reels-via-publishing-api -> apis
+- added api-instagram-api-with-instagram-login -> apis
