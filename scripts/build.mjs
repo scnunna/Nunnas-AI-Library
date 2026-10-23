@@ -165,3 +165,6 @@ writeFileSync(join(ROOT, "llms.txt"), llms);
 
 console.log(`built ${meta.version}: ${all.length} items in ${names.length} collections${warnings.length ? ` (${warnings.length} warnings)` : ""}`);
 if (warnings.length && process.argv.includes("-v")) console.log(warnings.join("\n"));
+
+// ---------- GitHub Pages site (docs/) ----------
+await import("./site.mjs");

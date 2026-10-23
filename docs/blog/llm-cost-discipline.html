@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Free endpoints, gateways and local models: cost discipline for small teams · Public AI Library</title><meta name="description" content="Most AI bills are paying a frontier model to do work a small model could do. A tiered setup with gateways, free endpoints and local models cuts cost without lowering quality where it counts.">
+<meta property="og:title" content="Free endpoints, gateways and local models: cost discipline for small teams · Public AI Library"><meta property="og:description" content="Most AI bills are paying a frontier model to do work a small model could do. A tiered setup with gateways, free endpoints and local models cuts cost without lowering quality where it counts."><meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;600&display=swap"><link rel="canonical" href="https://scnunna.github.io/Public-AI-Library/blog/llm-cost-discipline.html"><style>
+:root{--bg:#F4F6FA;--surface:#FFFFFF;--ink:#0F1630;--mute:#58617E;--line:#DCE1ED;--accent:#3348E8;--accent2:#00876F;--display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--body:"Instrument Sans","Segoe UI",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090D1C;--surface:#111731;--ink:#E8ECFA;--mute:#949DC0;--line:#232C50;--accent:#8C9AFF;--accent2:#3FD8BE;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#090D1C;--surface:#111731;--ink:#E8ECFA;--mute:#949DC0;--line:#232C50;--accent:#8C9AFF;--accent2:#3FD8BE;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--body)}
+.wrap{max-width:740px;margin:auto;padding-block:32px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav{display:flex;gap:16px;flex-wrap:wrap;font:600 14px var(--body);margin-bottom:40px}nav a{color:var(--mute);text-decoration:none}nav a:hover{color:var(--accent)}
+.eyebrow{font:600 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent2)}
+h1{font:800 clamp(32px,6vw,52px)/1.05 var(--display);letter-spacing:-.02em;margin:10px 0 14px;text-wrap:balance}
+.lede{font-size:20px;color:var(--mute);margin:0 0 24px}
+h2,h3{font-family:var(--display);line-height:1.2;text-wrap:balance}h2{font-size:28px;margin:44px 0 10px}h3{font-size:21px;margin:30px 0 8px}
+a{color:var(--accent)}p,li{max-width:68ch}li{margin:6px 0}
+code{font:14px var(--mono);background:var(--surface);border:1px solid var(--line);padding:1px 5px;border-radius:5px}
+pre{background:var(--surface);border:1px solid var(--line);padding:14px;border-radius:10px;overflow-x:auto}
+blockquote{margin:20px 0;padding:4px 18px;border-left:3px solid var(--accent);color:var(--mute)}
+.table{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font:600 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 30px}.tags span{font:600 12px var(--mono);border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--mute)}
+.video{position:relative;aspect-ratio:16/9;max-width:100%;margin:0 0 30px;border-radius:14px;overflow:hidden;background:#000}.video iframe,.video video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cover{width:100%;border-radius:14px;margin:0 0 28px}
+.post-list{display:grid;gap:14px}.post-list a{display:block;padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);text-decoration:none;color:var(--ink)}.post-list a:hover{border-color:var(--accent)}.post-list b{font:700 22px/1.2 var(--display);display:block;margin:6px 0}.post-list p{margin:0;color:var(--mute)}
+footer{margin-top:60px;color:var(--mute);font-size:14px}</style></head><body><div class="wrap">
+<nav><a href="../">← Public AI Library</a><a href="../#explore">Explore</a><a href="../#trending">Trending</a><a href="./">All articles</a></nav>
+<div class="eyebrow">2026-10-23 · 1 min read</div><h1>Free endpoints, gateways and local models: cost discipline for small teams</h1><p class="lede">Most AI bills are paying a frontier model to do work a small model could do. A tiered setup with gateways, free endpoints and local models cuts cost without lowering quality where it counts.</p>
+<div class="tags"><span>llm</span><span>cost</span><span>infrastructure</span></div>
+
+<p>Small teams usually start by sending every request to the best model available. That works until the invoice arrives. The fix is to route each task to the cheapest model that does it well.</p>
+<h3 id="three-tiers">Three tiers</h3>
+<div class="table"><table><thead><tr><th>Tier</th><th>Use it for</th><th>Examples in the library</th></tr></thead><tbody><tr><td>Local</td><td>tagging, summarising, drafts, private data</td><td><a href="../?q=ollama#explore">Ollama</a>, <a href="https://github.com/open-webui/open-webui" target="_blank" rel="noopener">Open WebUI</a></td></tr><tr><td>Free or cheap hosted</td><td>prototypes, batch jobs, fallbacks</td><td><a href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noopener">freellmapi</a>, <a href="../?q=gateway#explore">gateways</a></td></tr><tr><td>Frontier</td><td>reasoning, customer-facing writing, code changes</td><td>paid APIs</td></tr></tbody></table></div>
+<p>A <strong>gateway</strong> sits in front of all three. Your code calls one endpoint; the gateway picks the model, retries on failure and records the cost.</p>
+<h3 id="cut-tokens-before-you-cut-models">Cut tokens before you cut models</h3>
+<ul><li><strong>Shrink tool output.</strong> Agents waste most of their context reading logs and tool results. Tools like <a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener">context-mode</a> sandbox that output and pass only what matters.</li><li><strong>Cache repeated prompts.</strong> System prompts and reference documents rarely change, and caching them is often the single biggest saving (<a href="../?q=caching#explore">search: caching</a>).</li><li><strong>Run fewer agents.</strong> A swarm of ten agents is rarely ten times better than one good agent with a clear plan. Start with one and add more only when you can measure the gain.</li></ul>
+<h3 id="watch-the-hidden-costs">Watch the hidden costs</h3>
+<p>Free endpoints change limits without notice, and some log your prompts. Keep private data on the local tier, keep a paid fallback for anything customer-facing, and track spend per feature, not just per month.</p>
+<footer>Public AI Library · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a></footer></div></body></html>

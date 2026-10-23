@@ -1,0 +1,883 @@
+<title>Public AI Library</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Search 2,400+ AI tools, MCP servers, Claude skills and public APIs, each with a verdict, grouped by use case, plus the top trending GitHub repos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: an "observatory" over the catalog. A live star map of every item clustered by use case opens the page;
+   below it, a trending rail, a faceted explorer, use-case atlas, and field-notes blog. Cobalt = action, teal = signal. */
+:root{
+  --bg:#F4F6FA; --bg2:#EAEEF7; --surface:#FFFFFF; --ink:#0F1630; --mute:#58617E; --line:#DCE1ED;
+  --accent:#3348E8; --accent-ink:#FFFFFF; --accent2:#00876F; --glow:rgba(51,72,232,.16);
+  --adopt:#1E8A4C; --have:#5B8C12; --trial:#1F6FD1; --assess:#C46A00; --reference:#6B46D6; --skip:#C2353A; --none:#8A92AD;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:14px; --row:92px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#090D1C; --bg2:#0D1328; --surface:#111731; --ink:#E8ECFA; --mute:#949DC0; --line:#232C50;
+  --accent:#8C9AFF; --accent-ink:#0A0F24; --accent2:#3FD8BE; --glow:rgba(140,154,255,.18);
+  --adopt:#4CC983; --have:#9BD34C; --trial:#5EA8FF; --assess:#FFAE45; --reference:#A88BFF; --skip:#FF6B70; --none:#6F7898;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#090D1C; --bg2:#0D1328; --surface:#111731; --ink:#E8ECFA; --mute:#949DC0; --line:#232C50;
+  --accent:#8C9AFF; --accent-ink:#0A0F24; --accent2:#3FD8BE; --glow:rgba(140,154,255,.18);
+  --adopt:#4CC983; --have:#9BD34C; --trial:#5EA8FF; --assess:#FFAE45; --reference:#A88BFF; --skip:#FF6B70; --none:#6F7898;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1240px;margin:0 auto}
+.mono{font-family:var(--mono)}
+.eyebrow{font:600 12px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--accent2)}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h2{font-size:clamp(28px,4vw,40px);font-weight:750;letter-spacing:-.02em;line-height:1.05}
+.sec{padding-block:72px 8px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:24px}
+.sec-head p{margin:8px 0 0;color:var(--mute);max-width:62ch}
+
+/* ---------- top bar ---------- */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:18px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font:750 17px var(--display);text-decoration:none;color:var(--ink);white-space:nowrap}
+.brand i{width:22px;height:22px;border-radius:7px;background:conic-gradient(from 200deg,var(--accent),var(--accent2),var(--accent));display:inline-block;box-shadow:0 0 0 3px var(--glow)}
+.top nav{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none;min-width:0}
+.top nav a{padding:7px 12px;border-radius:99px;text-decoration:none;color:var(--mute);font-weight:600;font-size:14px;white-space:nowrap}
+.top nav a:hover,.top nav a.on{color:var(--ink);background:var(--bg2)}
+.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:99px;width:36px;height:36px;display:grid;place-items:center;cursor:pointer;flex:none}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(1200px 500px at 70% -10%,var(--glow),transparent 70%),var(--bg)}
+#sky{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:28px;padding-block:64px 56px;pointer-events:none}
+.hero .copy{pointer-events:auto;min-width:0}
+.hero h1{font-size:clamp(44px,7.4vw,92px);font-weight:800;line-height:.92;letter-spacing:-.035em;margin:14px 0 18px}
+.hero h1 span{background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lede{font-size:clamp(17px,1.6vw,20px);color:var(--mute);max-width:46ch;margin:0 0 26px}
+.bigsearch{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:6px 6px 6px 16px;box-shadow:0 18px 50px -24px var(--glow),0 2px 0 var(--line);max-width:560px}
+.bigsearch input{flex:1;min-width:0;border:0;background:transparent;font-size:17px;padding:10px 0;outline:none}
+.bigsearch kbd{font:600 12px var(--mono);color:var(--mute);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+.btn{border:0;border-radius:11px;padding:11px 16px;font-weight:650;cursor:pointer;background:var(--accent);color:var(--accent-ink);white-space:nowrap}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.quick button{border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 70%,transparent);border-radius:99px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer;color:var(--mute)}
+.quick button:hover{color:var(--ink);border-color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:34px;max-width:560px}
+.stat b{display:block;font:750 clamp(24px,3vw,32px)/1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--mute)}
+.skylegend{align-self:end;justify-self:end;pointer-events:auto;display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:420px}
+.skylegend button{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 78%,transparent);backdrop-filter:blur(6px);border-radius:99px;padding:5px 10px;font-size:12px;font-weight:600;cursor:pointer;color:var(--ink)}
+.skylegend button i{width:8px;height:8px;border-radius:50%}
+.skylegend button.hot{border-color:var(--ink)}
+.skytip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px;box-shadow:0 10px 30px -10px rgba(0,0,0,.3);max-width:260px;z-index:3}
+.skytip b{display:block;font-family:var(--display)}
+.skytip span{color:var(--mute);font-size:12px}
+
+/* ---------- trending ---------- */
+.trend-shell{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;align-items:start}
+.tabs{display:inline-flex;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:4px;gap:2px}
+.tabs button{border:0;background:transparent;border-radius:9px;padding:8px 14px;font-weight:650;cursor:pointer;color:var(--mute)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 0 var(--line),0 4px 12px -6px rgba(0,0,0,.2)}
+.trend-list{list-style:none;margin:0;padding:0;max-height:calc(var(--row) * 7);overflow-y:auto;scroll-snap-type:y proximity;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);overscroll-behavior:contain}
+.trend-list li{scroll-snap-align:start;min-height:var(--row);display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);animation:rise .45s both;animation-delay:calc(var(--i) * 40ms)}
+.trend-list li:last-child{border-bottom:0}
+.trend-list li:hover{background:var(--bg2)}
+.rank{font:750 26px/1 var(--display);color:var(--mute);font-variant-numeric:tabular-nums;text-align:center}
+.trend-list li:nth-child(-n+3) .rank{color:var(--accent)}
+.repo{min-width:0}
+.repo a{font-weight:700;text-decoration:none;color:var(--ink);word-break:break-word}
+.repo a:hover{color:var(--accent)}
+.repo a small{color:var(--mute);font-weight:500}
+.repo p{margin:2px 0 0;font-size:13px;color:var(--mute);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.repo .idea{color:var(--ink);opacity:.86}
+.repo .idea::before{content:"Build: ";font:600 11px var(--mono);color:var(--accent2);letter-spacing:.04em;text-transform:uppercase}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font:600 11px var(--mono);border:1px solid var(--line);border-radius:99px;padding:2px 8px;color:var(--mute);white-space:nowrap;background:transparent;cursor:default}
+button.chip{cursor:pointer}button.chip:hover{border-color:var(--accent);color:var(--ink)}
+.chip.lib{border-color:var(--accent2);color:var(--accent2)}
+.nums{text-align:right;font-variant-numeric:tabular-nums;min-width:96px}
+.nums b{display:block;font:700 15px var(--mono);color:var(--accent2)}
+.nums span{font-size:12px;color:var(--mute)}
+.bar{height:4px;border-radius:4px;background:var(--bg2);margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:4px;transform-origin:left;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+.trend-side{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:18px}
+.trend-side h3{font-size:18px;margin-bottom:10px}
+.mix{display:grid;gap:9px}
+.mix div{display:grid;grid-template-columns:minmax(0,1fr) 28px;gap:8px;align-items:center;font-size:13px}
+.mix .track{grid-column:1/-1;height:6px;background:var(--bg2);border-radius:6px;overflow:hidden;margin-top:-4px}
+.mix .track i{display:block;height:100%;border-radius:6px}
+.side-note{font-size:12px;color:var(--mute);margin-top:14px}
+
+/* ---------- explorer ---------- */
+.explorer{display:grid;grid-template-columns:268px minmax(0,1fr);gap:22px;align-items:start}
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 76px);max-height:calc(100vh - 96px);overflow-y:auto;padding-right:4px;scrollbar-width:thin}
+.facet{border-bottom:1px solid var(--line);padding:12px 0}
+.facet>button{all:unset;cursor:pointer;display:flex;justify-content:space-between;width:100%;font:600 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.facet>button::after{content:"−"}.facet.closed>button::after{content:"+"}
+.facet.closed .opts{display:none}
+.opts{display:grid;gap:2px;margin-top:8px}
+.opt{display:flex;align-items:center;gap:8px;padding:5px 6px;border-radius:8px;cursor:pointer;font-size:14px}
+.opt:hover{background:var(--bg2)}
+.opt input{accent-color:var(--accent);margin:0}
+.opt .n{margin-left:auto;font:12px var(--mono);color:var(--mute)}
+.opt.zero{opacity:.45}
+.opt .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.more-opts{all:unset;cursor:pointer;font-size:13px;color:var(--accent);padding:4px 6px}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.searchbox{flex:1 1 260px;display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 12px}
+.searchbox input{flex:1;min-width:0;border:0;background:transparent;padding:11px 0;outline:none}
+.sel{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--mute)}
+.sel select{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 10px;color:var(--ink)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:var(--surface);padding:9px 11px;cursor:pointer;color:var(--mute)}
+.seg button[aria-pressed="true"]{background:var(--bg2);color:var(--ink)}
+.active{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:12px;min-height:28px}
+.active .pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--accent);color:var(--accent);border-radius:99px;padding:3px 6px 3px 11px;font-size:13px;font-weight:600;background:transparent;cursor:pointer}
+.active .pill::after{content:"×";font-size:15px;line-height:1}
+.count{color:var(--mute);font-size:14px;margin-right:6px}
+.count b{color:var(--ink);font-variant-numeric:tabular-nums}
+.group{margin-bottom:26px}
+.group-h{display:flex;align-items:baseline;gap:10px;margin:6px 0 12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 60px);background:var(--bg);padding:8px 0;z-index:4}
+.group-h h3{font-size:20px}
+.group-h span{font:12px var(--mono);color:var(--mute)}
+.group-h i{width:10px;height:10px;border-radius:3px;flex:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.card{position:relative;display:flex;flex-direction:column;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:15px 16px 14px;cursor:pointer;text-align:left;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;animation:rise .4s both;animation-delay:calc(min(var(--i),14) * 22ms);min-width:0}
+.card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 55%,var(--line));box-shadow:0 14px 34px -20px var(--glow)}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.card h4{margin:0;font:700 16px/1.25 var(--display);word-break:break-word}
+.card .meta{font:12px var(--mono);color:var(--mute);word-break:break-word}
+.card p{margin:0;font-size:13.5px;color:var(--mute);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .foot{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;align-items:center}
+.card .foot .stars{margin-left:auto;font:600 12px var(--mono);color:var(--mute)}
+.list .grid{grid-template-columns:1fr}
+.list .card{flex-direction:row;align-items:center;padding:11px 14px;gap:14px}
+.list .card-top{flex:0 0 min(320px,40%);min-width:0}
+.list .card p{-webkit-line-clamp:1;flex:1}
+.list .card .foot{margin:0;flex:none}
+.list .card .meta{display:none}
+.verdict{font:700 10.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;border-radius:6px;padding:3px 7px;white-space:nowrap;color:var(--v);background:color-mix(in srgb,var(--v) 13%,transparent);border:1px solid color-mix(in srgb,var(--v) 35%,transparent)}
+mark{background:color-mix(in srgb,var(--accent2) 26%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.loadmore{display:flex;justify-content:center;margin:18px 0 6px}
+.empty{border:1px dashed var(--line);border-radius:var(--r);padding:40px 20px;text-align:center;color:var(--mute)}
+.filters-toggle{display:none}
+
+/* ---------- use-case atlas ---------- */
+.atlas{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.uc{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:18px;cursor:pointer;text-align:left;display:flex;flex-direction:column;gap:10px;transition:transform .2s,border-color .2s;min-width:0}
+.uc::before{content:"";position:absolute;inset:-40% -40% auto auto;width:180px;height:180px;border-radius:50%;background:var(--c);opacity:.12;filter:blur(10px);transition:transform .5s}
+.uc:hover{transform:translateY(-3px);border-color:var(--c)}
+.uc:hover::before{transform:scale(1.4)}
+.uc h3{font-size:20px;position:relative}
+.uc .n{font:600 12px var(--mono);color:var(--mute);position:relative}
+.uc p{margin:0;font-size:13.5px;color:var(--mute);position:relative}
+.uc ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px;position:relative}
+.uc li{font-size:12px;font-weight:600;border-radius:99px;padding:3px 9px;background:var(--bg2)}
+.combos{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:30px}
+.combo{border:1px solid var(--line);border-radius:var(--r);padding:16px;background:linear-gradient(160deg,var(--surface),var(--bg2));min-width:0}
+.combo h4{margin:0 0 6px;font:700 16px var(--display)}
+.combo p{margin:0;font-size:13.5px;color:var(--mute)}
+.subhead{display:flex;align-items:baseline;gap:12px;margin-top:44px}
+.subhead h3{font-size:24px}
+.subhead span{color:var(--mute);font-size:14px}
+
+/* ---------- blog ---------- */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.post{display:flex;flex-direction:column;gap:10px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:20px;cursor:pointer;text-align:left;transition:transform .2s,border-color .2s;min-width:0}
+.post:hover{transform:translateY(-3px);border-color:var(--accent)}
+.post:first-child{grid-column:span 2;background:radial-gradient(600px 240px at 100% 0,var(--glow),transparent),var(--surface)}
+.post:first-child h3{font-size:30px}
+.post h3{font-size:21px;line-height:1.15}
+.post p{margin:0;color:var(--mute);font-size:14px}
+.post .chips{margin-top:auto}
+
+/* ---------- drawer + reader ---------- */
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;color:var(--ink)}
+dialog::backdrop{background:rgba(6,9,22,.55);backdrop-filter:blur(3px)}
+.drawer{position:fixed;inset:0 0 0 auto;margin:0;height:100%;width:min(520px,100%)}
+.drawer[open]{animation:slide .28s cubic-bezier(.2,.8,.2,1)}
+.panel{height:100%;overflow-y:auto;background:var(--surface);border-left:1px solid var(--line);padding:24px max(22px,env(safe-area-inset-right,0px)) 40px 22px}
+.panel h2{font-size:30px;margin:10px 0 8px}
+.panel .close{position:sticky;top:0;float:right}
+.kv{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 14px;margin:18px 0;font-size:14px}
+.kv dt{font:600 11px var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--mute);padding-top:3px}
+.kv dd{margin:0;word-break:break-word}
+.why{font-size:16px;line-height:1.55;border-left:3px solid var(--accent2);padding:2px 0 2px 14px;margin:14px 0}
+.related{display:grid;gap:8px;margin-top:10px}
+.related button{all:unset;cursor:pointer;display:flex;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:10px;padding:9px 12px;font-size:14px}
+.related button:hover{border-color:var(--accent)}
+.reader{width:min(820px,100%);height:min(92vh,100%);margin:auto}
+.reader[open]{animation:pop .3s cubic-bezier(.2,.8,.2,1)}
+.reader .panel{border:1px solid var(--line);border-radius:18px;padding:28px clamp(18px,4vw,48px) 48px}
+.article{font-size:17px;line-height:1.7}
+.article h1{font-size:clamp(30px,5vw,44px);line-height:1.05;letter-spacing:-.02em;margin:10px 0 12px}
+.article h2{font-size:26px;margin:36px 0 8px}.article h3{font-size:20px;margin:26px 0 6px}
+.article p,.article li{max-width:68ch}
+.article .table{overflow-x:auto}.article table{border-collapse:collapse;width:100%;font-size:15px}.article th,.article td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+.article code{font:14px var(--mono)}
+.article .video{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:12px;overflow:hidden;background:var(--bg2);margin:18px 0}
+.article .video iframe,.article .video video{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+footer.site{border-top:1px solid var(--line);margin-top:80px;padding-block:28px 40px;color:var(--mute);font-size:14px}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes slide{from{transform:translateX(40px);opacity:.4}to{transform:none;opacity:1}}
+@keyframes pop{from{transform:scale(.97);opacity:.4}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+@media (max-width:980px){
+  .hero .wrap{grid-template-columns:1fr}
+  #sky{opacity:.35}
+  .skylegend{justify-self:start;justify-content:flex-start}
+  .trend-shell{grid-template-columns:1fr}
+  .explorer{grid-template-columns:1fr}
+  .rail{position:static;max-height:none;display:none;border:1px solid var(--line);border-radius:var(--r);padding:4px 14px;background:var(--surface)}
+  .rail.show{display:block}
+  .filters-toggle{display:inline-flex}
+  .post:first-child{grid-column:auto}
+}
+@media (max-width:560px){
+  :root{--row:104px}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .trend-list li{grid-template-columns:30px minmax(0,1fr);gap:10px}
+  .trend-list .nums{grid-column:2;text-align:left;display:flex;gap:10px;align-items:baseline}
+  .trend-list .nums .bar{display:none}
+  .rank{font-size:20px}
+  .list .card{flex-direction:column;align-items:stretch}
+  .list .card-top{flex:none}
+  .top nav a{padding:7px 9px}
+  .brand span{display:none}
+  .bigsearch kbd{display:none}
+}
+</style>
+
+<header class="top gut">
+  <div class="wrap">
+    <a class="brand" href="#top"><i aria-hidden="true"></i><span>Public AI Library</span></a>
+    <nav aria-label="Sections">
+      <a href="#trending">Trending</a>
+      <a href="#explore">Explore</a>
+      <a href="#usecases">Use cases</a>
+      <a href="#blog">Articles</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="skytip" id="skytip" hidden></div>
+  <div class="wrap gut">
+    <div class="copy">
+      <div class="eyebrow" id="heroEyebrow">Open catalog · updated weekly</div>
+      <h1>Every AI tool worth knowing, <span>with a verdict.</span></h1>
+      <p class="lede">APIs, MCP servers, Claude skills, agent frameworks and content tools, sorted by what they help you do. Each entry tells you whether to adopt, trial or skip it, and why.</p>
+      <form class="bigsearch" id="heroSearch" role="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="heroQ" type="search" placeholder="Search tools, use cases, tags…" autocomplete="off" aria-label="Search the library">
+        <kbd>/</kbd>
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <div class="quick" id="quick"></div>
+      <div class="stats" id="stats">
+        <div class="stat"><b data-count="items">0</b><span>items catalogued</span></div>
+        <div class="stat"><b data-count="curated">0</b><span>curated with a verdict</span></div>
+        <div class="stat"><b data-count="adopt">0</b><span>marked adopt</span></div>
+        <div class="stat"><b data-count="apis">0</b><span>public APIs</span></div>
+      </div>
+    </div>
+    <div class="skylegend" id="skylegend" aria-label="Use cases on the map"></div>
+  </div>
+</section>
+
+<main>
+  <section class="sec gut" id="trending">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Top 20 on GitHub</div>
+          <h2>Trending repos to build with</h2>
+          <p>The fastest-rising open-source repos, each with a build idea and its use case. Repos already in the library are marked.</p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Trending period">
+          <button role="tab" id="tab-weekly" aria-selected="true" data-period="weekly">Weekly</button>
+          <button role="tab" id="tab-monthly" aria-selected="false" data-period="monthly">Monthly</button>
+          <button role="tab" id="tab-alltime" aria-selected="false" data-period="alltime">All time</button>
+        </div>
+      </div>
+      <div class="trend-shell">
+        <ol class="trend-list" id="trendList" role="tabpanel" aria-labelledby="tab-weekly"></ol>
+        <aside class="trend-side">
+          <h3>What's rising</h3>
+          <div class="mix" id="trendMix"></div>
+          <p class="side-note" id="trendNote"></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec gut" id="explore">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Explore</div>
+          <h2>Search, filter and group the whole library</h2>
+          <p>Narrow by use case, verdict, type or audience. Group the results to compare options side by side, then open any entry for the full verdict.</p>
+        </div>
+      </div>
+      <div class="explorer">
+        <aside class="rail" id="rail" aria-label="Filters"></aside>
+        <div style="min-width:0">
+          <div class="toolbar">
+            <button class="btn ghost filters-toggle" id="filtersBtn" type="button">Filters</button>
+            <label class="searchbox"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Search name, description, why, tags…" autocomplete="off" aria-label="Search"></label>
+            <label class="sel">Group<select id="group">
+              <option value="usecase">Use case</option><option value="collection">Collection</option><option value="category">Category</option>
+              <option value="verdict">Verdict</option><option value="kind">Type</option><option value="audience">Built for</option><option value="none">No grouping</option>
+            </select></label>
+            <label class="sel">Sort<select id="sort">
+              <option value="best">Best match</option><option value="verdict">Verdict</option><option value="name">Name A–Z</option>
+              <option value="stars">GitHub stars</option><option value="recent">Recently added</option>
+            </select></label>
+            <div class="seg" role="group" aria-label="Layout">
+              <button type="button" id="viewGrid" aria-pressed="true" title="Cards">▦</button>
+              <button type="button" id="viewList" aria-pressed="false" title="List">☰</button>
+            </div>
+          </div>
+          <div class="active" id="active"></div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec gut" id="usecases">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Use-case atlas</div>
+          <h2>Start from the job, not the tool</h2>
+          <p>Every entry is mapped to the jobs it helps with. Pick one to see its tools ranked by verdict, or start from a proven combination below.</p>
+        </div>
+      </div>
+      <div class="atlas" id="atlas"></div>
+      <div class="subhead"><h3>Proven combinations</h3><span id="comboCount"></span></div>
+      <div class="combos" id="combos"></div>
+    </div>
+  </section>
+
+  <section class="sec gut" id="blog">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <div class="eyebrow">Field notes</div>
+          <h2>Use cases, combinations and cross-industry lessons</h2>
+          <p>How these tools combine to fix real problems for people, companies and industries. Video walkthroughs will be added to articles over time.</p>
+        </div>
+        <a class="btn ghost" href="blog/" id="allPosts">All articles</a>
+      </div>
+      <div class="posts" id="posts"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site gut">
+  <div class="wrap">
+    <span id="footMeta">Public AI Library</span>
+    <span><a href="https://github.com/scnunna/Public-AI-Library" target="_blank" rel="noopener">GitHub</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/CONNECT.md" target="_blank" rel="noopener">Connect it to Claude</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/INDEX.md" target="_blank" rel="noopener">Plain index</a></span>
+  </div>
+</footer>
+
+<dialog class="drawer" id="drawer" aria-label="Item details"><div class="panel" id="drawerBody"></div></dialog>
+<dialog class="reader" id="reader" aria-label="Article"><div class="panel" id="readerBody"></div></dialog>
+
+<script>
+(() => {
+"use strict";
+const RAW = "https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/";
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (n) => n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e4 ? Math.round(n / 1e3) + "k" : n >= 1e3 ? (n / 1e3).toFixed(1) + "k" : String(n);
+const store = { get(k, d) { try { const v = localStorage.getItem("pail:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("pail:" + k, JSON.stringify(v)); } catch {} } };
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// ---------- vocabulary ----------
+const VERDICTS = ["adopt", "have", "trial", "assess", "reference", "skip", "none"];
+const VLABEL = { adopt: "Adopt", have: "In our stack", trial: "Trial", assess: "Assess", reference: "Reference", skip: "Skip", none: "Unrated" };
+const COLLECTION_LABEL = {};
+const AUDIENCE = { "content-studio": "Content creators", "finance-content": "Finance content", wff: "Finance education", games: "Game studios", general: "Everyone" };
+const KIND_LABEL = { api: "Public API", repo: "Repo", tool: "Tool", framework: "Framework", model: "Model", "node-pack": "Node pack", "web-tool": "Web tool", mcp: "MCP server",
+  skill: "Skill", plugin: "Plugin", list: "List", registry: "Registry", "design-resource": "Design resource", capability: "Capability", recipe: "Recipe", rule: "Rule", note: "Note", "api-test": "API test" };
+
+// Use-case taxonomy: first match by score wins as primary; an item can belong to several.
+const UC = [
+  { id: "video", name: "Video & Shorts", c: "#FF5C7A", d: "Generate, edit, caption and render video, from shorts to explainers.",
+    k: ["video", "short", "clip", "remotion", "render", "avatar", "lip", "motion", "animation", "film", "youtube", "montage", "cinemat", "frames", "reel"] },
+  { id: "image", name: "Images & Design", c: "#FF9F1C", d: "Image generation, editing, UI kits and design systems.",
+    k: ["image", "design", "thumbnail", "upscale", "background", "photo", "illustr", "comic", "ui", "figma", "tailwind", "css", "icon", "font", "diffusion", "comfy", "flux", "art", "component"] },
+  { id: "audio", name: "Voice, Music & Audio", c: "#F15BB5", d: "Speech, voice cloning, music, sound effects and transcription.",
+    k: ["tts", "voice", "music", "audio", "sound", "podcast", "caption", "speech", "transcri", "whisper", "lyric", "song", "sfx"] },
+  { id: "3d", name: "3D, Games & Worlds", c: "#9B5DE5", d: "3D assets, game engines, world models and game agents.",
+    k: ["3d", "game", "splat", "world", "unity", "godot", "blender", "mesh", "rig", "multiplayer", "sprite"] },
+  { id: "agents", name: "Agents & Automation", c: "#3A86FF", d: "Agent frameworks, harnesses, swarms and workflow automation.",
+    k: ["agent", "orchestr", "swarm", "framework", "workflow", "harness", "automation", "n8n", "autonom", "multi-agent", "act-execute", "orchestrate"] },
+  { id: "coding", name: "Coding & Dev Tools", c: "#4361EE", d: "Coding agents, SDKs, CLIs, plugins and developer workflow.",
+    k: ["coding", "code", "devtool", "sdk", "cli", "github", "ide", "build-workflow", "engineering", "plugin", "claude-skill", "run-build", "developer", "test"] },
+  { id: "research", name: "Web Research & Data", c: "#00BBF9", d: "Scraping, crawling, browser agents and search.",
+    k: ["scrap", "crawl", "browser", "search", "url", "markdown", "research", "web", "reader", "extract", "social-research"] },
+  { id: "memory", name: "Memory & Knowledge", c: "#00C49A", d: "Agent memory, RAG, vector stores and knowledge graphs.",
+    k: ["memory", "rag", "knowledge", "vector", "context", "graph", "embedding", "database", "storage", "index"] },
+  { id: "llm", name: "Models & LLM Infra", c: "#2EC4B6", d: "Model runners, gateways, routing, caching and cost control.",
+    k: ["llm", "model", "gateway", "routing", "cach", "local-llm", "ollama", "inference", "prompt", "token", "openai", "anthropic", "machine learning", "eval", "observability"] },
+  { id: "publishing", name: "Publishing & Growth", c: "#FEE440", d: "Social posting, scheduling, newsletters, SEO and analytics.",
+    k: ["publish", "social", "schedul", "newsletter", "seo", "analytics", "marketing", "posting", "email", "grow-ship", "ideation", "creator", "stock-media"] },
+  { id: "finance", name: "Finance & Markets", c: "#80ED99", d: "Market data, crypto, currency and finance content.",
+    k: ["finance", "crypto", "stock", "currency", "market", "trading", "bank", "blockchain", "payment", "invest"] },
+  { id: "security", name: "Security & Compliance", c: "#EF476F", d: "Security audits, sandboxes, moderation, legal and platform rules.",
+    k: ["security", "compliance", "moderation", "safety", "privacy", "auth", "rule", "legal", "sandbox", "reverse", "audit", "url safety", "anti-malware", "fraud"] },
+  { id: "business", name: "Business & Productivity", c: "#FFB4A2", d: "Office docs, calendars, CRM, business tools and productivity.",
+    k: ["business", "docs", "office", "spreadsheet", "calendar", "crm", "productivity", "document", "time zone", "jobs", "government", "shopping", "transport"] },
+  { id: "learning", name: "Learning & Discovery", c: "#B8C0FF", d: "Directories, awesome lists, courses and reference notes.",
+    k: ["directory", "list", "registry", "awesome", "note", "course", "tutorial", "learn", "education", "book", "marketplace", "reference", "science"] },
+  { id: "data", name: "Open Data APIs", c: "#A0AEC0", d: "Everything else in the public API catalog: open datasets and fun APIs.",
+    k: [] },
+];
+const UCMAP = Object.fromEntries(UC.map((u) => [u.id, u]));
+
+function classify(it) {
+  const hay = [it.category, it.kind, it.name, it.description, it.why, ...(it.tags || [])].join(" ").toLowerCase();
+  const cat = String(it.category || "").toLowerCase();
+  const scores = [];
+  for (const u of UC) {
+    let s = 0;
+    for (const k of u.k) { if (cat.includes(k)) s += 3; if (hay.includes(k)) s += 1; }
+    if (s) scores.push([u.id, s]);
+  }
+  scores.sort((a, b) => b[1] - a[1]);
+  const ids = scores.filter(([, s]) => s >= 2).slice(0, 3).map(([id]) => id);
+  if (!ids.length && scores.length) ids.push(scores[0][0]);
+  if (!ids.length) ids.push(it.collection === "apis" ? "data" : "learning");
+  return ids;
+}
+
+// ---------- data ----------
+let ITEMS = [], BYID = new Map(), TREND = null, POSTS = [], META = {};
+async function getJSON(path) {
+  try { const r = await fetch(path); if (r.ok) return await r.json(); } catch {}
+  const r = await fetch(RAW + (path.startsWith("data/library") ? "dist/library.json" : "docs/" + path));
+  if (!r.ok) throw new Error(path + " " + r.status);
+  return r.json();
+}
+async function load() {
+  const [lib, trend, blog] = await Promise.all([getJSON("data/library.json"), getJSON("data/trending.json").catch(() => null), getJSON("data/blog.json").catch(() => ({ posts: [] }))]);
+  META = lib.meta || {};
+  for (const [name, c] of Object.entries(lib.collections)) {
+    COLLECTION_LABEL[name] = c.title || name;
+    for (const it of c.items) {
+      const x = { ...it, collection: name, verdict: it.verdict || "none" };
+      x.uc = classify(x);
+      x._hay = [x.name, x.description, x.why, x.verdictNote, x.category, (x.tags || []).join(" "), x.kind, COLLECTION_LABEL[name]].join(" ").toLowerCase();
+      x._name = String(x.name || "").toLowerCase();
+      ITEMS.push(x); BYID.set(x.id, x);
+    }
+  }
+  TREND = trend; POSTS = blog.posts || [];
+}
+
+// ---------- state ----------
+const FACETS = [
+  { id: "uc", label: "Use case", get: (i) => i.uc, name: (v) => UCMAP[v]?.name || v, dot: (v) => UCMAP[v]?.c, order: UC.map((u) => u.id) },
+  { id: "verdict", label: "Verdict", get: (i) => [i.verdict], name: (v) => VLABEL[v] || v, dot: (v) => `var(--${v})`, order: VERDICTS },
+  { id: "collection", label: "Collection", get: (i) => [i.collection], name: (v) => COLLECTION_LABEL[v] || v },
+  { id: "kind", label: "Type", get: (i) => [i.kind || "other"], name: (v) => KIND_LABEL[v] || v },
+  { id: "audience", label: "Built for", get: (i) => (i.relevance && i.relevance.length ? i.relevance : []), name: (v) => AUDIENCE[v] || v },
+  { id: "flags", label: "Details", get: (i) => {
+      const f = []; if (i.verified) f.push("verified"); if (i.url) f.push("link"); if (i.stars) f.push("stars");
+      const t = i.tags || []; if (t.includes("no-key")) f.push("no-key"); if (t.includes("https")) f.push("https"); if (i.cors === "Yes" || t.includes("cors")) f.push("cors");
+      return f; },
+    name: (v) => ({ verified: "Verified by us", link: "Has a link", stars: "Has GitHub stars", "no-key": "No API key needed", https: "HTTPS", cors: "CORS-friendly" }[v] || v),
+    order: ["verified", "link", "stars", "no-key", "https", "cors"] },
+];
+const S = {
+  q: "", sel: Object.fromEntries(FACETS.map((f) => [f.id, new Set()])),
+  group: store.get("group", "usecase"), sort: store.get("sort", "best"), view: store.get("view", "grid"),
+  limit: 60, open: store.get("openFacets", { uc: true, verdict: true, collection: true, kind: false, audience: false, flags: false }),
+  expanded: {},
+};
+
+function matches(it, terms) {
+  if (!terms.length) return 1;
+  let s = 0;
+  for (const t of terms) {
+    if (!it._hay.includes(t)) return 0;
+    s += it._name === t ? 30 : it._name.startsWith(t) ? 14 : it._name.includes(t) ? 8 : 2;
+  }
+  return s;
+}
+function passFacets(it, skip) {
+  for (const f of FACETS) {
+    if (f.id === skip) continue;
+    const sel = S.sel[f.id]; if (!sel.size) continue;
+    const vals = f.get(it);
+    if (f.id === "flags") { for (const v of sel) if (!vals.includes(v)) return false; }
+    else if (!vals.some((v) => sel.has(v))) return false;
+  }
+  return true;
+}
+const VRANK = Object.fromEntries(VERDICTS.map((v, i) => [v, i]));
+function compute() {
+  const terms = S.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const scored = [];
+  for (const it of ITEMS) { const m = matches(it, terms); if (m && passFacets(it)) scored.push([it, m]); }
+  const cmp = {
+    best: (a, b) => b[1] - a[1] || VRANK[a[0].verdict] - VRANK[b[0].verdict] || (b[0].stars || 0) - (a[0].stars || 0) || a[0]._name.localeCompare(b[0]._name),
+    verdict: (a, b) => VRANK[a[0].verdict] - VRANK[b[0].verdict] || a[0]._name.localeCompare(b[0]._name),
+    name: (a, b) => a[0]._name.localeCompare(b[0]._name),
+    stars: (a, b) => (b[0].stars || 0) - (a[0].stars || 0) || a[0]._name.localeCompare(b[0]._name),
+    recent: (a, b) => String(b[0].asOf || "").localeCompare(String(a[0].asOf || "")) || a[0]._name.localeCompare(b[0]._name),
+  }[S.sort];
+  scored.sort(cmp);
+  return { list: scored.map((x) => x[0]), terms };
+}
+function facetCounts(f, terms) {
+  const counts = new Map();
+  for (const it of ITEMS) {
+    if (!matches(it, terms) || !passFacets(it, f.id === "flags" ? null : f.id)) continue;
+    for (const v of f.get(it)) counts.set(v, (counts.get(v) || 0) + 1);
+  }
+  return counts;
+}
+
+// ---------- render: rail ----------
+function renderRail(terms) {
+  const rail = $("#rail");
+  rail.innerHTML = FACETS.map((f) => {
+    const counts = facetCounts(f, terms);
+    const all = new Set([...counts.keys(), ...S.sel[f.id]]);
+    let vals = [...all];
+    if (f.order) vals.sort((a, b) => (f.order.indexOf(a) + 1 || 99) - (f.order.indexOf(b) + 1 || 99));
+    else vals.sort((a, b) => (counts.get(b) || 0) - (counts.get(a) || 0));
+    const cap = S.expanded[f.id] ? vals.length : 8;
+    const shown = vals.slice(0, cap);
+    const open = S.open[f.id] !== false;
+    return `<div class="facet${open ? "" : " closed"}" data-f="${f.id}"><button type="button" aria-expanded="${open}">${f.label}</button><div class="opts">` +
+      shown.map((v) => {
+        const n = counts.get(v) || 0, on = S.sel[f.id].has(v), id = `f-${f.id}-${String(v).replace(/[^a-z0-9]/gi, "_")}`;
+        const dot = f.dot ? `<i class="dot" style="background:${f.dot(v)}"></i>` : "";
+        return `<label class="opt${n ? "" : " zero"}" for="${id}"><input type="checkbox" id="${id}" data-f="${f.id}" value="${esc(v)}"${on ? " checked" : ""}>${dot}<span>${esc(f.name(v))}</span><span class="n">${n}</span></label>`;
+      }).join("") +
+      (vals.length > 8 ? `<button type="button" class="more-opts" data-more="${f.id}">${S.expanded[f.id] ? "Show fewer" : `Show all ${vals.length}`}</button>` : "") +
+      `</div></div>`;
+  }).join("");
+}
+
+// ---------- render: results ----------
+function hl(text, terms) {
+  let s = esc(text);
+  for (const t of terms) { if (t.length < 2) continue; s = s.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>"); }
+  return s;
+}
+function verdictTag(v) { return `<span class="verdict" style="--v:var(--${v})">${VLABEL[v] || v}</span>`; }
+function card(it, i, terms) {
+  const blurb = it.why || it.description || it.verdictNote || "";
+  const ucs = it.uc.slice(0, 2).map((u) => `<span class="chip" style="border-color:${UCMAP[u].c}66">${esc(UCMAP[u].name)}</span>`).join("");
+  return `<button class="card" type="button" data-id="${esc(it.id)}" style="--i:${i}">
+    <div class="card-top"><div style="min-width:0"><h4>${hl(it.name, terms)}</h4><div class="meta">${esc(COLLECTION_LABEL[it.collection])} · ${esc(it.category || "general")}</div></div>${verdictTag(it.verdict)}</div>
+    <p>${hl(blurb, terms) || "<em>No notes yet.</em>"}</p>
+    <div class="foot">${ucs}${it.stars ? `<span class="stars">★ ${fmt(it.stars)}</span>` : it.cost ? `<span class="stars">${esc(it.cost)}</span>` : ""}</div>
+  </button>`;
+}
+function groupKey(it) {
+  switch (S.group) {
+    case "usecase": return [it.uc[0]];
+    case "collection": return [it.collection];
+    case "category": return [it.category || "general"];
+    case "verdict": return [it.verdict];
+    case "kind": return [it.kind || "other"];
+    case "audience": return it.relevance && it.relevance.length ? [it.relevance[0]] : ["none"];
+    default: return ["all"];
+  }
+}
+function groupLabel(k) {
+  switch (S.group) {
+    case "usecase": return [UCMAP[k]?.name || k, UCMAP[k]?.c];
+    case "collection": return [COLLECTION_LABEL[k] || k];
+    case "verdict": return [VLABEL[k] || k, `var(--${k})`];
+    case "kind": return [KIND_LABEL[k] || k];
+    case "audience": return [AUDIENCE[k] || "Not tagged"];
+    default: return [k];
+  }
+}
+function render() {
+  const { list, terms } = compute();
+  renderRail(terms);
+  // active pills
+  const pills = [];
+  if (S.q) pills.push(`<button class="pill" type="button" data-clear="q">“${esc(S.q)}”</button>`);
+  for (const f of FACETS) for (const v of S.sel[f.id]) pills.push(`<button class="pill" type="button" data-clear="${f.id}" data-v="${esc(v)}">${esc(f.name(v))}</button>`);
+  $("#active").innerHTML = `<span class="count"><b>${list.length.toLocaleString()}</b> of ${ITEMS.length.toLocaleString()} items</span>` + pills.join("") +
+    (pills.length > 1 ? `<button class="pill" type="button" data-clear="all">Clear all</button>` : "");
+  $("#filtersBtn").textContent = "Filters" + (pills.length ? ` (${pills.length})` : "");
+  const res = $("#results");
+  res.className = S.view === "list" ? "list" : "";
+  if (!list.length) { res.innerHTML = `<div class="empty">Nothing matches. Remove a filter or try a broader word, like <b>video</b> or <b>agent</b>.</div>`; return; }
+  const shown = list.slice(0, S.limit);
+  let html = "";
+  if (S.group === "none") html = `<div class="grid">${shown.map((it, i) => card(it, i, terms)).join("")}</div>`;
+  else {
+    const groups = new Map(), totals = new Map();
+    for (const it of list) { const k = groupKey(it)[0]; totals.set(k, (totals.get(k) || 0) + 1); }
+    for (const it of shown) { const k = groupKey(it)[0]; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+    let order = [...groups.keys()];
+    if (S.group === "usecase") order.sort((a, b) => UC.findIndex((u) => u.id === a) - UC.findIndex((u) => u.id === b));
+    if (S.group === "verdict") order.sort((a, b) => VRANK[a] - VRANK[b]);
+    html = order.map((k) => {
+      const [label, color] = groupLabel(k);
+      return `<div class="group"><div class="group-h">${color ? `<i style="background:${color}"></i>` : ""}<h3>${esc(label)}</h3><span>${totals.get(k)} item${totals.get(k) === 1 ? "" : "s"}</span></div>
+        <div class="grid">${groups.get(k).map((it, i) => card(it, i, terms)).join("")}</div></div>`;
+    }).join("");
+  }
+  if (list.length > S.limit) html += `<div class="loadmore"><button class="btn ghost" type="button" id="more">Show ${Math.min(60, list.length - S.limit)} more · ${(list.length - S.limit).toLocaleString()} left</button></div>`;
+  res.innerHTML = html;
+}
+
+// ---------- drawer ----------
+function openItem(id) {
+  const it = BYID.get(id); if (!it) return;
+  const rows = [
+    ["Verdict", verdictTag(it.verdict) + (it.verdictNote ? ` <span style="color:var(--mute)">${esc(it.verdictNote)}</span>` : "")],
+    ["Use cases", it.uc.map((u) => `<button class="chip" type="button" data-uc="${u}" style="border-color:${UCMAP[u].c}">${esc(UCMAP[u].name)}</button>`).join(" ")],
+    ["Collection", esc(COLLECTION_LABEL[it.collection])], ["Category", esc(it.category || "—")], ["Type", esc(KIND_LABEL[it.kind] || it.kind || "—")],
+    it.url && ["Link", `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.url.replace(/^https?:\/\//, ""))}</a>`],
+    it.stars && ["GitHub stars", `★ ${it.stars.toLocaleString()}`], it.license && ["Licence", esc(it.license)], it.cost && ["Cost", esc(it.cost)],
+    it.auth && ["Auth", esc(it.auth)], it.cors && ["CORS", esc(it.cors)],
+    (it.relevance || []).length && ["Built for", it.relevance.map((r) => esc(AUDIENCE[r] || r)).join(", ")],
+    (it.tags || []).length && ["Tags", it.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join(" ")],
+    ["Checked", it.verified ? "Verified against the source page" : "Not yet verified"], it.asOf && ["As of", esc(it.asOf)], ["ID", `<code class="mono">${esc(it.id)}</code>`],
+  ].filter(Boolean);
+  const related = ITEMS.filter((x) => x !== it && x.uc[0] === it.uc[0] && x.verdict !== "none" && x.collection !== "apis")
+    .sort((a, b) => VRANK[a.verdict] - VRANK[b.verdict] || (b.stars || 0) - (a.stars || 0)).slice(0, 6);
+  $("#drawerBody").innerHTML = `<button class="icon-btn close" type="button" data-close aria-label="Close">✕</button>
+    <div class="eyebrow">${esc(COLLECTION_LABEL[it.collection])}</div><h2>${esc(it.name)}</h2>
+    ${it.why ? `<p class="why">${esc(it.why)}</p>` : ""}${it.description && it.description !== it.why ? `<p style="color:var(--mute)">${esc(it.description)}</p>` : ""}
+    <dl class="kv">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+    ${related.length ? `<div class="eyebrow">Also for ${esc(UCMAP[it.uc[0]].name)}</div><div class="related">${related.map((r) => `<button type="button" data-id="${esc(r.id)}"><span>${esc(r.name)}</span>${verdictTag(r.verdict)}</button>`).join("")}</div>` : ""}`;
+  const d = $("#drawer"); if (!d.open) d.showModal(); $("#drawerBody").scrollTop = 0;
+}
+
+// ---------- trending ----------
+let PERIOD = store.get("period", "weekly");
+function renderTrending() {
+  const list = $("#trendList");
+  if (!TREND) { list.innerHTML = `<li style="grid-template-columns:1fr">Trending data is not available right now.</li>`; return; }
+  const rows = TREND[PERIOD] || [];
+  const max = Math.max(...rows.map((r) => (PERIOD === "alltime" ? r.stars : r.gained) || 1));
+  list.setAttribute("aria-labelledby", "tab-" + PERIOD);
+  list.innerHTML = rows.map((r, i) => {
+    const [owner, name] = r.repo.split("/");
+    const val = PERIOD === "alltime" ? r.stars : r.gained;
+    const unit = PERIOD === "weekly" ? "this week" : PERIOD === "monthly" ? "this month" : "stars";
+    const uc = r.useCase && UCMAP[r.useCase];
+    return `<li style="--i:${i}"><div class="rank">${r.rank}</div>
+      <div class="repo"><a href="${esc(r.url)}" target="_blank" rel="noopener"><small>${esc(owner)}/</small>${esc(name)}</a>
+        ${r.idea ? `<p class="idea">${esc(r.idea)}</p>` : `<p>${esc(r.description)}</p>`}
+        <div class="chips">${uc ? `<button class="chip" type="button" data-uc="${uc.id}" style="border-color:${uc.c}88">${esc(uc.name)}</button>` : ""}${r.language ? `<span class="chip">${esc(r.language)}</span>` : ""}${r.libraryId ? `<button class="chip lib" type="button" data-id="${esc(r.libraryId)}">In the library</button>` : ""}</div></div>
+      <div class="nums"><b>+${fmt(val || 0)}</b><span>${PERIOD === "alltime" ? "total stars" : unit + " · ★ " + fmt(r.stars)}</span><div class="bar"><i style="width:${Math.max(4, (100 * (val || 0)) / max)}%"></i></div></div></li>`;
+  }).join("");
+  if (PERIOD === "alltime") list.querySelectorAll(".nums b").forEach((b) => (b.textContent = b.textContent.replace("+", "★ ")));
+  list.scrollTop = 0;
+  // use-case mix
+  const mix = new Map(); rows.forEach((r) => r.useCase && mix.set(r.useCase, (mix.get(r.useCase) || 0) + 1));
+  const top = [...mix].sort((a, b) => b[1] - a[1]).slice(0, 6);
+  $("#trendMix").innerHTML = top.map(([u, n]) => `<div><span>${esc(UCMAP[u]?.name || u)}</span><b class="mono" style="text-align:right">${n}</b><div class="track"><i style="width:${(n / rows.length) * 100}%;background:${UCMAP[u]?.c}"></i></div></div>`).join("");
+  const inLib = rows.filter((r) => r.libraryId).length;
+  const when = TREND.updatedAt ? new Date(TREND.updatedAt).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "";
+  $("#trendNote").textContent = `${inLib} of ${rows.length} are already in the library. Data from GitHub trending and search, refreshed ${when}. Scroll the list to see all 20.`;
+  document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.period === PERIOD)));
+}
+
+// ---------- atlas + combos ----------
+function renderAtlas() {
+  const by = new Map(UC.map((u) => [u.id, []]));
+  for (const it of ITEMS) for (const u of it.uc) by.get(u).push(it);
+  $("#atlas").innerHTML = UC.map((u) => {
+    const items = by.get(u.id);
+    const best = items.filter((i) => i.collection !== "apis" && ["adopt", "have", "trial"].includes(i.verdict)).sort((a, b) => VRANK[a.verdict] - VRANK[b.verdict] || (b.stars || 0) - (a.stars || 0)).slice(0, 4);
+    const adopt = items.filter((i) => i.verdict === "adopt").length;
+    return `<button class="uc" type="button" data-uc="${u.id}" style="--c:${u.c}"><h3>${esc(u.name)}</h3><div class="n">${items.length} items · ${adopt} adopt</div><p>${esc(u.d)}</p>
+      ${best.length ? `<ul>${best.map((b) => `<li>${esc(b.name)}</li>`).join("")}</ul>` : ""}</button>`;
+  }).join("");
+  const recipes = ITEMS.filter((i) => i.collection === "api-recipes");
+  $("#comboCount").textContent = recipes.length ? `${recipes.length} recipes that combine several APIs into one product` : "";
+  $("#combos").innerHTML = recipes.slice(0, 12).map((r) => `<div class="combo"><h4>${esc(r.name)}</h4><p>${esc(r.why || r.description || "")}</p></div>`).join("");
+}
+
+// ---------- blog ----------
+function renderPosts() {
+  const el = $("#posts");
+  if (!POSTS.length) { el.innerHTML = `<div class="empty">Articles are on their way.</div>`; return; }
+  el.innerHTML = POSTS.map((p) => `<button class="post" type="button" data-post="${esc(p.slug)}"><span class="eyebrow">${esc(p.date)} · ${p.minutes} min read${p.video ? " · video" : ""}</span><h3>${esc(p.title)}</h3><p>${esc(p.summary)}</p>
+    <div class="chips">${(p.usecases || []).map((u) => UCMAP[u] ? `<span class="chip" style="border-color:${UCMAP[u].c}88">${esc(UCMAP[u].name)}</span>` : "").join("")}</div></button>`).join("");
+}
+function openPost(slug) {
+  const p = POSTS.find((x) => x.slug === slug); if (!p) return;
+  $("#readerBody").innerHTML = `<button class="icon-btn close" type="button" data-close aria-label="Close" style="float:right;position:sticky;top:0">✕</button>
+    <article class="article"><div class="eyebrow">${esc(p.date)} · ${p.minutes} min read</div><h1>${esc(p.title)}</h1><p style="font-size:19px;color:var(--mute)">${esc(p.summary)}</p>
+    ${p.video ? videoHtml(p.video) : ""}${p.html}
+    <p style="margin-top:36px"><a href="blog/${esc(p.slug)}.html" target="_blank" rel="noopener">Open as its own page ↗</a></p></article>`;
+  const d = $("#reader"); if (!d.open) d.showModal(); $("#readerBody").scrollTop = 0;
+}
+function videoHtml(v) {
+  const yt = v.match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/);
+  if (yt) return `<p><a href="https://www.youtube.com/watch?v=${yt[1]}" target="_blank" rel="noopener">▶ Watch the video</a></p>`;
+  return `<div class="video"><video src="${esc(v)}" controls playsinline preload="metadata"></video></div>`;
+}
+
+// ---------- hero sky (canvas star map) ----------
+function sky() {
+  const cv = $("#sky"), ctx = cv.getContext("2d"), tip = $("#skytip"), hero = $(".hero");
+  let W = 0, H = 0, DPR = 1, pts = [], centers = [], hover = null, running = true, t0 = performance.now();
+  const sample = ITEMS.filter((_, i) => i % 2 === 0 || ITEMS[i].collection !== "apis");
+  function layout() {
+    const r = hero.getBoundingClientRect(); DPR = Math.min(2, devicePixelRatio || 1);
+    W = r.width; H = r.height; cv.width = W * DPR; cv.height = H * DPR; ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    const wide = W > 980;
+    const cx = wide ? W * 0.74 : W * 0.5, cy = wide ? H * 0.46 : H * 0.5, R = wide ? Math.min(W * 0.2, H * 0.36) : Math.min(W * 0.42, H * 0.42);
+    centers = UC.map((u, i) => { const a = (i / UC.length) * Math.PI * 2 - Math.PI / 2; const rr = R * (i % 2 ? 0.78 : 1.02); return { u, x: cx + Math.cos(a) * rr, y: cy + Math.sin(a) * rr * 0.86, n: 0 }; });
+    const cmap = Object.fromEntries(centers.map((c) => [c.u.id, c]));
+    let seed = 7; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    pts = sample.map((it) => {
+      const c = cmap[it.uc[0]]; c.n++;
+      const a = rnd() * Math.PI * 2, d = Math.sqrt(rnd()) * (18 + Math.min(46, Math.sqrt(c.n) * 2.2));
+      const big = it.verdict === "adopt" || it.verdict === "have";
+      return { c, ox: Math.cos(a) * d, oy: Math.sin(a) * d, ph: rnd() * 6.28, sp: 0.3 + rnd() * 0.6, r: big ? 2.3 : it.collection === "apis" ? 0.9 : 1.4, col: c.u.c, big };
+    });
+  }
+  function frame(now) {
+    if (!running) return;
+    const t = reduced ? 0 : (now - t0) / 1000;
+    ctx.clearRect(0, 0, W, H);
+    const dark = getComputedStyle(document.documentElement).colorScheme.includes("dark");
+    // constellation lines between neighbouring clusters
+    ctx.lineWidth = 1; ctx.strokeStyle = dark ? "rgba(140,154,255,.10)" : "rgba(51,72,232,.08)";
+    ctx.beginPath(); centers.forEach((c, i) => { const n = centers[(i + 1) % centers.length]; ctx.moveTo(c.x, c.y); ctx.lineTo(n.x, n.y); }); ctx.stroke();
+    for (const p of pts) {
+      const k = hover && hover !== p.c ? 0.25 : 1;
+      const x = p.c.x + p.ox + Math.sin(t * p.sp + p.ph) * 3, y = p.c.y + p.oy + Math.cos(t * p.sp * 0.8 + p.ph) * 3;
+      ctx.globalAlpha = (p.big ? 0.95 : 0.55) * k; ctx.fillStyle = p.col;
+      ctx.beginPath(); ctx.arc(x, y, p.r * (hover === p.c ? 1.35 : 1), 0, 6.283); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    if (!reduced) requestAnimationFrame(frame);
+  }
+  function at(e) {
+    const r = cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+    let best = null, bd = 60;
+    for (const c of centers) { const d = Math.hypot(c.x - x, c.y - y); if (d < bd) { bd = d; best = c; } }
+    return { best, x, y };
+  }
+  hero.addEventListener("pointermove", (e) => {
+    if (e.target.closest(".copy,.skylegend")) { if (hover) { hover = null; tip.hidden = true; if (reduced) frame(0); } return; }
+    const { best, x, y } = at(e); hover = best;
+    if (best) { tip.hidden = false; tip.innerHTML = `<b>${esc(best.u.name)}</b><span>${best.n} on the map · click to explore</span>`; tip.style.left = Math.min(x + 14, W - 270) + "px"; tip.style.top = y + 14 + "px"; cv.style.cursor = "pointer"; }
+    else { tip.hidden = true; cv.style.cursor = "default"; }
+    if (reduced) frame(0);
+  });
+  hero.addEventListener("pointerleave", () => { hover = null; tip.hidden = true; if (reduced) frame(0); });
+  cv.addEventListener("click", (e) => { const { best } = at(e); if (best) filterUC(best.u.id); });
+  $("#skylegend").innerHTML = UC.map((u) => `<button type="button" data-uc="${u.id}"><i style="background:${u.c}"></i>${esc(u.name)}</button>`).join("");
+  $("#skylegend").addEventListener("pointerover", (e) => { const b = e.target.closest("[data-uc]"); hover = b ? centers.find((c) => c.u.id === b.dataset.uc) : null; if (reduced) frame(0); });
+  $("#skylegend").addEventListener("pointerout", () => { hover = null; if (reduced) frame(0); });
+  new IntersectionObserver(([en]) => { const was = running; running = en.isIntersecting; if (running && !was && !reduced) requestAnimationFrame(frame); }).observe(hero);
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { layout(); if (reduced) frame(0); }, 120); });
+  layout(); requestAnimationFrame(frame);
+}
+
+function countUp() {
+  const vals = { items: ITEMS.length, curated: ITEMS.filter((i) => i.verdict !== "none").length, adopt: ITEMS.filter((i) => i.verdict === "adopt").length, apis: ITEMS.filter((i) => i.collection === "apis").length };
+  document.querySelectorAll("[data-count]").forEach((el) => {
+    const end = vals[el.dataset.count] || 0;
+    if (reduced) { el.textContent = end.toLocaleString(); return; }
+    const t0 = performance.now(), dur = 1100;
+    el.textContent = end.toLocaleString();
+    const step = (now) => { const p = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - p, 3); el.textContent = Math.round(end * e).toLocaleString(); if (p < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  });
+}
+
+// ---------- actions ----------
+function filterUC(id) { S.sel.uc = new Set([id]); S.limit = 60; if (S.group === "usecase") S.group = "verdict", $("#group").value = "verdict"; render(); $("#explore").scrollIntoView({ behavior: reduced ? "auto" : "smooth" }); }
+function search(q) { S.q = q.trim(); $("#q").value = S.q; S.limit = 60; S.sort = S.q ? "best" : S.sort; $("#sort").value = S.sort; render(); }
+
+document.addEventListener("click", (e) => {
+  const t = e.target;
+  const close = t.closest("[data-close]"); if (close) { close.closest("dialog").close(); return; }
+  if (t.tagName === "DIALOG") { t.close(); return; }
+  const uc = t.closest("[data-uc]"); if (uc) { e.preventDefault(); $("#drawer").open && $("#drawer").close(); filterUC(uc.dataset.uc); return; }
+  const id = t.closest("[data-id]"); if (id) { openItem(id.dataset.id); return; }
+  const post = t.closest("[data-post]"); if (post) { openPost(post.dataset.post); return; }
+  const more = t.closest("[data-more]"); if (more) { S.expanded[more.dataset.more] = !S.expanded[more.dataset.more]; render(); return; }
+  const fb = t.closest(".facet>button"); if (fb) { const f = fb.parentElement.dataset.f; S.open[f] = S.open[f] === false; store.set("openFacets", S.open); fb.parentElement.classList.toggle("closed"); fb.setAttribute("aria-expanded", String(S.open[f] !== false)); return; }
+  const clr = t.closest("[data-clear]"); if (clr) {
+    const k = clr.dataset.clear;
+    if (k === "q") search(""); else if (k === "all") { S.q = ""; $("#q").value = ""; FACETS.forEach((f) => S.sel[f.id].clear()); render(); }
+    else { S.sel[k].delete(clr.dataset.v); render(); }
+    return;
+  }
+  if (t.id === "more") { S.limit += 60; render(); return; }
+  const tab = t.closest(".tabs button"); if (tab) { PERIOD = tab.dataset.period; store.set("period", PERIOD); renderTrending(); return; }
+  // in-article links like ../?q=term#explore -> run the search here
+  const a = t.closest(".article a[href^='../?q=']"); if (a) { e.preventDefault(); $("#reader").close(); search(decodeURIComponent(a.getAttribute("href").match(/q=([^#&]*)/)[1])); $("#explore").scrollIntoView(); }
+});
+$("#rail").addEventListener("change", (e) => { const c = e.target; if (!c.dataset.f) return; const s = S.sel[c.dataset.f]; c.checked ? s.add(c.value) : s.delete(c.value); S.limit = 60; render(); });
+let qt; $("#q").addEventListener("input", (e) => { clearTimeout(qt); qt = setTimeout(() => search(e.target.value), 140); });
+$("#heroSearch").addEventListener("submit", (e) => { e.preventDefault(); search($("#heroQ").value); $("#explore").scrollIntoView({ behavior: reduced ? "auto" : "smooth" }); });
+$("#group").addEventListener("change", (e) => { S.group = e.target.value; store.set("group", S.group); render(); });
+$("#sort").addEventListener("change", (e) => { S.sort = e.target.value; store.set("sort", S.sort); render(); });
+function setView(v) { S.view = v; store.set("view", v); $("#viewGrid").setAttribute("aria-pressed", String(v === "grid")); $("#viewList").setAttribute("aria-pressed", String(v === "list")); render(); }
+$("#viewGrid").addEventListener("click", () => setView("grid"));
+$("#viewList").addEventListener("click", () => setView("list"));
+$("#filtersBtn").addEventListener("click", () => $("#rail").classList.toggle("show"));
+$("#themeBtn").addEventListener("click", () => {
+  const root = document.documentElement, cur = root.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  root.dataset.theme = cur === "dark" ? "light" : "dark"; store.set("theme", root.dataset.theme);
+});
+addEventListener("keydown", (e) => { if (e.key === "/" && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); $("#q").focus(); $("#explore").scrollIntoView(); } });
+const navLinks = [...document.querySelectorAll(".top nav a")];
+const secObs = new IntersectionObserver((ens) => ens.forEach((en) => {
+  if (en.isIntersecting) navLinks.forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + en.target.id));
+}), { rootMargin: "-40% 0px -55% 0px" });
+["trending", "explore", "usecases", "blog"].forEach((id) => secObs.observe(document.getElementById(id)));
+
+// ---------- boot ----------
+(async () => {
+  const savedTheme = store.get("theme", null); if (savedTheme && !document.documentElement.dataset.theme) document.documentElement.dataset.theme = savedTheme;
+  $("#group").value = S.group; $("#sort").value = S.sort;
+  $("#viewGrid").setAttribute("aria-pressed", String(S.view === "grid")); $("#viewList").setAttribute("aria-pressed", String(S.view === "list"));
+  $("#results").innerHTML = `<div class="empty">Loading the library…</div>`;
+  try { await load(); }
+  catch (err) { $("#results").innerHTML = `<div class="empty">The library could not load (${esc(err.message)}). Refresh the page to try again.</div>`; return; }
+  $("#heroEyebrow").textContent = `Open catalog · ${ITEMS.length.toLocaleString()} items · updated ${META.updatedAt || ""}`;
+  $("#footMeta").textContent = `Public AI Library · version ${META.version || ""}`;
+  $("#quick").innerHTML = ["MCP servers", "voice cloning", "browser agent", "video generation", "agent memory", "no-key"].map((q) => `<button type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("");
+  $("#quick").addEventListener("click", (e) => { const b = e.target.closest("[data-q]"); if (!b) return;
+    if (b.dataset.q === "no-key") { S.sel.flags.add("no-key"); render(); } else if (b.dataset.q === "MCP servers") { S.sel.collection = new Set(["mcp-servers"]); render(); } else search(b.dataset.q);
+    $("#explore").scrollIntoView({ behavior: reduced ? "auto" : "smooth" }); });
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) { S.q = params.get("q"); $("#q").value = S.q; $("#heroQ").value = S.q; }
+  if (params.get("uc") && UCMAP[params.get("uc")]) S.sel.uc.add(params.get("uc"));
+  countUp(); render(); renderTrending(); renderAtlas(); renderPosts(); sky();
+  if (location.hash && document.getElementById(location.hash.slice(1))) document.getElementById(location.hash.slice(1)).scrollIntoView();
+})();
+})();
+</script>

@@ -1,0 +1,130 @@
+{
+ "posts": [
+  {
+   "slug": "agent-memory",
+   "title": "Memory is the new moat: what agent memory changes across industries",
+   "date": "2026-10-23",
+   "summary": "Four of this month's fastest-rising repositories are about agent memory. Here is why that matters for support desks, clinics, law firms and software teams.",
+   "tags": [
+    "trending",
+    "memory",
+    "agents",
+    "cross-industry"
+   ],
+   "usecases": [
+    "memory",
+    "agents",
+    "business"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 1,
+   "html": "<p>Look at this month's trending list and a pattern jumps out: <a href=\"https://github.com/vectorize-io/hindsight\" target=\"_blank\" rel=\"noopener\">Hindsight</a>, <a href=\"https://github.com/thedotmack/claude-mem\" target=\"_blank\" rel=\"noopener\">claude-mem</a>, <a href=\"https://github.com/akitaonrails/ai-memory\" target=\"_blank\" rel=\"noopener\">ai-memory</a> and <a href=\"https://github.com/xerj-org/xerj\" target=\"_blank\" rel=\"noopener\">xerj</a> are all, in different ways, about letting an agent remember. Models are now good enough that the bottleneck is context: what the agent knows about <em>this</em> customer, <em>this</em> codebase, <em>this</em> case.</p>\n<h3 id=\"three-kinds-of-memory\">Three kinds of memory</h3>\n<ul><li><strong>Session memory</strong>: what happened earlier in this task. Solved by long context windows and summaries.</li><li><strong>Working knowledge</strong>: the documents, code and records the agent can search. This is retrieval (RAG), knowledge graphs and local indexes (<a href=\"../?q=rag#explore\">search: rag</a>).</li><li><strong>Learned experience</strong>: what worked and what failed last time. This is the new part, and it is what the trending repos are racing to build.</li></ul>\n<h3 id=\"industry-by-industry\">Industry by industry</h3>\n<p><strong>Customer support.</strong> A support agent that remembers a customer's last three tickets stops asking the same questions. One that learns which fixes actually closed tickets stops suggesting the ones that did not.</p>\n<p><strong>Healthcare intake.</strong> Memory of a patient's prior answers shortens intake forms and flags changes (&quot;you reported no allergies last visit, has that changed?&quot;). This needs strict access control and audit trails; check the <a href=\"../?q=compliance#explore\">compliance notes</a> before building.</p>\n<p><strong>Legal and accounting.</strong> Matter-level memory lets an assistant draft from the firm's own precedents instead of generic templates. A graph of entities (people, companies, dates) beats a pile of PDFs.</p>\n<p><strong>Software teams.</strong> Coding agents that carry project context between sessions and tools waste less time re-reading the codebase. Turning the repo into a <a href=\"https://github.com/Graphify-Labs/graphify\" target=\"_blank\" rel=\"noopener\">knowledge graph</a> helps onboard humans as well as agents.</p>\n<h3 id=\"build-advice\">Build advice</h3>\n<ol><li>Start with retrieval over your own documents before you attempt learned memory.</li><li>Store memory where you can inspect and delete it. Memory you cannot audit is a liability.</li><li>Give memory an expiry. Stale facts are worse than no facts.</li><li>Measure the change: fewer repeated questions, shorter handling time, fewer re-opened tickets.</li></ol>\n<p>The moat is not the model, which everyone can rent. It is the memory of your own customers and work, which nobody else has.</p>"
+  },
+  {
+   "slug": "food-hospitality-playbook",
+   "title": "From menu to vertical video: an AI playbook for food and hospitality",
+   "date": "2026-10-23",
+   "summary": "Restaurants, caterers and food creators share one problem: they need a steady stream of appetising video and almost no time to make it. Here is how the tools in this library combine to solve it.",
+   "tags": [
+    "cross-industry",
+    "video",
+    "food",
+    "small-business"
+   ],
+   "usecases": [
+    "video",
+    "image",
+    "publishing",
+    "business"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 2,
+   "html": "<p>Food is the most visual category on short-form platforms, and it is also run by the busiest people: chefs, franchise owners and caterers who cannot stop service to film. The pain point is volume. One good video a month does nothing; one a day builds an audience.</p>\n<h3 id=\"the-five-scene-recipe-short\">The five-scene recipe short</h3>\n<p>The format that works is simple and repeatable:</p>\n<ol><li><strong>Hook</strong>: the finished dish at its best, with a time promise (&quot;better than takeout in 30 minutes&quot;).</li><li><strong>Prep</strong>: the one step people get wrong, with a real quantity.</li><li><strong>Heat</strong>: the sear, the sizzle, the moment of transformation.</li><li><strong>Build</strong>: the sauce or the assembly.</li><li><strong>Serve</strong>: the money shot and a call to follow.</li></ol>\n<p>Each scene is a still keyframe (food photography from an <a href=\"../?q=image#explore\">image model</a>), animated for about six seconds by an image-to-video model, then stitched with voiceover, captions and a music bed. A recipe card can be converted into all five prompts by an LLM in seconds.</p>\n<h3 id=\"beyond-recipes\">Beyond recipes</h3>\n<ul><li><strong>Menu launches</strong>: one clip per new item, generated from the menu copy and a single phone photo.</li><li><strong>Catering sales</strong>: a per-client highlight reel for proposals, which turns a PDF quote into something people share.</li><li><strong>Franchise consistency</strong>: one template, many locations. Each store gets its own clips with the same brand look.</li><li><strong>Lead capture</strong>: a QR code on the table or the box leads to a page that collects the email address, then a <a href=\"../?q=newsletter#explore\">newsletter tool</a> does the follow-up.</li></ul>\n<h3 id=\"what-to-watch\">What to watch</h3>\n<ul><li><strong>Disclose AI visuals.</strong> Platforms increasingly require it, and diners care whether the dish on screen is the dish on the plate. Use real photos of signature items wherever you can.</li><li><strong>Keep the voice consistent.</strong> A single narrator voice across every video builds recognition faster than variety.</li><li><strong>Measure what matters</strong>: saves and shares beat views for food content.</li></ul>\n<h3 id=\"the-cross-functional-lesson\">The cross-functional lesson</h3>\n<p>Notice that the same chain serves marketing (clips), sales (proposal reels) and operations (training videos for new kitchen staff). Teams usually buy three separate tools for this. One pipeline with three templates is cheaper and keeps the brand consistent.</p>"
+  },
+  {
+   "slug": "llm-cost-discipline",
+   "title": "Free endpoints, gateways and local models: cost discipline for small teams",
+   "date": "2026-10-23",
+   "summary": "Most AI bills are paying a frontier model to do work a small model could do. A tiered setup with gateways, free endpoints and local models cuts cost without lowering quality where it counts.",
+   "tags": [
+    "llm",
+    "cost",
+    "infrastructure"
+   ],
+   "usecases": [
+    "llm",
+    "agents"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 1,
+   "html": "<p>Small teams usually start by sending every request to the best model available. That works until the invoice arrives. The fix is to route each task to the cheapest model that does it well.</p>\n<h3 id=\"three-tiers\">Three tiers</h3>\n<div class=\"table\"><table><thead><tr><th>Tier</th><th>Use it for</th><th>Examples in the library</th></tr></thead><tbody><tr><td>Local</td><td>tagging, summarising, drafts, private data</td><td><a href=\"../?q=ollama#explore\">Ollama</a>, <a href=\"https://github.com/open-webui/open-webui\" target=\"_blank\" rel=\"noopener\">Open WebUI</a></td></tr><tr><td>Free or cheap hosted</td><td>prototypes, batch jobs, fallbacks</td><td><a href=\"https://github.com/tashfeenahmed/freellmapi\" target=\"_blank\" rel=\"noopener\">freellmapi</a>, <a href=\"../?q=gateway#explore\">gateways</a></td></tr><tr><td>Frontier</td><td>reasoning, customer-facing writing, code changes</td><td>paid APIs</td></tr></tbody></table></div>\n<p>A <strong>gateway</strong> sits in front of all three. Your code calls one endpoint; the gateway picks the model, retries on failure and records the cost.</p>\n<h3 id=\"cut-tokens-before-you-cut-models\">Cut tokens before you cut models</h3>\n<ul><li><strong>Shrink tool output.</strong> Agents waste most of their context reading logs and tool results. Tools like <a href=\"https://github.com/mksglu/context-mode\" target=\"_blank\" rel=\"noopener\">context-mode</a> sandbox that output and pass only what matters.</li><li><strong>Cache repeated prompts.</strong> System prompts and reference documents rarely change, and caching them is often the single biggest saving (<a href=\"../?q=caching#explore\">search: caching</a>).</li><li><strong>Run fewer agents.</strong> A swarm of ten agents is rarely ten times better than one good agent with a clear plan. Start with one and add more only when you can measure the gain.</li></ul>\n<h3 id=\"watch-the-hidden-costs\">Watch the hidden costs</h3>\n<p>Free endpoints change limits without notice, and some log your prompts. Keep private data on the local tier, keep a paid fallback for anything customer-facing, and track spend per feature, not just per month.</p>"
+  },
+  {
+   "slug": "local-content-factory",
+   "title": "The local content factory: voice, image and video models on one GPU",
+   "date": "2026-10-23",
+   "summary": "How open voice, image, music and video models now chain into a full production line on a single consumer GPU, and where paid cloud models still earn their place.",
+   "tags": [
+    "content",
+    "video",
+    "audio",
+    "image",
+    "combination"
+   ],
+   "usecases": [
+    "video",
+    "audio",
+    "image"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 2,
+   "html": "<p>A year ago, a short-form video needed four subscriptions: a voice service, a stock-footage site, a music library and an editor. Today the same output can come from open models running one after another on a single 8 GB laptop GPU. The cost moves from per-minute fees to electricity.</p>\n<h3 id=\"the-chain\">The chain</h3>\n<p>A working pipeline has five stations, and each one has an open-source option in this library:</p>\n<ol><li><strong>Script</strong>: a local LLM drafts the hook, the beats and the caption (<a href=\"../?q=ollama#explore\">Ollama</a>).</li><li><strong>Voice</strong>: a text-to-speech model reads it, or a voice-cloning model reads it in a voice you have rights to (<a href=\"../?q=tts#explore\">search: tts</a>).</li><li><strong>Pictures</strong>: an image model renders keyframes. Node-graph tools like <a href=\"../?q=comfyui#explore\">ComfyUI</a> make those runs repeatable instead of one-off prompts.</li><li><strong>Motion</strong>: an image-to-video model animates each keyframe for a few seconds.</li><li><strong>Assembly</strong>: FFmpeg or an HTML-to-video renderer adds captions, music, transitions and loudness mastering (<a href=\"../?q=render#explore\">search: render</a>).</li></ol>\n<p>The key engineering rule is that <strong>one GPU runs one model at a time</strong>. Queue the heavy steps; let CPU-only steps (text-to-speech, captions) run alongside them.</p>\n<h3 id=\"where-cloud-still-wins\">Where cloud still wins</h3>\n<p>Open video models are improving fast, but for a product shot that has to look like a commercial, paid image-to-video APIs still produce steadier motion and fewer artefacts. The pattern that works is hybrid: generate the keyframe locally for free, then pay a few cents per second only for the motion clip. You keep creative control of the frame and spend money only where quality is visibly better.</p>\n<h3 id=\"licences-matter-more-than-quality\">Licences matter more than quality</h3>\n<p>Several of the best-sounding foley and talking-head models ship with research or non-commercial licences. Each tool's entry in this library notes this, and you should check it before anything is published. A fast rule: if you could not explain the licence to a client, keep that model to drafts.</p>\n<h3 id=\"cross-industry-uses\">Cross-industry uses</h3>\n<ul><li><strong>Restaurants and food brands</strong>: five-scene recipe shorts from a menu description (see the companion post on food and hospitality).</li><li><strong>Training teams</strong>: narrated how-to clips for every internal process, regenerated when the process changes.</li><li><strong>Real estate</strong>: listing walkthrough clips from photos plus a written description.</li><li><strong>Education</strong>: daily lesson recaps in a consistent voice and visual style.</li></ul>\n<p>The pain point being solved is the same everywhere: consistent video volume without a production crew.</p>"
+  },
+  {
+   "slug": "research-agents-stack",
+   "title": "Agents that read the web: building a research stack that holds up",
+   "date": "2026-10-23",
+   "summary": "Scrapers, headless browsers and social readers each solve part of web research. Combined in the right order they replace hours of manual market research for sales, product and investment teams.",
+   "tags": [
+    "research",
+    "scraping",
+    "agents",
+    "combination"
+   ],
+   "usecases": [
+    "research",
+    "memory",
+    "agents"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 1,
+   "html": "<p>&quot;Find out what people are saying about X&quot; is one of the most common requests to any team, and one of the most tedious to fulfil. The tools to automate it are now among the most popular on GitHub: <a href=\"https://github.com/firecrawl/firecrawl\" target=\"_blank\" rel=\"noopener\">Firecrawl</a>, <a href=\"https://github.com/browser-use/browser-use\" target=\"_blank\" rel=\"noopener\">browser-use</a>, <a href=\"https://github.com/Panniantong/Agent-Reach\" target=\"_blank\" rel=\"noopener\">Agent-Reach</a> and lightweight headless browsers like <a href=\"https://github.com/lexmount/moli\" target=\"_blank\" rel=\"noopener\">moli</a>.</p>\n<h3 id=\"pick-the-lightest-tool-that-works\">Pick the lightest tool that works</h3>\n<ol><li><strong>Read one URL</strong> as clean markdown when you already know the page.</li><li><strong>Crawl a site</strong> when you need every page of a docs site or a catalogue.</li><li><strong>Search, then read</strong> when you do not know where the answer lives.</li><li><strong>Drive a real browser</strong> only when the page needs logins, clicks or scrolling. It is the slowest and most fragile option.</li></ol>\n<p>The library groups its <a href=\"../?q=crawl#explore\">web research tools</a> by exactly these jobs, with keep or avoid verdicts.</p>\n<h3 id=\"use-cases-by-team\">Use cases by team</h3>\n<ul><li><strong>Sales</strong>: account research before a call, covering recent news, hiring and product launches, summarised into five bullets.</li><li><strong>Product</strong>: weekly digest of competitor changelogs and review sites.</li><li><strong>Investing and finance education</strong>: collect public filings and news for research notes. Keep it educational and clearly sourced.</li><li><strong>Content teams</strong>: trend mining across social platforms to pick tomorrow's topics.</li></ul>\n<h3 id=\"make-it-trustworthy\">Make it trustworthy</h3>\n<ul><li><strong>Cite every claim</strong> with the URL it came from, so a human can check it in one click.</li><li><strong>Respect robots rules and terms of service.</strong> Prefer official APIs where they exist; this library lists many free ones.</li><li><strong>Store what you read.</strong> Feeding results into a memory or retrieval layer means next week's research starts from this week's (see the post on agent memory).</li></ul>\n<p>The result is research that is faster and also more consistent, because the same questions are asked in the same way every week.</p>"
+  },
+  {
+   "slug": "reverse-engineering-agents",
+   "title": "Reverse engineering with agents: lessons for security, repair and legacy software",
+   "date": "2026-10-23",
+   "summary": "The top trending repository this week points agents at binaries and app behaviour. The same technique solves very different problems in security teams, repair shops and companies stuck on old software.",
+   "tags": [
+    "trending",
+    "security",
+    "legacy",
+    "cross-functional"
+   ],
+   "usecases": [
+    "security",
+    "coding",
+    "agents"
+   ],
+   "video": null,
+   "cover": null,
+   "minutes": 1,
+   "html": "<p>This week's top trending repository, <a href=\"https://github.com/morluto/rea\" target=\"_blank\" rel=\"noopener\">rea</a>, gained over 100,000 stars by doing something that used to need a specialist: pointing agents at an application, from its visible behaviour down to native binaries, and explaining how it works. Combined with mature tools like <a href=\"https://github.com/NationalSecurityAgency/ghidra\" target=\"_blank\" rel=\"noopener\">Ghidra</a>, this moves reverse engineering from a rare skill to a routine task.</p>\n<h3 id=\"who-has-this-problem\">Who has this problem</h3>\n<p><strong>Security teams</strong> need to know what third-party software and firmware actually do, not what the vendor says they do. Agents can triage binaries, flag suspicious network calls and summarise findings for a human analyst.</p>\n<p><strong>Repair and hardware shops</strong> deal with devices whose makers no longer publish documentation. Understanding a firmware protocol is often the difference between repairing a device and scrapping it.</p>\n<p><strong>Companies on legacy software</strong> often run critical systems whose source code or original developers are gone. Before any rewrite, an agent can map the business rules hidden in the old binary, which is the part that usually gets lost in migrations.</p>\n<h3 id=\"a-safe-workflow\">A safe workflow</h3>\n<ol><li><strong>Get permission first.</strong> Only analyse software you own or are licensed to inspect, and respect the licence terms. Reverse engineering law varies by country.</li><li><strong>Sandbox everything.</strong> Run unknown binaries inside an isolated runtime (<a href=\"../?q=sandbox#explore\">search: sandbox</a>), never on a workstation.</li><li><strong>Agent proposes, human confirms.</strong> Treat agent findings as leads, then verify them with a debugger or a test.</li><li><strong>Write it down.</strong> The real output is documentation: the rules, protocols and data formats you recovered.</li></ol>\n<h3 id=\"the-cross-functional-lesson\">The cross-functional lesson</h3>\n<p>The same &quot;explain this black box&quot; pattern applies far beyond binaries: undocumented spreadsheets, old database schemas and supplier file formats. Any team that inherits a system nobody understands can use the same loop: inspect, hypothesise, verify, document.</p>"
+  }
+ ]
+}

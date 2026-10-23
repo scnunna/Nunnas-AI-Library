@@ -3,7 +3,7 @@ name: Build & maintain library
 on:
   push:
     branches: [main]
-    paths: ["library/**", "scripts/**"]
+    paths: ["library/**", "scripts/**", "site/**"]
   schedule:
     - cron: "0 9 * * 1" # Mondays 09:00 UTC: refresh stars/archived status, rebuild index
   workflow_dispatch:
@@ -24,6 +24,9 @@ jobs:
         if: github.event_name != 'push'
         env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
         run: node scripts/maintain.mjs
+      - name: Refresh Top 20 trending repos (weekly only)
+        if: github.event_name != 'push'
+        run: node scripts/trending.mjs
       - name: Validate + regenerate index, mindmap, bundle
         run: node scripts/build.mjs -v
       - name: Commit generated files

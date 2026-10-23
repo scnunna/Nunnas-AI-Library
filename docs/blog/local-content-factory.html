@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The local content factory: voice, image and video models on one GPU · Public AI Library</title><meta name="description" content="How open voice, image, music and video models now chain into a full production line on a single consumer GPU, and where paid cloud models still earn their place.">
+<meta property="og:title" content="The local content factory: voice, image and video models on one GPU · Public AI Library"><meta property="og:description" content="How open voice, image, music and video models now chain into a full production line on a single consumer GPU, and where paid cloud models still earn their place."><meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;600&display=swap"><link rel="canonical" href="https://scnunna.github.io/Public-AI-Library/blog/local-content-factory.html"><style>
+:root{--bg:#F4F6FA;--surface:#FFFFFF;--ink:#0F1630;--mute:#58617E;--line:#DCE1ED;--accent:#3348E8;--accent2:#00876F;--display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--body:"Instrument Sans","Segoe UI",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090D1C;--surface:#111731;--ink:#E8ECFA;--mute:#949DC0;--line:#232C50;--accent:#8C9AFF;--accent2:#3FD8BE;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#090D1C;--surface:#111731;--ink:#E8ECFA;--mute:#949DC0;--line:#232C50;--accent:#8C9AFF;--accent2:#3FD8BE;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--body)}
+.wrap{max-width:740px;margin:auto;padding-block:32px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav{display:flex;gap:16px;flex-wrap:wrap;font:600 14px var(--body);margin-bottom:40px}nav a{color:var(--mute);text-decoration:none}nav a:hover{color:var(--accent)}
+.eyebrow{font:600 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent2)}
+h1{font:800 clamp(32px,6vw,52px)/1.05 var(--display);letter-spacing:-.02em;margin:10px 0 14px;text-wrap:balance}
+.lede{font-size:20px;color:var(--mute);margin:0 0 24px}
+h2,h3{font-family:var(--display);line-height:1.2;text-wrap:balance}h2{font-size:28px;margin:44px 0 10px}h3{font-size:21px;margin:30px 0 8px}
+a{color:var(--accent)}p,li{max-width:68ch}li{margin:6px 0}
+code{font:14px var(--mono);background:var(--surface);border:1px solid var(--line);padding:1px 5px;border-radius:5px}
+pre{background:var(--surface);border:1px solid var(--line);padding:14px;border-radius:10px;overflow-x:auto}
+blockquote{margin:20px 0;padding:4px 18px;border-left:3px solid var(--accent);color:var(--mute)}
+.table{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font:600 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 30px}.tags span{font:600 12px var(--mono);border:1px solid var(--line);border-radius:99px;padding:3px 10px;color:var(--mute)}
+.video{position:relative;aspect-ratio:16/9;max-width:100%;margin:0 0 30px;border-radius:14px;overflow:hidden;background:#000}.video iframe,.video video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cover{width:100%;border-radius:14px;margin:0 0 28px}
+.post-list{display:grid;gap:14px}.post-list a{display:block;padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);text-decoration:none;color:var(--ink)}.post-list a:hover{border-color:var(--accent)}.post-list b{font:700 22px/1.2 var(--display);display:block;margin:6px 0}.post-list p{margin:0;color:var(--mute)}
+footer{margin-top:60px;color:var(--mute);font-size:14px}</style></head><body><div class="wrap">
+<nav><a href="../">← Public AI Library</a><a href="../#explore">Explore</a><a href="../#trending">Trending</a><a href="./">All articles</a></nav>
+<div class="eyebrow">2026-10-23 · 2 min read</div><h1>The local content factory: voice, image and video models on one GPU</h1><p class="lede">How open voice, image, music and video models now chain into a full production line on a single consumer GPU, and where paid cloud models still earn their place.</p>
+<div class="tags"><span>content</span><span>video</span><span>audio</span><span>image</span><span>combination</span></div>
+
+<p>A year ago, a short-form video needed four subscriptions: a voice service, a stock-footage site, a music library and an editor. Today the same output can come from open models running one after another on a single 8 GB laptop GPU. The cost moves from per-minute fees to electricity.</p>
+<h3 id="the-chain">The chain</h3>
+<p>A working pipeline has five stations, and each one has an open-source option in this library:</p>
+<ol><li><strong>Script</strong>: a local LLM drafts the hook, the beats and the caption (<a href="../?q=ollama#explore">Ollama</a>).</li><li><strong>Voice</strong>: a text-to-speech model reads it, or a voice-cloning model reads it in a voice you have rights to (<a href="../?q=tts#explore">search: tts</a>).</li><li><strong>Pictures</strong>: an image model renders keyframes. Node-graph tools like <a href="../?q=comfyui#explore">ComfyUI</a> make those runs repeatable instead of one-off prompts.</li><li><strong>Motion</strong>: an image-to-video model animates each keyframe for a few seconds.</li><li><strong>Assembly</strong>: FFmpeg or an HTML-to-video renderer adds captions, music, transitions and loudness mastering (<a href="../?q=render#explore">search: render</a>).</li></ol>
+<p>The key engineering rule is that <strong>one GPU runs one model at a time</strong>. Queue the heavy steps; let CPU-only steps (text-to-speech, captions) run alongside them.</p>
+<h3 id="where-cloud-still-wins">Where cloud still wins</h3>
+<p>Open video models are improving fast, but for a product shot that has to look like a commercial, paid image-to-video APIs still produce steadier motion and fewer artefacts. The pattern that works is hybrid: generate the keyframe locally for free, then pay a few cents per second only for the motion clip. You keep creative control of the frame and spend money only where quality is visibly better.</p>
+<h3 id="licences-matter-more-than-quality">Licences matter more than quality</h3>
+<p>Several of the best-sounding foley and talking-head models ship with research or non-commercial licences. Each tool's entry in this library notes this, and you should check it before anything is published. A fast rule: if you could not explain the licence to a client, keep that model to drafts.</p>
+<h3 id="cross-industry-uses">Cross-industry uses</h3>
+<ul><li><strong>Restaurants and food brands</strong>: five-scene recipe shorts from a menu description (see the companion post on food and hospitality).</li><li><strong>Training teams</strong>: narrated how-to clips for every internal process, regenerated when the process changes.</li><li><strong>Real estate</strong>: listing walkthrough clips from photos plus a written description.</li><li><strong>Education</strong>: daily lesson recaps in a consistent voice and visual style.</li></ul>
+<p>The pain point being solved is the same everywhere: consistent video volume without a production crew.</p>
+<footer>Public AI Library · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a></footer></div></body></html>
