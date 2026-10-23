@@ -1,4 +1,4 @@
-# Public AI Library
+# Nunna's AI Library
 
 A curated, regularly maintained catalog of **public APIs, MCP servers, Claude skills & plugins, agent frameworks, and AI content-creation tools** — every curated entry carries a verdict (adopt / have / trial / assess / reference / skip) and the reasoning behind it, so no tool gets researched twice.
 
@@ -41,7 +41,7 @@ See **[CONNECT.md](CONNECT.md)** for step-by-step setup. In short:
 
 ## Adding to the library
 
-1. Ask Claude: *"Add X to the Public AI Library"* (uses `add_items`), **or**
+1. Ask Claude: *"Add X to the Nunna's AI Library"* (uses `add_items`), **or**
 2. Put items in a JSON file and run `node scripts/add.mjs items.json --source "research YYYY-MM-DD: topic" --push`, **or**
 3. Edit `library/<collection>.json`, then `node scripts/build.mjs` and push.
 

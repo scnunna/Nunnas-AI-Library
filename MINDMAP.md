@@ -1,10 +1,10 @@
-# Public AI Library — Mind map
+# Nunna's AI Library — Mind map
 
 > Auto-generated. Collections → categories (item count) → adopted items. Full detail in [INDEX.md](INDEX.md).
 
 ```mermaid
 mindmap
-  root((Public AI Library))
+  root((Nunna's AI Library))
     content-tools[AI content-creation tools · 121]
       video-gen · 13
         Wan2GP WanGP

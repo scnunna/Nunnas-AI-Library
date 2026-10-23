@@ -1,4 +1,4 @@
-# Connect your Claude to the Public AI Library
+# Connect your Claude to the Nunna's AI Library
 
 Three ways, from easiest to most powerful. All of them are **read-only** for you: you can search the library, but only the maintainer can change it.
 
@@ -14,7 +14,7 @@ Three ways, from easiest to most powerful. All of them are **read-only** for you
 
 Paste this into a chat:
 
-> Read https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/llms.txt and use the Public AI Library as your reference. Before you recommend any AI tool, API or MCP server, check its verdict there.
+> Read https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/llms.txt and use the Nunna's AI Library as your reference. Before you recommend any AI tool, API or MCP server, check its verdict there.
 
 For a specific tool, Claude can look it up in the full bundle:
 `https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/dist/library.json`
@@ -26,7 +26,7 @@ Good for quick questions. For repeated use, set up B or C so Claude can search p
 ## B. Remote connector (claude.ai, Desktop, Code)
 
 1. In Claude, open **Settings → Connectors → Add custom connector**.
-2. Name: `Public AI Library`
+2. Name: `Nunna's AI Library`
 3. URL: `https://xbinbulvanscbmfbvcio.supabase.co/functions/v1/public-ai-library`
 4. Save, then enable it in a chat from the tools menu.
 

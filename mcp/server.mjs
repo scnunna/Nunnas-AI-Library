@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Public AI Library — MCP server over stdio (Node 18+, zero dependencies).
+ * Nunna's AI Library — MCP server over stdio (Node 18+, zero dependencies).
  *
  * Data source, in order:
  *   1. Running inside a git checkout of the repo -> ../dist/library.json, after a quick
@@ -65,7 +65,7 @@ if (IS_CHECKOUT) {
   const add = await import(pathToFileURL(join(ROOT, "scripts", "add.mjs")).href);
   extraTools.push({
     name: "add_items",
-    description: "Add or update items in the Public AI Library, rebuild the Index/Mindmap/bundle and push to GitHub (scnunna/Public-AI-Library). Dedupes by id, name, or URL+name. Always include a verdict (adopt|have|trial|assess|reference|skip) and a one-line `why`.",
+    description: "Add or update items in the Nunna's AI Library, rebuild the Index/Mindmap/bundle and push to GitHub (scnunna/Public-AI-Library). Dedupes by id, name, or URL+name. Always include a verdict (adopt|have|trial|assess|reference|skip) and a one-line `why`.",
     inputSchema: { type: "object", required: ["items"], properties: {
       items: { type: "array", items: { type: "object", required: ["name", "kind", "category"], properties: {
         name: { type: "string" }, kind: { type: "string", description: "api|mcp|skill|plugin|repo|framework|model|tool|node-pack|registry|list|web-tool" },

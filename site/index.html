@@ -1,4 +1,4 @@
-<title>Public AI Library</title>
+<title>Nunna's AI Library</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Search 2,400+ AI tools, MCP servers, Claude skills and public APIs, each with a verdict, grouped by use case, plus the top trending GitHub repos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -262,7 +262,8 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-bet
 
 <header class="top gut">
   <div class="wrap">
-    <a class="brand" href="#top"><i aria-hidden="true"></i><span>Public AI Library</span></a>
+    <!-- brand mark: swap the <i> for the mascot caricature (<img class="mascot">) when it is ready -->
+    <a class="brand" href="#top"><i aria-hidden="true"></i><span>Nunna's AI Library</span></a>
     <nav aria-label="Sections">
       <a href="#trending">Trending</a>
       <a href="#explore">Explore</a>
@@ -392,7 +393,7 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-bet
 
 <footer class="site gut">
   <div class="wrap">
-    <span id="footMeta">Public AI Library</span>
+    <span><span id="footMeta">Nunna's AI Library</span> · a Nunna AI Consulting (NAIC) project</span>
     <span><a href="https://github.com/scnunna/Public-AI-Library" target="_blank" rel="noopener">GitHub</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/CONNECT.md" target="_blank" rel="noopener">Connect it to Claude</a> · <a href="https://github.com/scnunna/Public-AI-Library/blob/main/INDEX.md" target="_blank" rel="noopener">Plain index</a></span>
   </div>
 </footer>
@@ -868,7 +869,7 @@ const secObs = new IntersectionObserver((ens) => ens.forEach((en) => {
   try { await load(); }
   catch (err) { $("#results").innerHTML = `<div class="empty">The library could not load (${esc(err.message)}). Refresh the page to try again.</div>`; return; }
   $("#heroEyebrow").textContent = `Open catalog · ${ITEMS.length.toLocaleString()} items · updated ${META.updatedAt || ""}`;
-  $("#footMeta").textContent = `Public AI Library · version ${META.version || ""}`;
+  $("#footMeta").textContent = `Nunna's AI Library · version ${META.version || ""}`;
   $("#quick").innerHTML = ["MCP servers", "voice cloning", "browser agent", "video generation", "agent memory", "no-key"].map((q) => `<button type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("");
   $("#quick").addEventListener("click", (e) => { const b = e.target.closest("[data-q]"); if (!b) return;
     if (b.dataset.q === "no-key") { S.sel.flags.add("no-key"); render(); } else if (b.dataset.q === "MCP servers") { S.sel.collection = new Set(["mcp-servers"]); render(); } else search(b.dataset.q);

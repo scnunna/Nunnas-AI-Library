@@ -1,4 +1,4 @@
-# Public AI Library — GraphQL schema
+# Nunna's AI Library — GraphQL schema
 # Executed by the MCP `graphql` tool (mcp/core.mjs). Supports root fields with literal
 # arguments, aliases and nested selections; no variables, fragments or introspection.
 #

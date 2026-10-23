@@ -1,4 +1,4 @@
-// Public AI Library — remote MCP endpoint (Streamable HTTP, JSON responses), read-only.
+// Nunna's AI Library — remote MCP endpoint (Streamable HTTP, JSON responses), read-only.
 // Runs as a Supabase Edge Function; reads the latest bundle from GitHub raw (cached 5 min),
 // so pushing to the repo updates every device without redeploying.
 // Deploy: upload this file as index.ts plus ../core.mjs as core.mjs, verify_jwt=false.
@@ -32,7 +32,7 @@ Deno.serve(async (req: Request) => {
     // Plain GET (browser / health check): no SSE stream offered, just a status page.
     if ((req.headers.get("accept") || "").includes("text/event-stream")) return new Response(null, { status: 405, headers: CORS });
     const i = await getIx();
-    return json({ name: "Public AI Library MCP", transport: "streamable-http (POST JSON-RPC)", items: i.items.length, version: i.bundle.meta?.version, repo: "https://github.com/scnunna/Public-AI-Library" });
+    return json({ name: "Nunna's AI Library MCP", transport: "streamable-http (POST JSON-RPC)", items: i.items.length, version: i.bundle.meta?.version, repo: "https://github.com/scnunna/Public-AI-Library" });
   }
   if (req.method === "DELETE") return new Response(null, { status: 204, headers: CORS });
   if (req.method !== "POST") return json({ error: "method not allowed" }, 405);

@@ -1,4 +1,4 @@
-# Public AI Library
+# Nunna's AI Library
 
 > Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.20+b6a36e6e34f6, 2422 items, updated 2026-10-20.
 

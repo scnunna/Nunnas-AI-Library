@@ -108,9 +108,9 @@ const page = (title, desc, body, extraHead = "") => `<!doctype html>
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:type" content="article">
 ${FONTS}${extraHead}<style>${ARTICLE_CSS}</style></head><body><div class="wrap">
-<nav><a href="../">← Public AI Library</a><a href="../#explore">Explore</a><a href="../#trending">Trending</a><a href="./">All articles</a></nav>
+<nav><a href="../">← Nunna's AI Library</a><a href="../#explore">Explore</a><a href="../#trending">Trending</a><a href="./">All articles</a></nav>
 ${body}
-<footer>Public AI Library · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a></footer></div></body></html>`;
+<footer>Nunna's AI Library · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a></footer></div></body></html>`;
 
 // ---------- build ----------
 mkdirSync(join(DOCS, "data"), { recursive: true });
@@ -130,14 +130,14 @@ if (existsSync(bdir)) for (const f of readdirSync(bdir).filter((x) => x.endsWith
     usecases: list(meta.usecases), video: meta.video || null, cover: meta.cover || null, minutes: Math.max(1, Math.round(words / 230)), html };
   posts.push(post);
   const head = `<link rel="canonical" href="${BASE}blog/${slug}.html">`;
-  writeFileSync(join(DOCS, "blog", `${slug}.html`), page(`${post.title} · Public AI Library`, post.summary,
+  writeFileSync(join(DOCS, "blog", `${slug}.html`), page(`${post.title} · Nunna's AI Library`, post.summary,
     `<div class="eyebrow">${esc(post.date)} · ${post.minutes} min read</div><h1>${esc(post.title)}</h1><p class="lede">${esc(post.summary)}</p>
 <div class="tags">${post.tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div>
 ${post.cover ? `<img class="cover" src="${esc(post.cover)}" alt="">` : ""}${videoEmbed(post.video)}
 ${html}`, head));
 }
 posts.sort((a, b) => (b.date || "").localeCompare(a.date || "") || a.slug.localeCompare(b.slug));
-writeFileSync(join(DOCS, "blog", "index.html"), page("Articles · Public AI Library", "Use cases, combinations and cross-industry lessons from the Public AI Library.",
+writeFileSync(join(DOCS, "blog", "index.html"), page("Articles · Nunna's AI Library", "Use cases, combinations and cross-industry lessons from the Nunna's AI Library.",
   `<div class="eyebrow">Field notes</div><h1>Articles</h1><p class="lede">Use cases, tool combinations and cross-industry lessons from the library.</p>
 <div class="post-list">${posts.map((p) => `<a href="${p.slug}.html"><span class="eyebrow">${esc(p.date)} · ${p.minutes} min${p.video ? " · video" : ""}</span><b>${esc(p.title)}</b><p>${esc(p.summary)}</p></a>`).join("")}</div>`));
 writeFileSync(join(DOCS, "data", "blog.json"), JSON.stringify({ posts }, null, 1));
@@ -146,7 +146,7 @@ writeFileSync(join(DOCS, "data", "blog.json"), JSON.stringify({ posts }, null, 1
 const app = readFileSync(join(SITE, "index.html"), "utf8");
 writeFileSync(join(DOCS, "index.html"), `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta property="og:title" content="Public AI Library"><meta property="og:description" content="Search 2,400+ AI tools, MCP servers, skills and public APIs, each with a verdict, plus the top trending GitHub repos.">
+<meta property="og:title" content="Nunna's AI Library"><meta property="og:description" content="Search 2,400+ AI tools, MCP servers, skills and public APIs, each with a verdict, plus the top trending GitHub repos.">
 <link rel="canonical" href="${BASE}">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 </head><body>

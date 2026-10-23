@@ -1,5 +1,5 @@
 /**
- * Public AI Library — query engine shared by the stdio server (Node) and the remote
+ * Nunna's AI Library — query engine shared by the stdio server (Node) and the remote
  * HTTP server (Supabase Edge / Deno). Pure functions over the built bundle
  * (dist/library.json). Zero dependencies.
  */
@@ -207,7 +207,7 @@ const FILTERS = {
 };
 
 export const TOOLS = [
-  { name: "library_info", description: "Start here. What the Public AI Library holds (collections, counts, version, build date), links to the Index/Mindmap/GraphQL schema, and how to add items.", inputSchema: S({}) },
+  { name: "library_info", description: "Start here. What the Nunna's AI Library holds (collections, counts, version, build date), links to the Index/Mindmap/GraphQL schema, and how to add items.", inputSchema: S({}) },
   { name: "search", description: "Ranked full-text search across every collection (APIs, MCP servers, skills, agent tools, AI content tools, web tools, design resources, notes). All words must match. Combine with filters.", inputSchema: S({ query: str("Words to search"), ...FILTERS, limit: int("Max results (default 20)"), offset: int("Paging offset") }) },
   { name: "browse", description: "List a collection (optionally filtered) without a search query — e.g. all 'adopt' MCP servers or all video-gen tools.", inputSchema: S({ ...FILTERS, limit: int("default 50"), offset: int("paging offset") }, ["collection"]) },
   { name: "get_item", description: "Full record for one item by id (includes verdict reasoning and extra fields).", inputSchema: S({ id: str("Item id from search/browse") }, ["id"]) },
@@ -221,7 +221,7 @@ export const TOOLS = [
 export function callTool(ix, name, a = {}, extras = {}) {
   switch (name) {
     case "library_info": return {
-      name: "Public AI Library", ...stats(ix), collections: collections(ix), links: LINKS,
+      name: "Nunna's AI Library", ...stats(ix), collections: collections(ix), links: LINKS,
       howToAdd: extras.canWrite
         ? "Use add_items (writes library/*.json, rebuilds the index and pushes to GitHub)."
         : "This remote endpoint is read-only. To add items, use the local stdio server's add_items tool on a machine with the repo cloned, or edit library/<collection>.json, run `node scripts/build.mjs`, commit and push.",
@@ -255,7 +255,7 @@ export async function handleRpc(msg, getIx, { extraTools = [], extraCall, server
       case "initialize":
         return ok({ protocolVersion: params?.protocolVersion || "2025-06-18", capabilities: { tools: {} },
           serverInfo: { name: serverName, version },
-          instructions: "Public AI Library: curated, regularly maintained catalog of public APIs, MCP servers, Claude skills/plugins, agent frameworks and AI content tools, each with a verdict. Call library_info first; use `why` before researching any tool." });
+          instructions: "Nunna's AI Library: curated, regularly maintained catalog of public APIs, MCP servers, Claude skills/plugins, agent frameworks and AI content tools, each with a verdict. Call library_info first; use `why` before researching any tool." });
       case "ping": return ok({});
       case "tools/list": return ok({ tools: [...TOOLS, ...extraTools] });
       case "tools/call": {
