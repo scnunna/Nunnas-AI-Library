@@ -5,7 +5,9 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 212]
+    content-tools[AI content-creation tools · 231]
+      game-engines · 22
+        Godot Engine
       asset-rigging-animation · 21
         CMU Graphics Lab Motion Capture Database
         Reallusion AccuRIG
@@ -56,7 +58,6 @@ mindmap
         FLUX.2 klein
         FLUX.2 klein 4B
       auto-clip · 5
-      avatar-lipsync · 5
     mcp-servers[MCP servers · 36]
       game-engine-agents · 9
       mcp-browser · 2
@@ -225,8 +226,7 @@ mindmap
         React Bits
       JS / React · 1
         Motion formerly Framer Motion
-      JS / WebGL · 1
-        Three.js
+      game-engines · 1
       Markdown file + CLI npx @google/design.md · 1
         DESIGN.md format Google + designmd.ai
       Website + MCP Cursor, Claude, Windsurf · 1

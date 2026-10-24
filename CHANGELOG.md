@@ -572,3 +572,25 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-24 — research 2026-10-24
 - updated skill-claude-code-game-studios
+
+## 2026-10-24 — research 2026-10-24: game engines
+- added engine-gdevelop -> content-tools
+- added engine-defold -> content-tools
+- added engine-phaser -> content-tools
+- added engine-l-ve-love2d -> content-tools
+- added engine-raylib -> content-tools
+- added engine-monogame -> content-tools
+- added engine-ren-py -> content-tools
+- added engine-bevy -> content-tools
+- added engine-unity -> content-tools
+- added engine-unreal-engine -> content-tools
+- added engine-gamemaker -> content-tools
+- added engine-construct-3 -> content-tools
+- added engine-flax-engine -> content-tools
+- added engine-open-3d-engine-o3de -> content-tools
+- added engine-stride -> content-tools
+- added engine-playcanvas -> content-tools
+- updated design-three-js
+- added engine-wicked-engine -> content-tools
+- added engine-excalibur-js -> content-tools
+- added engine-kaplay -> content-tools
