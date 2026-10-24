@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+1f213eabdd4d, 2462 items, updated 2026-10-24.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+f94058deb0ba, 2509 items, updated 2026-10-24.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -33,6 +33,7 @@ How to use this repo as an AI assistant:
 - notes: Research notes (58) — Free-text findings from past research batches.
 - apis: Public APIs (1838) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
+- investing-research: Investing research (free sites) (47) — Free investing and markets research sites: 13F and insider-trade trackers, investor letters, valuation data, macro sources, screeners and backtesters, with verdicts.
 
 ## Adopted (recommended) items
 
@@ -208,3 +209,14 @@ How to use this repo as an AI assistant:
 - Ghidra [assessments/reverse-engineering] https://github.com/NationalSecurityAgency/ghidra
 - GhidraMCP [assessments/reverse-engineering] https://github.com/LaurieWired/GhidraMCP
 - mitmproxy [assessments/reverse-engineering] https://github.com/mitmproxy/mitmproxy
+- Dataroma [investing-research/Holdings & insider trades] https://www.dataroma.com
+- Capitol Trades [investing-research/Holdings & insider trades] https://www.capitoltrades.com
+- OpenInsider [investing-research/Holdings & insider trades] http://openinsider.com
+- 13F Info [investing-research/Holdings & insider trades] https://13f.info
+- Damodaran Online [investing-research/Valuation] https://pages.stern.nyu.edu/~adamodar/
+- J.P. Morgan Guide to the Markets [investing-research/Market data & macro] https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/guide-to-the-markets/
+- Macrotrends [investing-research/Company data & screeners] https://www.macrotrends.net
+- Stock Analysis [investing-research/Company data & screeners] https://stockanalysis.com
+- Finviz [investing-research/Company data & screeners] https://finviz.com
+- Portfolio Visualizer [investing-research/Backtesting] https://www.portfoliovisualizer.com
+- TradingView [investing-research/Company data & screeners] https://www.tradingview.com

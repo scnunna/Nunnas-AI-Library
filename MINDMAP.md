@@ -288,4 +288,25 @@ mindmap
       Photography · 33
     api-test-endpoints[API smoke-test endpoints · 47]
       smoke-test · 47
+    investing-research[Investing research free sites · 47]
+      Company data & screeners · 10
+        Macrotrends
+        Stock Analysis
+        Finviz
+        TradingView
+      Books & learning · 8
+      Investing writing · 7
+      Holdings & insider trades · 6
+        Dataroma
+        Capitol Trades
+        OpenInsider
+        13F Info
+      Market data & macro · 6
+        J.P. Morgan Guide to the Markets
+      Investor letters & memos · 5
+      Valuation · 2
+        Damodaran Online
+      Backtesting · 2
+        Portfolio Visualizer
+      Quant research · 1
 ```
