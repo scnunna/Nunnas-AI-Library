@@ -392,3 +392,15 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-ruflo -> agent-tools
 - added tool-cli-anything -> agent-tools
 - added tool-akitaonrails-ai-memory -> agent-tools
+
+## 2026-10-24 — research 2026-10-24
+- added skill-text-to-cad -> skills
+- added skill-coreyhaines-marketingskills -> skills
+- added skill-djwesterfield-digital-marketing-agents -> skills
+- added skill-cesarjoquin-marketing-skills -> skills
+- added skill-asv-digital-agents-agencia-marketing -> skills
+
+## 2026-10-24 — research 2026-10-24
+- added tool-context-mode -> agent-tools
+- added tool-jeweledtech-agentic-framework -> agent-tools
+- added tool-amanux7-ai-marketing-agency -> agent-tools

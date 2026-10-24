@@ -68,7 +68,7 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 46]
+    skills[Agent skills & plugins · 51]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -87,27 +87,28 @@ mindmap
         humanizer
         video-shotcraft
         ffmpeg-skill
+      marketing · 4
+        marketingskills Corey Haines
       marketplace · 2
         knowledge-work-plugins
+      3d-generation · 2
+        image-blaster
       video-render · 2
       game-engine-agents · 2
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-      3d-generation · 1
-        image-blaster
       explainer-video · 1
         Papermorph
       web-animation · 1
-      web-3d · 1
-        threejs-skills
-    agent-tools[Agent tools & frameworks · 113]
+    agent-tools[Agent tools & frameworks · 116]
       tools · 11
         firecrawl
         context7
         github-mcp
         playwright-mcp
         serena
+      agent-framework · 9
       build-workflow · 8
         karpathy-skills
         superpowers
@@ -117,7 +118,7 @@ mindmap
         mattpocock skills
         wshobson agents
         claude-plugins
-      context · 7
+      context · 8
         planning-with-files
         graphify
         repomix
@@ -127,7 +128,6 @@ mindmap
         codex-plugin-cc
         claude-hud
         rtk
-      agent-framework · 7
       orchestrate · 6
         dspy
       memory-eval-ship · 6
