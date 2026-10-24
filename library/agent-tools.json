@@ -2797,6 +2797,44 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24"
+  },
+  {
+   "id": "tool-ruvnet-marketing",
+   "name": "ruvnet/marketing (AI marketing swarm)",
+   "kind": "repo",
+   "category": "orchestrate",
+   "url": "https://github.com/ruvnet/marketing",
+   "description": "TypeScript system of 15 agents in five tiers (coordination, intelligence, creative, attribution, operations) meant to run ad campaigns across Google Ads, Meta, TikTok and others, built on the Claude Flow (Ruflo) framework. About 18k lines of source; 18 commits; last commit 2026-05-23. Needs an Anthropic API key and ad-platform credentials.",
+   "verdict": "reference",
+   "verdictNote": "reference: borrow the agent tiers and the quality-gate idea; never connect a live ad account",
+   "why": "It is designed to change bids, budgets and creatives on real ad accounts, and the README doesn't show how human approval works. Superlatives and performance figures come with no evidence, and nothing has changed since May. Depends on the external Claude Flow package.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 127,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
+  },
+  {
+   "id": "tool-builderz-marketing-dashboard",
+   "name": "Marketing Dashboard (Builderz Labs)",
+   "kind": "repo",
+   "category": "marketing",
+   "url": "https://github.com/builderz-labs/marketing-dashboard",
+   "description": "Self-hosted marketing operations dashboard: CRM leads and pipeline, outreach sequences, content calendar with approval queues, KPI views, cron automations and AI-agent activity in one screen. Next.js 16 plus local SQLite, no hosted backend; optional connectors for Plausible, GA4, X, LinkedIn, Gmail and Mailchimp, and OpenClaw agents. Alpha status; 47 commits; last 2026-09-22.",
+   "verdict": "assess",
+   "verdictNote": "assess: good fit if you want one approval screen for agent-made content; wait for a beta",
+   "why": "Free, local-first, and built around human approval before anything posts, which is the right control for automated content. But it's alpha (schemas may change), needs Node and pnpm to run, and you'd have to change the seeded login before exposing it anywhere.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 467,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
   }
  ]
 }

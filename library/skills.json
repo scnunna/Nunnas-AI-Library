@@ -1153,6 +1153,25 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24"
+  },
+  {
+   "id": "skill-alirezarezvani-claude-skills",
+   "name": "claude-skills (Alireza Rezvani)",
+   "kind": "repo",
+   "category": "marketplace",
+   "url": "https://github.com/alirezarezvani/claude-skills",
+   "description": "Very large skill library (about 465 SKILL.md files, roughly 5,800 files) across 20 domains: engineering, product, project management, marketing, finance, compliance and regulatory/quality, C-level advisory and agents, business operations and growth, research. Skills bundle instructions, Python helper scripts and templates; works with Claude Code, Codex, Gemini CLI, Cursor and others. Very active (commit 2026-10-23). The README's skill and star counts contradict each other.",
+   "verdict": "assess",
+   "verdictNote": "assess: cherry-pick a few (product, project management, C-level advisor); never install the whole library",
+   "why": "Broad coverage of business roles a PM or consultant uses, under MIT. Quality varies across hundreds of skills and many run Python scripts, so read each one before installing. Loading too many skills makes agents pick the wrong one.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 28300,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
   }
  ]
 }

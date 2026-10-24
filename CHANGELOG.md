@@ -404,3 +404,12 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-context-mode -> agent-tools
 - added tool-jeweledtech-agentic-framework -> agent-tools
 - added tool-amanux7-ai-marketing-agency -> agent-tools
+
+## 2026-10-24 — research 2026-10-24
+- added skill-alirezarezvani-claude-skills -> skills
+
+## 2026-10-24 — research 2026-10-24
+- added tool-ruvnet-marketing -> agent-tools
+
+## 2026-10-24 — research 2026-10-24
+- added tool-builderz-marketing-dashboard -> agent-tools
