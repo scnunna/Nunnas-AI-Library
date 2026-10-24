@@ -560,3 +560,15 @@ Every library change is logged here by `scripts/add.mjs`.
 - added asset-free-music-archive -> content-tools
 - added asset-purple-planet-music -> content-tools
 - added asset-soundimage-org-eric-matyas -> content-tools
+
+## 2026-10-24 — research 2026-10-24
+- added dir-kavex-gamedev-resources -> directories
+- added dir-yuan-manx-ai-game-devtools -> directories
+- added dir-crazyshader-gamedev -> directories
+- added dir-gonglei007-gamedevmind -> directories
+
+## 2026-10-24 — research 2026-10-24
+- added tool-gamedevelopmentkit -> content-tools
+
+## 2026-10-24 — research 2026-10-24
+- updated skill-claude-code-game-studios

@@ -5621,6 +5621,25 @@
    "extra": {
     "licenceEvidence": "https://itch.io/profile/eric-matyas"
    }
+  },
+  {
+   "id": "tool-gamedevelopmentkit",
+   "name": "GameDevelopmentKit (GDK)",
+   "kind": "repo",
+   "category": "game-engines",
+   "url": "https://github.com/XuToWei/GameDevelopmentKit",
+   "description": "Unity client plus .NET server framework built on UnityGameFramework and ET 8.1, with HybridCLR hot updates, shared protocols and config, networking, UI and build tooling. Docs in Chinese. About 7,400 files; last commit 2026-10-13.",
+   "verdict": "skip",
+   "verdictNote": "skip: Unity + C# multiplayer framework for experienced teams",
+   "why": "Built for Chinese mobile-MMO-style studios that need hot updates and a game server. Far too heavy for a solo or no-code creator, and it locks you into Unity.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 620,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
   }
  ]
 }

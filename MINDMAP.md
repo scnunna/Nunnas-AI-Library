@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 211]
+    content-tools[AI content-creation tools · 212]
       asset-rigging-animation · 21
         CMU Graphics Lab Motion Capture Database
         Reallusion AccuRIG
@@ -165,10 +165,11 @@ mindmap
       orchestration · 3
       coding-agent · 2
         anthropics/claude-code
-    directories[Directories & registries · 20]
+    directories[Directories & registries · 24]
       programming · 5
         awesome-python
         awesome-nodejs
+      gamedev · 4
       claude-skill · 3
         awesome-claude-code
       registry · 2

@@ -898,13 +898,13 @@
    "why": "Cost warning from the repo itself: the 'standard' rigor level took about 58 minutes and produced 30 documents before any game code; directors use Opus No a custom web game engine agent set; built for Godot/Unity/Unreal 40 commits; counts in the README disagree (72 vs 74 skills)",
    "tags": [],
    "license": "MIT",
-   "stars": 25400,
+   "stars": 26900,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-10-24",
    "source": "research 2026-10: content, motion, 3D and game tools"
   },
   {
