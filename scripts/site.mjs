@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = join(ROOT, "site"), DOCS = join(ROOT, "docs");
-const BASE = "https://scnunna.github.io/Public-AI-Library/";
+const BASE = "https://scnunna.github.io/Nunnas-AI-Library/";
 
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -110,7 +110,7 @@ const page = (title, desc, body, extraHead = "") => `<!doctype html>
 ${FONTS}${extraHead}<style>${ARTICLE_CSS}</style></head><body><div class="wrap">
 <nav><a href="../">← Nunna's AI Library</a><a href="../#explore">Explore</a><a href="../#trending">Trending</a><a href="./">All articles</a></nav>
 ${body}
-<footer>Nunna's AI Library · <a href="https://github.com/scnunna/Public-AI-Library">GitHub</a></footer></div></body></html>`;
+<footer>Nunna's AI Library · <a href="https://github.com/scnunna/Nunnas-AI-Library">GitHub</a></footer></div></body></html>`;
 
 // ---------- build ----------
 mkdirSync(join(DOCS, "data"), { recursive: true });

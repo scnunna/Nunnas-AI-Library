@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "docs", "data", "trending.json");
-const UA = { "User-Agent": "Mozilla/5.0 (Public-AI-Library trending refresh)", Accept: "text/html,application/json" };
+const UA = { "User-Agent": "Mozilla/5.0 (Nunnas-AI-Library trending refresh)", Accept: "text/html,application/json" };
 const N = 20;
 
 const decode = (s) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&#x27;/g, "'");

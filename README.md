@@ -4,7 +4,7 @@ A curated, regularly maintained catalog of **public APIs, MCP servers, Claude sk
 
 | | |
 |---|---|
-| 🔎 **Browse** | https://scnunna.github.io/Public-AI-Library/ |
+| 🔎 **Browse** | https://scnunna.github.io/Nunnas-AI-Library/ |
 | 📇 **Index** | [INDEX.md](INDEX.md) — every curated item by collection and category |
 | 🔌 **Connect your Claude** | [CONNECT.md](CONNECT.md) — web, desktop, mobile and Claude Code |
 | 🧠 **Mind map** | [MINDMAP.md](MINDMAP.md) (visual) · [MINDMAP.graphql](MINDMAP.graphql) (runnable queries) |
@@ -32,9 +32,9 @@ A curated, regularly maintained catalog of **public APIs, MCP servers, Claude sk
 
 See **[CONNECT.md](CONNECT.md)** for step-by-step setup. In short:
 
-- **Zero setup:** ask Claude to read `https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/llms.txt`.
+- **Zero setup:** ask Claude to read `https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/llms.txt`.
 - **Remote connector (claude.ai, Desktop, Code):** *Settings → Connectors → Add custom connector* with URL `https://xbinbulvanscbmfbvcio.supabase.co/functions/v1/public-ai-library` (read-only, serves the latest `main`).
-- **Local MCP server:** `git clone https://github.com/scnunna/Public-AI-Library.git` then `claude mcp add -s user public-ai-library -- node "<path>/Public-AI-Library/mcp/server.mjs"`. It `git pull`s on start; the maintainer's checkout also gets the write tools `add_items` / `sync_library`.
+- **Local MCP server:** `git clone https://github.com/scnunna/Nunnas-AI-Library.git` then `claude mcp add -s user public-ai-library -- node "<path>/Nunnas-AI-Library/mcp/server.mjs"`. It `git pull`s on start; the maintainer's checkout also gets the write tools `add_items` / `sync_library`.
 
 ### Tools
 `library_info` · `search` · `browse` · `get_item` · `why` · `categories` · `search_apis` · `recent` · `graphql` — plus `add_items` / `sync_library` in a local checkout.

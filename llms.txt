@@ -5,7 +5,7 @@
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
 - Source of truth: library/*.json. Generated views: INDEX.md (human), MINDMAP.md (Mermaid), MINDMAP.graphql (query map), dist/library.json (full bundle).
-- Raw bundle URL: https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/dist/library.json
+- Raw bundle URL: https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/dist/library.json
 - Query language: schema.graphql (run through the MCP `graphql` tool).
 
 ## Files

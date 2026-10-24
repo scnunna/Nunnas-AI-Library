@@ -4,7 +4,7 @@
  * (dist/library.json). Zero dependencies.
  */
 
-export const REPO = "scnunna/Public-AI-Library";
+export const REPO = "scnunna/Nunnas-AI-Library";
 export const RAW_URL = `https://raw.githubusercontent.com/${REPO}/main/dist/library.json`;
 export const LINKS = {
   repo: `https://github.com/${REPO}`,
@@ -14,7 +14,7 @@ export const LINKS = {
   mindmapGraphql: `https://github.com/${REPO}/blob/main/MINDMAP.graphql`,
   llms: `https://raw.githubusercontent.com/${REPO}/main/llms.txt`,
   connect: `https://github.com/${REPO}/blob/main/CONNECT.md`,
-  browse: `https://scnunna.github.io/Public-AI-Library/`,
+  browse: `https://scnunna.github.io/Nunnas-AI-Library/`,
 };
 
 const low = (s) => String(s ?? "").toLowerCase();

@@ -14,10 +14,10 @@ Three ways, from easiest to most powerful. All of them are **read-only** for you
 
 Paste this into a chat:
 
-> Read https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/llms.txt and use the Nunna's AI Library as your reference. Before you recommend any AI tool, API or MCP server, check its verdict there.
+> Read https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/llms.txt and use the Nunna's AI Library as your reference. Before you recommend any AI tool, API or MCP server, check its verdict there.
 
 For a specific tool, Claude can look it up in the full bundle:
-`https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/dist/library.json`
+`https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/dist/library.json`
 
 Good for quick questions. For repeated use, set up B or C so Claude can search properly.
 
@@ -45,8 +45,8 @@ claude mcp add --transport http public-ai-library https://xbinbulvanscbmfbvcio.s
 ### With Git (recommended: updates itself)
 
 ```bash
-git clone https://github.com/scnunna/Public-AI-Library.git
-claude mcp add -s user public-ai-library -- node "/full/path/to/Public-AI-Library/mcp/server.mjs"
+git clone https://github.com/scnunna/Nunnas-AI-Library.git
+claude mcp add -s user public-ai-library -- node "/full/path/to/Nunnas-AI-Library/mcp/server.mjs"
 ```
 
 The server runs `git pull` every time it starts, so you always get the latest library.
@@ -55,8 +55,8 @@ The server runs `git pull` every time it starts, so you always get the latest li
 
 Download these two files into one folder:
 
-- https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/mcp/server.mjs
-- https://raw.githubusercontent.com/scnunna/Public-AI-Library/main/mcp/core.mjs
+- https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/mcp/server.mjs
+- https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/mcp/core.mjs
 
 Then register it:
 
@@ -73,7 +73,7 @@ Open **Settings → Developer → Edit Config** and add this inside `"mcpServers
 ```json
 "public-ai-library": {
   "command": "node",
-  "args": ["C:\\full\\path\\to\\Public-AI-Library\\mcp\\server.mjs"]
+  "args": ["C:\\full\\path\\to\\Nunnas-AI-Library\\mcp\\server.mjs"]
 }
 ```
 
