@@ -68,14 +68,18 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 41]
+    skills[Agent skills & plugins · 46]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
-      engineering · 5
+      engineering · 8
         graphify
         napkin
         tech-debt-audit
+        Cloudflare security-audit skill
+      research · 5
+        last30days
+        user-research
       create · 5
         scroll-world
       grow-ship · 5
@@ -83,15 +87,13 @@ mindmap
         humanizer
         video-shotcraft
         ffmpeg-skill
-      research · 4
-        last30days
-        user-research
+      marketplace · 2
+        knowledge-work-plugins
       video-render · 2
       game-engine-agents · 2
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-      marketplace · 1
       3d-generation · 1
         image-blaster
       explainer-video · 1
@@ -99,8 +101,8 @@ mindmap
       web-animation · 1
       web-3d · 1
         threejs-skills
-    agent-tools[Agent tools & frameworks · 110]
-      tools · 10
+    agent-tools[Agent tools & frameworks · 113]
+      tools · 11
         firecrawl
         context7
         github-mcp
@@ -126,16 +128,16 @@ mindmap
         claude-hud
         rtk
       agent-framework · 7
+      orchestrate · 6
+        dspy
+      memory-eval-ship · 6
+        agentops
+        elevenlabs + deepgram
       run-build · 5
         ollama
-      orchestrate · 5
-        dspy
       act-execute · 5
         vercel-ai-sdk
         e2b
-      memory-eval-ship · 5
-        agentops
-        elevenlabs + deepgram
       llm · 4
         Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5
         Qwen3.5 9B Q4_K_M

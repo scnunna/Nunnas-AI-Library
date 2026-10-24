@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+1ac010eb95b5, 2442 items, updated 2026-10-24.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+1215a83092b4, 2450 items, updated 2026-10-24.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -21,8 +21,8 @@ How to use this repo as an AI assistant:
 
 - content-tools: AI content-creation tools (121) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
-- skills: Agent skills & plugins (41) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (110) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- skills: Agent skills & plugins (46) — Claude/agent skills, plugins and marketplaces, with verdicts.
+- agent-tools: Agent tools & frameworks (113) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (20) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.
@@ -107,6 +107,7 @@ How to use this repo as an AI assistant:
 - product-launch-motion [skills/motion-graphics-skills] https://github.com/AbubakrChan/product-launch-motion
 - LottieFiles motion-design-skill [skills/motion-graphics-skills] https://github.com/LottieFiles/motion-design-skill
 - threejs-skills [skills/web-3d] https://github.com/cloudai-x/threejs-skills
+- Cloudflare security-audit skill [skills/engineering] https://github.com/cloudflare/security-audit-skill
 - karpathy-skills [agent-tools/build-workflow]
 - superpowers [agent-tools/build-workflow]
 - taste-skill [agent-tools/skills]

@@ -380,3 +380,15 @@ Every library change is logged here by `scripts/add.mjs`.
 - added dir-awesome-hacking-hack-with-github -> directories
 - added dir-papers-we-love -> directories
 - added dir-awesome-design-patterns -> directories
+
+## 2026-10-24 — research 2026-10-24
+- added skill-anthropics-knowledge-work-plugins -> skills
+- added skill-cloudflare-security-audit -> skills
+- added skill-snailsploit-claude-red -> skills
+- added skill-android-skills -> skills
+- added skill-k-dense-scientific-agent-skills -> skills
+
+## 2026-10-24 — research 2026-10-24
+- added tool-ruflo -> agent-tools
+- added tool-cli-anything -> agent-tools
+- added tool-akitaonrails-ai-memory -> agent-tools
