@@ -187,14 +187,14 @@
   },
   {
    "id": "design-three-js",
-   "name": "three.js",
-   "kind": "engine",
-   "category": "game-engines",
+   "name": "Three.js",
+   "kind": "design-resource",
+   "category": "JS / WebGL",
    "url": "https://threejs.org",
-   "description": "[3D (web)] The standard JavaScript 3D library behind most 3D websites; not a full game engine.",
-   "verdict": "reference",
-   "verdictNote": "reference: 3D (web)",
-   "why": "Claude writes three.js very well. Pair with react-three-fiber (already in the library) for web 3D content.",
+   "description": "Standard MIT JavaScript 3D/WebGL library (not a full game engine). Re-checked Oct 13: MIT, 115k stars. Pair with threejs-skills for the agent and react-three-fiber on React sites; also listed as a web 3D option among game engines.",
+   "verdict": "have",
+   "verdictNote": "already in stack",
+   "why": "Already in the stack. Claude writes three.js very well; use it for 3D and WebGL moments on sites and light web games.",
    "tags": [
     "game-engine"
    ],

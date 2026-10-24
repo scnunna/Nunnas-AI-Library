@@ -226,7 +226,8 @@ mindmap
         React Bits
       JS / React · 1
         Motion formerly Framer Motion
-      game-engines · 1
+      JS / WebGL · 1
+        Three.js
       Markdown file + CLI npx @google/design.md · 1
         DESIGN.md format Google + designmd.ai
       Website + MCP Cursor, Claude, Windsurf · 1
