@@ -33,26 +33,26 @@
   },
   {
    "id": "dir-hesreallyhim-awesome-claude-code",
-   "name": "hesreallyhim/awesome-claude-code",
+   "name": "awesome-claude-code",
    "kind": "list",
    "category": "claude-skill",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "description": "Hand-picked collection of resources for Claude Code: skills, hooks, slash commands, plugins.",
-   "verdict": "assess",
-   "verdictNote": null,
-   "why": "Best curated Claude Code resource index.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: main discovery list for Claude Code skills, hooks and tools",
+   "why": "About 280 curated entries, updated 2026-10-24. Submissions go through a form checked by a bot, not a quality review, so vet each tool. Licence is NonCommercial-NoDerivatives: link to it, don't copy its contents into another published list.",
    "tags": [
     "claude-code",
     "awesome-list"
    ],
-   "license": null,
-   "stars": 55774,
+   "license": "CC BY-NC-ND 4.0",
+   "stars": 55600,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-10-24",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-10-15",
@@ -332,6 +332,178 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists"
+  },
+  {
+   "id": "dir-awesome-nodejs",
+   "name": "awesome-nodejs",
+   "kind": "list",
+   "category": "programming",
+   "url": "https://github.com/sindresorhus/awesome-nodejs",
+   "description": "Curated Node.js packages and resources by category (CLI, HTTP, databases, testing, scraping and more) from Sindre Sorhus. Last commit 2026-09-02.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: reference when Claude writes Node.js",
+   "why": "Node.js runs the MCP servers and most scripts, and this list is strictly curated, so it's a good place to pick dependable packages.",
+   "tags": [
+    "nodejs",
+    "javascript",
+    "directory"
+   ],
+   "license": "CC0-1.0",
+   "stars": 67000,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-awesome-cpp",
+   "name": "awesome-cpp",
+   "kind": "list",
+   "category": "programming",
+   "url": "https://github.com/fffaraz/awesome-cpp",
+   "description": "Large curated list of C/C++ frameworks, libraries and resources (about 1,400 links), including embedded, audio, graphics, networking and game sections. Last commit 2026-10-10.",
+   "verdict": "reference",
+   "verdictNote": "reference: for firmware and embedded projects",
+   "why": "Useful when microcontroller or device firmware (ESP32/Arduino) needs a C++ library; not needed for web or Python work.",
+   "tags": [
+    "cpp",
+    "embedded",
+    "directory"
+   ],
+   "license": "MIT",
+   "stars": 73000,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-awesome-react",
+   "name": "awesome-react",
+   "kind": "list",
+   "category": "web-frontend",
+   "url": "https://github.com/enaqx/awesome-react",
+   "description": "Curated React ecosystem list: tutorials, state management, routing, UI, testing, frameworks. Last commit 2026-09-04.",
+   "verdict": "reference",
+   "verdictNote": "reference: only for React sites",
+   "why": "Good map of the React ecosystem when a website or React Three Fiber game is built; the licence is inconsistent, so link to it rather than copy.",
+   "tags": [
+    "react",
+    "directory"
+   ],
+   "license": "unclear (badge says CC0, links CC BY 4.0; no LICENSE file)",
+   "stars": 74200,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-awesome-react-components",
+   "name": "awesome-react-components",
+   "kind": "list",
+   "category": "web-frontend",
+   "url": "https://github.com/brillout/awesome-react-components",
+   "description": "About 560 React components and libraries by type: tables, forms, charts, maps, drag-and-drop, editors, UI kits. Last commit 2026-01-26.",
+   "verdict": "reference",
+   "verdictNote": "reference: when a React site needs a specific component",
+   "why": "Fastest way to find a ready-made component (charts, tables, editors). Check each component's own maintenance status; updates to the list slowed in 2026.",
+   "tags": [
+    "react",
+    "ui-components",
+    "directory"
+   ],
+   "license": "CC0-1.0",
+   "stars": 48600,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-awesome-hacking-hack-with-github",
+   "name": "Awesome Hacking (Hack-with-Github)",
+   "kind": "list",
+   "category": "sysadmin-security",
+   "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+   "description": "A list of about 80 other security and hacking lists (pentesting, CTF, malware analysis, reverse engineering, web security). Last commit 2026-07-26.",
+   "verdict": "reference",
+   "verdictNote": "reference: security learning and authorised testing only",
+   "why": "Good entry point for security learning. Use offensive tools only on systems you own or have written permission to test (see the reverse-engineering compliance rule).",
+   "tags": [
+    "security",
+    "pentesting",
+    "list-of-lists"
+   ],
+   "license": "CC0-1.0",
+   "stars": 118000,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-papers-we-love",
+   "name": "Papers We Love",
+   "kind": "list",
+   "category": "research-papers",
+   "url": "https://github.com/papers-we-love/papers-we-love",
+   "description": "Community collection of influential computer-science papers by topic (about 200 PDFs plus links), from distributed systems to AI. Last commit 2026-09-29.",
+   "verdict": "reference",
+   "verdictNote": "reference: background reading",
+   "why": "Learning resource, not a tool. No repo licence; each paper keeps its own copyright.",
+   "tags": [
+    "computer-science",
+    "papers"
+   ],
+   "license": "none stated",
+   "stars": 109700,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
+  },
+  {
+   "id": "dir-awesome-design-patterns",
+   "name": "awesome-design-patterns",
+   "kind": "list",
+   "category": "programming",
+   "url": "https://github.com/DovAmir/awesome-design-patterns",
+   "description": "Software and architecture design patterns by language and domain (cloud, microservices, serverless, ML, games). Last commit 2024-10-25.",
+   "verdict": "reference",
+   "verdictNote": "reference: architecture reading",
+   "why": "Useful background for planning larger builds, but not updated for two years, so some links are stale.",
+   "tags": [
+    "architecture",
+    "design-patterns"
+   ],
+   "license": "CC0-1.0",
+   "stars": 49000,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists batch 2"
   }
  ]
 }

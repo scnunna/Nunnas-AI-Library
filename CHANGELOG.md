@@ -370,3 +370,13 @@ Every library change is logged here by `scripts/add.mjs`.
 - added dir-awesome-python -> directories
 - added dir-the-book-of-secret-knowledge -> directories
 - added dir-awesome-go -> directories
+
+## 2026-10-24 — research 2026-10-24: awesome lists batch 2
+- updated dir-hesreallyhim-awesome-claude-code
+- added dir-awesome-nodejs -> directories
+- added dir-awesome-cpp -> directories
+- added dir-awesome-react -> directories
+- added dir-awesome-react-components -> directories
+- added dir-awesome-hacking-hack-with-github -> directories
+- added dir-papers-we-love -> directories
+- added dir-awesome-design-patterns -> directories
