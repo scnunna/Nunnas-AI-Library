@@ -3379,6 +3379,25 @@
    "verified": true,
    "asOf": "2026-10-19",
    "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "content-nvidia-simready-central",
+   "name": "NVIDIA SimReady Central (Hugging Face)",
+   "kind": "web-tool",
+   "category": "3d-assets",
+   "url": "https://huggingface.co/spaces/nvidia/simready-central",
+   "description": "Open library of simulation-ready OpenUSD 3D assets on Hugging Face (2,000+ at launch; the browser showed about 3,600 in industrial, OEM, residential, hospital and lighting categories). Each asset carries physics data (collision shapes, mass, friction) for robot simulation in Isaac Sim and other OpenUSD tools, with natural-language search and filters for licence, mass and size. Contributors such as NVIDIA (Warehouse-01, 753 assets, CC-BY-4.0, about 10-15 GB), Yaskawa (robot arms, Apache-2.0) and Robotiq (gripper, CC-BY-4.0) host their own datasets; most need a free Hugging Face login and accepting access terms.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: free source for robot-simulation scenes; check each asset's own licence",
+   "why": "Physics data is already set up, which saves the slowest part of building a simulation scene. The hub's Apache-2.0 tag covers only the catalog: each contributor sets the asset licence, so filter by licence. CC-BY-4.0 and Apache-2.0 allow commercial use with credit; brand names and product likenesses (Yaskawa, Robotiq) are still trademarks. Opens in Blender as plain geometry if you don't need physics.",
+   "tags": [],
+   "license": "Per asset (e.g. CC-BY-4.0, Apache-2.0)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
   }
  ]
 }

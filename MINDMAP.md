@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 121]
+    content-tools[AI content-creation tools · 122]
       video-gen · 13
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF

@@ -465,3 +465,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added invest-a-wealth-of-common-sense -> investing-research
 - added invest-the-irrelevant-investor -> investing-research
 - added invest-visual-capitalist -> investing-research
+
+## 2026-10-24 — research 2026-10-24
+- added content-nvidia-simready-central -> content-tools
