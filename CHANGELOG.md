@@ -352,3 +352,15 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-10-23 — research 2026-10-18: Instagram auto-posting for WFF
 - added api-instagram-trial-reels-via-publishing-api -> apis
 - added api-instagram-api-with-instagram-login -> apis
+
+## 2026-10-24 — research 2026-10-23: marketing automation + infra
+- updated content-postiz
+- added tool-listmonk -> agent-tools
+- added api-upload-post -> apis
+- added tool-short-video-maker -> agent-tools
+- added api-late-getlate-dev -> apis
+- added api-blotato -> apis
+- added mcp-social-broadcast-mcp -> mcp-servers
+- added tool-pocketbase -> agent-tools
+- added api-contabo-api -> apis
+- added api-whop-checkout-configurations-api -> apis

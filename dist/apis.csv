@@ -1832,3 +1832,8 @@
 "Yandex.Weather","Weather","https://yandex.com/dev/weather/","Assesses weather condition in specific locations","apiKey","true","No",""
 "Instagram Trial Reels via publishing API","platform-api","https://developers.facebook.com/docs/instagram-platform/content-publishing/","Official Instagram Graph API supports trial Reels (shown to non-followers first) via trial_params on the media container; 100 API posts per 24h per account.","","","",""
 "Instagram API with Instagram Login","platform-api","https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/get-started.md","Business-type Meta app + instagram_business_basic/instagram_business_content_publish; container -> poll FINISHED -> media_publish; media must be a public URL (resumable local upload is Facebook-Login only).","","","",""
+"Upload-Post","social-posting","https://www.upload-post.com","","","","",""
+"Late (getlate.dev)","social-posting","https://getlate.dev","","","","",""
+"Blotato","social-posting","https://www.blotato.com","","","","",""
+"Contabo API","infrastructure","https://api.contabo.com/","","","","",""
+"WHOP checkout configurations API","payments","https://docs.whop.com/api-reference/checkout-configurations/create-checkout-configuration","","","","",""

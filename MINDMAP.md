@@ -38,7 +38,7 @@ mindmap
         Revideo
         MoviePy
       world-model · 3
-    mcp-servers[MCP servers · 35]
+    mcp-servers[MCP servers · 36]
       game-engine-agents · 9
       mcp-browser · 2
         microsoft/playwright-mcp
@@ -99,7 +99,7 @@ mindmap
       web-animation · 1
       web-3d · 1
         threejs-skills
-    agent-tools[Agent tools & frameworks · 107]
+    agent-tools[Agent tools & frameworks · 110]
       tools · 10
         firecrawl
         context7
@@ -254,7 +254,7 @@ mindmap
       agentToolkit · 6
       agentFramework · 6
       agentSkill · 5
-    apis[Public APIs · 1833]
+    apis[Public APIs · 1838]
       Development · 168
       Government · 107
       Games & Comics · 102

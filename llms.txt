@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.20+b6a36e6e34f6, 2422 items, updated 2026-10-20.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+56da2d315e03, 2431 items, updated 2026-10-24.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -20,9 +20,9 @@ How to use this repo as an AI assistant:
 ## Collections
 
 - content-tools: AI content-creation tools (121) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
-- mcp-servers: MCP servers (35) — Model Context Protocol servers worth connecting to Claude.
+- mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (41) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (107) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- agent-tools: Agent tools & frameworks (110) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (9) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.
@@ -31,7 +31,7 @@ How to use this repo as an AI assistant:
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
 - notes: Research notes (58) — Free-text findings from past research batches.
-- apis: Public APIs (1833) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
+- apis: Public APIs (1838) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
 
 ## Adopted (recommended) items
@@ -135,6 +135,7 @@ How to use this repo as an AI assistant:
 - Qwen3.5 9B (Q4_K_M) [agent-tools/llm] https://runaihome.com/blog/best-local-ai-models-8gb-vram-august-2026/
 - Health Connect Jetpack client (androidx.health.connect:connect-client) [agent-tools/android-health] https://developer.android.com/health-and-fitness/guides/health-connect
 - requests-cache [agent-tools/http-caching] https://github.com/requests-cache/requests-cache
+- Listmonk [agent-tools/email] https://listmonk.app
 - MCP Registry [directories/registry] https://github.com/modelcontextprotocol/registry
 - punkpeye/awesome-mcp-servers [directories/mcp-list] https://github.com/punkpeye/awesome-mcp-servers
 - unpaywall.org [web-tools/API] https://unpaywall.org

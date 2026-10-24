@@ -840,6 +840,25 @@
    "verified": true,
    "asOf": "2026-10-19",
    "source": "research 2026-10-19: 3D web game stack"
+  },
+  {
+   "id": "mcp-social-broadcast-mcp",
+   "name": "Social Broadcast MCP",
+   "kind": "mcp",
+   "category": "social-posting",
+   "url": "https://glama.ai/mcp/servers/rkr1uf02vx",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "MCP server that posts to Facebook/Instagram/YouTube through official APIs with your own credentials; maintenance unverified.",
+   "tags": [],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-23: marketing automation + infra"
   }
  ]
 }

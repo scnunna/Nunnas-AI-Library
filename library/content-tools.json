@@ -1073,13 +1073,13 @@
   {
    "id": "content-postiz",
    "name": "Postiz",
-   "kind": "repo",
-   "category": "scheduling",
-   "url": "https://www.postiz.com/blog",
+   "kind": "tool",
+   "category": "social-scheduler",
+   "url": "https://github.com/gitroomhq/postiz-app",
    "description": "Open-source social scheduler with MCP server, CLI and agent integrations (Claude Code, Codex etc.), 30+ channels incl. Threads, Bluesky; AI clipping.",
-   "verdict": "assess",
+   "verdict": "skip",
    "verdictNote": null,
-   "why": "Could supply our missing IG/TikTok/FB/LinkedIn/Threads connectors instead of writing each; check license and hosting load.",
+   "why": "Retired 2026-10-02 and never used since; our own content studio covers create, approve, schedule and publish for every client.",
    "tags": [
     "mcp",
     "open-source",
@@ -1091,8 +1091,8 @@
    "relevance": [
     "content-studio"
    ],
-   "verified": true,
-   "asOf": "2026-10-15",
+   "verified": false,
+   "asOf": "2026-10-24",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "keyFeatures": [

@@ -2621,6 +2621,68 @@
    "verified": true,
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack"
+  },
+  {
+   "id": "tool-listmonk",
+   "name": "Listmonk",
+   "kind": "tool",
+   "category": "email",
+   "url": "https://listmonk.app",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Self-hosted newsletter and mailing-list manager already running for several brands; pair it with an external SMTP provider (SES/SMTP2GO) plus SPF/DKIM/DMARC.",
+   "tags": [
+    "self-host",
+    "email"
+   ],
+   "license": "AGPL-3.0",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-23: marketing automation + infra"
+  },
+  {
+   "id": "tool-short-video-maker",
+   "name": "short-video-maker",
+   "kind": "repo",
+   "category": "video-generation",
+   "url": "https://github.com/gyoridavid/short-video-maker",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Open-source short-video assembler (Kokoro TTS, Whisper captions, Remotion) that matches our local stack; check how actively it is maintained and Remotion's licence terms.",
+   "tags": [],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-23: marketing automation + infra"
+  },
+  {
+   "id": "tool-pocketbase",
+   "name": "PocketBase",
+   "kind": "framework",
+   "category": "backend",
+   "url": "https://pocketbase.io",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Single Go binary (SQLite) providing auth, storage, realtime and a REST API in about 30 MB; a lighter backend option for new small apps than a full Supabase stack.",
+   "tags": [
+    "self-host"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-23: marketing automation + infra"
   }
  ]
 }
