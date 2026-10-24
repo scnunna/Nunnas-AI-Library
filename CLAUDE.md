@@ -8,3 +8,8 @@
 - Before researching a tool, call `why` — it may already have a verdict.
 - Quick orientation: read `llms.txt` first, then `MINDMAP.graphql` (one runnable query per category) before opening the large JSON files.
 - After changing `mcp/core.mjs` or `mcp/edge/index.ts`, redeploy the Supabase edge function `public-ai-library` (project xbinbulvanscbmfbvcio, verify_jwt=false) with files `index.ts` = mcp/edge/index.ts and `core.mjs` = mcp/core.mjs.
+
+## Mirror to nunnaconsulting.com
+- The catalog and a read-only PHP MCP endpoint are mirrored at https://nunnaconsulting.com/NAIC/NAIL/ (MCP: `/NAIC/NAIL/mcp`). It is a snapshot of `dist/library.json`, not a live read.
+- To refresh: after `node scripts/build.mjs` here (or after the weekly GitHub Actions refresh has been pulled), go to the NCG site repo (`_monorepos/NAIC/sites/ncg-site`) and run `node tools/build-catalog.mjs` (env `LIBRARY_DIR` = this checkout, default `C:/Users/scnun/Projects/Public-AI-Library`), then `node build.mjs`, then deploy `dist/`. It reads only `dist/library.json` and `schema.graphql`; `private/` is never touched.
+- The mirror can lag the repo until that is re-run. The old Supabase edge function still serves `mcp/core.mjs`; the public connector URL is moving to the nunnaconsulting.com one (no `graphql` tool there).
