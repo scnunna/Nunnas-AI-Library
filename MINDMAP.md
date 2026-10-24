@@ -121,7 +121,7 @@ mindmap
       explainer-video · 1
         Papermorph
       web-animation · 1
-    agent-tools[Agent tools & frameworks · 118]
+    agent-tools[Agent tools & frameworks · 122]
       tools · 11
         firecrawl
         context7

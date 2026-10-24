@@ -594,3 +594,9 @@ Every library change is logged here by `scripts/add.mjs`.
 - added engine-wicked-engine -> content-tools
 - added engine-excalibur-js -> content-tools
 - added engine-kaplay -> content-tools
+
+## 2026-10-24 — research 2026-10-24
+- added tool-kronos -> agent-tools
+- added tool-tradingagents -> agent-tools
+- added skill-print3d -> agent-tools
+- added tool-fieldwatch -> agent-tools
