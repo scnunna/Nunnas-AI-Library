@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+56da2d315e03, 2431 items, updated 2026-10-24.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+55f91ff0c5e7, 2435 items, updated 2026-10-24.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -23,7 +23,7 @@ How to use this repo as an AI assistant:
 - mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (41) — Claude/agent skills, plugins and marketplaces, with verdicts.
 - agent-tools: Agent tools & frameworks (110) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
-- directories: Directories & registries (9) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
+- directories: Directories & registries (13) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.
 - assessments: Deep assessments (17) — Repos and models evaluated in depth, with warnings and what to steal.
@@ -138,6 +138,8 @@ How to use this repo as an AI assistant:
 - Listmonk [agent-tools/email] https://listmonk.app
 - MCP Registry [directories/registry] https://github.com/modelcontextprotocol/registry
 - punkpeye/awesome-mcp-servers [directories/mcp-list] https://github.com/punkpeye/awesome-mcp-servers
+- awesome-selfhosted [directories/self-hosting] https://github.com/awesome-selfhosted/awesome-selfhosted
+- awesome-python [directories/programming] https://github.com/vinta/awesome-python
 - unpaywall.org [web-tools/API] https://unpaywall.org
 - openlibrary.org [web-tools/API] https://openlibrary.org
 - doaj.org [web-tools/API] https://doaj.org

@@ -144,15 +144,20 @@ mindmap
       orchestration · 3
       coding-agent · 2
         anthropics/claude-code
-    directories[Directories & registries · 9]
+    directories[Directories & registries · 13]
       claude-skill · 3
       registry · 2
         MCP Registry
+      programming · 2
+        awesome-python
       marketplace · 1
       mcp-list · 1
         punkpeye/awesome-mcp-servers
       mcp-media · 1
       motion-skills · 1
+      self-hosting · 1
+        awesome-selfhosted
+      sysadmin-security · 1
     web-tools[Web research tools · 68]
       API · 25
         unpaywall.org

@@ -231,6 +231,107 @@
    "verified": true,
    "asOf": "2026-10-15",
    "source": "research 2026-10: content, motion, 3D and game tools"
+  },
+  {
+   "id": "dir-awesome-selfhosted",
+   "name": "awesome-selfhosted",
+   "kind": "list",
+   "category": "self-hosting",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "description": "The main directory of free software you can run on your own server (about 1,400 linked projects): automation, analytics, media, CRM, docs, mail, monitoring and more, each with licence and language. Last commit 2026-10-22.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: first stop before paying for a SaaS tool",
+   "why": "Best source of self-hostable alternatives (n8n, Postiz-style schedulers, analytics) to keep monthly costs down. Being listed is not a review: check each project's activity, licence and security before running it on a server.",
+   "tags": [
+    "self-hosted",
+    "alternatives",
+    "directory"
+   ],
+   "license": "CC-BY-SA-3.0",
+   "stars": 318100,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists"
+  },
+  {
+   "id": "dir-awesome-python",
+   "name": "awesome-python",
+   "kind": "list",
+   "category": "programming",
+   "url": "https://github.com/vinta/awesome-python",
+   "description": "Curated list of Python frameworks, libraries and tools by category (about 560 links): web, data, scraping, CLI, testing, ML and more. Last commit 2026-10-23.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: reference when Claude writes Python",
+   "why": "Useful for picking a well-known library instead of an obscure one when automation scripts are built in Python. A directory, not a quality ranking.",
+   "tags": [
+    "python",
+    "libraries",
+    "directory"
+   ],
+   "license": "CC-BY-4.0",
+   "stars": 318500,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists"
+  },
+  {
+   "id": "dir-the-book-of-secret-knowledge",
+   "name": "The Book of Secret Knowledge",
+   "kind": "list",
+   "category": "sysadmin-security",
+   "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+   "description": "Large collection of command-line tools, one-liners, cheat sheets, blogs and security resources for sysadmins and DevOps.",
+   "verdict": "reference",
+   "verdictNote": "reference: occasional lookup",
+   "why": "Handy for server and network troubleshooting, but last commit 2024-11-19, so some links and tools are stale. Includes offensive-security tools: use those only on systems you own or are authorised to test.",
+   "tags": [
+    "cli",
+    "sysadmin",
+    "security",
+    "cheatsheets"
+   ],
+   "license": "MIT",
+   "stars": 241800,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists"
+  },
+  {
+   "id": "dir-awesome-go",
+   "name": "awesome-go",
+   "kind": "list",
+   "category": "programming",
+   "url": "https://github.com/avelino/awesome-go",
+   "description": "Curated list of Go frameworks, libraries and software (about 3,000 links), with quality requirements for new entries. Last commit 2026-10-23.",
+   "verdict": "reference",
+   "verdictNote": "reference: only if a project is written in Go",
+   "why": "Well maintained, but current projects use Node.js and Python; useful mainly when choosing Go-based self-hosted tools.",
+   "tags": [
+    "go",
+    "libraries",
+    "directory"
+   ],
+   "license": "MIT",
+   "stars": 181300,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: awesome lists"
   }
  ]
 }

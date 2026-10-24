@@ -364,3 +364,9 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-pocketbase -> agent-tools
 - added api-contabo-api -> apis
 - added api-whop-checkout-configurations-api -> apis
+
+## 2026-10-24 — research 2026-10-24: awesome lists
+- added dir-awesome-selfhosted -> directories
+- added dir-awesome-python -> directories
+- added dir-the-book-of-secret-knowledge -> directories
+- added dir-awesome-go -> directories
