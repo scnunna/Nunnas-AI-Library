@@ -68,7 +68,7 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 52]
+    skills[Agent skills & plugins · 53]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -87,7 +87,7 @@ mindmap
         humanizer
         video-shotcraft
         ffmpeg-skill
-      marketing · 4
+      marketing · 5
         marketingskills Corey Haines
       marketplace · 3
         knowledge-work-plugins

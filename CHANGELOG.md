@@ -413,3 +413,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-24 — research 2026-10-24
 - added tool-builderz-marketing-dashboard -> agent-tools
+
+## 2026-10-24 — research 2026-10-24
+- added skill-growthack88-growth-marketing-os -> skills

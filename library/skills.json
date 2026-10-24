@@ -1172,6 +1172,25 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24"
+  },
+  {
+   "id": "skill-growthack88-growth-marketing-os",
+   "name": "Growth Marketing OS",
+   "kind": "repo",
+   "category": "marketing",
+   "url": "https://github.com/growthack88/growth-marketing-os",
+   "description": "Free English and Arabic library of AI marketing assets by a working growth marketer: 25 prompts, 8 original plus 11 community Claude skills, 2 agents and 3 Custom GPT setups, 7 benchmark sheets with cited sources, swipe files (hooks, subject lines, CTAs, WhatsApp scripts), playbooks, worked examples, an SEO/GEO setup guide and one MCP recipe. Focus on e-commerce, SaaS and paid ads in the Middle East (including cash-on-delivery stores). 97 commits; last 2026-10-10.",
+   "verdict": "reference",
+   "verdictNote": "reference: use the cited benchmarks and swipe files; get skills from coreyhaines31/marketingskills",
+   "why": "Honest and small: it lists its own gaps (no case studies yet, n8n workflow not exported). The sourced 'is this number good?' benchmarks are the most useful part. Prompts and skills overlap with bigger sets, and the regional focus (Egypt, GCC) matters only if you sell there.",
+   "tags": [],
+   "license": "MIT (community parts MIT/CC0)",
+   "stars": 116,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24"
   }
  ]
 }
