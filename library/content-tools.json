@@ -3398,6 +3398,2229 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24"
+  },
+  {
+   "id": "asset-cgbookcase",
+   "name": "cgbookcase",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.cgbookcase.com",
+   "description": "Free high-quality PBR textures (wood, stone, metal and more) up to 8K, plus decals.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use yes, no attribution needed. Smaller catalogue than Poly Haven.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.cgbookcase.com/licensing"
+   }
+  },
+  {
+   "id": "asset-sharetextures",
+   "name": "ShareTextures",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.sharetextures.com",
+   "description": "Free PBR textures, some 3D models and atlases, many up to 4K/8K.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use yes, no attribution needed. Funded by Patreon; a few extras may be gated to supporters.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.sharetextures.com/license"
+   }
+  },
+  {
+   "id": "asset-3dtextures-me",
+   "name": "3DTextures.me",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://3dtextures.me",
+   "description": "Hundreds of free seamless PBR textures with Blender-ready maps. Patreon gives higher resolutions.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use yes, no attribution. Free downloads are mostly 2K, with higher resolutions on Patreon.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://3dtextures.me/license/"
+   }
+  },
+  {
+   "id": "asset-texturecan",
+   "name": "TextureCan",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.texturecan.com",
+   "description": "Free seamless PBR textures in common categories, with packed maps for game engines.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use yes, no attribution. Quality varies, so check maps before use.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.texturecan.com"
+   }
+  },
+  {
+   "id": "asset-textures-com-free-tier",
+   "name": "Textures.com (free tier)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.textures.com",
+   "description": "Huge library of photo textures, PBR materials, decals and HDRIs. A free account gets a small daily credit allowance at limited resolution.",
+   "verdict": "trial",
+   "verdictNote": "trial: Textures.com proprietary royalty-free licence",
+   "why": "Commercial use in your projects is allowed, but you can't redistribute the raw textures (for example, inside open-source repos or asset packs). Free credits are small (historically about 15/day) and limited to low resolution.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Textures.com proprietary royalty-free licence",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.textures.com/about/license"
+   }
+  },
+  {
+   "id": "asset-poliigon-free-assets",
+   "name": "Poliigon free assets",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.poliigon.com/free",
+   "description": "A rotating set of free studio-quality textures, HDRIs and models from a mostly paid library. Includes a Blender add-on.",
+   "verdict": "trial",
+   "verdictNote": "trial: Poliigon licence (royalty-free, no redistribution)",
+   "why": "Commercial use yes, no attribution. You can't redistribute the raw files and need an account. Only a small part of the library is free.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Poliigon licence (royalty-free, no redistribution)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.poliigon.com/license"
+   }
+  },
+  {
+   "id": "asset-hdrmaps-freebies",
+   "name": "HDRMaps (freebies)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://hdrmaps.com/freebies",
+   "description": "Commercial HDRI store with a sizeable free section of skies and interiors.",
+   "verdict": "trial",
+   "verdictNote": "trial: HDRMaps royalty-free licence",
+   "why": "Commercial renders and games are allowed, but you can't redistribute or resell the HDRIs. Some free items are lower resolution than the paid versions.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "HDRMaps royalty-free licence",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://hdrmaps.com/license"
+   }
+  },
+  {
+   "id": "asset-hdri-skies",
+   "name": "HDRI-Skies",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://hdri-skies.com",
+   "description": "Sky-focused HDRI store with a free collection (sunsets, overcast, clear skies).",
+   "verdict": "trial",
+   "verdictNote": "trial: HDRI-Skies royalty-free licence",
+   "why": "Commercial use is allowed for renders and products; redistributing the HDRIs is not. Only part of the library is free.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "HDRI-Skies royalty-free licence",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://hdri-skies.com/free-hdris/"
+   }
+  },
+  {
+   "id": "asset-ihdri",
+   "name": "iHDRI",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.ihdri.com",
+   "description": "A small set of free high-res HDRI panoramas by Peter Sanitra. Updated rarely.",
+   "verdict": "assess",
+   "verdictNote": "assess: Custom free licence (no redistribution)",
+   "why": "Believed free for commercial renders with no redistribution, but read the licence before shipping. Small and possibly stale catalogue.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Custom free licence (no redistribution)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.ihdri.com"
+   }
+  },
+  {
+   "id": "asset-leomoon-free-ies-lights-pack",
+   "name": "LEOMOON Free IES Lights Pack",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://leomoon.com/downloads/assets/leomoon-free-ies-lights-pack/",
+   "description": "A pack of about 100 IES light profiles for realistic spotlight and downlight falloff in Blender, Unreal and other renderers.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Free for personal and commercial use",
+   "why": "Commercial use yes, but don't resell or redistribute the pack itself. IES suits Blender/Cycles and offline renders more than Godot or three.js.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free for personal and commercial use",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://leomoon.com/downloads/assets/leomoon-free-ies-lights-pack/"
+   }
+  },
+  {
+   "id": "asset-ies-library-ieslibrary-com",
+   "name": "IES Library (ieslibrary.com)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://ieslibrary.com",
+   "description": "A searchable collection of real manufacturer IES photometric files for accurate architectural lighting.",
+   "verdict": "trial",
+   "verdictNote": "trial: Manufacturer photometric data, free to download",
+   "why": "Fine for lighting renders commercially, but terms belong to each manufacturer, so don't repackage or redistribute the files.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Manufacturer photometric data, free to download",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://ieslibrary.com"
+   }
+  },
+  {
+   "id": "asset-shadertoy",
+   "name": "Shadertoy",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.shadertoy.com",
+   "description": "The largest gallery of GLSL fragment shaders. Great for learning and inspiration, and easy to port to three.js or Godot.",
+   "verdict": "reference",
+   "verdictNote": "reference: Default CC BY-NC-SA 3.0 unless author states otherwise",
+   "why": "Default licence is non-commercial, so don't ship this code in monetised games or videos unless the author's header grants a permissive licence (some use MIT/CC0).",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Default CC BY-NC-SA 3.0 unless author states otherwise",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.shadertoy.com/terms"
+   }
+  },
+  {
+   "id": "asset-blenderkit-free-materials",
+   "name": "BlenderKit (now Blendkit)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.blenderkit.com/",
+   "description": "Add-on based library for Blender, with Godot (4.0+), Maya and Rhino add-ons as of 2026. About 67k free assets (around 22k models, 36k materials, 4k HDRIs, 1k brushes) out of 140k+ total, with the rest paid ($17.90/mo or $118.80/yr under $100k revenue, $48/mo for businesses).",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Royalty Free or CC0 (per asset)",
+   "why": "Both free licences allow commercial use: CC0 assets need no credit, while Royalty Free assets can be used in your work but not redistributed as raw files. The domain now redirects to blendkit.com, and the official licence page didn't load, so terms are confirmed only through CG Channel (Aug 2026).",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Royalty Free or CC0 (per asset)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.cgchannel.com/2026/08/get-60000-free-3d-assets-for-maya-godot-and-rhino-from-blendkit/"
+   }
+  },
+  {
+   "id": "asset-material-maker",
+   "name": "Material Maker",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://www.materialmaker.org",
+   "description": "Open-source node-based procedural material and texture authoring tool, built on Godot and similar to Substance Designer. Exports to Godot, Unity, Unreal and PNG maps.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: MIT (tool); your outputs are yours",
+   "why": "Free and commercial-safe, with no attribution needed for the materials you make. Smaller node library and community than Substance.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "MIT (tool); your outputs are yours",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/RodZill4/material-maker"
+   }
+  },
+  {
+   "id": "asset-armorpaint",
+   "name": "ArmorPaint",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://armorpaint.org",
+   "description": "Standalone 3D PBR texture painter, similar to Substance Painter. Includes node materials and a Blender bridge.",
+   "verdict": "trial",
+   "verdictNote": "trial: Source zlib (ArmorTools); prebuilt binaries paid",
+   "why": "Commercial use of your outputs is fine. Official binaries cost a small one-time fee (about €20), or you can build them free from the open-source repo. Less polished than Substance.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Source zlib (ArmorTools); prebuilt binaries paid",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/armory3d/armortools"
+   }
+  },
+  {
+   "id": "asset-adobe-substance-3d-assets-free-and-community",
+   "name": "Adobe Substance 3D Assets (free and community)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://substance3d.adobe.com/assets",
+   "description": "Large .sbsar and PBR material library. A subset of free and community materials is available with an Adobe account, the rest needs a Substance subscription.",
+   "verdict": "assess",
+   "verdictNote": "assess: Adobe Substance 3D Assets licence; community assets per their own terms",
+   "why": "Generally commercial use in renders and games, no raw redistribution. Read the licence for free vs. subscription assets. .sbsar files need Substance tools or the Blender plugin.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Adobe Substance 3D Assets licence; community assets per their own terms",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://substance3d.adobe.com/assets"
+   }
+  },
+  {
+   "id": "asset-lospec-palette-list",
+   "name": "Lospec Palette List",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://lospec.com/palette-list",
+   "description": "Thousands of curated pixel-art palettes, exportable as PNG, GPL, ASE or hex for Aseprite, Godot and others.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Colour palettes (not copyrightable; credit appreciated)",
+   "why": "Using a palette commercially is safe since colour lists aren't protected. Crediting the palette author is courtesy, not required. Other Lospec tools and tutorials are just reference.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Colour palettes (not copyrightable; credit appreciated)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://lospec.com/palette-list"
+   }
+  },
+  {
+   "id": "asset-free-pbr-freepbr-com",
+   "name": "Free PBR (freepbr.com)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://freepbr.com",
+   "description": "A few hundred free PBR materials, mostly 2K, with paid premium and higher-res packs.",
+   "verdict": "trial",
+   "verdictNote": "trial: Free PBR custom licence (commercial OK, no redistribution)",
+   "why": "Commercial use in games and renders is allowed with no attribution, but you can't resell or redistribute the textures. Quality is mixed and some maps are older.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free PBR custom licence (commercial OK, no redistribution)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://freepbr.com/license/"
+   }
+  },
+  {
+   "id": "asset-pixar-one-twenty-eight",
+   "name": "Pixar One Twenty Eight",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://renderman.pixar.com/pixar-one-twenty-eight",
+   "description": "Pixar's classic set of 128 tileable textures, rereleased with full maps.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC BY 4.0",
+   "why": "Commercial use yes, but you must credit Pixar.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC BY 4.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://renderman.pixar.com/pixar-one-twenty-eight"
+   }
+  },
+  {
+   "id": "asset-amd-gpuopen-materialx-library",
+   "name": "AMD GPUOpen MaterialX Library",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://matlib.gpuopen.com",
+   "description": "Hundreds of free PBR materials in MaterialX and texture form, with Blender/USD-friendly downloads.",
+   "verdict": "trial",
+   "verdictNote": "trial: Free royalty-free (per material; many CC0/permissive)",
+   "why": "Commercial use allowed for most materials. Check each material's licence tag. Converting MaterialX to Godot or three.js may need baking.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free royalty-free (per material; many CC0/permissive)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://matlib.gpuopen.com"
+   }
+  },
+  {
+   "id": "asset-physically-based-physicallybased-info",
+   "name": "Physically Based (physicallybased.info)",
+   "kind": "web-tool",
+   "category": "asset-textures-lighting",
+   "url": "https://physicallybased.info",
+   "description": "Database of measured PBR values (base colour, IOR, roughness, light temperatures) for real materials and light sources.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0 (data)",
+   "why": "Free data with no attribution needed. A reference for tuning materials and lights, not a texture source.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0 (data)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://physicallybased.info"
+   }
+  },
+  {
+   "id": "asset-cmu-graphics-lab-motion-capture-database",
+   "name": "CMU Graphics Lab Motion Capture Database",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "http://mocap.cs.cmu.edu/",
+   "description": "About 2,600 classic mocap clips (walks, sports, dance and more) in ASF/AMC, with community BVH and FBX conversions.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CMU notice: free to use, modify and share; may be included in commercial products but not resold as raw data; acknowledgement requested for publications",
+   "why": "Commercial use inside a game or video is allowed. You cannot resell the raw data itself, and credit is only asked for in publications. The catches: it is 2000s-era data that needs cleanup and retargeting, and the official site would not open from here, so the terms come from a mirror that quotes CMU's notice.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CMU notice: free to use, modify and share; may be included in commercial products but not resold as raw data; acknowledgement requested for publications",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://data.4tu.nl/datasets/0448aab2-3332-449f-a8e2-d208cb58c7df"
+   }
+  },
+  {
+   "id": "asset-rokoko-studio-starter-rokoko-video-motion-library",
+   "name": "Rokoko Studio Starter + Rokoko Video + Motion Library",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://www.rokoko.com/pricing",
+   "description": "Free Studio for mocap cleanup and FBX export. It includes 30 seconds a month of AI video-to-mocap (Vision AI) and unlimited text-to-motion clips, though only 5 a month can be added to Studio. It also has a mocap marketplace with free clips.",
+   "verdict": "trial",
+   "verdictNote": "trial: Starter plan free forever; Motion Library animations usable in any project including commercial",
+   "why": "Motion Library clips are cleared for commercial use. The pricing page does not separately confirm commercial rights for free-tier video captures. The free tier is small (30 s a month, FBX only, cloud upload). BVH export starts at $28 a month (Plus), and Basic is $12 a month.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Starter plan free forever; Motion Library animations usable in any project including commercial",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://rokoko.com/pricing/"
+   }
+  },
+  {
+   "id": "asset-reallusion-accurig",
+   "name": "Reallusion AccuRIG",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://actorcore.reallusion.com/auto-rig",
+   "description": "Free desktop auto-rigger for Windows. It rigs a static humanoid mesh (body and fingers) and exports FBX or USD for Blender, Unity, Unreal and Godot.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Free software; Reallusion staff: usable for personal and commercial projects; the rigged character keeps its own licence",
+   "why": "Commercial use is OK and the output is not tied to any engine. The only licence that matters is your mesh's own licence. The commercial-use confirmation comes from a staff reply on the Reallusion forum, not a EULA page.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free software; Reallusion staff: usable for personal and commercial projects; the rigged character keeps its own licence",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://forum.reallusion.com/551972/reallusion-Accu-Rig-Free"
+   }
+  },
+  {
+   "id": "asset-reallusion-actorcore-free-motions",
+   "name": "Reallusion ActorCore free motions",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://actorcore.reallusion.com/3d-motion/free",
+   "description": "About 32 free mocap motions alongside 4,000+ paid clips, downloadable as FBX after retargeting to an AccuRIG or ActorCore rig.",
+   "verdict": "assess",
+   "verdictNote": "assess: ActorCore content EULA (exact export terms for free motions not confirmed)",
+   "why": "The free set is small: Reallusion staff say only 32 clips are free, not 4,000+. I could not open the licence for games or videos, so read ActorCore's EULA before shipping these in a game.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "ActorCore content EULA (exact export terms for free motions not confirmed)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://discussions.reallusion.com/t/where-are-the-4000-free-motions/16707"
+   }
+  },
+  {
+   "id": "asset-bandai-namco-research-motiondataset",
+   "name": "Bandai Namco Research Motiondataset",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
+   "description": "High-quality stylised motion datasets (walks and actions in many styles) in BVH, released by Bandai Namco Research.",
+   "verdict": "skip",
+   "verdictNote": "skip: CC BY-NC 4.0 (data); MIT (Blender scripts)",
+   "why": "Non-commercial only, so it cannot go into monetised YouTube videos or a paid game. Use it only for study or personal tests.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC BY-NC 4.0 (data); MIT (Blender scripts)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset"
+   }
+  },
+  {
+   "id": "asset-truebones-free-mocap",
+   "name": "Truebones free mocap",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://truebones.gumroad.com/",
+   "description": "Large free BVH/FBX mocap packs (humans and many animals) given away on Gumroad, alongside paid packs.",
+   "verdict": "trial",
+   "verdictNote": "trial: Truebones terms: products 'absolutely royalty free', usable for any purpose including commercial (full text truncated)",
+   "why": "The terms say royalty-free with commercial use allowed, but the page was cut off, so read the full terms PDF before shipping. Some free packs are adult-themed, so choose carefully. Quality varies.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Truebones terms: products 'absolutely royalty free', usable for any purpose including commercial (full text truncated)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://truebones.gumroad.com/l/vlvPq"
+   }
+  },
+  {
+   "id": "asset-blender-rigify",
+   "name": "Blender Rigify",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://docs.blender.org/manual/en/latest/addons/rigging/rigify/",
+   "description": "Blender's built-in modular rig generator. It builds full animator-friendly human, quadruped and other rigs from meta-rigs.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Bundled with Blender (GPL software; your rigs and animations are yours)",
+   "why": "Commercial use is fine and there are no limits. The catch is that the generated control rig is complex. For game export you usually bake the motion to the deform bones, or use a game-rig converter.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Bundled with Blender (GPL software; your rigs and animations are yours)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://docs.blender.org/manual/en/latest/addons/rigging/rigify"
+   }
+  },
+  {
+   "id": "asset-mpfb2-makehuman-for-blender",
+   "name": "MPFB2 (MakeHuman for Blender)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://static.makehumancommunity.org/mpfb.html",
+   "description": "Free open-source Blender add-on for generating realistic rigged human characters, with Rigify and game-rig options.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Core assets (base mesh, targets, skins) CC0; exported characters usable commercially; third-party assets keep their own licences",
+   "why": "Commercial use is OK with no attribution for the CC0 core assets. Check the licence of any community clothes or hair you add.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Core assets (base mesh, targets, skins) CC0; exported characters usable commercially; third-party assets keep their own licences",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://static.makehumancommunity.org/mpfb/faq/can_i_sell_models.html"
+   }
+  },
+  {
+   "id": "asset-vroid-studio",
+   "name": "VRoid Studio",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://vroid.com/en/studio",
+   "description": "Free anime-style character creator for Windows, Mac and iPad. It exports rigged VRM avatars that import into Blender, Godot (godot-vrm) and three.js (three-vrm).",
+   "verdict": "trial",
+   "verdictNote": "trial: Free app; creator sets per-model VRM conditions (commercial/corporate use, attribution); pixiv's own terms for output not re-verified",
+   "why": "Your own creations are generally usable commercially, and you set the permission flags in the VRM yourself. I only confirmed the VRM conditions-of-use spec, not pixiv's Studio terms page. The anime look only.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free app; creator sets per-model VRM conditions (commercial/corporate use, attribution); pixiv's own terms for output not re-verified",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://developer.vroid.com/en/guidelines/conditions_of_use.html"
+   }
+  },
+  {
+   "id": "asset-ready-player-me",
+   "name": "Ready Player Me",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://readyplayer.me/",
+   "description": "Former cross-platform avatar creator and SDK.",
+   "verdict": "skip",
+   "verdictNote": "skip: Service discontinued",
+   "why": "Dead. Netflix acquired it in Dec 2025, and the public services, API and SDKs shut down on 31 Jan 2026. Do not build on it.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Service discontinued",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://genies.com/blog/ready-player-me-shutdown"
+   }
+  },
+  {
+   "id": "asset-deepmotion-animate-3d",
+   "name": "DeepMotion Animate 3D",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://www.deepmotion.com/animate-3d",
+   "description": "Cloud AI that turns video into mocap with face and hand tracking. The free tier gives 60 seconds of animation a month.",
+   "verdict": "assess",
+   "verdictNote": "assess: Freemium accounts: personal, non-commercial use only; commercial requires paid plan",
+   "why": "Free-tier output cannot be used commercially, so monetised YouTube or games need a paid plan. Videos are uploaded to the cloud.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Freemium accounts: personal, non-commercial use only; commercial requires paid plan",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.deepmotion.com/faq"
+   }
+  },
+  {
+   "id": "asset-move-ai-move-one",
+   "name": "Move.ai (Move One)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://www.move.ai/",
+   "description": "Single-camera AI mocap from a phone video (the Move One app) plus a multicam option. Gen 1 uses 1 credit per person-second and Gen 2 uses 2.",
+   "verdict": "trial",
+   "verdictNote": "trial: Free account: one-time 30 credits; paid from $18/mo (60 credits); commercial terms not confirmed",
+   "why": "The free trial is tiny: 30 one-time credits, so roughly 15 to 30 seconds, with clips capped at 30 s. Processing happens in the cloud. Commercial-use terms were not on the pricing page, so check the ToS before using it for monetised content.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free account: one-time 30 credits; paid from $18/mo (60 credits); commercial terms not confirmed",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://docs.move.ai/knowledge/move-one-pricing"
+   }
+  },
+  {
+   "id": "asset-freemocap",
+   "name": "FreeMoCap",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://github.com/freemocap/freemocap",
+   "description": "Open-source markerless mocap that runs locally from one or more ordinary webcams. It exports to Blender, with optional NVIDIA GPU acceleration.",
+   "verdict": "trial",
+   "verdictNote": "trial: AGPL-3.0 (software); your captured motion data is yours",
+   "why": "Free and local with no cloud and no credits, and the AGPL covers only the software, not your animations. The setup is technical, and good results need 2 or more calibrated cameras.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "AGPL-3.0 (software); your captured motion data is yours",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/freemocap/freemocap"
+   }
+  },
+  {
+   "id": "asset-cascadeur",
+   "name": "Cascadeur",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://cascadeur.com/plans",
+   "description": "Physics-assisted keyframe animation tool with AI auto-posing, plus video mocap features.",
+   "verdict": "assess",
+   "verdictNote": "assess: Free: non-commercial only, .casc export only; Indie $12 list ($8 discounted), for revenue under $100k/yr, FBX/DAE/USD export; Pro $49",
+   "why": "The free plan cannot be used commercially and cannot export FBX, so it is really a learning tool. Indie at about $8 to $12 is the cheap commercial path for revenue under $100k a year.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free: non-commercial only, .casc export only; Indie $12 list ($8 discounted), for revenue under $100k/yr, FBX/DAE/USD export; Pro $49",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://cascadeur.com/ru/plans"
+   }
+  },
+  {
+   "id": "asset-plask-motion",
+   "name": "Plask Motion",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://plask.ai/",
+   "description": "Browser-based AI video-to-mocap and animation editor. It was still operating as of 2026.",
+   "verdict": "trial",
+   "verdictNote": "trial: Free plan: 15 s/day mocap, 1 GB, FBX/GLB/BVH export; Standard $18/mo, Pro $50/mo (annual); commercial terms not confirmed",
+   "why": "The daily free quota is useful, but processing is in the cloud. I could not confirm whether free-plan output may be used commercially, so read the ToS before monetising.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free plan: 15 s/day mocap, 1 GB, FBX/GLB/BVH export; Standard $18/mo, Pro $50/mo (annual); commercial terms not confirmed",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://plask.ai/pricing"
+   }
+  },
+  {
+   "id": "asset-universal-animation-library-quaternius",
+   "name": "Universal Animation Library (Quaternius)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://quaternius.itch.io/universal-animation-library",
+   "description": "120+ game animations on one humanoid rig in FBX/GLB for Godot, Unity and Unreal. The free Standard tier has 45 clips, Pro is $9.99 and Source is $14.99.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use with no attribution. This is the Quaternius pack, so drop it if Quaternius is already listed.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://quaternius.itch.io/universal-animation-library"
+   }
+  },
+  {
+   "id": "asset-unreal-game-animation-sample-project-gasp",
+   "name": "Unreal Game Animation Sample Project (GASP)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://www.fab.com/",
+   "description": "500+ AAA-quality locomotion and motion-matching animations from Epic.",
+   "verdict": "skip",
+   "verdictNote": "skip: Free; Epic content licensed for use with Unreal Engine only",
+   "why": "Commercial use is allowed, but only inside Unreal Engine. You cannot export it to Godot, Blender game pipelines or three.js.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free; Epic content licensed for use with Unreal Engine only",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.cgchannel.com/2024/06/get-500-free-game-ready-animations-for-use-in-unreal-engine"
+   }
+  },
+  {
+   "id": "asset-mesh2motion",
+   "name": "Mesh2Motion",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://mesh2motion.org/",
+   "description": "Free open-source browser alternative to Mixamo. You import a GLB/GLTF/FBX mesh, fit a human, quadruped or bird skeleton, and export animated GLB.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Code MIT; bundled rigs and animations CC0",
+   "why": "Commercial use is fine with no attribution, and it outputs GLB that works in Godot and three.js. The library is smaller than Mixamo's, and the auto-weighting can need fixes in Blender.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Code MIT; bundled rigs and animations CC0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/scottpetrovic/mesh2motion-app"
+   }
+  },
+  {
+   "id": "asset-auto-rig-pro-blender-add-on",
+   "name": "Auto-Rig Pro (Blender add-on)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://superhivemarket.com/products/auto-rig-pro",
+   "description": "Popular Blender auto-rigger. Full adds Smart auto-placement, Remap retargeting (for mocap and BVH onto your rig) and clean FBX/glTF game export.",
+   "verdict": "trial",
+   "verdictNote": "trial: GPL add-on; Lite $25, Full $50 (includes 12 months of updates)",
+   "why": "A one-time $50 removes most retargeting and export pain, and your output is yours to use commercially. It is optional, since Rigify plus free tools cover the basics.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "GPL add-on; Lite $25, Full $50 (includes 12 months of updates)",
+   "stars": null,
+   "cost": "paid",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://superhivemarket.com/products/auto-rig-pro/faq"
+   }
+  },
+  {
+   "id": "asset-kenney-animated-characters",
+   "name": "Kenney Animated Characters",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://kenney-assets.itch.io/animated-characters-3",
+   "description": "Small rigged low-poly characters with swappable skins and basic idle, run and jump animations.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use with no attribution, and good for prototypes and stylised games. They have very few animations, so combine them with other libraries via retargeting.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://kenney-assets.itch.io/animated-characters-3"
+   }
+  },
+  {
+   "id": "asset-godot-4-skeleton-retargeting-built-in",
+   "name": "Godot 4 skeleton retargeting (built-in)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/retargeting_3d_skeletons.html",
+   "description": "Godot's importer can map any humanoid skeleton to a standard humanoid profile (BoneMap/SkeletonProfileHumanoid), so one set of animations can be shared across characters.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Part of Godot Engine (MIT)",
+   "why": "Free, with commercial use OK. It lets you mix clips from CMU, Mesh2Motion and other sources on your own rigs inside Godot. The catch: the bone mapping sometimes needs manual fixes. I could open the page but its text was not returned, so this rests on Godot's MIT licence as known.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Part of Godot Engine (MIT)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://docs.godotengine.org/en/4.6/tutorials/assets_pipeline/retargeting_3d_skeletons.html"
+   }
+  },
+  {
+   "id": "asset-kenney",
+   "name": "Kenney",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://kenney.nl/assets",
+   "description": "Hundreds of game asset packs (2D, 3D, UI, audio) from Kenney. The 3D kits (city, racing, furniture, nature, castle, space and more) come as FBX/OBJ/GLB, and an All-in-1 bundle is sold on itch.io.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0",
+   "why": "Commercial use is fine and no credit is needed, because everything on the asset pages is public domain. The one catch is that you can't use the Kenney logo.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://kenney.nl/support"
+   }
+  },
+  {
+   "id": "asset-kaykit-kay-lousberg",
+   "name": "KayKit (Kay Lousberg)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://kaylousberg.itch.io/",
+   "description": "About 25 cohesive low-poly packs (adventurers, dungeon, medieval builder, platformer, furniture and more) in FBX and glTF that work in Godot, Unity and Unreal. Each pack has a free tier and paid 'Extra' and 'Source' (.blend) tiers.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0 1.0 (free and paid tiers)",
+   "why": "CC0, so commercial use is fine and no credit is needed. The free tier holds only part of each pack, and the author asks that you don't resell the unmodified files.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0 1.0 (free and paid tiers)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://kaylousberg.itch.io/kaykit-adventurers"
+   }
+  },
+  {
+   "id": "asset-poly-pizza",
+   "name": "Poly Pizza",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://poly.pizza/",
+   "description": "Search engine for about 10,600 free low-poly models, including the archived Google Poly collection and Quaternius/Kenney items. Downloads are GLB/FBX/OBJ and need no account.",
+   "verdict": "trial",
+   "verdictNote": "trial: Mostly CC-BY 3.0/4.0, some CC0 (per model)",
+   "why": "Commercial use is OK, but most models are CC-BY, so you must credit the creator; check each model's licence tag. I couldn't open poly.pizza itself; licence details come from secondary 2026 guides.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Mostly CC-BY 3.0/4.0, some CC0 (per model)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://app.cinevva.com/guides/free-3d-model-sites"
+   }
+  },
+  {
+   "id": "asset-khronos-gltf-sample-assets",
+   "name": "Khronos glTF-Sample-Assets",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://github.com/KhronosGroup/glTF-Sample-Assets",
+   "description": "The official glTF test and showcase models (DamagedHelmet, Sponza, FlightHelmet, material and extension test assets, and more). They are ideal for testing three.js, Godot or Blender glTF pipelines.",
+   "verdict": "trial",
+   "verdictNote": "trial: Per model: mostly CC-BY 4.0, some CC0 or other (see each model's README)",
+   "why": "Most models allow commercial use with credit, but licences differ per model and some have been removed or may be removed. Read each model's README and treat these as test or demo assets, not game content.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Per model: mostly CC-BY 4.0, some CC0 or other (see each model's README)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/KhronosGroup/glTF-Sample-Assets"
+   }
+  },
+  {
+   "id": "asset-fab-epic-games",
+   "name": "Fab (Epic Games)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.fab.com/",
+   "description": "Epic's unified marketplace that replaced the Unreal Marketplace, Sketchfab Store, Quixel and ArtStation Marketplace. It has a year-round community free section, rotating limited-time free packs every two weeks, and a free Megascans starter set. Also a source of free animation packs and materials; Epic's own UE-only content (e.g. Game Animation Sample) can't leave Unreal.",
+   "verdict": "trial",
+   "verdictNote": "trial: Fab Standard (Personal <$100k revenue / Professional >$100k), CC-BY, legacy UE Marketplace licence",
+   "why": "Standard licence assets can be used commercially; CC-BY items need credit. Watch for the legacy UE-only licence on some migrated items. Assets tagged NoAI can't be used for AI training. The licence doc doesn't say outright that Standard covers non-Unreal engines, so check the EULA or each listing before using one in Godot or three.js.",
+   "license": "Fab Standard (Personal <$100k revenue / Professional >$100k), CC-BY, legacy UE Marketplace licence",
+   "cost": "freemium",
+   "verified": true,
+   "asOf": "2026-10-24",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "extra": {
+    "licenceEvidence": "https://dev.epicgames.com/documentation/en-us/fab/licenses-and-pricing-in-fab"
+   },
+   "source": "research 2026-10-24: free asset sources"
+  },
+  {
+   "id": "asset-quixel-megascans",
+   "name": "Quixel Megascans (via Fab)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.fab.com/sellers/Quixel",
+   "description": "Photogrammetry scan library, now sold on Fab. Free access to the full library ended 31 Dec 2024; a free starter set (about 1,500 assets) and occasional free promotions remain. Bridge is being deprecated, and new assets stopped appearing there in early 2026.",
+   "verdict": "assess",
+   "verdictNote": "assess: Fab Standard (new); legacy Megascans terms for assets downloaded before 2025",
+   "why": "Most of the library is paid now, and the Standard licence allows commercial use. Anything you already claimed or downloaded keeps its old terms, so back it up. The status comes from secondary 2026 sources, not an official Epic page.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Fab Standard (new); legacy Megascans terms for assets downloaded before 2025",
+   "stars": null,
+   "cost": "paid",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.strayspark.studio/blog/quixel-to-fab-migration-indie-developer-survival-guide-2026"
+   }
+  },
+  {
+   "id": "asset-sketchfab-downloadable-cc-models",
+   "name": "Sketchfab (downloadable CC models)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://sketchfab.com/search?features=downloadable&type=models",
+   "description": "Hundreds of thousands of downloadable models, with search filters by licence, including CC0-only. Downloads come as the original file, glTF/GLB or USDZ. The store moved to Fab in Oct 2024, and ownership reportedly moved from Epic to KitBash in Aug 2026.",
+   "verdict": "trial",
+   "verdictNote": "trial: Per model: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-ND (plus Standard/Editorial on legacy store items)",
+   "why": "Filter to CC0 or CC BY for commercial use (CC BY needs credit); avoid NC and ND for monetized videos and games. Free downloads still worked as of Sep 2026, but Epic had earlier planned to remove free licensing and the future under KitBash is unclear, so download what you need now.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Per model: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-ND (plus Standard/Editorial on legacy store items)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://help.sketchfab.com/en/articles/16152217"
+   }
+  },
+  {
+   "id": "asset-opengameart-org",
+   "name": "OpenGameArt.org",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://opengameart.org/",
+   "description": "Long-running community archive of free game art, including 3D models, textures and audio; it also mirrors many Kenney and KayKit packs. Quality varies a lot. Also has textures, particle/effect sheets and game audio.",
+   "verdict": "trial",
+   "verdictNote": "trial: CC0, CC-BY 3.0/4.0, CC-BY-SA 3.0/4.0, OGA-BY 3.0/4.0, GPL 2.0/3.0 (per asset)",
+   "why": "Commercial use is allowed under all five licences, but all except CC0 require credit. CC-BY-SA and GPL are copyleft, so avoid them for closed-source games, and CC-BY and CC-BY-SA forbid DRM distribution. Preview images are all rights reserved.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0, CC-BY 3.0/4.0, CC-BY-SA 3.0/4.0, OGA-BY 3.0/4.0, GPL 2.0/3.0 (per asset)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://opengameart.org/content/faq"
+   }
+  },
+  {
+   "id": "asset-itch-io-free-game-assets",
+   "name": "itch.io free game assets",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://itch.io/game-assets/free/tag-3d",
+   "description": "Huge indie asset storefront (about 53k free asset packs across 2D and 3D as of Sep 2026) with pay-what-you-want packs. Home of KayKit, Quaternius mirrors and many low-poly creators.",
+   "verdict": "trial",
+   "verdictNote": "trial: Mixed, set by each creator (CC0, CC-BY, custom 'free for commercial use' terms, etc.)",
+   "why": "Many packs allow commercial use, but each creator writes their own terms, sometimes only in the description. Read every pack page, and don't rely on the site's licence filter, which covers only a few licence types.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Mixed, set by each creator (CC0, CC-BY, custom 'free for commercial use' terms, etc.)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://app.cinevva.com/guides/game-assets-guide.html"
+   }
+  },
+  {
+   "id": "asset-blender-demo-files-and-blender-studio-assets",
+   "name": "Blender demo files and Blender Studio assets",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.blender.org/download/demo-files/",
+   "description": "Official demo scenes and asset bundles (such as the CC0 Human Base Meshes bundle, pose libraries and splash scenes) plus Blender Studio open-movie characters, rigs and assets. Some Studio downloads may need a subscription.",
+   "verdict": "trial",
+   "verdictNote": "trial: Demo files: CC0, CC-BY or CC-BY-SA per file; Blender Studio: generally CC-BY (Blender Foundation)",
+   "why": "Commercial use is OK under CC0 and CC-BY (CC-BY needs credit to the Blender Foundation or the artist). CC-BY-SA files are share-alike, so avoid them for closed products, and check each file's listed licence.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Demo files: CC0, CC-BY or CC-BY-SA per file; Blender Studio: generally CC-BY (Blender Foundation)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://blender.org/download/demo-files/"
+   }
+  },
+  {
+   "id": "asset-nasa-3d-resources",
+   "name": "NASA 3D Resources",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://science.nasa.gov/3d-resources/",
+   "description": "Growing collection of spacecraft, rover, asteroid and planetary models, plus textures and 3D-print files, mirrored on GitHub (nasa/NASA-3D-Resources).",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Public domain / 'free and without copyright' (US Gov work) subject to NASA media usage guidelines",
+   "why": "Free to use, including commercially. The catch is that you must not use the NASA insignia or 'meatball' logo or imply NASA endorsement (per NASA brand guidelines). Model quality and format vary.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Public domain / 'free and without copyright' (US Gov work) subject to NASA media usage guidelines",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://github.com/nasa/NASA-3D-Resources"
+   }
+  },
+  {
+   "id": "asset-objaverse-objaverse-xl",
+   "name": "Objaverse / Objaverse-XL",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://huggingface.co/datasets/allenai/objaverse-xl",
+   "description": "Research datasets: Objaverse 1.0 has about 800k annotated objects (from Sketchfab), and XL has about 10.8M objects scraped from Sketchfab, GitHub, Thingiverse, Smithsonian and Polycam.",
+   "verdict": "reference",
+   "verdictNote": "reference: Dataset: ODC-By 1.0; each object keeps its own licence (CC variants incl. NC, MIT, GPL, many unlisted)",
+   "why": "Built for ML research, not as an asset library. Licences are mixed or missing per object, and Polycam data is non-commercial by request only, so don't ship these in products unless you check each object's source licence.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Dataset: ODC-By 1.0; each object keeps its own licence (CC variants incl. NC, MIT, GPL, many unlisted)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://huggingface.co/datasets/allenai/objaverse-xl"
+   }
+  },
+  {
+   "id": "asset-cgtrader-free-models",
+   "name": "CGTrader (free models)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.cgtrader.com/free-3d-models",
+   "description": "Large marketplace with a big free section (150k+ free models reported) of very mixed quality; free downloads need an account.",
+   "verdict": "trial",
+   "verdictNote": "trial: Royalty Free or Editorial (per model)",
+   "why": "Royalty Free models can be used commercially, including in games, but you can't resell or redistribute the raw files. Editorial models are non-commercial only (e.g., branded cars), so check the licence on every free model.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Royalty Free or Editorial (per model)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://help.cgtrader.com/hc/en-us/articles/360015193418-What-is-the-difference-between-Royalty-Free-and-Editorial-licenses"
+   }
+  },
+  {
+   "id": "asset-turbosquid-free-models",
+   "name": "TurboSquid (free models)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.turbosquid.com/Search/3D-Models/free",
+   "description": "Shutterstock-owned marketplace with a free section; free downloads need an account and fall under the same licence as purchases.",
+   "verdict": "trial",
+   "verdictNote": "trial: TurboSquid Royalty Free License (Editorial-labelled items restricted)",
+   "why": "Commercial use in games and videos is allowed, but game files must be packed so models can't easily be extracted. Free models carry no indemnity, Editorial items can't be used commercially, and AI or ML use needs prior permission.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "TurboSquid Royalty Free License (Editorial-labelled items restricted)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.turbosquid.com/licensing"
+   }
+  },
+  {
+   "id": "asset-free3d",
+   "name": "Free3D",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://free3d.com/",
+   "description": "User-uploaded model site (TurboSquid network) with lots of free models of uneven quality and little curation.",
+   "verdict": "reference",
+   "verdictNote": "reference: Paid: TurboSquid Royalty Free; free items: uploader-set terms (often 'personal use only')",
+   "why": "Free models often carry personal-use-only or vague uploader terms and no indemnity, so commercial use is risky unless an item clearly says royalty-free. Licence info comes from a third-party summary, not Free3D's own page.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Paid: TurboSquid Royalty Free; free items: uploader-set terms (often 'personal use only')",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://licenseorg.com/guide/3d-assets/free3d"
+   }
+  },
+  {
+   "id": "asset-thingiverse",
+   "name": "Thingiverse",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.thingiverse.com/",
+   "description": "Over 1 million 3D-printing designs (mainly STL). Reportedly owned by MyMiniFactory since Feb 2026 (previously UltiMaker/MakerBot).",
+   "verdict": "reference",
+   "verdictNote": "reference: Uploader-chosen: Creative Commons variants (BY, BY-SA, BY-NC, BY-NC-SA, etc.), GPL, public domain",
+   "why": "Mostly print-oriented meshes, not game-ready. Many use NonCommercial licences and most need credit, so commercial use is only OK where the licence is CC0, CC-BY or CC-BY-SA.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Uploader-chosen: Creative Commons variants (BY, BY-SA, BY-NC, BY-NC-SA, etc.), GPL, public domain",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://en.wikipedia.org/wiki/Thingiverse"
+   }
+  },
+  {
+   "id": "asset-printables-prusa",
+   "name": "Printables (Prusa)",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.printables.com/",
+   "description": "Prusa's 3D-printing model community with a large catalog of STL/3MF designs; licences are irrevocable once published.",
+   "verdict": "reference",
+   "verdictNote": "reference: Uploader-chosen: Creative Commons variants, GNU, BSD, Apache 2.0, CERN OHL, Standard Digital File License, commercial-use licences",
+   "why": "Print-oriented and not game-ready, with many NonCommercial or Standard Digital File (personal-use) licences. Use only items clearly under CC0, CC-BY or a commercial licence, and give credit.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Uploader-chosen: Creative Commons variants, GNU, BSD, Apache 2.0, CERN OHL, Standard Digital File License, commercial-use licences",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.prusa3d.com/page/terms-of-service-of-printables-com_231249/"
+   }
+  },
+  {
+   "id": "asset-the-models-resource",
+   "name": "The Models Resource",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://www.models-resource.com/",
+   "description": "Part of The VG Resource network, which collects and distributes models extracted from video games for viewing and reference.",
+   "verdict": "skip",
+   "verdictNote": "skip: None granted: models extracted from commercial video games; copyright stays with the game publishers",
+   "why": "These are copyrighted game assets (Nintendo, Sony and others) with no licence to reuse, so you can't use them in your games or monetized videos. The site itself says it is not for commercial use. Reference viewing only.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "None granted: models extracted from commercial video games; copyright stays with the game publishers",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://alternativeto.net/software/the-models-resource/about"
+   }
+  },
+  {
+   "id": "asset-pixabay-videos-incl-vfx-overlay-clips",
+   "name": "Pixabay Videos (incl. VFX/overlay clips)",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://pixabay.com/videos/",
+   "description": "Large free stock-video library that includes particles, smoke, fire, light leaks, green-screen and overlay clips.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Pixabay Content License",
+   "why": "Commercial use is allowed with no attribution needed. You can't resell clips on their own (\"standalone\"), can't use visible trademarks or brands commercially, and the terms ban bulk or automated downloading.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Pixabay Content License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://pixabay.com/service/license-summary/"
+   }
+  },
+  {
+   "id": "asset-pixabay-music",
+   "name": "Pixabay Music",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://pixabay.com/music/",
+   "description": "Free royalty-free music library allowed in monetized videos, podcasts and OTT content.",
+   "verdict": "trial",
+   "verdictNote": "trial: Pixabay Content License",
+   "why": "Commercial use is allowed with no attribution needed, as long as the track sits inside a larger work. Some contributors register tracks with YouTube Content ID, so claims can happen: avoid tracks with the shield icon, keep your download records and dispute with the licence link. Pixabay's FAQ only covers games and apps for photos, not music.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Pixabay Content License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://pixabay.com/service/faq/"
+   }
+  },
+  {
+   "id": "asset-pixabay-sound-effects",
+   "name": "Pixabay Sound Effects",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://pixabay.com/sound-effects/",
+   "description": "Free SFX library under the same Pixabay licence as its music and video.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Pixabay Content License",
+   "why": "Commercial use is allowed with no attribution needed. You can't redistribute the files on their own; using them inside a video or game counts as a combined work, which is allowed.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Pixabay Content License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://pixabay.com/service/terms/"
+   }
+  },
+  {
+   "id": "asset-mixkit-stock-video",
+   "name": "Mixkit Stock Video",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://mixkit.co/free-stock-video/",
+   "description": "Envato's free stock-video site; each clip is under either the Free License or the Restricted License.",
+   "verdict": "trial",
+   "verdictNote": "trial: Mixkit Stock Video Free License / Restricted License (per item)",
+   "why": "Free License clips allow commercial use, including monetized YouTube, with no attribution needed. Restricted License clips are for personal, non-commercial use only, so check each clip's label. No resale and no sublicensing.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Mixkit Stock Video Free License / Restricted License (per item)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://mixkit.co/llm-info/"
+   }
+  },
+  {
+   "id": "asset-mixkit-stock-music",
+   "name": "Mixkit Stock Music",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://mixkit.co/free-stock-music/",
+   "description": "Free curated music for videos, with no attribution needed.",
+   "verdict": "trial",
+   "verdictNote": "trial: Mixkit Stock Music Free License",
+   "why": "Commercial video use, including YouTube, is allowed with no credit needed. A third-party review (not Mixkit's own page) says the licence does not cover video games, broadcast or CDs, and that Mixkit settles Content ID claims if you email them. Confirm the game exclusion on Mixkit's licence page before using any track in a game.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Mixkit Stock Music Free License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://kripeshadwani.com/mixkit-review/"
+   }
+  },
+  {
+   "id": "asset-mixkit-sound-effects",
+   "name": "Mixkit Sound Effects",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://mixkit.co/free-sound-effects/",
+   "description": "Free SFX library with large game, UI and video-game categories.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Mixkit Sound Effects Free License",
+   "why": "Commercial use is allowed with no attribution needed. A secondary guide says the SFX licence explicitly covers video games. You can't resell the files in their original form.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Mixkit Sound Effects Free License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://mixkit.co/llm-info/"
+   }
+  },
+  {
+   "id": "asset-pexels-videos",
+   "name": "Pexels Videos",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://www.pexels.com/videos/",
+   "description": "Large free stock-video library that includes some abstract, particle and overlay footage.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Pexels License",
+   "why": "Commercial use is allowed with no attribution needed. You can't sell unedited copies, redistribute the clips on other stock sites, imply endorsement by people or brands shown, or use clips as a trademark.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Pexels License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "id": "asset-coverr",
+   "name": "Coverr",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://coverr.co/",
+   "description": "Free stock video and music, with an optional Coverr+ subscription.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Coverr License",
+   "why": "Commercial use is allowed with no credit needed. You can't resell clips, put them into competing stock or template services, or use them for AI training. There are no model or property releases, so recognisable people and brands are your responsibility.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Coverr License",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://coverr.co/license"
+   }
+  },
+  {
+   "id": "asset-videvo",
+   "name": "Videvo",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://www.videvo.net/",
+   "description": "Stock footage and motion graphics site that mixes free clips (under several licences) with Premium clips (around $14.99/mo).",
+   "verdict": "trial",
+   "verdictNote": "trial: Videvo Attribution License / CC BY 3.0 (free); Premium license (paid)",
+   "why": "Free clips can be used commercially but need credit: to Videvo for Videvo Attribution clips, or to the author for CC BY 3.0 clips. Premium clips need no credit. The licence differs per clip, so check each one. Raw clips can't be redistributed. Videvo's own terms page was blocked, so this comes from a secondary guide.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Videvo Attribution License / CC BY 3.0 (free); Premium license (paid)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://licenseorg.com/guide/video/videvo"
+   }
+  },
+  {
+   "id": "asset-actionvfx-free-collection",
+   "name": "ActionVFX free collection",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://www.actionvfx.com/",
+   "description": "Professional VFX elements (fire, explosions, muzzle flashes and more) in RED/ProRes; free packs and samples need a free account.",
+   "verdict": "trial",
+   "verdictNote": "trial: ActionVFX License Agreement (Individual/Startup/Enterprise; also applies to free downloads)",
+   "why": "Commercial use is allowed in work where you add substantial value, and no attribution is mentioned. Choose the Individual licence for one person (Startup covers companies under $3M). The licence bans standalone redistribution, putting the files into templates or libraries, and using them to train AI or generate media with AI tools.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "ActionVFX License Agreement (Individual/Startup/Enterprise; also applies to free downloads)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.actionvfx.com/license"
+   }
+  },
+  {
+   "id": "asset-productioncrate-footagecrate-free-tier",
+   "name": "ProductionCrate / FootageCrate (free tier)",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://productioncrate.com/",
+   "description": "Large VFX, SFX and graphics library; assets without the Pro star icon download free with a Free account.",
+   "verdict": "trial",
+   "verdictNote": "trial: ProductionCrate Free License",
+   "why": "The FAQ states that both the Free and Pro licences allow commercial use in media you create. The homepage doesn't spell out attribution or download limits, so check the full licence before relying on it.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "ProductionCrate Free License",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://productioncrate.com/"
+   }
+  },
+  {
+   "id": "asset-lottiefiles-free-animations",
+   "name": "LottieFiles free animations",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://lottiefiles.com/free-animations",
+   "description": "Free public Lottie (JSON) vector animations for web, apps, games and video overlays.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Lottie Simple License",
+   "why": "Commercial use is allowed and attribution is encouraged but optional. If you redistribute the animation files, they must stay under the same licence. You can't scrape the library to build a competing service.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Lottie Simple License",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://lottiefiles.com/page/license"
+   }
+  },
+  {
+   "id": "asset-kenney-particle-pack",
+   "name": "Kenney Particle Pack",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://kenney.nl/assets/particle-pack",
+   "description": "80 particle sprites, light cookies and shaders; also available as a ready-made Godot Asset Library package.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0",
+   "why": "Public domain: commercial use is allowed and no attribution is needed.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://godotengine.org/asset-library/asset/784"
+   }
+  },
+  {
+   "id": "asset-godot-shaders",
+   "name": "Godot Shaders",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://godotshaders.com/",
+   "description": "Community library of Godot shaders: dissolve, fire, water, outline, post-processing and more.",
+   "verdict": "trial",
+   "verdictNote": "trial: Per shader: CC0, MIT or GPL v3",
+   "why": "Prefer CC0 or MIT shaders for commercial games, since GPL brings copyleft obligations. The licence covers only the shader code: preview images and videos are not included.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Per shader: CC0, MIT or GPL v3",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://godotshaders.com/faq/"
+   }
+  },
+  {
+   "id": "asset-unity-vfx-graph-samples",
+   "name": "Unity VFX Graph samples",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples",
+   "description": "Official Unity Visual Effect Graph sample scenes and effects.",
+   "verdict": "reference",
+   "verdictNote": "reference: Unity Companion License (unconfirmed)",
+   "why": "Probably usable only within Unity: I couldn't open the licence (the mirror redirected), so treat these as learning material, not as assets for Godot.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Unity Companion License (unconfirmed)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://plastichub.unity.cn/unity-tech-cn/VisualEffectGraph-Samples/src/tag/7.2.0-rev1"
+   }
+  },
+  {
+   "id": "asset-gabriel-aguiar-vfx-packs",
+   "name": "Gabriel Aguiar VFX packs",
+   "kind": "web-tool",
+   "category": "asset-vfx",
+   "url": "https://assetstore.unity.com/gabriel-aguiar",
+   "description": "High-quality stylized Unity VFX packs and tutorials; I found no current free pack (his Asset Store page says 'Live soon'; Gumroad lists the paid Unique Projectiles packs).",
+   "verdict": "assess",
+   "verdictNote": "assess: Unity Asset Store EULA",
+   "why": "Asset Store assets may be used in other engines such as Godot under the EULA, but can't be redistributed as extractable raw files. The packs are paid and built in Unity, so porting them is manual work.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Unity Asset Store EULA",
+   "stars": null,
+   "cost": "paid",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://support.unity.com/hc/en-us/articles/34387186019988-Can-I-use-assets-from-the-Asset-Store-with-other-engines"
+   }
+  },
+  {
+   "id": "asset-sonniss-gdc-game-audio-bundle",
+   "name": "Sonniss GDC Game Audio Bundle",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://gdc.sonniss.com/",
+   "description": "A free multi-GB pro SFX bundle released every year (2026: about 7.47 GB from 17 vendors); past years' bundles are archived.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: Sonniss GDC bundle royalty-free license",
+   "why": "Commercial use in unlimited projects is allowed with no attribution needed. You can't sell or redistribute the sounds on their own or as a sound library. A 2026 guide reports that Sonniss also bans AI training. Download only from the official site, not from torrents. Licence was read from a third-party copy of the PDF; confirm on the official download page.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Sonniss GDC bundle royalty-free license",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://gdc.sonniss.com/"
+   }
+  },
+  {
+   "id": "asset-kenney-audio-packs",
+   "name": "Kenney Audio packs",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://kenney.nl/assets/category:Audio",
+   "description": "About 10 game-ready audio packs: UI, impacts, sci-fi, RPG, casino, jingles and voiceover.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: CC0",
+   "why": "Public domain: commercial use is allowed and no attribution is needed. The Kenney logo is reserved for Kenney's own projects.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://kenney.nl/support"
+   }
+  },
+  {
+   "id": "asset-bbc-sound-effects",
+   "name": "BBC Sound Effects",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://sound-effects.bbcrewind.co.uk/",
+   "description": "BBC archive of 33,000+ sound effects.",
+   "verdict": "reference",
+   "verdictNote": "reference: RemArc Licence (personal/educational/research only)",
+   "why": "Free downloads are not cleared for commercial use, so not for monetized YouTube or games. Commercial licences for individual sounds are sold through Pro Sound Effects.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "RemArc Licence (personal/educational/research only)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.sonicstate.com/news/2025/09/17/33-thousand-bbc-sound-effects/"
+   }
+  },
+  {
+   "id": "asset-zapsplat",
+   "name": "ZapSplat",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://www.zapsplat.com/",
+   "description": "Large SFX and music library; free accounts get MP3s, paid Gold/Premium (around $4-5/mo) adds WAV files and removes the credit requirement.",
+   "verdict": "trial",
+   "verdictNote": "trial: ZapSplat Standard License (free = attribution; Gold = no attribution)",
+   "why": "Commercial use is allowed. The free tier requires a credit to ZapSplat. Embedding in films and games is allowed; standalone redistribution is not, and physical merchandise needs an extra licence.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "ZapSplat Standard License (free = attribution; Gold = no attribution)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.zapsplat.com/copyright-and-audio-licensing-for-beginners"
+   }
+  },
+  {
+   "id": "asset-99sounds",
+   "name": "99Sounds",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://99sounds.org/",
+   "description": "Free curated SFX and sample libraries from independent sound designers.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: 99Sounds License (royalty-free)",
+   "why": "Commercial use and client work are allowed with no attribution needed. You can't redistribute the files on their own, and the licence bans using them in noise, white-noise or sleep-sound apps.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "99Sounds License (royalty-free)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://99sounds.org/license/"
+   }
+  },
+  {
+   "id": "asset-soundly-free-tier",
+   "name": "Soundly (free tier)",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://getsoundly.com/",
+   "description": "Desktop sound-library app with a free cloud library and a paid Pro tier; it can also browse Freesound.",
+   "verdict": "trial",
+   "verdictNote": "trial: Soundly EULA",
+   "why": "Soundly's own Free and Pro libraries are cleared for commercial use, including games. Sounds pulled from Freesound keep their own licences; filter to CC0-only to avoid credit requirements.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Soundly EULA",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://getsoundly.com/faq/can-i-use-the-sounds-in-a-video-game"
+   }
+  },
+  {
+   "id": "asset-free-to-use-sounds",
+   "name": "Free To Use Sounds",
+   "kind": "web-tool",
+   "category": "asset-sound-effects",
+   "url": "https://www.freetousesounds.com/",
+   "description": "Field-recording and ambience SFX packs, offered free or pay-what-you-want and also sold on Bandcamp.",
+   "verdict": "assess",
+   "verdictNote": "assess: Royalty-free (exact terms unconfirmed)",
+   "why": "Generally described as royalty-free for commercial use, but I couldn't open their licence page. Confirm the attribution and redistribution terms before relying on it.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Royalty-free (exact terms unconfirmed)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://freetousesounds.bandcamp.com/album/60-seconds-clock-ticking-timer-sound-effects-with-explosion"
+   }
+  },
+  {
+   "id": "asset-incompetech-kevin-macleod",
+   "name": "Incompetech (Kevin MacLeod)",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://incompetech.com/",
+   "description": "Huge royalty-free music catalogue by Kevin MacLeod, widely used on YouTube and in games.",
+   "verdict": "trial",
+   "verdictNote": "trial: CC BY 4.0 (paid no-attribution license available)",
+   "why": "Commercial use is allowed only with the credit line \"Kevin MacLeod (incompetech.com)\" plus the CC BY 4.0 licence; leaving it out is a copyright violation. A paid Standard licence (about $30+ per track) removes the credit. Very recognisable to viewers.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "CC BY 4.0 (paid no-attribution license available)",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://licenseorg.com/guide/music-audio/incompetech"
+   }
+  },
+  {
+   "id": "asset-youtube-audio-library",
+   "name": "YouTube Audio Library",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://studio.youtube.com/",
+   "description": "Free music and SFX inside YouTube Studio, with an 'Attribution not required' filter.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: YouTube Audio Library terms (some tracks CC BY)",
+   "why": "Safe for monetized YouTube, and Content ID won't claim these tracks. CC BY tracks need the exact credit in the description. Use outside YouTube, including in games, isn't generally cleared, so don't use these tracks in Godot builds.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "YouTube Audio Library terms (some tracks CC BY)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://www.vidiq.com/blog/post/royalty-free-music-youtube-audio-library"
+   }
+  },
+  {
+   "id": "asset-uppbeat",
+   "name": "Uppbeat",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://uppbeat.io/",
+   "description": "Creator-focused music and SFX platform; the free plan gives 3 downloads for your own channels, and paid plans start at $6.99/mo.",
+   "verdict": "trial",
+   "verdictNote": "trial: Uppbeat Free / paid licence",
+   "why": "The free plan is limited to individual use on your own channels, and its pricing page doesn't mention Content ID safelisting. Paid plans safelist 1-10 channels. Not intended for distributed games.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Uppbeat Free / paid licence",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://uppbeat.io/pricing"
+   }
+  },
+  {
+   "id": "asset-free-music-archive",
+   "name": "Free Music Archive",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://freemusicarchive.org/",
+   "description": "Large archive of independent music under a mix of CC licences.",
+   "verdict": "reference",
+   "verdictNote": "reference: Per track: Creative Commons (BY / BY-SA / BY-NC / BY-ND etc.)",
+   "why": "Many tracks are NC (non-commercial) or ND (no-derivatives) and so are unusable for monetized videos without the artist's written permission. Only BY or BY-SA tracks with credit are safe. FMA can't resolve Content ID claims; you have to contact the artist.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Per track: Creative Commons (BY / BY-SA / BY-NC / BY-ND etc.)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://freemusicarchive.org/FAQ_For_Videos/"
+   }
+  },
+  {
+   "id": "asset-purple-planet-music",
+   "name": "Purple Planet Music",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://www.purple-planet.com/",
+   "description": "Free production music for video and games from two UK composers.",
+   "verdict": "trial",
+   "verdictNote": "trial: Purple Planet free licence (attribution) / paid licence",
+   "why": "Commercial use is allowed only with a visible credit and link to purple-planet.com. A paid licence (from about $8 per track) removes the credit. No remixing.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Purple Planet free licence (attribution) / paid licence",
+   "stars": null,
+   "cost": "freemium",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://licenseorg.com/guide/music-audio/purple-planet"
+   }
+  },
+  {
+   "id": "asset-soundimage-org-eric-matyas",
+   "name": "Soundimage.org (Eric Matyas)",
+   "kind": "web-tool",
+   "category": "asset-music",
+   "url": "https://soundimage.org/",
+   "description": "2,000+ game-oriented music loops and SFX by Eric Matyas.",
+   "verdict": "assess",
+   "verdictNote": "assess: Free with attribution (Soundimage terms)",
+   "why": "Free for games and projects with attribution, and has been used in Steam games. I couldn't open his attribution and licence page, so confirm the commercial terms there.",
+   "tags": [
+    "assets",
+    "free-assets"
+   ],
+   "license": "Free with attribution (Soundimage terms)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-24",
+   "source": "research 2026-10-24: free asset sources",
+   "extra": {
+    "licenceEvidence": "https://itch.io/profile/eric-matyas"
+   }
   }
  ]
 }

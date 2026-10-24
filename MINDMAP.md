@@ -5,14 +5,45 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 122]
+    content-tools[AI content-creation tools · 211]
+      asset-rigging-animation · 21
+        CMU Graphics Lab Motion Capture Database
+        Reallusion AccuRIG
+        Blender Rigify
+        MPFB2 MakeHuman for Blender
+        Universal Animation Library Quaternius
+      asset-textures-lighting · 20
+        cgbookcase
+        ShareTextures
+        3DTextures.me
+        TextureCan
+        LEOMOON Free IES Lights Pack
+      asset-3d-models · 19
+        BlenderKit now Blendkit
+        Kenney
+        KayKit Kay Lousberg
+        NASA 3D Resources
       video-gen · 13
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF
+      asset-vfx · 12
+        Pixabay Videos incl. VFX/overlay clips
+        Pexels Videos
+        Coverr
+        LottieFiles free animations
+        Kenney Particle Pack
+      asset-sound-effects · 9
+        Pixabay Sound Effects
+        Mixkit Sound Effects
+        Sonniss GDC Game Audio Bundle
+        Kenney Audio packs
+        99Sounds
       tts-voice · 8
         Kokoro TTS
         Chatterbox TTS
         Kokoro
+      asset-music · 8
+        YouTube Audio Library
       comfyui · 7
         ComfyUI
         ComfyUI-GGUF
@@ -26,18 +57,6 @@ mindmap
         FLUX.2 klein 4B
       auto-clip · 5
       avatar-lipsync · 5
-      music-gen · 4
-        ACE-Step 1.5 / 1.5 XL
-      3d-generation · 4
-        TRELLIS.2
-      platform-api · 4
-        Threads API 2026 update
-      media · 3
-        VoiceStudio
-      programmatic-video · 3
-        Revideo
-        MoviePy
-      world-model · 3
     mcp-servers[MCP servers · 36]
       game-engine-agents · 9
       mcp-browser · 2

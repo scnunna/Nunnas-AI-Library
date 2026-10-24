@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+6f120bee8fd7, 2510 items, updated 2026-10-24.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.24+b384f586ef46, 2599 items, updated 2026-10-24.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -19,7 +19,7 @@ How to use this repo as an AI assistant:
 
 ## Collections
 
-- content-tools: AI content-creation tools (122) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
+- content-tools: AI content-creation tools (211) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (53) — Claude/agent skills, plugins and marketplaces, with verdicts.
 - agent-tools: Agent tools & frameworks (118) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
@@ -71,6 +71,38 @@ How to use this repo as an AI assistant:
 - Mixamo [content-tools/game-animation] https://www.mixamo.com
 - Melies cinematic techniques [content-tools/cinematography-reference] https://melies.co/cinematic-techniques
 - NVIDIA SimReady Central (Hugging Face) [content-tools/3d-assets] https://huggingface.co/spaces/nvidia/simready-central
+- cgbookcase [content-tools/asset-textures-lighting] https://www.cgbookcase.com
+- ShareTextures [content-tools/asset-textures-lighting] https://www.sharetextures.com
+- 3DTextures.me [content-tools/asset-textures-lighting] https://3dtextures.me
+- TextureCan [content-tools/asset-textures-lighting] https://www.texturecan.com
+- LEOMOON Free IES Lights Pack [content-tools/asset-textures-lighting] https://leomoon.com/downloads/assets/leomoon-free-ies-lights-pack/
+- BlenderKit (now Blendkit) [content-tools/asset-3d-models] https://www.blenderkit.com/
+- Material Maker [content-tools/asset-textures-lighting] https://www.materialmaker.org
+- Lospec Palette List [content-tools/asset-textures-lighting] https://lospec.com/palette-list
+- Pixar One Twenty Eight [content-tools/asset-textures-lighting] https://renderman.pixar.com/pixar-one-twenty-eight
+- Physically Based (physicallybased.info) [content-tools/asset-textures-lighting] https://physicallybased.info
+- CMU Graphics Lab Motion Capture Database [content-tools/asset-rigging-animation] http://mocap.cs.cmu.edu/
+- Reallusion AccuRIG [content-tools/asset-rigging-animation] https://actorcore.reallusion.com/auto-rig
+- Blender Rigify [content-tools/asset-rigging-animation] https://docs.blender.org/manual/en/latest/addons/rigging/rigify/
+- MPFB2 (MakeHuman for Blender) [content-tools/asset-rigging-animation] https://static.makehumancommunity.org/mpfb.html
+- Universal Animation Library (Quaternius) [content-tools/asset-rigging-animation] https://quaternius.itch.io/universal-animation-library
+- Mesh2Motion [content-tools/asset-rigging-animation] https://mesh2motion.org/
+- Kenney Animated Characters [content-tools/asset-rigging-animation] https://kenney-assets.itch.io/animated-characters-3
+- Godot 4 skeleton retargeting (built-in) [content-tools/asset-rigging-animation] https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/retargeting_3d_skeletons.html
+- Kenney [content-tools/asset-3d-models] https://kenney.nl/assets
+- KayKit (Kay Lousberg) [content-tools/asset-3d-models] https://kaylousberg.itch.io/
+- NASA 3D Resources [content-tools/asset-3d-models] https://science.nasa.gov/3d-resources/
+- Pixabay Videos (incl. VFX/overlay clips) [content-tools/asset-vfx] https://pixabay.com/videos/
+- Pixabay Sound Effects [content-tools/asset-sound-effects] https://pixabay.com/sound-effects/
+- Mixkit Sound Effects [content-tools/asset-sound-effects] https://mixkit.co/free-sound-effects/
+- Pexels Videos [content-tools/asset-vfx] https://www.pexels.com/videos/
+- Coverr [content-tools/asset-vfx] https://coverr.co/
+- LottieFiles free animations [content-tools/asset-vfx] https://lottiefiles.com/free-animations
+- Kenney Particle Pack [content-tools/asset-vfx] https://kenney.nl/assets/particle-pack
+- Sonniss GDC Game Audio Bundle [content-tools/asset-sound-effects] https://gdc.sonniss.com/
+- Kenney Audio packs [content-tools/asset-sound-effects] https://kenney.nl/assets/category:Audio
+- 99Sounds [content-tools/asset-sound-effects] https://99sounds.org/
+- YouTube Audio Library [content-tools/asset-music] https://studio.youtube.com/
 - microsoft/playwright-mcp [mcp-servers/mcp-browser] https://github.com/microsoft/playwright-mcp
 - ChromeDevTools/chrome-devtools-mcp [mcp-servers/mcp-browser] https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Claude in Chrome [mcp-servers/Browser agent]
