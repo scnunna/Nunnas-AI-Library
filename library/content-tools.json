@@ -6039,6 +6039,53 @@
    "verified": false,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: game engines"
+  },
+  {
+   "id": "content-wan2-2-lightx2v-distill-4-step-loras",
+   "name": "Wan2.2 LightX2V distill (4-step LoRAs)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://huggingface.co/lightx2v/Wan2.2-Distill-Models",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "4-step distill for Wan 2.2 A14B; ~10x fewer steps than 40-step runs, which makes A14B usable on GPU-poor boxes via GGUF + RAM offload.",
+   "tags": [
+    "self-host",
+    "low-vram"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-26",
+   "source": "research 2026-10-26: local video on 8GB"
+  },
+  {
+   "id": "content-ltx-2-5-gguf-quants-community",
+   "name": "LTX-2.5 GGUF quants (community)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://huggingface.co/chfm/LTX-2.5-Distilled-GGUF",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Smallest distilled files ~11.5-12.6 GB plus a large Gemma text encoder; not an 8 GB option, plan for 16-24 GB GPUs.",
+   "tags": [
+    "self-host"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": false,
+   "asOf": "2026-10-26",
+   "source": "research 2026-10-26: local video on 8GB"
   }
  ]
 }

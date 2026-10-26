@@ -600,3 +600,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-tradingagents -> agent-tools
 - added skill-print3d -> agent-tools
 - added tool-fieldwatch -> agent-tools
+
+## 2026-10-26 — research 2026-10-26: local video on 8GB
+- added content-wan2-2-lightx2v-distill-4-step-loras -> content-tools
+- added content-ltx-2-5-gguf-quants-community -> content-tools
