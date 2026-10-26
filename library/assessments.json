@@ -20,7 +20,7 @@
    ],
    "tags": [],
    "license": null,
-   "stars": 2320,
+   "stars": 2331,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -33,7 +33,7 @@
      "Apply the selection loop to extraction accuracy, listings and content - not to a live account"
     ],
     "pushedAt": "2026-09-22",
-    "checkedAt": "2026-10-15"
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -50,7 +50,7 @@
    ],
    "tags": [],
    "license": "MIT",
-   "stars": 306,
+   "stars": 328,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -63,7 +63,7 @@
      "Revisit when WebGPU support is broad enough that no fallback is needed"
     ],
     "pushedAt": "2026-09-28",
-    "checkedAt": "2026-10-15"
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -148,7 +148,7 @@
    ],
    "tags": [],
    "license": "CERN-OHL-P (hardware) + MIT (software)",
-   "stars": 26953,
+   "stars": 27172,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -174,7 +174,7 @@
      "caution": "Keep wording descriptive; a movement and breathing-rate sensor is not a medical device and must not be sold as one"
     },
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-10-15"
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -250,8 +250,8 @@
    "verdictNote": "reference, not adopt-to-run. Steal five patterns now; revisit the code if weights/corpus are released and indie web-game games run on Godot.",
    "why": "Champion + saturation stop: keep the best build seen; stop after 3 checkpoints with no improvement. Apply to every swarm self-improve loop (Printables, finance-education shorts, indie web-game polish) - caps token spend and prevents late rounds undoing earlier gains Independent verifier: the agent that checks a change is not the one that made it, and must test for regressions, not just 'did it work' 'Silence does not write' checklist: an item not observed this round keeps its status; only evidence moves it. Fixes oscillating scores from noisy LLM judges (they measured 10% of items flipping between readings of the same trace) One objective per round: diagnose the single place with most headroom, edit against that only Cost metering through one loopback proxy that logs every call (prompt/completion/cached/reasoning tokens, dollars). A LiteLLM router with a cost-logging table already does the same; confirm cached and reasoning tokens are captured Hygiene to copy into Claude Code handoff: 'rsigame check' preflight before a run; test that scans the repo for secrets/personal paths; test that resolves every import including those inside functions; 3-layer config (defaults -> experiment -> env)",
    "tags": [],
-   "license": null,
-   "stars": 6,
+   "license": "Apache-2.0",
+   "stars": 162,
    "cost": null,
    "relevance": [
     "general"
@@ -269,7 +269,9 @@
      "No cost-per-game figure published. Their runs were 30-64 rounds with up to 1800 s repair budgets; run one game with a hard spend cap before committing",
      "Code quality: strong design documentation and tests of the key logic, but declared Python >=3.11 while project_map.py uses 3.12-only f-string syntax (fails to compile on 3.11 and breaks 2 tests); ~6 undefined-name bugs in rarely-run scripts; huge functions (one_round 398 lines, explore 408); only ~1k lines of tests for 28k of source",
      "Dependency licences checked: GameCraft-Bench Apache-2.0, OpenGame Apache-2.0 (per authors' NOTICE, not independently opened)"
-    ]
+    ],
+    "pushedAt": "2026-10-11",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -283,8 +285,8 @@
    "verdictNote": "CONDITIONAL ADOPT: the one entry point if you do RE at all, installed only inside an isolated VM.",
    "why": "One MCP instead of five separate bridges Commercial tools (IDA, Hopper, JEB) are optional and must be bought separately",
    "tags": [],
-   "license": null,
-   "stars": 170700,
+   "license": "MIT",
+   "stars": 387344,
    "cost": null,
    "relevance": [
     "general"
@@ -297,7 +299,9 @@
      "Star count on the page is 170.7k but a banner says 110k: popularity figures are inconsistent; neither is an audit",
      "Runtime capture runs the target with your user permissions: never on a production server or a machine with API keys",
      "Decompiled code you send to the agent goes to the model provider"
-    ]
+    ],
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -311,8 +315,8 @@
    "verdictNote": "ADOPT inside the RE VM (free core tool).",
    "why": "Audit your own builds and firmware",
    "tags": [],
-   "license": null,
-   "stars": 85800,
+   "license": "Apache-2.0",
+   "stars": 94445,
    "cost": null,
    "relevance": [
     "general"
@@ -323,7 +327,9 @@
    "extra": {
     "warnings": [
      "Large Java install; keep in the VM"
-    ]
+    ],
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -337,8 +343,8 @@
    "verdictNote": "ADOPT as the lightweight alternative to REA when you only need binaries.",
    "why": "Simpler than REA; fewer moving parts",
    "tags": [],
-   "license": null,
-   "stars": 11200,
+   "license": "Apache-2.0",
+   "stars": 11574,
    "cost": null,
    "relevance": [
     "general"
@@ -349,7 +355,9 @@
    "extra": {
     "warnings": [
      "HTTP server has no stated authentication: keep it on localhost"
-    ]
+    ],
+    "pushedAt": "2026-10-10",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -363,8 +371,8 @@
    "verdictNote": "ADOPT now: the most useful tool in this list for you.",
    "why": "Debug your own Public API MCP and n8n calls See exactly what the IoT devices, games and apps send (privacy claims, hidden telemetry in tools you install) Consulting: authorised traffic reviews",
    "tags": [],
-   "license": null,
-   "stars": 44900,
+   "license": "MIT",
+   "stars": 46355,
    "cost": null,
    "relevance": [
     "general"
@@ -376,7 +384,9 @@
     "warnings": [
      "Install its certificate only on test devices; remove after",
      "Do not use it to lift other services' private APIs into the catalogue"
-    ]
+    ],
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -390,8 +400,8 @@
    "verdictNote": "REFERENCE: useful hex editor; the post's 'with MCP server' is NOT in its README (a third-party jmpnop/imhexMCP exists, unchecked).",
    "why": "Inspect save files and asset formats of your own games",
    "tags": [],
-   "license": null,
-   "stars": 54500,
+   "license": "GPL-2.0",
+   "stars": 55571,
    "cost": null,
    "relevance": [
     "general"
@@ -402,7 +412,9 @@
    "extra": {
     "warnings": [
      "GPL: fine to use, careful if you ever ship code derived from it"
-    ]
+    ],
+    "pushedAt": "2026-10-09",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -416,8 +428,8 @@
    "verdictNote": "CONDITIONAL: only for.NET/Unity builds you own or are authorised to inspect.",
    "why": "Check what your own Unity/.NET builds expose if indie web-game ever ships one",
    "tags": [],
-   "license": null,
-   "stars": 26100,
+   "license": "MIT",
+   "stars": 26817,
    "cost": null,
    "relevance": [
     "general"
@@ -428,7 +440,9 @@
    "extra": {
     "warnings": [
      "Decompiling other people's games to copy code is infringement"
-    ]
+    ],
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -443,7 +457,7 @@
    "why": "Runtime tests of your own apps",
    "tags": [],
    "license": null,
-   "stars": 22000,
+   "stars": 22472,
    "cost": null,
    "relevance": [
     "general"
@@ -454,7 +468,9 @@
    "extra": {
     "warnings": [
      "Licence not named on the repo page; injection into apps you do not own breaks their terms"
-    ]
+    ],
+    "pushedAt": "2026-10-23",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -468,8 +484,8 @@
    "verdictNote": "CONDITIONAL: own apps or written client authorisation only.",
    "why": "Security review of an app you build or a client asks you to test",
    "tags": [],
-   "license": null,
-   "stars": 7800,
+   "license": "Apache-2.0",
+   "stars": 8311,
    "cost": null,
    "relevance": [
     "general"
@@ -480,7 +496,9 @@
    "extra": {
     "warnings": [
      "Using it to find another company's private API and then calling it breaks their terms and can break Canadian law; never feed results into the public API catalogue"
-    ]
+    ],
+    "pushedAt": "2026-10-12",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -494,8 +512,8 @@
    "verdictNote": "REFERENCE: read its engine playbooks to learn how games are structured; modding others' games is not a business line for you.",
    "why": "Engine knowledge for indie web-game 3D move Possible content idea: 'AI mods a classic' videos, only for games whose EULA allows mods",
    "tags": [],
-   "license": null,
-   "stars": 7200,
+   "license": "MIT",
+   "stars": 8980,
    "cost": null,
    "relevance": [
     "general"
@@ -507,7 +525,9 @@
     "warnings": [
      "fal asset generation costs money (price not stated)",
      "Respect each game's EULA; single-player only"
-    ]
+    ],
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -521,8 +541,8 @@
    "verdictNote": "SKIP: WIP and only relevant to Unity games you do not make.",
    "why": "",
    "tags": [],
-   "license": null,
-   "stars": 2800,
+   "license": "MIT",
+   "stars": 3064,
    "cost": null,
    "relevance": [
     "general"
@@ -533,7 +553,9 @@
    "extra": {
     "warnings": [
      "Major rewrite in progress"
-    ]
+    ],
+    "pushedAt": "2026-09-15",
+    "checkedAt": "2026-10-26"
    }
   }
  ]

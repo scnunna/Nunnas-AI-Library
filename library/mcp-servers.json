@@ -18,7 +18,7 @@
     "testing"
    ],
    "license": "Apache-2.0",
-   "stars": 38204,
+   "stars": 38642,
    "cost": "free",
    "relevance": [
     "games",
@@ -29,8 +29,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/microsoft/playwright-mcp",
-    "pushedAt": "2026-10-08",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-22",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -48,7 +48,7 @@
     "devtools"
    ],
    "license": "Apache-2.0",
-   "stars": 53605,
+   "stars": 54178,
    "cost": "free",
    "relevance": [
     "games",
@@ -59,8 +59,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/ChromeDevTools/chrome-devtools-mcp",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -97,7 +97,7 @@
    "why": "Clean Markdown, site maps, structured extraction, page actions.",
    "tags": [],
    "license": "MIT",
-   "stars": 7610,
+   "stars": 7690,
    "cost": "1,000 free credits/mo, then paid",
    "relevance": [],
    "verified": false,
@@ -105,8 +105,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/firecrawl/firecrawl-mcp-server",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -121,7 +121,7 @@
    "why": "Open-source alternative to Firecrawl; runs on your VPS.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 85622,
+   "stars": 86286,
    "cost": "Free, self-hosted",
    "relevance": [],
    "verified": false,
@@ -129,8 +129,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/unclecode/crawl4ai",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -145,7 +145,7 @@
    "why": "Simplest page reader.",
    "tags": [],
    "license": null,
-   "stars": 91289,
+   "stars": 91573,
    "cost": "Free",
    "relevance": [],
    "verified": false,
@@ -153,8 +153,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/modelcontextprotocol/servers",
-    "pushedAt": "2026-10-13",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -169,7 +169,7 @@
    "why": "Returns full page text; replaces similarsites.",
    "tags": [],
    "license": "MIT",
-   "stars": 5134,
+   "stars": 5170,
    "cost": "Free credits, then paid",
    "relevance": [],
    "verified": false,
@@ -177,8 +177,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/exa-labs/exa-mcp-server",
-    "pushedAt": "2026-10-07",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-19",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -193,7 +193,7 @@
    "why": "Search with source citations for research agents.",
    "tags": [],
    "license": "MIT",
-   "stars": 2434,
+   "stars": 2460,
    "cost": "Free monthly credits",
    "relevance": [],
    "verified": false,
@@ -201,8 +201,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/tavily-ai/tavily-mcp",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-22",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -239,7 +239,7 @@
    "why": "Thousands of maintained scrapers for specific sites.",
    "tags": [],
    "license": "MIT",
-   "stars": 11422,
+   "stars": 13212,
    "cost": "$5/mo free credit",
    "relevance": [],
    "verified": false,
@@ -247,8 +247,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/apify/actors-mcp-server",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -263,7 +263,7 @@
    "why": "PDF, Word, Excel, PowerPoint into LLM-ready text; replaces online PDF tools.",
    "tags": [],
    "license": "MIT",
-   "stars": 190424,
+   "stars": 192263,
    "cost": "Free",
    "relevance": [],
    "verified": false,
@@ -271,8 +271,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/microsoft/markitdown",
-    "pushedAt": "2026-10-04",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-23",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -289,7 +289,7 @@
     "docs"
    ],
    "license": "MIT",
-   "stars": 63102,
+   "stars": 63698,
    "cost": "freemium",
    "relevance": [
     "games",
@@ -300,8 +300,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/upstash/context7",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -338,7 +338,7 @@
    "why": "Entity/relation memory across sessions.",
    "tags": [],
    "license": null,
-   "stars": 91289,
+   "stars": 91573,
    "cost": "Free",
    "relevance": [],
    "verified": false,
@@ -346,8 +346,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/modelcontextprotocol/servers",
-    "pushedAt": "2026-10-13",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -364,7 +364,7 @@
     "github"
    ],
    "license": "MIT",
-   "stars": 33647,
+   "stars": 33966,
    "cost": "free",
    "relevance": [
     "general"
@@ -374,8 +374,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/github/github-mcp-server",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-23",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -434,7 +434,7 @@
    "why": "Billing for anything you sell outside Whop.",
    "tags": [],
    "license": "MIT",
-   "stars": 1952,
+   "stars": 1972,
    "cost": "Pay per transaction",
    "relevance": [],
    "verified": false,
@@ -442,8 +442,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/stripe/agent-toolkit",
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -502,7 +502,7 @@
    "why": "Accurate scheduling across market sessions.",
    "tags": [],
    "license": null,
-   "stars": 91289,
+   "stars": 91573,
    "cost": "Free",
    "relevance": [],
    "verified": false,
@@ -510,8 +510,8 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "src": "github.com/modelcontextprotocol/servers",
-    "pushedAt": "2026-10-13",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -529,7 +529,7 @@
     "database"
    ],
    "license": "Apache-2.0",
-   "stars": 2953,
+   "stars": 2971,
    "cost": "free",
    "relevance": [
     "content-studio",
@@ -539,8 +539,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -558,7 +558,7 @@
     "ffmpeg"
    ],
    "license": "Apache-2.0",
-   "stars": 206,
+   "stars": 222,
    "cost": "free",
    "relevance": [
     "content-studio",
@@ -568,8 +568,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -607,7 +607,7 @@
    "why": "Needs a Meshy API key on Pro or above: $20/month (1,000 credits), Premium $40, Ultra $100 (meshy.ai, Oct 2026) Free plan outputs are CC BY 4.0 (attribution required) and have no API 24 stars, 9 commits",
    "tags": [],
    "license": "MIT (server); Meshy plan terms for outputs",
-   "stars": 24,
+   "stars": 84,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -615,7 +615,11 @@
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-blender-mcp",
@@ -631,7 +635,7 @@
     "fits-8gb"
    ],
    "license": "MIT",
-   "stars": 28700,
+   "stars": 32383,
    "cost": null,
    "relevance": [
     "games"
@@ -646,7 +650,9 @@
      "on8GB": "Use now for mesh clean-up and GLB export",
      "at24GB": "Faster Cycles renders",
      "blockerBeyondVram": null
-    }
+    },
+    "pushedAt": "2026-10-24",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -661,14 +667,18 @@
    "why": "indie web-game builds on its own web a custom web game engine, not Unity",
    "tags": [],
    "license": "MIT",
-   "stars": 14900,
+   "stars": 15427,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-19",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-godot-ai",
@@ -682,14 +692,18 @@
    "why": "Telemetry ON by default (install ID, events, platform): set GODOT_AI_DISABLE_TELEMETRY=true It writes and hot-reloads GDScript, so it executes code in your project Several copy forks exist: use hi-godot only",
    "tags": [],
    "license": "MIT",
-   "stars": 2900,
+   "stars": 3212,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-unreal-engine-mcp",
@@ -703,14 +717,18 @@
    "why": "Unreal 5 is far too heavy for web games and an 8 GB GPU Hosted tools include arbitrary Python and C++ execution",
    "tags": [],
    "license": "MIT (local server)",
-   "stars": 1100,
+   "stars": 1113,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-06-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-playcanvas-editor-mcp-server",
@@ -724,14 +742,18 @@
    "why": "Needs a PlayCanvas cloud editor login (plan requirements not stated) 137 stars",
    "tags": [],
    "license": "MIT",
-   "stars": 137,
+   "stars": 149,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-16",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-unity-mcp",
@@ -767,14 +789,18 @@
    "why": "Authorization defaults to none on port 8080; script-execute compiles and runs C# indie web-game does not use Unity",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 4000,
+   "stars": 4532,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-godot-mcp",
@@ -788,14 +814,18 @@
    "why": "Sample config auto-approves every tool: don't copy that Overlaps godot-ai (46 tools) already catalogued: pick one per project",
    "tags": [],
    "license": "MIT",
-   "stars": 5600,
+   "stars": 6357,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-04-16",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-unreal-tools-unrealclaude-unreal-mcp-vibeue-unreal-engine-skills-unrealgenai",
@@ -809,14 +839,18 @@
    "why": "Unreal 5 is too heavy for web games and for an 8 GB GPU Several can run arbitrary Python or C++ in the editor",
    "tags": [],
    "license": "All MIT",
-   "stars": 907,
+   "stars": 964,
    "cost": null,
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-06-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-mcp-unity-codergamester",
@@ -832,14 +866,18 @@
     "unity"
    ],
    "license": "MIT",
-   "stars": 1900,
+   "stars": 1996,
    "cost": "free",
    "relevance": [
     "games"
    ],
    "verified": true,
    "asOf": "2026-10-19",
-   "source": "research 2026-10-19: 3D web game stack"
+   "source": "research 2026-10-19: 3D web game stack",
+   "extra": {
+    "pushedAt": "2026-10-11",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "mcp-social-broadcast-mcp",

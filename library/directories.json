@@ -18,7 +18,7 @@
     "awesome-list"
    ],
    "license": "Apache-2.0",
-   "stars": 77193,
+   "stars": 77970,
    "cost": "free",
    "relevance": [
     "general"
@@ -28,7 +28,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-09-18",
-    "checkedAt": "2026-10-15"
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -46,7 +46,7 @@
     "awesome-list"
    ],
    "license": "CC BY-NC-ND 4.0",
-   "stars": 55600,
+   "stars": 56566,
    "cost": "free",
    "relevance": [
     "general"
@@ -55,8 +55,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -121,7 +121,7 @@
     "registry"
    ],
    "license": null,
-   "stars": 7365,
+   "stars": 7408,
    "cost": "free",
    "relevance": [
     "general"
@@ -130,8 +130,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-14",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-25",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -149,7 +149,7 @@
     "awesome-list"
    ],
    "license": "MIT",
-   "stars": 96405,
+   "stars": 96882,
    "cost": "free",
    "relevance": [
     "general",
@@ -159,8 +159,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-15",
-    "checkedAt": "2026-10-15"
+    "pushedAt": "2026-10-23",
+    "checkedAt": "2026-10-26"
    }
   },
   {
@@ -222,7 +222,7 @@
    "why": "2 stars; counts are 'discovery signals, not rankings'",
    "tags": [],
    "license": "CC0-1.0",
-   "stars": 2,
+   "stars": 81,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -230,7 +230,11 @@
    ],
    "verified": true,
    "asOf": "2026-10-15",
-   "source": "research 2026-10: content, motion, 3D and game tools"
+   "source": "research 2026-10: content, motion, 3D and game tools",
+   "extra": {
+    "pushedAt": "2026-10-24",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-selfhosted",
@@ -248,14 +252,18 @@
     "directory"
    ],
    "license": "CC-BY-SA-3.0",
-   "stars": 318100,
+   "stars": 330535,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists"
+   "source": "research 2026-10-24: awesome lists",
+   "extra": {
+    "pushedAt": "2026-10-22",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-python",
@@ -273,14 +281,18 @@
     "directory"
    ],
    "license": "CC-BY-4.0",
-   "stars": 318500,
+   "stars": 330344,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists"
+   "source": "research 2026-10-24: awesome lists",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-the-book-of-secret-knowledge",
@@ -299,14 +311,18 @@
     "cheatsheets"
    ],
    "license": "MIT",
-   "stars": 241800,
+   "stars": 253316,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists"
+   "source": "research 2026-10-24: awesome lists",
+   "extra": {
+    "pushedAt": "2024-11-19",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-go",
@@ -324,14 +340,18 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 181300,
+   "stars": 190417,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists"
+   "source": "research 2026-10-24: awesome lists",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-nodejs",
@@ -349,14 +369,18 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 67000,
+   "stars": 67270,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-09-02",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-cpp",
@@ -374,14 +398,18 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 73000,
+   "stars": 74034,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-react",
@@ -398,14 +426,18 @@
     "directory"
    ],
    "license": "unclear (badge says CC0, links CC BY 4.0; no LICENSE file)",
-   "stars": 74200,
+   "stars": 75060,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-09-04",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-react-components",
@@ -423,14 +455,18 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 48600,
+   "stars": 48739,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-01-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-hacking-hack-with-github",
@@ -448,14 +484,18 @@
     "list-of-lists"
    ],
    "license": "CC0-1.0",
-   "stars": 118000,
+   "stars": 123663,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-07-26",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-papers-we-love",
@@ -472,14 +512,18 @@
     "papers"
    ],
    "license": "none stated",
-   "stars": 109700,
+   "stars": 110906,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-awesome-design-patterns",
@@ -496,14 +540,18 @@
     "design-patterns"
    ],
    "license": "CC0-1.0",
-   "stars": 49000,
+   "stars": 49504,
    "cost": "free",
    "relevance": [
     "general"
    ],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24: awesome lists batch 2"
+   "source": "research 2026-10-24: awesome lists batch 2",
+   "extra": {
+    "pushedAt": "2024-10-25",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-kavex-gamedev-resources",
@@ -517,12 +565,16 @@
    "why": "The paid/free tags save time, but no licence file and no updates since April, so some links will be stale. The library's own asset-source entries already carry checked licences.",
    "tags": [],
    "license": null,
-   "stars": 6900,
+   "stars": 7110,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24"
+   "source": "research 2026-10-24",
+   "extra": {
+    "pushedAt": "2026-04-10",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-yuan-manx-ai-game-devtools",
@@ -536,12 +588,16 @@
    "why": "Good map of research-grade AI tools by category, but mostly papers and repos with no quality or licence review, many needing big GPUs. Not updated since July.",
    "tags": [],
    "license": "MIT",
-   "stars": 1300,
+   "stars": 1374,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24"
+   "source": "research 2026-10-24",
+   "extra": {
+    "pushedAt": "2026-07-21",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-crazyshader-gamedev",
@@ -555,12 +611,16 @@
    "why": "Mostly links to other lists, in Chinese, with no descriptions or licence notes. Kavex/GameDev-Resources covers the English side better.",
    "tags": [],
    "license": null,
-   "stars": 2000,
+   "stars": 2005,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24"
+   "source": "research 2026-10-24",
+   "extra": {
+    "pushedAt": "2026-05-25",
+    "checkedAt": "2026-10-26"
+   }
   },
   {
    "id": "dir-gonglei007-gamedevmind",
@@ -574,12 +634,16 @@
    "why": "Unusually deep on running a studio and live operations, not just code. Written in Chinese, so read it through translation or ask Claude to summarise a topic.",
    "tags": [],
    "license": "MIT",
-   "stars": 6600,
+   "stars": 6635,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
-   "source": "research 2026-10-24"
+   "source": "research 2026-10-24",
+   "extra": {
+    "pushedAt": "2026-10-17",
+    "checkedAt": "2026-10-26"
+   }
   }
  ]
 }
