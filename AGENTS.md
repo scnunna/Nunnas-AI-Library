@@ -7,4 +7,4 @@
 - Every curated item needs `verdict` (adopt|have|trial|assess|reference|skip) and a one-line `why`. Only set `verified: true` if you actually saw the page.
 - Before researching a tool, call `why` — it may already have a verdict.
 - Quick orientation: read `llms.txt` first, then `MINDMAP.graphql` (one runnable query per category) before opening the large JSON files.
-- After changing `mcp/core.mjs` or `mcp/edge/index.ts`, redeploy the Supabase edge function `public-ai-library` (project xbinbulvanscbmfbvcio, verify_jwt=false) with files `index.ts` = mcp/edge/index.ts and `core.mjs` = mcp/core.mjs.
+- After changing `mcp/core.mjs` or `mcp/edge/index.ts`, redeploy the Supabase edge function `public-ai-library` (legacy; verify_jwt=false; due to be retired) with files `index.ts` = mcp/edge/index.ts and `core.mjs` = mcp/core.mjs.

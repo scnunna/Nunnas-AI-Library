@@ -27,15 +27,19 @@ Good for quick questions. For repeated use, set up B or C so Claude can search p
 
 1. In Claude, open **Settings → Connectors → Add custom connector**.
 2. Name: `Nunna's AI Library`
-3. URL: `https://xbinbulvanscbmfbvcio.supabase.co/functions/v1/public-ai-library`
+3. URL: `https://nunnaconsulting.com/NAIC/NAIL/mcp/`
 4. Save, then enable it in a chat from the tools menu.
 
-It always serves the latest version of this repo. If the connector ever fails, use option C or A; both read straight from GitHub.
+It is a read-only snapshot of this repo, refreshed regularly. It works with no key (anonymous, 20 requests per minute). For higher limits, get a free key at https://nunnaconsulting.com/NAIC/NAIL/key/ (120 requests per minute) and either use the connector URL `https://nunnaconsulting.com/NAIC/NAIL/mcp/?key=YOUR_KEY` or send it as a header `Authorization: Bearer YOUR_KEY`. Full docs: https://nunnaconsulting.com/NAIC/NAIL/mcp-docs/
+
+Tools on this connector: `library_info`, `search`, `browse`, `get_item`, `why`, `categories`, `search_apis`, `recent` (the `graphql` tool is only in the local server, option C). If the connector ever fails, use option C or A; both read straight from GitHub.
 
 **Claude Code users** can add the same connector from a terminal:
 
 ```bash
-claude mcp add --transport http public-ai-library https://xbinbulvanscbmfbvcio.supabase.co/functions/v1/public-ai-library
+claude mcp add --transport http public-ai-library https://nunnaconsulting.com/NAIC/NAIL/mcp/
+# with a free key:
+claude mcp add --transport http public-ai-library https://nunnaconsulting.com/NAIC/NAIL/mcp/ --header "Authorization: Bearer YOUR_KEY"
 ```
 
 ---
@@ -87,7 +91,7 @@ Restart Claude Desktop.
 |---|---|
 | "Have we already reviewed ComfyUI? What was the verdict?" | `why` |
 | "Find free text-to-speech tools that fit an 8 GB GPU" | `search` |
-| "List the adopted video-generation tools" | `graphql` |
+| "List the adopted video-generation tools" | `browse` (or `graphql` in the local server) |
 | "Free weather APIs with no key and CORS" | `search_apis` |
 | "What was added to the library this month?" | `recent` |
 

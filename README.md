@@ -33,9 +33,9 @@ A curated, regularly maintained catalog of **public APIs, MCP servers, Claude sk
 
 See **[CONNECT.md](CONNECT.md)** for step-by-step setup. In short:
 
-- **Also on the web:** a read-only snapshot and MCP endpoint are mirrored at https://nunnaconsulting.com/NAIC/NAIL/ (MCP at `/NAIC/NAIL/mcp/`, trailing slash needed).
+- **Also on the web:** a read-only snapshot and MCP endpoint are mirrored at https://nunnaconsulting.com/NAIC/NAIL/ (MCP at `/NAIC/NAIL/mcp/`).
 - **Zero setup:** ask Claude to read `https://raw.githubusercontent.com/scnunna/Nunnas-AI-Library/main/llms.txt`.
-- **Remote connector (claude.ai, Desktop, Code):** *Settings → Connectors → Add custom connector* with URL `https://xbinbulvanscbmfbvcio.supabase.co/functions/v1/public-ai-library` (read-only, serves the latest `main`).
+- **Remote connector (claude.ai, Desktop, Code):** *Settings → Connectors → Add custom connector* with URL `https://nunnaconsulting.com/NAIC/NAIL/mcp/` (read-only snapshot; works without a key, add a free key from https://nunnaconsulting.com/NAIC/NAIL/key/ for higher limits).
 - **Local MCP server:** `git clone https://github.com/scnunna/Nunnas-AI-Library.git` then `claude mcp add -s user public-ai-library -- node "<path>/Nunnas-AI-Library/mcp/server.mjs"`. It `git pull`s on start; the maintainer's checkout also gets the write tools `add_items` / `sync_library`.
 
 ### Tools
