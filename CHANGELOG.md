@@ -604,3 +604,9 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-10-26 — research 2026-10-26: local video on 8GB
 - added content-wan2-2-lightx2v-distill-4-step-loras -> content-tools
 - added content-ltx-2-5-gguf-quants-community -> content-tools
+
+## 2026-10-26 — research 2026-10-26
+- added skill-threejs-game-skills -> skills
+- added skill-jarrod-game-feel -> skills
+- added skill-akillness-game-design-theory -> skills
+- added skill-higgsfield-websites -> skills

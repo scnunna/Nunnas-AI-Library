@@ -88,7 +88,7 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 53]
+    skills[Agent skills & plugins · 57]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -97,6 +97,7 @@ mindmap
         napkin
         tech-debt-audit
         Cloudflare security-audit skill
+      game-engine-agents · 6
       research · 5
         last30days
         user-research
@@ -114,7 +115,6 @@ mindmap
       3d-generation · 2
         image-blaster
       video-render · 2
-      game-engine-agents · 2
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
