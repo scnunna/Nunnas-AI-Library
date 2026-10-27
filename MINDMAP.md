@@ -88,7 +88,7 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 57]
+    skills[Agent skills & plugins · 58]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill

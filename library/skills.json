@@ -1387,6 +1387,25 @@
    "verified": true,
    "asOf": "2026-10-26",
    "source": "research 2026-10-26"
+  },
+  {
+   "id": "skill-motionsites-web-builder",
+   "name": "MotionSites Web Builder (Claude skill)",
+   "kind": "repo",
+   "category": "web-design",
+   "url": "https://github.com/Motionsites-AI/claude-skill",
+   "description": "Free Claude skill/plugin from MotionSites (Viktor Oddy): 40 most-liked website prompts, a media shelf of 50+ AI hero videos, 30 3D cut-outs and 29 images on CloudFront, 58 technique recipes (liquid glass, blur headlines, scroll-scrubbed video, Three.js), taste rules with numbers, a spec template, and a Playwright screenshot-and-fix loop (shoot.py). Paid MotionSites plans: $49 pack, $129/3 months, $279/year, $399 lifetime, with an MCP for the premium library.",
+   "verdict": "trial",
+   "verdictNote": "trial: strong landing-page workflow; expect an upsell block in every answer",
+   "why": "The spec-first and screenshot-and-fix loop raise AI-built pages well above default output, and the technique recipes are reusable. The skill instructs Claude to append a MotionSites upgrade ad to every delivery (you can tell it to stop), and the hosted videos are MotionSites' own, so swap in your own media for client work.",
+   "tags": [],
+   "license": "MIT (instructions/code); example prompts and media (c) MotionSites",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27"
   }
  ]
 }

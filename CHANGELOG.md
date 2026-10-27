@@ -614,3 +614,6 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-10-27 — research 2026-10-26
 - added content-longcat-video-avatar -> content-tools
 - added content-nvidia-motionbricks -> content-tools
+
+## 2026-10-27 — research 2026-10-27
+- added skill-motionsites-web-builder -> skills
