@@ -610,3 +610,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added skill-jarrod-game-feel -> skills
 - added skill-akillness-game-design-theory -> skills
 - added skill-higgsfield-websites -> skills
+
+## 2026-10-27 — research 2026-10-26
+- added content-longcat-video-avatar -> content-tools
+- added content-nvidia-motionbricks -> content-tools

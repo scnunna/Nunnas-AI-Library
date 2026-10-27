@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 233]
+    content-tools[AI content-creation tools · 235]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
@@ -52,12 +52,12 @@ mindmap
         ComfyUI-Manager
         ComfyUI-VideoHelperSuite
       comics · 7
+      avatar-lipsync · 6
       cinematography-reference · 6
         Melies cinematic techniques
       image-gen · 5
         FLUX.2 klein
         FLUX.2 klein 4B
-      auto-clip · 5
     mcp-servers[MCP servers · 36]
       game-engine-agents · 9
       mcp-browser · 2

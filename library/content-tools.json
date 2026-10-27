@@ -6219,6 +6219,44 @@
    "verified": false,
    "asOf": "2026-10-26",
    "source": "research 2026-10-26: local video on 8GB"
+  },
+  {
+   "id": "content-longcat-video-avatar",
+   "name": "LongCat-Video-Avatar 1.5 (Meituan)",
+   "kind": "repo",
+   "category": "avatar-lipsync",
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+   "description": "Open audio-driven avatar video model built on LongCat-Video: photo + audio (or text + audio) to a talking or singing person, 480p or 720p, English and Chinese, two-person scenes, long clips via segment continuation. 8-step distilled mode and INT8 option; ComfyUI node by smthemex. Hosted on WaveSpeedAI at $0.04/s (480p) or $0.08/s (720p), 3 s minimum.",
+   "verdict": "trial",
+   "verdictNote": "trial: test on WaveSpeed first; self-host on a rented 48 GB GPU only if volume justifies it",
+   "why": "MIT weights and strong identity hold from a single photo (a hands-on review kept one face across 82 s). But it needed about 40 GB VRAM even with INT8 and distillation, and took roughly 44 s of GPU time per 1 s of video, so it cannot run on an 8 GB or likely a 24 GB card. It does not clone voices: supply your own audio.",
+   "tags": [],
+   "license": "MIT (weights)",
+   "stars": null,
+   "cost": "free (self-host GPU) / about $0.04-0.08 per second hosted",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-26",
+   "source": "research 2026-10-26"
+  },
+  {
+   "id": "content-nvidia-motionbricks",
+   "name": "NVIDIA MotionBricks",
+   "kind": "repo",
+   "category": "game-animation",
+   "url": "https://huggingface.co/nvidia/MotionBricks",
+   "description": "Real-time generative motion model (about 224M params) from NVIDIA research (SIGGRAPH 2026): given recent poses and target poses it generates the in-between movement, with 'smart primitives' for navigation and object interaction. Weights for SOMA human skeleton and Unitree G1 robot; ONNX and TensorRT runtime. NVIDIA reports 15,000 FPS and 2 ms latency on an RTX 5090. Code lives in NVlabs/GR00T-WholeBodyControl.",
+   "verdict": "assess",
+   "verdictNote": "assess: research preview; watch for a Godot/Unity/Unreal bridge",
+   "why": "Could replace hand-built animation state machines, and the weights allow commercial use. Today it is a Linux, NVIDIA-only Python preview with no game-engine plugin, outputs poses for its own skeletons (retargeting to other rigs is unsolved), and the bundled sample motions are evaluation-only. Mixamo or Mesh2Motion clips remain the practical route for now.",
+   "tags": [],
+   "license": "Code Apache-2.0; weights NVIDIA Open Model Agreement (commercial use allowed); sample motions evaluation-only",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-26",
+   "source": "research 2026-10-26"
   }
  ]
 }
