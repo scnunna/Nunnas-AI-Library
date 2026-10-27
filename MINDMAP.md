@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 235]
+    content-tools[AI content-creation tools · 238]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
@@ -286,7 +286,7 @@ mindmap
       agentToolkit · 6
       agentFramework · 6
       agentSkill · 5
-    apis[Public APIs · 1838]
+    apis[Public APIs · 1841]
       Development · 168
       Government · 107
       Games & Comics · 102

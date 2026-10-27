@@ -617,3 +617,11 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-27 — research 2026-10-27
 - added skill-motionsites-web-builder -> skills
+
+## 2026-10-27 — research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts
+- added content-cosyvoice2-cosyvoice-3 -> content-tools
+- added content-indextts2 -> content-tools
+- added content-seed-vc -> content-tools
+- added api-cartesia-sonic-3 -> apis
+- added api-minimax-speech-2-6-hd -> apis
+- added api-hedra-character-3 -> apis

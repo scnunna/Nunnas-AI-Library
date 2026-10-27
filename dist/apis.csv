@@ -1837,3 +1837,6 @@
 "Blotato","social-posting","https://www.blotato.com","","","","",""
 "Contabo API","infrastructure","https://api.contabo.com/","","","","",""
 "WHOP checkout configurations API","payments","https://docs.whop.com/api-reference/checkout-configurations/create-checkout-configuration","","","","",""
+"Cartesia Sonic 3","tts","https://cartesia.ai/pricing","","","","",""
+"MiniMax Speech 2.6 HD","tts","https://platform.minimax.io/docs/guides/pricing-speech","","","","",""
+"Hedra Character-3","avatar","https://www.hedra.com","","","","",""

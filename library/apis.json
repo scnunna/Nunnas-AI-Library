@@ -51465,6 +51465,75 @@
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-23: marketing automation + infra"
+  },
+  {
+   "id": "api-cartesia-sonic-3",
+   "name": "Cartesia Sonic 3",
+   "kind": "api",
+   "category": "tts",
+   "url": "https://cartesia.ai/pricing",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Cheap expressive API TTS with instant clone from about $5/mo; a good paid fallback tier for short-form voiceover.",
+   "tags": [
+    "tts",
+    "voice-clone",
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "from ~$5/mo",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
+  },
+  {
+   "id": "api-minimax-speech-2-6-hd",
+   "name": "MiniMax Speech 2.6 HD",
+   "kind": "api",
+   "category": "tts",
+   "url": "https://platform.minimax.io/docs/guides/pricing-speech",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "About $100 per 1M characters with rapid clone; very cheap per short, but check consent and commercial terms.",
+   "tags": [
+    "tts",
+    "voice-clone",
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "~$100/1M chars",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
+  },
+  {
+   "id": "api-hedra-character-3",
+   "name": "Hedra Character-3",
+   "kind": "api",
+   "category": "avatar",
+   "url": "https://www.hedra.com",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Talking character from a still image at about $0.05/s; a fallback if a rigged mascot isn't enough.",
+   "tags": [
+    "lip-sync",
+    "avatar",
+    "api"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "~$0.05/s",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
   }
  ]
 }

@@ -6257,6 +6257,74 @@
    "verified": true,
    "asOf": "2026-10-26",
    "source": "research 2026-10-26"
+  },
+  {
+   "id": "content-cosyvoice2-cosyvoice-3",
+   "name": "CosyVoice2 / CosyVoice 3",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/FunAudioLLM/CosyVoice",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Free local zero-shot voice clone on 8 GB; real use shows dropped/garbled brand names and short questions, so it needs a seeds + whisper-gate + splice workflow.",
+   "tags": [
+    "tts",
+    "voice-clone",
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
+  },
+  {
+   "id": "content-indextts2",
+   "name": "IndexTTS2",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/index-tts/index-tts",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Emotion-controllable zero-shot TTS with low WER in one 2026 eval; VRAM (6-14 GB) and license are unverified.",
+   "tags": [
+    "tts",
+    "voice-clone",
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
+  },
+  {
+   "id": "content-seed-vc",
+   "name": "Seed-VC",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/Plachtaa/seed-vc",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Zero-shot voice conversion that could be layered over a TTS take for timbre; no evidence yet that it adds naturalness.",
+   "tags": [
+    "voice-conversion",
+    "local"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-27",
+   "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
   }
  ]
 }
