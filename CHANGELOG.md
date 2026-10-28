@@ -661,3 +661,11 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-qlib -> agent-tools
 - added tool-nautilustrader -> agent-tools
 - added tool-rd-agent -> agent-tools
+
+## 2026-10-28 — research 2026-10-28
+- added content-openpencil-zseven -> content-tools
+- added content-open-pencil-figma-alt -> content-tools
+- added skill-vibe-knowledge -> content-tools
+- added content-dsh-blender-plugin -> content-tools
+- added content-rikyu -> content-tools
+- added content-ai-pose-gallery-zh -> content-tools
