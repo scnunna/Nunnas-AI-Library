@@ -653,3 +653,11 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-28 — research 2026-10-28
 - added api-pmc-open-access -> apis
+
+## 2026-10-28 — research 2026-10-28
+- added tool-openbb -> agent-tools
+- added tool-ai-hedge-fund -> agent-tools
+- added tool-freqtrade -> agent-tools
+- added tool-qlib -> agent-tools
+- added tool-nautilustrader -> agent-tools
+- added tool-rd-agent -> agent-tools

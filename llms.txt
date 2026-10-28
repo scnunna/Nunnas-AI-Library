@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+1a5392254f19, 2659 items, updated 2026-10-28.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+560ba8dbf386, 2665 items, updated 2026-10-28.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -22,7 +22,7 @@ How to use this repo as an AI assistant:
 - content-tools: AI content-creation tools (241) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (59) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (134) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- agent-tools: Agent tools & frameworks (140) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (24) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.

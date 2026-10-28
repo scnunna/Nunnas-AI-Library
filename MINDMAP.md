@@ -121,7 +121,7 @@ mindmap
         anthropics/skills
       explainer-video · 1
         Papermorph
-    agent-tools[Agent tools & frameworks · 134]
+    agent-tools[Agent tools & frameworks · 140]
       tools · 11
         firecrawl
         context7
@@ -161,10 +161,10 @@ mindmap
         e2b
       local-llm · 5
         ollama/ollama
+      finance-ml · 5
       llm · 4
         Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5
         Qwen3.5 9B Q4_K_M
-      science-models · 4
     directories[Directories & registries · 24]
       programming · 5
         awesome-python
