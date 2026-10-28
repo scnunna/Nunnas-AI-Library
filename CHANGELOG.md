@@ -625,3 +625,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added api-cartesia-sonic-3 -> apis
 - added api-minimax-speech-2-6-hd -> apis
 - added api-hedra-character-3 -> apis
+
+## 2026-10-28 — claude session
+- updated content-hunyuan3d-2-1

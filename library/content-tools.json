@@ -1404,14 +1404,14 @@
   },
   {
    "id": "content-hunyuan3d-2-1",
-   "name": "Hunyuan3D-2.1",
+   "name": "Hunyuan3D 2.1 (shape, native ComfyUI)",
    "kind": "model",
    "category": "3d-generation",
-   "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
-   "description": "Image-to-3D with PBR textures; Windows, macOS and Linux. Released June 2025.",
-   "verdict": "skip",
+   "url": "https://huggingface.co/Comfy-Org/hunyuan3D_2.1_repackaged",
+   "description": "Tencent image-to-3D DiT + ShapeVAE. ComfyUI core nodes: ImageOnlyCheckpointLoader(hunyuan_3d_v2.1.safetensors) -> CLIPVisionEncode -> Hunyuan3Dv2Conditioning -> EmptyLatentHunyuan3Dv2 -> KSampler -> VAEDecodeHunyuan3D -> VoxelToMesh -> SaveGLB (template 3d_hunyuan3d-v2.1).",
+   "verdict": "trial",
    "verdictNote": "SKIP the open-weights version. Prefer TRELLIS.2 (MIT).",
-   "why": "Needs 10 GB VRAM for shape and 21 GB for texture (29 GB both): does not fit the 8 GB 4060 Licence makes using or DISPLAYING outputs outside its territory unlicensed: a web game or Etsy listing reachable from the UK or EU is a problem. Also requires machine-generated public content to be labelled You already reach Hunyuan3D v3 through fal in image-blaster (fal's terms apply there, not this licence)",
+   "why": "Single image -> watertight character mesh that keeps the art's silhouette and facial volume far better than a hand-modelled Blender base; shape runs on an 8GB RTX 4060 through ComfyUI's native nodes (7.4GB checkpoint). Official texture/paint model needs ~20GB+, so on 8GB texture it yourself (e.g. front projection of the source art in Blender). Decode at octree 384 is very slow if ComfyUI runs --cpu-vae; use 256.",
    "tags": [
     "needs-more-vram"
    ],
@@ -1423,7 +1423,7 @@
     "games"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-10-28",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "gpu": {
@@ -1435,7 +1435,8 @@
     },
     "pushedAt": "2025-10-17",
     "checkedAt": "2026-10-26"
-   }
+   },
+   "collection": "content-tools"
   },
   {
    "id": "content-stable-fast-3d",
