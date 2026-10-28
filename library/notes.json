@@ -1251,6 +1251,32 @@
    "extra": {
     "source": "Nikhil Shahane, 'How to shrink a 3D model from a million triangles to 20,000' (part 3 of a 3D crash course, AssetFurnace project)"
    }
+  },
+  {
+   "id": "note-character-first-content",
+   "name": "Character-first content: one persona beats 100 one-off images",
+   "kind": "note",
+   "category": "content-strategy",
+   "url": null,
+   "description": "Lesson from a Japanese creator-economy article on AI personas: as image models improve, good-looking AI images stop being scarce, so the value moves to a consistent character people follow. Define name, look, voice, personality, daily life, world and posting schedule before generating; keep the look fixed across posts; post as a continuing story so each post leads to the next (polls that shape tomorrow's post work well). Treat the funnel as six steps (post, profile, pinned post, product page, first purchase, repeat), keep most posts non-selling, make paid content clearly deeper than free, and run one character for weeks before judging what works. Be open that the character is AI. Applies to mascots, brand characters and recurring channel hosts.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "content-strategy",
+    "ai-persona",
+    "monetization"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28",
+   "extra": {
+    "source": "@aisumeragi on X, 2026-09-17 (Japanese)"
+   }
   }
  ]
 }

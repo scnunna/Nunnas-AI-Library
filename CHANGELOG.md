@@ -679,3 +679,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-28 — research 2026-10-28
 - added note-3d-mesh-reduction -> notes
+
+## 2026-10-28 — research 2026-10-28
+- added note-character-first-content -> notes

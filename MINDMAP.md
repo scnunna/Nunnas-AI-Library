@@ -280,13 +280,14 @@ mindmap
       Electronics · 1
       Free API tiers · 1
       Web data · 1
-    notes[Research notes · 59]
+    notes[Research notes · 60]
       gpu-vram · 28
       designResource · 13
       agentToolkit · 6
       agentFramework · 6
       agentSkill · 5
       3d-pipeline · 1
+      content-strategy · 1
     apis[Public APIs · 1842]
       Development · 168
       Government · 107
