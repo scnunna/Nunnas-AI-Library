@@ -669,3 +669,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added content-dsh-blender-plugin -> content-tools
 - added content-rikyu -> content-tools
 - added content-ai-pose-gallery-zh -> content-tools
+
+## 2026-10-28 — research 2026-10-28
+- added mcp-blender-lab-official -> mcp-servers

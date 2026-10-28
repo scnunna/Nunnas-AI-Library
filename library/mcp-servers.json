@@ -897,6 +897,25 @@
    "verified": false,
    "asOf": "2026-10-24",
    "source": "research 2026-10-23: marketing automation + infra"
+  },
+  {
+   "id": "mcp-blender-lab-official",
+   "name": "Blender Lab MCP (official)",
+   "kind": "repo",
+   "category": "3d-tools",
+   "url": "https://projects.blender.org/lab/blender_mcp",
+   "description": "Official, experimental MCP server and add-on from Blender's developers (Blender Lab), v1.0.3 (Sept 2026), Blender 5.1+. About 26 tools, including execute_blender_code, get_screenshot_of_window_as_image (a picture of the whole Blender window), render_viewport_to_path, search_api_docs (checks the bundled Python API reference before writing calls), .blend file summaries (missing files, linked libraries) and background batch runs. No asset-store or AI-mesh integrations.",
+   "verdict": "trial",
+   "verdictNote": "trial: use alongside blender-mcp; this one for the look-and-fix render loop",
+   "why": "The window screenshot plus API-doc search lets Claude write code, render, look and correct in a loop, which is what lighting and layout passes need. It needs Blender 5.1+, is labelled experimental, and runs arbitrary Python in your scene, so save a copy of the .blend first. Keep the community blender-mcp for Poly Haven, Sketchfab and AI-mesh imports. Official project page not opened here (details from two independent comparisons).",
+   "tags": [],
+   "license": "GPL-3.0-or-later",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28"
   }
  ]
 }

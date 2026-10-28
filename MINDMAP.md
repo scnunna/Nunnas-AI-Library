@@ -58,7 +58,7 @@ mindmap
       image-gen · 5
         FLUX.2 klein
         FLUX.2 klein 4B
-    mcp-servers[MCP servers · 36]
+    mcp-servers[MCP servers · 37]
       game-engine-agents · 9
       mcp-browser · 2
         microsoft/playwright-mcp
@@ -66,6 +66,8 @@ mindmap
       Crawl → Markdown · 2
         Firecrawl MCP
         Crawl4AI
+      3d-tools · 2
+        blender-mcp
       Browser agent · 1
         Claude in Chrome
       Read one URL · 1
@@ -86,8 +88,6 @@ mindmap
         Supabase MCP
       Long-term facts · 1
         Memory knowledge graph
-      mcp-github · 1
-        github/github-mcp-server
     skills[Agent skills & plugins · 59]
       motion-graphics-skills · 10
         product-launch-motion
