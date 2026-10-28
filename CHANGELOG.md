@@ -672,3 +672,10 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-28 — research 2026-10-28
 - added mcp-blender-lab-official -> mcp-servers
+
+## 2026-10-28 — research 2026-10-28
+- added asset-polyfork -> content-tools
+- added content-tongjiang-lab -> content-tools
+
+## 2026-10-28 — research 2026-10-28
+- added note-3d-mesh-reduction -> notes

@@ -6497,6 +6497,44 @@
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "asset-polyfork",
+   "name": "Polyfork",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://polyfork.dev",
+   "description": "2,700+ free low-poly 3D assets and themed kits (+1,468 HD editions on Pro), each built as a small program with typed 'knobs' (colours, proportions, part counts, state, wear) published as JSON so AI tools can set them. Downloads include GLB, FBX, USDZ, OBJ and a three.js ES module with a ready index.html; works in three.js, Godot, Unity, Unreal, Blender, Babylon.js, PlayCanvas. Won the Build with Gemini XPRIZE; built by Lucas Martinic. Sign-in with Google or email link.",
+   "verdict": "adopt",
+   "verdictNote": "adopt: free, commercial, and parametric, so Claude can generate variants for web and Godot games",
+   "why": "Like Kenney, but every asset can be re-coloured and re-shaped by an agent through its knobs, which suits three.js mini-games and quick Godot prototypes. Catches: custom licence (not CC0), so don't commit the raw files to a public repo, and HD editions are paid.",
+   "tags": [],
+   "license": "Polyfork licence: commercial use, no attribution; no resale or redistribution of the assets; no use to build or train a commercial 3D-asset generator",
+   "stars": null,
+   "cost": "Free low-poly tier; Pro $15/mo (HD editions); Lifetime $100 (limited seats)",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28"
+  },
+  {
+   "id": "content-tongjiang-lab",
+   "name": "tongjiang-lab (3D science lessons)",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/smithjohn78390/tongjiang-lab",
+   "description": "55 free interactive 3D high-school science lessons (physics, chemistry, biology, geography), each a single offline HTML file built with three.js; Chinese interface, aligned to Chinese PEP 2019 textbooks. 3 commits.",
+   "verdict": "reference",
+   "verdictNote": "reference: a good pattern for single-file interactive explainers; non-commercial content",
+   "why": "Shows how far one self-contained HTML file can go for interactive teaching, a format worth copying for education content. The lessons themselves are non-commercial and in Chinese, so use them for ideas, not reuse.",
+   "tags": [],
+   "license": "CC BY-NC 4.0 (lessons); MIT (bundled three.js)",
+   "stars": 20,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28"
   }
  ]
 }

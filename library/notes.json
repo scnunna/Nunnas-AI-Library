@@ -1226,6 +1226,31 @@
     "source": "huggingface.co/Skywork/Matrix-Game-3.0",
     "link": "https://huggingface.co/Skywork/Matrix-Game-3.0"
    }
+  },
+  {
+   "id": "note-3d-mesh-reduction",
+   "name": "How to shrink AI-generated 3D meshes for games",
+   "kind": "note",
+   "category": "3d-pipeline",
+   "url": null,
+   "description": "AI 3D generators output roughly a million evenly sized triangles (they build the shape on a voxel grid and wrap it with marching cubes). Four tools to get to game size: (1) Simplify / edge collapse (QEM; Blender's Decimate > Collapse) keeps the overall shape but deletes fine shallow detail first, such as eyes and lips, and leaves messy slivers with no edge flow; fine for props, statues and rocks. (2) Voxel remesh (Blender Remesh > Voxel) seals holes and fuses overlaps but guesses the surface; thin parts like capes can vanish and small block sizes blow the budget. Use it to clean, then simplify. (3) Retopology (by hand, or QuadriFlow / Instant Meshes, or Tripo and Meshy smart topology) gives clean quad loops needed for anything that bends. (4) Bake a normal map from the high-poly original onto the low-poly model to bring back surface detail; it fakes lighting, not the silhouette. Rough budgets: background props a few hundred to ~2,000 triangles; mobile characters ~5,000-15,000; PC/console hero characters ~50,000-150,000; ship several LODs. Characters: rebuild or repaint the face separately, because simplifying erases it.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "3d",
+    "game-assets"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28",
+   "extra": {
+    "source": "Nikhil Shahane, 'How to shrink a 3D model from a million triangles to 20,000' (part 3 of a 3D crash course, AssetFurnace project)"
+   }
   }
  ]
 }

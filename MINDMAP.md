@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 247]
+    content-tools[AI content-creation tools · 249]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
@@ -20,11 +20,12 @@ mindmap
         3DTextures.me
         TextureCan
         LEOMOON Free IES Lights Pack
-      asset-3d-models · 19
+      asset-3d-models · 20
         BlenderKit now Blendkit
         Kenney
         KayKit Kay Lousberg
         NASA 3D Resources
+        Polyfork
       video-gen · 15
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF
@@ -279,12 +280,13 @@ mindmap
       Electronics · 1
       Free API tiers · 1
       Web data · 1
-    notes[Research notes · 58]
+    notes[Research notes · 59]
       gpu-vram · 28
       designResource · 13
       agentToolkit · 6
       agentFramework · 6
       agentSkill · 5
+      3d-pipeline · 1
     apis[Public APIs · 1842]
       Development · 168
       Government · 107

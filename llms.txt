@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+b5a186ac68ef, 2672 items, updated 2026-10-28.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+8ec35fbf362c, 2675 items, updated 2026-10-28.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -19,7 +19,7 @@ How to use this repo as an AI assistant:
 
 ## Collections
 
-- content-tools: AI content-creation tools (247) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
+- content-tools: AI content-creation tools (249) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (37) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (59) — Claude/agent skills, plugins and marketplaces, with verdicts.
 - agent-tools: Agent tools & frameworks (140) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
@@ -30,7 +30,7 @@ How to use this repo as an AI assistant:
 - skill-capabilities: Skill capabilities (20) — What specific skills unlock and what manual work they remove.
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
-- notes: Research notes (58) — Free-text findings from past research batches.
+- notes: Research notes (59) — Free-text findings from past research batches.
 - apis: Public APIs (1842) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
 - investing-research: Investing research (free sites) (47) — Free investing and markets research sites: 13F and insider-trade trackers, investor letters, valuation data, macro sources, screeners and backtesters, with verdicts.
@@ -103,6 +103,7 @@ How to use this repo as an AI assistant:
 - Kenney Audio packs [content-tools/asset-sound-effects] https://kenney.nl/assets/category:Audio
 - 99Sounds [content-tools/asset-sound-effects] https://99sounds.org/
 - YouTube Audio Library [content-tools/asset-music] https://studio.youtube.com/
+- Polyfork [content-tools/asset-3d-models] https://polyfork.dev
 - microsoft/playwright-mcp [mcp-servers/mcp-browser] https://github.com/microsoft/playwright-mcp
 - ChromeDevTools/chrome-devtools-mcp [mcp-servers/mcp-browser] https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Claude in Chrome [mcp-servers/Browser agent]
