@@ -51534,6 +51534,25 @@
    "verified": false,
    "asOf": "2026-10-27",
    "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts"
+  },
+  {
+   "id": "api-pmc-open-access",
+   "name": "PubMed Central Open Access subset",
+   "kind": "repo",
+   "category": "research-data",
+   "url": "https://pmc.ncbi.nlm.nih.gov/tools/openftlist/",
+   "description": "Full-text biomedical articles released under reuse-friendly licences. Retrieval only through NCBI's Cloud Service (AWS Open Data), OAI-PMH, E-utilities or the BioC API; other automated bulk scraping is prohibited. Licence varies per article.",
+   "verdict": "reference",
+   "verdictNote": "reference: use Europe PMC's API for on-demand papers; bulk only through NCBI's services",
+   "why": "Good source for research-backed health or science content, but don't mirror it: query per topic through the Europe PMC API (already listed) and keep only the articles you cite. Check each article's licence before reuse.",
+   "tags": [],
+   "license": "Per article (Creative Commons or similar; check each)",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28"
   }
  ]
 }

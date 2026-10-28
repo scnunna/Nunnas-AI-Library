@@ -628,3 +628,28 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-28 — claude session
 - updated content-hunyuan3d-2-1
+
+## 2026-10-28 — research 2026-10-28
+- added skill-anatomy-isometric -> skills
+
+## 2026-10-28 — research 2026-10-28
+- added content-anymove -> content-tools
+- added content-groundanything -> content-tools
+- added content-solidcv -> content-tools
+
+## 2026-10-28 — research 2026-10-28
+- added tool-artex-pentest -> agent-tools
+- added tool-maigret -> agent-tools
+- added tool-blackbird-osint -> agent-tools
+- added tool-spiderfoot -> agent-tools
+- added tool-theharvester -> agent-tools
+- added tool-shodan-python -> agent-tools
+- added tool-uncensored-qwen38 -> agent-tools
+- added tool-dealignai -> agent-tools
+- added science-evo2 -> agent-tools
+- added science-genos -> agent-tools
+- added science-pathology-fms -> agent-tools
+- added science-protein-design -> agent-tools
+
+## 2026-10-28 — research 2026-10-28
+- added api-pmc-open-access -> apis

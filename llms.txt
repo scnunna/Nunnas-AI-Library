@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+ce752f817fcd, 2642 items, updated 2026-10-28.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.28+1a5392254f19, 2659 items, updated 2026-10-28.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -19,10 +19,10 @@ How to use this repo as an AI assistant:
 
 ## Collections
 
-- content-tools: AI content-creation tools (238) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
+- content-tools: AI content-creation tools (241) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (36) — Model Context Protocol servers worth connecting to Claude.
-- skills: Agent skills & plugins (58) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (122) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- skills: Agent skills & plugins (59) — Claude/agent skills, plugins and marketplaces, with verdicts.
+- agent-tools: Agent tools & frameworks (134) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (24) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.
@@ -31,7 +31,7 @@ How to use this repo as an AI assistant:
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
 - notes: Research notes (58) — Free-text findings from past research batches.
-- apis: Public APIs (1841) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
+- apis: Public APIs (1842) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
 - investing-research: Investing research (free sites) (47) — Free investing and markets research sites: 13F and insider-trade trackers, investor letters, valuation data, macro sources, screeners and backtesters, with verdicts.
 

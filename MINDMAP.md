@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 238]
+    content-tools[AI content-creation tools · 241]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
@@ -88,7 +88,7 @@ mindmap
         Memory knowledge graph
       mcp-github · 1
         github/github-mcp-server
-    skills[Agent skills & plugins · 58]
+    skills[Agent skills & plugins · 59]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -115,13 +115,13 @@ mindmap
       3d-generation · 2
         image-blaster
       video-render · 2
+      web-design · 2
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
       explainer-video · 1
         Papermorph
-      web-animation · 1
-    agent-tools[Agent tools & frameworks · 122]
+    agent-tools[Agent tools & frameworks · 134]
       tools · 11
         firecrawl
         context7
@@ -150,6 +150,7 @@ mindmap
         rtk
       orchestrate · 7
         dspy
+      security · 7
       memory-eval-ship · 6
         agentops
         elevenlabs + deepgram
@@ -158,14 +159,12 @@ mindmap
       act-execute · 5
         vercel-ai-sdk
         e2b
+      local-llm · 5
+        ollama/ollama
       llm · 4
         Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5
         Qwen3.5 9B Q4_K_M
-      local-llm · 3
-        ollama/ollama
-      orchestration · 3
-      coding-agent · 2
-        anthropics/claude-code
+      science-models · 4
     directories[Directories & registries · 24]
       programming · 5
         awesome-python
@@ -286,7 +285,7 @@ mindmap
       agentToolkit · 6
       agentFramework · 6
       agentSkill · 5
-    apis[Public APIs · 1841]
+    apis[Public APIs · 1842]
       Development · 168
       Government · 107
       Games & Comics · 102

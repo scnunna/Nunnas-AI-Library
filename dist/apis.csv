@@ -1840,3 +1840,4 @@
 "Cartesia Sonic 3","tts","https://cartesia.ai/pricing","","","","",""
 "MiniMax Speech 2.6 HD","tts","https://platform.minimax.io/docs/guides/pricing-speech","","","","",""
 "Hedra Character-3","avatar","https://www.hedra.com","","","","",""
+"PubMed Central Open Access subset","research-data","https://pmc.ncbi.nlm.nih.gov/tools/openftlist/","Full-text biomedical articles released under reuse-friendly licences. Retrieval only through NCBI's Cloud Service (AWS Open Data), OAI-PMH, E-utilities or the BioC API; other automated bulk scraping is prohibited. Licence varies per article.","","","",""
