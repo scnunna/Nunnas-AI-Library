@@ -691,3 +691,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-29 — research 2026-10-29
 - added content-mogfield -> content-tools
+
+## 2026-10-29 — research 2026-10-29
+- added note-modular-character-kit -> notes

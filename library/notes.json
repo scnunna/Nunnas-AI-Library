@@ -1277,6 +1277,32 @@
    "extra": {
     "source": "@aisumeragi on X, 2026-09-17 (Japanese)"
    }
+  },
+  {
+   "id": "note-modular-character-kit",
+   "name": "Modular character kit: separate face, pose and outfit references",
+   "kind": "note",
+   "category": "content-strategy",
+   "url": null,
+   "description": "Pattern from Japanese AI-persona creators who publish free face, pose and outfit reference databases: keep each part of a recurring character as its own reusable reference set, then combine them per post with a multi-reference image editor ('keep this face, use this pose, change into this outfit'). Outfit references are generated text-to-image with no person in them, so they never carry a real product photo; check them against real brands anyway. Make the library browsable: category tabs with counts, search over an English description of each image, a 'copy description' button that becomes the prompt draft, and full-size downloads. Licence pattern: free commercial use of what you make, no redistribution of the raw images, no real people or minors. Applies to any recurring character (channel host, mascot, game hero) and to props: e.g. a fixed set of containers and plates for a recipe channel so clips stay consistent. Multi-reference editing in the library: FLUX.2 klein 4B (local), Nano Banana and Seedream through fal.ai.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "character-consistency",
+    "image-editing",
+    "content-strategy"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29",
+   "extra": {
+    "source": "@giaaibusi on X, 2026-10-28 (outfit database of 1,407 images)"
+   }
   }
  ]
 }
