@@ -6535,6 +6535,25 @@
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "content-ultra-water",
+   "name": "Ultra-Water (three.js ocean)",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/Humpalumps/Ultra-Water",
+   "description": "Real-time ocean renderer for three.js (WebGL2) with a demo island: FFT waves, shore breakers, foam, caustics, underwater view, buoyant floating objects, procedural island and sky. npm install / npm run dev. Benchmarked only on Chrome with an RTX 3060. 9 commits; largely AI-assisted per its README. Missing: boat wakes, object-to-object collisions, curling breaking waves.",
+   "verdict": "assess",
+   "verdictNote": "assess: copy its water techniques into a three.js scene; not a maintained library",
+   "why": "Fills a gap: nothing else in the library does realistic web ocean water, useful for island or boat mini-games and 3D landing pages. It is a 10-star solo project with unverified performance, so test frame rate on a phone and an integrated GPU before using it in anything public.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 10,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-28",
+   "source": "research 2026-10-28"
   }
  ]
 }

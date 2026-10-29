@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 249]
+    content-tools[AI content-creation tools · 250]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
