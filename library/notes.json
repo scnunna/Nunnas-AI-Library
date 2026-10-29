@@ -1303,6 +1303,28 @@
    "extra": {
     "source": "@giaaibusi on X, 2026-10-28 (outfit database of 1,407 images)"
    }
+  },
+  {
+   "id": "note-godot-aaa-starter-kit",
+   "name": "Godot AAA-polish starter kit",
+   "kind": "note",
+   "category": "godot-addons",
+   "url": null,
+   "description": "Default add-on set for every Godot 4 game (all MIT, active, verified 2026-10-29): Maaack's Game Template (menus, options, pause, loading), G.U.I.D.E (input, rebinding, controller prompts), Phantom Camera (cinematic cameras), LimboAI (NPC behaviour trees and state machines), Dialogue Manager (text dialogue Claude can write), Godot Shader Warmup (no first-use stutter), Debug Draw 3D (tuning), GdUnit4 (tests), plus Virtual Joystick for mobile/web. 3D outdoor games add Terrain3D, Sky3D, ProtonScatter and gdTree3D; 2D games add Importality or Aseprite Wizard. Turn on built-in engine features before adding plugins: Jolt physics (Godot 4.4+), physics interpolation, SDFGI or VoxelGI, volumetric fog, SSAO/SSIL/SSR, glow, mesh LOD and occlusion culling. Optimise imported AI meshes with meshoptimizer/gltfpack first. Every entry is listed under category godot-addons.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "godot",
+    "game-quality"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29: Godot add-ons"
   }
  ]
 }

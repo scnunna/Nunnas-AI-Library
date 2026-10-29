@@ -5,7 +5,13 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 261]
+    content-tools[AI content-creation tools · 307]
+      godot-addons · 46
+        Phantom Camera
+        LimboAI
+        Dialogue Manager
+        ProtonScatter
+        Sky3D
       game-engines · 30
         Godot Engine
         Jolt Physics
@@ -57,9 +63,6 @@ mindmap
       cinematography-reference · 7
         Melies cinematic techniques
       avatar-lipsync · 6
-      image-gen · 5
-        FLUX.2 klein
-        FLUX.2 klein 4B
     mcp-servers[MCP servers · 37]
       game-engine-agents · 9
       mcp-browser · 2
@@ -281,7 +284,7 @@ mindmap
       Electronics · 1
       Free API tiers · 1
       Web data · 1
-    notes[Research notes · 61]
+    notes[Research notes · 62]
       gpu-vram · 28
       designResource · 13
       agentToolkit · 6
@@ -289,6 +292,7 @@ mindmap
       agentSkill · 5
       content-strategy · 2
       3d-pipeline · 1
+      godot-addons · 1
     apis[Public APIs · 1842]
       Development · 168
       Government · 107

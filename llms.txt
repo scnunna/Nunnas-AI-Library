@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.29+75b7cd7ceae3, 2689 items, updated 2026-10-29.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.29+748f3c64095f, 2736 items, updated 2026-10-29.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -19,7 +19,7 @@ How to use this repo as an AI assistant:
 
 ## Collections
 
-- content-tools: AI content-creation tools (261) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
+- content-tools: AI content-creation tools (307) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (37) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (59) — Claude/agent skills, plugins and marketplaces, with verdicts.
 - agent-tools: Agent tools & frameworks (140) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
@@ -30,7 +30,7 @@ How to use this repo as an AI assistant:
 - skill-capabilities: Skill capabilities (20) — What specific skills unlock and what manual work they remove.
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
-- notes: Research notes (61) — Free-text findings from past research batches.
+- notes: Research notes (62) — Free-text findings from past research batches.
 - apis: Public APIs (1842) — Free/public REST APIs (public-apis/public-apis + curated additions). Tags: no-key, https, cors.
 - api-test-endpoints: API smoke-test endpoints (47) — Known-good, no-secret requests for quickly checking an API is alive.
 - investing-research: Investing research (free sites) (47) — Free investing and markets research sites: 13F and insider-trade trackers, investor letters, valuation data, macro sources, screeners and backtesters, with verdicts.
@@ -106,6 +106,17 @@ How to use this repo as an AI assistant:
 - Polyfork [content-tools/asset-3d-models] https://polyfork.dev
 - Jolt Physics [content-tools/game-engines] https://github.com/jrouwe/JoltPhysics
 - meshoptimizer + gltfpack [content-tools/3d-tools] https://github.com/zeux/meshoptimizer
+- Phantom Camera [content-tools/godot-addons] https://github.com/ramokz/phantom-camera
+- LimboAI [content-tools/godot-addons] https://github.com/limbonaut/limboai
+- Dialogue Manager [content-tools/godot-addons] https://github.com/nathanhoad/godot_dialogue_manager
+- ProtonScatter [content-tools/godot-addons] https://github.com/HungryProton/scatter
+- Sky3D [content-tools/godot-addons] https://github.com/TokisanGames/Sky3D
+- Godot Shader Warmup [content-tools/godot-addons] https://github.com/Koisuji02/GodotShaderWarmup
+- Debug Draw 3D [content-tools/godot-addons] https://github.com/DmitriySalnikov/godot_debug_draw_3d
+- Maaack's Game Template [content-tools/godot-addons] https://github.com/Maaack/Godot-Game-Template
+- G.U.I.D.E [content-tools/godot-addons] https://github.com/godotneers/G.U.I.D.E
+- Virtual Joystick [content-tools/godot-addons] https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot
+- GdUnit4 [content-tools/godot-addons] https://github.com/MikeSchulze/gdUnit4
 - microsoft/playwright-mcp [mcp-servers/mcp-browser] https://github.com/microsoft/playwright-mcp
 - ChromeDevTools/chrome-devtools-mcp [mcp-servers/mcp-browser] https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Claude in Chrome [mcp-servers/Browser agent]

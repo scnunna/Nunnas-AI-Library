@@ -708,3 +708,54 @@ Every library change is logged here by `scripts/add.mjs`.
 - added game-recast-navigation -> content-tools
 - added game-ozz-animation -> content-tools
 - added game-the-forge -> content-tools
+
+## 2026-10-29 — research 2026-10-29: Godot add-ons
+- added godot-phantom-camera -> content-tools
+- added godot-juicee -> content-tools
+- added godot-shaker -> content-tools
+- added godot-limboai -> content-tools
+- added godot-beehave -> content-tools
+- added godot-dialogue-manager -> content-tools
+- added godot-dialogic-2 -> content-tools
+- added godot-questify -> content-tools
+- added godot-quest-system -> content-tools
+- added godot-gloot -> content-tools
+- added godot-health-hitbox-hurtbox-components -> content-tools
+- added godot-protonscatter -> content-tools
+- added godot-sky3d -> content-tools
+- added godot-hterrain -> content-tools
+- added godot-terrabrush -> content-tools
+- added godot-spatial-gardener -> content-tools
+- added godot-gdtree3d -> content-tools
+- added godot-cyclops-level-builder -> content-tools
+- added godot-roommate -> content-tools
+- added godot-func-godot -> content-tools
+- added godot-godot-shader-warmup -> content-tools
+- added godot-debug-draw-3d -> content-tools
+- added godot-goblend -> content-tools
+- added godot-importality -> content-tools
+- added godot-aseprite-wizard -> content-tools
+- added godot-3d-auto-collision-generator -> content-tools
+- added godot-resonate -> content-tools
+- added godot-fmod-for-godot-fmod-gdextension -> content-tools
+- added godot-wwise-for-godot -> content-tools
+- added godot-maaack-s-game-template -> content-tools
+- added godot-scene-manager -> content-tools
+- added godot-g-u-i-d-e -> content-tools
+- added godot-input-helper -> content-tools
+- added godot-virtual-joystick -> content-tools
+- added godot-gato-godot-accessibility-toolkit -> content-tools
+- added godot-netfox -> content-tools
+- added godot-godotsteam -> content-tools
+- added godot-godot-play-game-services -> content-tools
+- added godot-talo -> content-tools
+- added godot-gdunit4 -> content-tools
+- added godot-gut -> content-tools
+- added godot-godot-doctor -> content-tools
+- added godot-playerconnect -> content-tools
+- added godot-nobodywho -> content-tools
+- added godot-godot-rapier-physics -> content-tools
+- added godot-takin-godot-template -> content-tools
+
+## 2026-10-29 — research 2026-10-29: Godot add-ons
+- added note-godot-aaa-starter-kit -> notes
