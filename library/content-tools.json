@@ -6575,6 +6575,25 @@
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29"
+  },
+  {
+   "id": "content-arcreel",
+   "name": "ArcReel (story-to-video studio)",
+   "kind": "repo",
+   "category": "video-gen",
+   "url": "https://github.com/ArcReel/ArcReel",
+   "description": "Self-hosted studio (Docker; Python + Claude Agent SDK; SQLite or Postgres; FFmpeg) that turns a novel, script or product material into characters, scenes and props, then storyboards, video clips and a finished video, with export to Jianying/CapCut drafts. Bring-your-own providers for text, image, video and voice: Claude, OpenAI, Gemini/Veo (AI Studio or Vertex), Kling, Seedance, MiniMax, Vidu. Very active (1,650+ commits, latest 2026-10-28); Chinese-first with English README and docs.",
+   "verdict": "trial",
+   "verdictNote": "trial: run it as a separate tool for story-driven Shorts and trailers; don't merge its code into Content Studio AI",
+   "why": "It keeps characters, scenes and props as reusable references across every clip, which is exactly the consistency problem in clip-by-clip AI video, and its storyboard-first pipeline is worth copying. Costs come from the video APIs you plug in. AGPL plus the attribution terms mean any modified or hosted version must be open-sourced and keep 'Powered by ArcReel', so keep it out of anything you sell. Its web UI listens on all network interfaces by default: set AUTH_PASSWORD and keep it on localhost or Tailscale.",
+   "tags": [],
+   "license": "AGPL-3.0 + Section 7 terms (keep 'Powered by ArcReel' and a repo link in any UI; name/logo not licensed)",
+   "stars": 5200,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29"
   }
  ]
 }

@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 251]
+    content-tools[AI content-creation tools · 252]
       game-engines · 22
         Godot Engine
       asset-rigging-animation · 21
@@ -26,7 +26,7 @@ mindmap
         KayKit Kay Lousberg
         NASA 3D Resources
         Polyfork
-      video-gen · 16
+      video-gen · 17
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF
       asset-vfx · 12
