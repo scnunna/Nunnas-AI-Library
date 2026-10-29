@@ -6556,6 +6556,25 @@
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "content-mogfield",
+   "name": "mogfield (ComfyUI video studio UI)",
+   "kind": "repo",
+   "category": "video-gen",
+   "url": "https://github.com/Trenchplanet/mogfield",
+   "description": "Open-source web studio (Vite + React, Hono server, Node 22+) that wraps ComfyUI workflows in a simple UI: text/frame/reference video generation with Extend, Re-shoot and Restyle; images and character reference sheets; Character Swap into phone footage; a media library that pulls TikTok/Instagram/X links with yt-dlp; a beta storyboard agent. Runs on Comfy Cloud (partner models such as Seedance, FLUX 3 and MiniMax billed to your Comfy account) or on your own ComfyUI; an ffmpeg preview mode works without a GPU. Source checked: no install hooks, ffmpeg called with argument lists; Instagram links can require browser cookies.",
+   "verdict": "reference",
+   "verdictNote": "reference: borrow its UI flows for Content Studio AI; don't run it as-is",
+   "why": "Nice ideas for a creator-facing front end over ComfyUI (extend, re-shoot, restyle, character sheets), which Content Studio AI could copy. But it is a 1-star, days-old project; Character Swap into real footage needs the filmed person's consent; and re-using downloaded TikTok/Instagram clips raises copyright and platform-terms issues. Never hand it your main browser's cookies.",
+   "tags": [],
+   "license": "MIT (bundled node pack has its own licence; model weights each their own)",
+   "stars": 1,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29"
   }
  ]
 }

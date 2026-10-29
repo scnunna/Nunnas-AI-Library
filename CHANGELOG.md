@@ -688,3 +688,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-29 — trial 2026-10-28: Ultra-Water techniques ported to a web game
 - updated content-ultra-water
+
+## 2026-10-29 — research 2026-10-29
+- added content-mogfield -> content-tools
