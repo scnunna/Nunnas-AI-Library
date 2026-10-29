@@ -697,3 +697,14 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-29 — research 2026-10-29
 - added content-arcreel -> content-tools
+
+## 2026-10-29 — research 2026-10-29
+- added game-jolt-physics -> content-tools
+- added game-terrain3d -> content-tools
+- added game-effekseer -> content-tools
+- added game-godot-voxel-tools -> content-tools
+- added game-meshoptimizer -> content-tools
+- added game-fastnoise2 -> content-tools
+- added game-recast-navigation -> content-tools
+- added game-ozz-animation -> content-tools
+- added game-the-forge -> content-tools

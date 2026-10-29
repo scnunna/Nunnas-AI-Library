@@ -5,9 +5,10 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 252]
-      game-engines · 22
+    content-tools[AI content-creation tools · 261]
+      game-engines · 30
         Godot Engine
+        Jolt Physics
       asset-rigging-animation · 21
         CMU Graphics Lab Motion Capture Database
         Reallusion AccuRIG
