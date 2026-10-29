@@ -1425,6 +1425,25 @@
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "skill-video-to-game",
+   "name": "Video to Game (agent skill)",
+   "kind": "repo",
+   "category": "game-engine-agents",
+   "url": "https://github.com/lovisdotio/video-to-game",
+   "description": "Claude Code / Codex / Cursor skill that turns a 10-15 s AI gameplay video into a playable single-file three.js game: study the video (frames every 0.25 s, contact sheet, palette, cuts) and write a spec; generate every image, 3D model, rig, sound and music track on fal from the video's own frames (Nano Banana Pro, Meshy/Tripo/Hunyuan 3D, MiniMax video); build from a template with a post-processing stack and a window.__game state contract; compare game and video side by side at three fixed spots after each change; the agent plays its own game with a keyboard script, records it with Playwright and picks the liveliest 10 s. 31 games in the gallery, 1,013 fal calls, $202 total (about $6-11 per game). Needs Python 3.9+, ffmpeg, Node 18+, a fal key. One commit (2026-10-28).",
+   "verdict": "trial",
+   "verdictNote": "trial: strongest prototyping workflow for web games; adopt its rules even without fal",
+   "why": "Solves the 'grey boxes' problem: a video model designs the look, camera and one mechanic, and the agent must match it with picture checks. The self-playtest plus best-10-seconds recording also produces ready gameplay clips for Shorts and store pages. Brand-new (0 stars), and fal costs add up; the rules (look spec from day one, calm palette, one mechanic, play before ship) are free to copy into Godot work too.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 0,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29"
   }
  ]
 }

@@ -759,3 +759,9 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-29 — research 2026-10-29: Godot add-ons
 - added note-godot-aaa-starter-kit -> notes
+
+## 2026-10-29 — research 2026-10-29
+- added skill-video-to-game -> skills
+
+## 2026-10-29 — research 2026-10-29
+- added note-video-first-game-design -> notes

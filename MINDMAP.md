@@ -93,7 +93,7 @@ mindmap
         Supabase MCP
       Long-term facts · 1
         Memory knowledge graph
-    skills[Agent skills & plugins · 59]
+    skills[Agent skills & plugins · 60]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -102,7 +102,7 @@ mindmap
         napkin
         tech-debt-audit
         Cloudflare security-audit skill
-      game-engine-agents · 6
+      game-engine-agents · 7
       research · 5
         last30days
         user-research
@@ -284,7 +284,7 @@ mindmap
       Electronics · 1
       Free API tiers · 1
       Web data · 1
-    notes[Research notes · 62]
+    notes[Research notes · 63]
       gpu-vram · 28
       designResource · 13
       agentToolkit · 6
@@ -293,6 +293,7 @@ mindmap
       content-strategy · 2
       3d-pipeline · 1
       godot-addons · 1
+      game-design · 1
     apis[Public APIs · 1842]
       Development · 168
       Government · 107

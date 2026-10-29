@@ -1325,6 +1325,33 @@
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons"
+  },
+  {
+   "id": "note-video-first-game-design",
+   "name": "Video-first game prototyping rules",
+   "kind": "note",
+   "category": "game-design",
+   "url": null,
+   "description": "From the Video to Game skill (31 games, ~$6 each): (1) Generate a 10-15 s gameplay video first and treat it as the design document: camera, hero, palette, light and ONE visible mechanic; the game's mechanic is the video's mechanic. (2) Write a spec from named frames before any code. (3) Generate assets from the video's own frames, one job at a time, logging every call and cost. (4) The look is a spec from the first scene: ACES tone mapping, one global colour grade, fog for depth, bloom only on things that glow, light vignette and grain to glue AI textures together; keep 60 fps on a laptop. (5) Calm the world: one harmonised palette, props grouped not scattered, a hierarchy (landmarks > houses > props), interactive things in the accent colour, no on-screen text beyond a title and one controls line. (6) Check every look change with a side-by-side image at the same three spots. (7) Expose a game-state object and a seed so an agent can playtest with a keyboard script, record the run and fix falls, walls and dead seconds before shipping; the best recorded 10 s doubles as the trailer clip. (8) Original worlds only: no characters, logos or levels from existing games.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "game-design",
+    "agents",
+    "three.js",
+    "godot"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-29",
+   "source": "research 2026-10-29",
+   "extra": {
+    "source": "github.com/lovisdotio/video-to-game (SKILL.md, references/look-and-post.md)"
+   }
   }
  ]
 }
