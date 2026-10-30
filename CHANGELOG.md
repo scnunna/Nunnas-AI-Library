@@ -765,3 +765,9 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-29 — research 2026-10-29
 - added note-video-first-game-design -> notes
+
+## 2026-10-30 — research 2026-10-29: esports AI coach go-to-market + Shorts growth
+- added tool-whop-affiliate-program -> agent-tools
+- added dir-sacra-whop-research -> directories
+- added tool-veo-coach-assist -> agent-tools
+- added tool-easysbc-ai -> agent-tools

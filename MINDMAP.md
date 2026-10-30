@@ -126,7 +126,7 @@ mindmap
         anthropics/skills
       explainer-video · 1
         Papermorph
-    agent-tools[Agent tools & frameworks · 140]
+    agent-tools[Agent tools & frameworks · 143]
       tools · 11
         firecrawl
         context7
@@ -170,7 +170,7 @@ mindmap
       llm · 4
         Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5
         Qwen3.5 9B Q4_K_M
-    directories[Directories & registries · 24]
+    directories[Directories & registries · 25]
       programming · 5
         awesome-python
         awesome-nodejs
@@ -189,6 +189,7 @@ mindmap
       self-hosting · 1
         awesome-selfhosted
       research-papers · 1
+      research · 1
     web-tools[Web research tools · 68]
       API · 25
         unpaywall.org

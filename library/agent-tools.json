@@ -3377,6 +3377,76 @@
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "tool-whop-affiliate-program",
+   "name": "Whop Affiliate Program",
+   "kind": "web-tool",
+   "category": "monetization",
+   "url": "https://docs.whop.com/manage-your-business/growth-marketing/affiliate-program",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Built-in rev-share links + affiliate marketplace on Whop; zero-budget distribution for digital products already sold on Whop.",
+   "tags": [
+    "whop",
+    "affiliates",
+    "creator-economy",
+    "go-to-market"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "rev-share only",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
+  },
+  {
+   "id": "tool-veo-coach-assist",
+   "name": "Veo Coach Assist",
+   "kind": "web-tool",
+   "category": "sports-analytics",
+   "url": "https://support.veo.com/hc/en-us/articles/44191212222097",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "AI coaching assistant for real-football match video; useful pattern reference for AI match-report UX, not for esports.",
+   "tags": [
+    "football",
+    "ai-coach",
+    "video-analysis"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
+  },
+  {
+   "id": "tool-easysbc-ai",
+   "name": "EasySBC AI",
+   "kind": "web-tool",
+   "category": "gaming",
+   "url": "https://theresanaiforthat.com/ai/easysbc/",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "EA FC Ultimate Team squad/SBC solver; adjacent competitor for FC players' wallets, does not analyse matches.",
+   "tags": [
+    "ea-fc",
+    "esports",
+    "competitor"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
   }
  ]
 }

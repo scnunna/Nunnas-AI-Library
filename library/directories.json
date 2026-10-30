@@ -644,6 +644,28 @@
     "pushedAt": "2026-10-17",
     "checkedAt": "2026-10-26"
    }
+  },
+  {
+   "id": "dir-sacra-whop-research",
+   "name": "Sacra - Whop research",
+   "kind": "list",
+   "category": "research",
+   "url": "https://sacra.com/research/whop",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Third-party economics of the Whop platform (affiliate marketplace size, take rates) for pricing/channel decisions.",
+   "tags": [
+    "whop",
+    "market-research"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
   }
  ]
 }
