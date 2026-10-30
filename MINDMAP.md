@@ -126,7 +126,7 @@ mindmap
         anthropics/skills
       explainer-video · 1
         Papermorph
-    agent-tools[Agent tools & frameworks · 143]
+    agent-tools[Agent tools & frameworks · 151]
       tools · 11
         firecrawl
         context7
@@ -159,6 +159,9 @@ mindmap
       memory-eval-ship · 6
         agentops
         elevenlabs + deepgram
+      web-3d · 6
+        pmndrs/postprocessing
+        Tweakpane
       run-build · 5
         ollama
       act-execute · 5
@@ -167,9 +170,6 @@ mindmap
       local-llm · 5
         ollama/ollama
       finance-ml · 5
-      llm · 4
-        Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5
-        Qwen3.5 9B Q4_K_M
     directories[Directories & registries · 25]
       programming · 5
         awesome-python

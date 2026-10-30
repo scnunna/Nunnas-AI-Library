@@ -771,3 +771,13 @@ Every library change is logged here by `scripts/add.mjs`.
 - added dir-sacra-whop-research -> directories
 - added tool-veo-coach-assist -> agent-tools
 - added tool-easysbc-ai -> agent-tools
+
+## 2026-10-30 — research 2026-10-30: tech-art / lookdev test scenes
+- added tool-godot-demo-projects-3d-look-dev-demos -> agent-tools
+- added tool-godot-reflection-calinou -> agent-tools
+- added tool-pmndrs-postprocessing -> agent-tools
+- added tool-tweakpane -> agent-tools
+- added tool-lil-gui -> agent-tools
+- added tool-three-js-webgl-tonemapping-example -> agent-tools
+- added tool-gltf-render-fidelity-comparison -> agent-tools
+- added tool-tech-art-test-scene-recipe -> agent-tools

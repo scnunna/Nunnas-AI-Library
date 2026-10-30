@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.30+7bf0623994ae, 2742 items, updated 2026-10-30.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.30+d5a6a19f4043, 2750 items, updated 2026-10-30.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -22,7 +22,7 @@ How to use this repo as an AI assistant:
 - content-tools: AI content-creation tools (307) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (37) — Model Context Protocol servers worth connecting to Claude.
 - skills: Agent skills & plugins (60) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (143) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- agent-tools: Agent tools & frameworks (151) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (25) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (36) — Template libraries, UI kits and design references.
@@ -186,6 +186,11 @@ How to use this repo as an AI assistant:
 - Health Connect Jetpack client (androidx.health.connect:connect-client) [agent-tools/android-health] https://developer.android.com/health-and-fitness/guides/health-connect
 - requests-cache [agent-tools/http-caching] https://github.com/requests-cache/requests-cache
 - Listmonk [agent-tools/email] https://listmonk.app
+- Godot demo projects (3D look-dev demos) [agent-tools/godot-addons] https://github.com/godotengine/godot-demo-projects
+- pmndrs/postprocessing [agent-tools/web-3d] https://github.com/pmndrs/postprocessing
+- Tweakpane [agent-tools/web-3d] https://github.com/cocopon/tweakpane
+- glTF Render Fidelity Comparison [agent-tools/asset-3d-models] https://github.khronos.org/glTF-Render-Fidelity/
+- Tech-art test scene recipe [agent-tools/game-design]
 - awesome-claude-code [directories/claude-skill] https://github.com/hesreallyhim/awesome-claude-code
 - MCP Registry [directories/registry] https://github.com/modelcontextprotocol/registry
 - punkpeye/awesome-mcp-servers [directories/mcp-list] https://github.com/punkpeye/awesome-mcp-servers

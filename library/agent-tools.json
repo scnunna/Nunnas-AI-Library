@@ -3447,6 +3447,214 @@
    "verified": false,
    "asOf": "2026-10-30",
    "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
+  },
+  {
+   "id": "tool-godot-demo-projects-3d-look-dev-demos",
+   "name": "Godot demo projects (3D look-dev demos)",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/godotengine/godot-demo-projects",
+   "description": "[Godot 4 · rendering] Official demos. The 3d/ folder holds ready-made tech-art test scenes: tonemap_color_correction, graphics_settings, material_testers, lights_and_shadows, physical_light_camera_units, sky_shaders, volumetric_fog, global_illumination, antialiasing, decals, particles. master targets the next 4.x release.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Fastest base for a Godot tech-art test scene: copy the tonemap, material-tester and graphics-settings demos, then add your own game's props and characters.",
+   "tags": [
+    "godot",
+    "tech-art",
+    "lighting",
+    "post-processing",
+    "test-scene"
+   ],
+   "license": "MIT",
+   "stars": 9700,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-godot-reflection-calinou",
+   "name": "godot-reflection (Calinou)",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/calinou/godot-reflection",
+   "description": "[Godot 4.6+ · rendering] Port of Tesseract's Reflection map that shows off Forward+ lighting: SDFGI, volumetric fog and screen-space indirect lighting.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "A reference for what high-end Godot 4 lighting looks like. Forward+ only, so it does not show what web builds (Compatibility renderer) will look like.",
+   "tags": [
+    "godot",
+    "tech-art",
+    "lighting",
+    "sdfgi"
+   ],
+   "license": "MIT code; map CC BY-SA 3.0",
+   "stars": 129,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-pmndrs-postprocessing",
+   "name": "pmndrs/postprocessing",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/pmndrs/postprocessing",
+   "description": "Post-processing library for three.js that merges effects into fewer passes: bloom, SSAO, tone mapping (incl. AgX), LUT colour grading, depth of field, vignette, god rays, outline, chromatic aberration, noise, pixelation, SMAA.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "The effect stack behind a three.js tech-art test scene; each effect gets a GUI slider so the look can be tuned live.",
+   "tags": [
+    "three.js",
+    "post-processing",
+    "tech-art",
+    "tone-mapping"
+   ],
+   "license": "Zlib",
+   "stars": 2900,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-tweakpane",
+   "name": "Tweakpane",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/cocopon/tweakpane",
+   "description": "Compact, dependency-free parameter GUI (numbers, colours, points, folders, tabs, plugins, monitors/graphs). Inspired by dat.GUI.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "The tuning panel for a three.js tech-art test scene. Its state can be exported as JSON, so an AI agent can read and write a look preset.",
+   "tags": [
+    "three.js",
+    "gui",
+    "tech-art",
+    "debug"
+   ],
+   "license": "MIT",
+   "stars": 4600,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-lil-gui",
+   "name": "lil-gui",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/georgealways/lil-gui",
+   "description": "Floating control panel for the web, a drop-in replacement for dat.gui; ships with three.js examples (three/addons/libs/lil-gui).",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "A lighter option than Tweakpane that is already bundled with three.js, so there is nothing new to install.",
+   "tags": [
+    "three.js",
+    "gui",
+    "tech-art",
+    "debug"
+   ],
+   "license": "MIT",
+   "stars": 1700,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-three-js-webgl-tonemapping-example",
+   "name": "three.js webgl_tonemapping example",
+   "kind": "web-tool",
+   "category": "web-3d",
+   "url": "https://threejs.org/examples/#webgl_tonemapping",
+   "description": "Official example that switches tone mapper (Linear/Reinhard/Cineon/ACES/AgX/Neutral) and exposure on an HDR scene from a GUI panel.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "The minimal pattern for a look-dev panel: a tone-mapping dropdown plus an exposure slider.",
+   "tags": [
+    "three.js",
+    "tone-mapping",
+    "tech-art"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-gltf-render-fidelity-comparison",
+   "name": "glTF Render Fidelity Comparison",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://github.khronos.org/glTF-Render-Fidelity/",
+   "description": "Khronos site that renders about 90 glTF test models (EnvironmentTest sphere grid, DamagedHelmet, Sponza, clear-coat, transmission, sheen, emissive tests) in several web renderers and path tracers side by side.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Ground truth for a tech-art scene: drop the same models into your engine and compare against the path-traced reference to spot wrong tone mapping, IBL or materials.",
+   "tags": [
+    "gltf",
+    "tech-art",
+    "pbr",
+    "test-scene"
+   ],
+   "license": "CC-BY-4.0 (models)",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
+  },
+  {
+   "id": "tool-tech-art-test-scene-recipe",
+   "name": "Tech-art test scene recipe",
+   "kind": "note",
+   "category": "game-design",
+   "url": null,
+   "description": "One scene per game, separate from gameplay, used to tune the look. Contents: (1) reference objects: EnvironmentTest roughness/metal sphere grid, 18% grey and white cards, a Macbeth-style colour chart, DamagedHelmet; (2) the game's real hero, NPCs and 5-10 key props on a turntable; (3) switchable lighting presets (day, dusk, night, interior) plus HDRIs from Poly Haven; (4) live panel for tone mapper, exposure, white point, sun/ambient/fog, SSAO, bloom, LUT, outline; (5) fixed camera bookmarks plus a one-key screenshot set; (6) save/load look presets as JSON. Run it under every renderer you ship (e.g. Godot Forward+ AND Compatibility for web). For AI: the agent edits the JSON preset, renders the fixed screenshot set headless, and compares against the reference images; that loop is the fastest way to improve 3D looks with smaller models.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Separates 'does it look good' from gameplay, making look tuning repeatable, comparable across renderers, and automatable by an agent.",
+   "tags": [
+    "tech-art",
+    "lighting",
+    "post-processing",
+    "ai-agents"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30: tech-art / lookdev test scenes"
   }
  ]
 }
