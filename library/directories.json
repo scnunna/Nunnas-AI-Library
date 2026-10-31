@@ -666,6 +666,25 @@
    "verified": false,
    "asOf": "2026-10-30",
    "source": "research 2026-10-29: esports AI coach go-to-market + Shorts growth"
+  },
+  {
+   "id": "list-michigan-robotics-courses",
+   "name": "Michigan Robotics open courses (GitHub org)",
+   "kind": "list",
+   "category": "education",
+   "url": "https://github.com/michiganrobotics",
+   "description": "University of Michigan Robotics Department's public course material: ROB 101 Computational Linear Algebra (1.4k stars), ROB 201 Calculus for the Modern Engineer (with a GPL textbook), ROB 204 Human-Robot Systems labs, ROB 311 How to Build Robots and Make Them Move (1.2k), ROB 501 Mathematics for Robotics (3k), plus MBot platform docs. Lecture videos on YouTube; Julia/Jupyter and MATLAB material. Most course repos were last updated 2022-2025 (mbot docs 2026).",
+   "verdict": "reference",
+   "verdictNote": "reference: free university-grade robotics curriculum",
+   "why": "The best free path to the maths and hands-on build skills behind robots and actuators. Use it for self-study and as a syllabus model for workshops; it is archived course material, not a maintained software library.",
+   "tags": [],
+   "license": "Mostly GPL-3.0 (ROB 101, 311, 501, ROB 201 textbook); ROB 201 and 204 repos show no licence file",
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: Michigan robotics"
   }
  ]
 }

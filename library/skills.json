@@ -1501,6 +1501,25 @@
    "verified": true,
    "asOf": "2026-10-30",
    "source": "research 2026-10-30"
+  },
+  {
+   "id": "skill-teachable-figures",
+   "name": "Teachable Figures (interactive lesson skill)",
+   "kind": "skill",
+   "category": "education",
+   "url": "https://github.com/ywEdAi/teachable-figures",
+   "description": "Agent skill for Claude Code and Codex that turns a lesson's claim into an interactive figure the learner operates: predict, change a cause, read the effect, explain. Schematic, detailed or 3D (WebGL) fidelity; standalone HTML or a host app's lesson schema; guided mode asks up to five questions first. Ships six complete lessons, Playwright geometry/accessibility checks. v0.3.0, Node 20+. Demos at ywedai.github.io/teachable-figures.",
+   "verdict": "trial",
+   "verdictNote": "trial: explainer figures for workshops, posts and product demos",
+   "why": "Fastest way to make 'play with it' explainers (how a gear train, an indicator or an AI pipeline works) for NCG trainings, NAIC posts and WFF education. No licence on the repo itself yet, so use it to generate your own pages rather than redistributing the skill.",
+   "tags": [],
+   "license": "No root licence file found (bundled upstream skills Anatomy and iso-figure are MIT)",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: education"
   }
  ]
 }

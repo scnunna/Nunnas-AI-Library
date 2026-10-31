@@ -828,3 +828,18 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-10-31 — monkey-fist stage art 2026-10-31
 - added tool-kenney-nature-pirate-survival-3d-kits-glb -> agent-tools
 - added api-poly-haven-api-hdris-and-pbr-textures -> apis
+
+## 2026-10-31 — research 2026-10-31: education
+- added skill-teachable-figures -> skills
+- added tool-wedulab -> agent-tools
+- updated content-tongjiang-lab
+- added repo-cn-math-taxonomy -> agent-tools
+- added tool-wrong-notebook -> agent-tools
+- added tool-techartist-3d-lessons -> agent-tools
+- added tool-word-atlas -> agent-tools
+
+## 2026-10-31 — research 2026-10-31: Michigan robotics
+- added list-michigan-robotics-courses -> directories
+- added course-michigan-rob311 -> agent-tools
+- added course-michigan-rob501 -> agent-tools
+- added course-michigan-rob101 -> agent-tools

@@ -94,7 +94,7 @@ mindmap
         Supabase MCP
       Long-term facts · 1
         Memory knowledge graph
-    skills[Agent skills & plugins · 63]
+    skills[Agent skills & plugins · 64]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -127,7 +127,7 @@ mindmap
         anthropics/skills
       explainer-video · 1
         Papermorph
-    agent-tools[Agent tools & frameworks · 152]
+    agent-tools[Agent tools & frameworks · 160]
       tools · 11
         firecrawl
         context7
@@ -149,6 +149,7 @@ mindmap
         graphify
         repomix
         beads
+      education · 8
       prompts-usage · 7
         best-practice
         codex-plugin-cc
@@ -170,8 +171,7 @@ mindmap
         e2b
       local-llm · 5
         ollama/ollama
-      finance-ml · 5
-    directories[Directories & registries · 25]
+    directories[Directories & registries · 26]
       programming · 5
         awesome-python
         awesome-nodejs
@@ -191,6 +191,7 @@ mindmap
         awesome-selfhosted
       research-papers · 1
       research · 1
+      education · 1
     web-tools[Web research tools · 68]
       API · 25
         unpaywall.org
