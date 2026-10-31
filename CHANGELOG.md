@@ -781,3 +781,25 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-three-js-webgl-tonemapping-example -> agent-tools
 - added tool-gltf-render-fidelity-comparison -> agent-tools
 - added tool-tech-art-test-scene-recipe -> agent-tools
+
+## 2026-10-31 — research 2026-10-30
+- added skill-pixelfx -> content-tools
+- added skill-trompe -> content-tools
+- added skill-agent-sprite-forge -> content-tools
+- added skill-sprite-gen -> content-tools
+- added mcp-pixellab -> content-tools
+- added mcp-aseprite-letsagents -> content-tools
+- added tool-crowdbricks -> content-tools
+
+## 2026-10-31 — research 2026-10-30
+- added asset-synty-polygon -> content-tools
+- added asset-humble-bundle-gamedev -> content-tools
+- added asset-unity-asset-store-other-engines -> content-tools
+- added asset-gamedev-market -> content-tools
+- added asset-kitbash3d -> content-tools
+- added asset-meshy -> content-tools
+- added asset-tripo -> content-tools
+- added asset-rodin-hyper3d -> content-tools
+
+## 2026-10-31 — research 2026-10-30
+- added note-commissioning-3d-artists -> notes

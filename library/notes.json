@@ -1352,6 +1352,35 @@
    "extra": {
     "source": "github.com/lovisdotio/video-to-game (SKILL.md, references/look-and-post.md)"
    }
+  },
+  {
+   "id": "note-commissioning-3d-artists",
+   "name": "Commissioning 3D artists on a budget",
+   "kind": "note",
+   "category": "asset-3d-models",
+   "url": null,
+   "description": "Where: r/gameDevClassifieds (about 161k members; post as [PAID] with flair), Fiverr (search 'low poly game character'), ArtStation profiles, itch.io creators whose free packs you already like (ask them for custom work in the same style), and Polycount. Typical low-poly rates: simple props about $50-150; detailed or textured/animated models about $200-500 (hitem3d guide); rigged characters usually at the top of that range or above. Credits in the game and social posts are welcome extras, never a substitute for the fee; offer them as a bonus. Put in writing: work-for-hire or licence scope (commercial use in all your games and marketing), exclusivity or not, source files (.blend/FBX) and texture resolution, poly budget and engine (Godot glTF), number of revisions, payment schedule (deposit + milestones), credit line wording, whether the artist may show it in their portfolio, and a clause on AI use (whether they used AI, and whether you may use the work for AI training). Cheaper path first: buy a Synty or KayKit pack, then commission only the hero character and signature props in that style.",
+   "verdict": null,
+   "verdictNote": null,
+   "why": null,
+   "tags": [
+    "3d",
+    "commissions",
+    "game-assets"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30",
+   "extra": {
+    "sources": [
+     "https://gummysearch.com/r/gameDevClassifieds/",
+     "https://www.hitem3d.ai/ai-faq/what-is-the-cost-of-a-low-poly-3d-model-for-game-artists"
+    ]
+   }
   }
  ]
 }

@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 307]
+    content-tools[AI content-creation tools · 322]
       godot-addons · 46
         Phantom Camera
         LimboAI
@@ -15,6 +15,12 @@ mindmap
       game-engines · 30
         Godot Engine
         Jolt Physics
+      asset-3d-models · 25
+        BlenderKit now Blendkit
+        Kenney
+        KayKit Kay Lousberg
+        NASA 3D Resources
+        Polyfork
       asset-rigging-animation · 21
         CMU Graphics Lab Motion Capture Database
         Reallusion AccuRIG
@@ -27,16 +33,10 @@ mindmap
         3DTextures.me
         TextureCan
         LEOMOON Free IES Lights Pack
-      asset-3d-models · 20
-        BlenderKit now Blendkit
-        Kenney
-        KayKit Kay Lousberg
-        NASA 3D Resources
-        Polyfork
       video-gen · 17
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF
-      asset-vfx · 12
+      asset-vfx · 13
         Pixabay Videos incl. VFX/overlay clips
         Pexels Videos
         Coverr
@@ -52,6 +52,8 @@ mindmap
         Kokoro TTS
         Chatterbox TTS
         Kokoro
+      3d-generation · 8
+        TRELLIS.2
       asset-music · 8
         YouTube Audio Library
       comfyui · 7
@@ -62,7 +64,6 @@ mindmap
       comics · 7
       cinematography-reference · 7
         Melies cinematic techniques
-      avatar-lipsync · 6
     mcp-servers[MCP servers · 37]
       game-engine-agents · 9
       mcp-browser · 2
@@ -285,7 +286,7 @@ mindmap
       Electronics · 1
       Free API tiers · 1
       Web data · 1
-    notes[Research notes · 63]
+    notes[Research notes · 64]
       gpu-vram · 28
       designResource · 13
       agentToolkit · 6
@@ -295,6 +296,7 @@ mindmap
       3d-pipeline · 1
       godot-addons · 1
       game-design · 1
+      asset-3d-models · 1
     apis[Public APIs · 1842]
       Development · 168
       Government · 107
