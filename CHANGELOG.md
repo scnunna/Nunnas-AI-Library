@@ -816,3 +816,8 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-31 — research 2026-10-30
 - added content-ai-pose-gallery-original -> content-tools
+
+## 2026-10-31 — research 2026-10-30
+- added skill-hallmark -> skills
+- added skill-huashu-design -> skills
+- added dir-awesome-design-md -> skills

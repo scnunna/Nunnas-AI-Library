@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.31+770f8fd562fb, 2774 items, updated 2026-10-31.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.31+f4dc57a8c3fc, 2777 items, updated 2026-10-31.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -21,7 +21,7 @@ How to use this repo as an AI assistant:
 
 - content-tools: AI content-creation tools (330) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (37) — Model Context Protocol servers worth connecting to Claude.
-- skills: Agent skills & plugins (60) — Claude/agent skills, plugins and marketplaces, with verdicts.
+- skills: Agent skills & plugins (63) — Claude/agent skills, plugins and marketplaces, with verdicts.
 - agent-tools: Agent tools & frameworks (151) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (25) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
@@ -151,7 +151,7 @@ How to use this repo as an AI assistant:
 - scroll-world [skills/create]
 - claude-seo [skills/grow-ship]
 - humanizer [skills/grow-ship] https://github.com/blader/humanizer
-- video-shotcraft [skills/grow-ship]
+- video-shotcraft [skills/grow-ship] https://github.com/Vincentwei1021/video-shotcraft
 - ffmpeg-skill [skills/grow-ship]
 - anthropics/skills [skills/claude-skill] https://github.com/anthropics/skills
 - image-blaster [skills/3d-generation] https://github.com/neilsonnn/image-blaster
