@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.31+2798717aede2, 2790 items, updated 2026-10-31.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.10.31+107fb384e72e, 2793 items, updated 2026-10-31.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -25,7 +25,7 @@ How to use this repo as an AI assistant:
 - agent-tools: Agent tools & frameworks (160) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (26) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
-- design-resources: Design resources (36) — Template libraries, UI kits and design references.
+- design-resources: Design resources (39) — Template libraries, UI kits and design references.
 - assessments: Deep assessments (17) — Repos and models evaluated in depth, with warnings and what to steal.
 - skill-capabilities: Skill capabilities (20) — What specific skills unlock and what manual work they remove.
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.

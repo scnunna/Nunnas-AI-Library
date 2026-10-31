@@ -219,8 +219,8 @@ mindmap
         Snapdrop / PairDrop
       Open source · 1
         rembg / IOPaint
-    design-resources[Design resources · 36]
-      Reference website · 5
+    design-resources[Design resources · 39]
+      Reference website · 8
         Component Gallery
       React + Tailwind · 2
         Aceternity UI

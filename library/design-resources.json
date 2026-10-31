@@ -1009,19 +1009,19 @@
    "kind": "design-resource",
    "category": "Prompt + code library (Next.js, React, Tailwind, Framer Motion, GSAP, Three.js, Lenis, shaders)",
    "url": "https://scrolltide.co",
-   "description": "Scroll-driven and 3D site templates delivered as prompts to paste into Claude, Cursor or v0. The page counts 119 templates, 46 components, 55 shaders, 18 sections and 14 UI screens (the '600+' figure in your list is not on the page). States personal and client use.",
+   "description": "Scroll-driven and 3D site templates delivered as prompts to paste into Claude, Cursor or v0. On 2026-10-31 the page counts 132 templates, 66 components, 55 shaders, 20 sections and 14 UI screens (not the 600+ some posts claim). Most templates are Premium; a few are free; lifetime early access is $299 one-time. Licence: personal and client use.",
    "verdict": "assess",
    "verdictNote": "hold: try the free templates; buy only for a paying client's 3D/scroll site",
    "why": "$299 is a large one-off spend for a small monthly budget Same libraries as the free kit (GSAP, Three.js, Lenis, Motion) Terms page not read; operator not named Next.js output needs a build step and Vercel, not a single-file artifact",
    "tags": [],
    "license": null,
    "stars": null,
-   "cost": "$299 one-time lifetime early access; a free-template section exists (size not stated)",
+   "cost": "a few free templates; $299 lifetime",
    "relevance": [
     "content-studio"
    ],
    "verified": true,
-   "asOf": "2026-10-13",
+   "asOf": "2026-10-31",
    "source": "research 2026-10: design resources",
    "extra": {
     "blockers": [
@@ -1065,6 +1065,63 @@
      "indie web-game mobile store pages or an app UI, one month at a time"
     ]
    }
+  },
+  {
+   "id": "design-navbar-gallery",
+   "name": "Navbar Gallery",
+   "kind": "web-tool",
+   "category": "Reference website",
+   "url": "https://navbar.gallery",
+   "description": "Curated gallery of website navigation bars (550+ entries), filterable by type: sticky, dropdown, mega menu, sidebar, search, announcement bar, full screen, breadcrumbs. Screenshots linking to live sites. By Christina Liubynska (supercharged.design); sponsored by Mobbin.",
+   "verdict": "reference",
+   "verdictNote": "reference: pick a nav pattern before prompting",
+   "why": "Navigation is where AI-built sites look most generic; picking a real pattern here and naming it in the prompt gives a cleaner header. Screenshots only, no code.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "free to browse",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: page-section galleries"
+  },
+  {
+   "id": "design-footer-design",
+   "name": "footer.design",
+   "kind": "web-tool",
+   "category": "Reference website",
+   "url": "https://footer.design",
+   "description": "Gallery of website footers (about 65 pages of examples), sortable by style: typographic, grid, dark, animated and more. Screenshots linking to live sites. The original project that inspired Navbar Gallery.",
+   "verdict": "reference",
+   "verdictNote": "reference: footer ideas",
+   "why": "Footers carry trust signals on a lead-gen site (contact, address, links, social proof); quick inspiration for doing them well. Screenshots only.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "free to browse",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: page-section galleries"
+  },
+  {
+   "id": "design-cta-gallery",
+   "name": "CTA.gallery",
+   "kind": "web-tool",
+   "category": "Reference website",
+   "url": "https://cta.gallery",
+   "description": "Curated gallery of call-to-action sections and buttons from real sites, by Webestica. Screenshots linking to the live pages; sponsor templates sold alongside.",
+   "verdict": "reference",
+   "verdictNote": "reference: CTA wording and layout ideas",
+   "why": "The call to action is the part of a lead-gen page that converts; useful for wording and layout ideas for 'Book a call' and 'Get my free quote' sections. Inspiration only, no code.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": "free to browse",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: page-section galleries"
   }
  ]
 }

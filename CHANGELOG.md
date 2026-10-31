@@ -843,3 +843,8 @@ Every library change is logged here by `scripts/add.mjs`.
 - added course-michigan-rob311 -> agent-tools
 - added course-michigan-rob501 -> agent-tools
 - added course-michigan-rob101 -> agent-tools
+
+## 2026-10-31 — research 2026-10-31: page-section galleries
+- added design-navbar-gallery -> design-resources
+- added design-footer-design -> design-resources
+- added design-cta-gallery -> design-resources
