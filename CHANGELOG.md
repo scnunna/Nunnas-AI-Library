@@ -803,3 +803,13 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-31 — research 2026-10-30
 - added note-commissioning-3d-artists -> notes
+
+## 2026-10-31 — research 2026-10-31: fighting-game characters, animation and VFX
+- updated skill-pixelfx
+- added content-reeboo-stylized-vfx-free-sample -> content-tools
+- added content-godot-vfx-library-haowg -> content-tools
+- added content-vfx-sketchbook-gtibo -> content-tools
+- added content-gdquest-godot-4-vfx-assets -> content-tools
+- added content-quaternius-universal-animation-library-1-2 -> content-tools
+- added content-makehuman-asset-packs-cc0-vs-cc-by -> content-tools
+- added content-nvidia-omniverse-rigged-characters-pack -> content-tools

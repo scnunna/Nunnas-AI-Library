@@ -7826,21 +7826,29 @@
   },
   {
    "id": "skill-pixelfx",
-   "name": "pixelfx (pixel-art effects + skill)",
+   "name": "pixelfx (patch-gg)",
    "kind": "repo",
    "category": "asset-vfx",
    "url": "https://github.com/patch-gg/pixelfx",
-   "description": "232 code-drawn pixel-art effects (fire, explosions, magic, weather, UI, pickups) with a live gallery, recolouring and mirroring, plus a Claude Code skill that finds, exports and creates new effects through a draft-render-review loop. Exports transparent PNG sprite sheets with Aseprite-style JSON for Godot, Unity, GameMaker, Defold, LÖVE, Bevy and Phaser, plus GIF/MP4 previews. Node.js only, no paid APIs. 7 commits.",
-   "verdict": "trial",
+   "description": "232 pixel-art effects as small JS programs plus a Claude Code skill to find, tweak, make and export them as transparent PNG sprite sheets + Aseprite-style JSON (Godot, Unity, GameMaker, Defold, Bevy) or browser canvas code (Phaser, PixiJS, three.js).",
+   "verdict": "adopt",
    "verdictNote": "trial: free pixel VFX for 2D and 2.5D games",
-   "why": "Cheap, consistent effects for pixel-art games, and Claude can make new ones in the same style. Very new (3 stars), from the same author as anymove and trompe.",
-   "tags": [],
-   "license": "MIT (Patch Pixel font excluded)",
-   "stars": 3,
+   "why": "Fastest source of hit/pickup/spell VFX for 2D and pixel games; a style mismatch for realistic 3D (use it for HUD bursts there at most).",
+   "tags": [
+    "vfx",
+    "pixel-art",
+    "claude-code",
+    "sprite-sheet",
+    "godot"
+   ],
+   "license": "MIT (font excluded, see NOTICE.md)",
+   "stars": 351,
    "cost": null,
-   "relevance": [],
+   "relevance": [
+    "games"
+   ],
    "verified": true,
-   "asOf": "2026-10-30",
+   "asOf": "2026-10-31",
    "source": "research 2026-10-30"
   },
   {
@@ -8108,6 +8116,186 @@
    "verified": true,
    "asOf": "2026-10-30",
    "source": "research 2026-10-30"
+  },
+  {
+   "id": "content-reeboo-stylized-vfx-free-sample",
+   "name": "REEBOO Stylized VFX Free Sample",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://godotengine.org/asset-library/asset/5561",
+   "description": "[Godot 4.4+ · VFX] Free sample of a stylized VFX pack: hit spark, sword slash, pickup sparkle, under 100 particles each; Forward+/Mobile renderers (not Compatibility).",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Ready-made 3D-capable hit/slash references for action games; check web (Compatibility) support before relying on it.",
+   "tags": [
+    "godot",
+    "vfx",
+    "hit-spark",
+    "slash"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-godot-vfx-library-haowg",
+   "name": "GODOT-VFX-LIBRARY (haowg)",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/haowg/GODOT-VFX-LIBRARY",
+   "description": "[Godot 4 · VFX] Collection of particle effects and shaders aimed at action games; last push Jan 2026.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Promising action-game VFX set, but the licence was not confirmed: check LICENSE before use.",
+   "tags": [
+    "godot",
+    "vfx",
+    "particles",
+    "shaders"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-vfx-sketchbook-gtibo",
+   "name": "VFX sketchbook (gtibo)",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/gtibo/VFX-sketchbook",
+   "description": "[Godot 4 · VFX] Experimental effect and shader sketches (the author warns code may not be optimal).",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Good for learning stylized shader VFX techniques; not production code.",
+   "tags": [
+    "godot",
+    "vfx",
+    "shaders"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-gdquest-godot-4-vfx-assets",
+   "name": "GDQuest godot-4-VFX-assets",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/gdquest-demos/godot-4-VFX-assets",
+   "description": "[Godot 4 · VFX] GDQuest's open particle and shader examples.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Clean, well-explained starting points for Godot particle/shader effects.",
+   "tags": [
+    "godot",
+    "vfx",
+    "particles"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-quaternius-universal-animation-library-1-2",
+   "name": "Quaternius Universal Animation Library 1 + 2",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://quaternius.com/packs/universalanimationlibrary.html",
+   "description": "120+ (UAL1, 15 MB) and 130+ (UAL2, 17 MB) CC0 clips on one Unreal-style humanoid rig with Godot-ready GLBs. Includes locomotion, punches (jab, cross, hook), guard, hit reactions, knockback, death and get-up, rolls, ninja jumps, slides, sword combos. No kicks in the free Standard sets. Also mirrored on OpenGameArt (direct download).",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Free shippable base animation set for any humanoid game; retarget via Godot's SkeletonProfileHumanoid.",
+   "tags": [
+    "animation",
+    "cc0",
+    "godot",
+    "humanoid",
+    "rigged"
+   ],
+   "license": "CC0",
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-makehuman-asset-packs-cc0-vs-cc-by",
+   "name": "MakeHuman asset packs (CC0 vs CC-BY)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "http://files2.makehumancommunity.org/asset_packs/",
+   "description": "Skins, hair, eyebrows, clothes, shoes, gloves, masks for MakeHuman/MPFB2. Each pack's zip name states its licence: *_cc0.zip packs are CC0, while several 02/03 packs (hair02/03, pants02/03, shirts02/03, shoes02/03) are *_ccby.zip and need credit. Sizes 3-270 MB; the server is slow.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Clothing and hair for realistic MPFB characters; pick only _cc0 zips when you want no attribution duties.",
+   "tags": [
+    "makehuman",
+    "mpfb",
+    "cc0",
+    "licence"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-nvidia-omniverse-rigged-characters-pack",
+   "name": "NVIDIA Omniverse Rigged Characters pack",
+   "kind": "web-tool",
+   "category": "asset-3d-models",
+   "url": "https://docs.omniverse.nvidia.com/usd/latest/usd_content_samples/downloadable_packs.html",
+   "description": "891 MB OpenUSD pack of 7 Reallusion characters (workers, delivery people, casual people, an orc). The page says 'free to use in your own work' but does not say whether it may be redistributed inside a commercial game.",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Not fighters, and unclear game-redistribution rights; use MPFB2 (CC0 output) instead.",
+   "tags": [
+    "nvidia",
+    "usd",
+    "characters"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: fighting-game characters, animation and VFX"
   }
  ]
 }

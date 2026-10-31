@@ -5,8 +5,8 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 322]
-      godot-addons · 46
+    content-tools[AI content-creation tools · 329]
+      godot-addons · 50
         Phantom Camera
         LimboAI
         Dialogue Manager
@@ -15,13 +15,13 @@ mindmap
       game-engines · 30
         Godot Engine
         Jolt Physics
-      asset-3d-models · 25
+      asset-3d-models · 26
         BlenderKit now Blendkit
         Kenney
         KayKit Kay Lousberg
         NASA 3D Resources
         Polyfork
-      asset-rigging-animation · 21
+      asset-rigging-animation · 23
         CMU Graphics Lab Motion Capture Database
         Reallusion AccuRIG
         Blender Rigify
