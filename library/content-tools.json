@@ -6488,14 +6488,14 @@
    "description": "Static gallery of AI pose reference images (README: 288 pose groups, 1,439 images) translated into Chinese from a Japanese original. The images belong to the original author and are not licensed for reuse; some categories are adult-oriented.",
    "verdict": "skip",
    "verdictNote": "skip: no image licence; use your own references",
-   "why": "Fine to browse for inspiration, but you can't reuse the images, and the adult categories make it unsuitable for brand work.",
+   "why": "Translated copy of Gia's original (content-ai-pose-gallery-original, trial). The images belong to Gia, whose terms forbid redistribution, so use the original site instead; the mirror also lists adult-oriented category names.",
    "tags": [],
    "license": "MIT (code only); images (c) original author",
    "stars": 127,
    "cost": null,
    "relevance": [],
    "verified": true,
-   "asOf": "2026-10-28",
+   "asOf": "2026-10-30",
    "source": "research 2026-10-28"
   },
   {
@@ -8296,6 +8296,25 @@
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: fighting-game characters, animation and VFX"
+  },
+  {
+   "id": "content-ai-pose-gallery-original",
+   "name": "AI Pose Gallery (Gia, original)",
+   "kind": "web-tool",
+   "category": "cinematography-reference",
+   "url": "https://ai-pose-gallery.pages.dev/",
+   "description": "Free pose reference library of 3:4 line drawings of a faceless grey mannequin, each pose shown from five angles (front, top-down, low angle, side, diagonal), with filters, keyboard navigation and full-size PNG downloads. Made by Japanese creator ギア (Gia, @giaaibusi); the Chinese mirror in this library is a translated copy.",
+   "verdict": "trial",
+   "verdictNote": "trial: consistent pose references for characters in images, comics and game concept art",
+   "why": "Feeding the same pose image to an image model keeps a character's posture consistent across shots, and the five angles help with turnarounds and game sprites. Use one image at a time as a reference; never re-upload the files. Prefer this original over the Chinese mirror.",
+   "tags": [],
+   "license": "Free incl. commercial use of works made with it; credit optional; no bulk download, redistribution, reposting or resale; not for real people or minors",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-30",
+   "source": "research 2026-10-30"
   }
  ]
 }

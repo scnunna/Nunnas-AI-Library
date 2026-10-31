@@ -813,3 +813,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added content-quaternius-universal-animation-library-1-2 -> content-tools
 - added content-makehuman-asset-packs-cc0-vs-cc-by -> content-tools
 - added content-nvidia-omniverse-rigged-characters-pack -> content-tools
+
+## 2026-10-31 — research 2026-10-30
+- added content-ai-pose-gallery-original -> content-tools

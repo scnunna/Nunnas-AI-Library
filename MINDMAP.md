@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 329]
+    content-tools[AI content-creation tools · 330]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -54,6 +54,8 @@ mindmap
         Kokoro
       3d-generation · 8
         TRELLIS.2
+      cinematography-reference · 8
+        Melies cinematic techniques
       asset-music · 8
         YouTube Audio Library
       comfyui · 7
@@ -62,8 +64,6 @@ mindmap
         ComfyUI-Manager
         ComfyUI-VideoHelperSuite
       comics · 7
-      cinematography-reference · 7
-        Melies cinematic techniques
     mcp-servers[MCP servers · 37]
       game-engine-agents · 9
       mcp-browser · 2
