@@ -51553,6 +51553,29 @@
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "api-poly-haven-api-hdris-and-pbr-textures",
+   "name": "Poly Haven API (HDRIs and PBR textures)",
+   "kind": "api",
+   "category": "asset-textures-lighting",
+   "url": "https://api.polyhaven.com/assets",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Verified 2026-10-31: no key needed; /files/<id> returns direct dl.polyhaven.org URLs for 2k hdr and 1k jpg diffuse/nor_gl. Resize to 1024/512 and import Lossy+mipmaps to keep web builds small.",
+   "tags": [
+    "no-key",
+    "cc0",
+    "godot"
+   ],
+   "license": "CC0",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "monkey-fist stage art 2026-10-31"
   }
  ]
 }

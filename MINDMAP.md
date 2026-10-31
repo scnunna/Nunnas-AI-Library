@@ -127,7 +127,7 @@ mindmap
         anthropics/skills
       explainer-video · 1
         Papermorph
-    agent-tools[Agent tools & frameworks · 151]
+    agent-tools[Agent tools & frameworks · 152]
       tools · 11
         firecrawl
         context7
@@ -297,7 +297,7 @@ mindmap
       godot-addons · 1
       game-design · 1
       asset-3d-models · 1
-    apis[Public APIs · 1842]
+    apis[Public APIs · 1843]
       Development · 168
       Government · 107
       Games & Comics · 102

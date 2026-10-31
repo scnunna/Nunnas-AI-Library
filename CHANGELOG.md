@@ -824,3 +824,7 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-10-31 — research 2026-10-31: 3D scene code model
 - added content-qwen3-5-4b-3d-coder-ccore -> content-tools
+
+## 2026-10-31 — monkey-fist stage art 2026-10-31
+- added tool-kenney-nature-pirate-survival-3d-kits-glb -> agent-tools
+- added api-poly-haven-api-hdris-and-pbr-textures -> apis
