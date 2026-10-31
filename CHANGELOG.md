@@ -821,3 +821,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added skill-hallmark -> skills
 - added skill-huashu-design -> skills
 - added dir-awesome-design-md -> skills
+
+## 2026-10-31 — research 2026-10-31: 3D scene code model
+- added content-qwen3-5-4b-3d-coder-ccore -> content-tools

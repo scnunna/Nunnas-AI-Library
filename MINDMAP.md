@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 330]
+    content-tools[AI content-creation tools · 331]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -42,6 +42,8 @@ mindmap
         Coverr
         LottieFiles free animations
         Kenney Particle Pack
+      3d-generation · 9
+        TRELLIS.2
       asset-sound-effects · 9
         Pixabay Sound Effects
         Mixkit Sound Effects
@@ -52,8 +54,6 @@ mindmap
         Kokoro TTS
         Chatterbox TTS
         Kokoro
-      3d-generation · 8
-        TRELLIS.2
       cinematography-reference · 8
         Melies cinematic techniques
       asset-music · 8

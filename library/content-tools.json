@@ -8315,6 +8315,35 @@
    "verified": true,
    "asOf": "2026-10-30",
    "source": "research 2026-10-30"
+  },
+  {
+   "id": "content-qwen3-5-4b-3d-coder-ccore",
+   "name": "Qwen3.5-4B-3D-Coder (CCORE)",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "description": "Early-preview 4B fine-tune of Qwen3.5-4B that writes one-file Three.js (0.160) HTML scenes from a prompt, with an optional vision projector. Q4_K_M and Q8_0 GGUF builds for llama.cpp. Trained on 4,146 Three.js scene examples. No benchmarks published; the author says scenes sometimes need a second attempt.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Writes code, not meshes, so it is free and licence-clean. Fits a laptop GPU at Q4. Useful only for fast offline blockouts or batch variants of procedural Three.js dioramas and backdrops, which a frontier coding model still writes better. Of no direct use to Godot projects. Not a source of stage art: real CC0 kits (Poly Haven, Kenney, Quaternius) look far better.",
+   "tags": [
+    "three.js",
+    "procedural",
+    "scene-generation",
+    "local-llm",
+    "gguf",
+    "game-dev"
+   ],
+   "license": "Apache-2.0 (dataset MIT)",
+   "stars": null,
+   "cost": "$0 local",
+   "relevance": [
+    "three.js games: procedural backdrop and level-variant blockouts",
+    "local batch generation without API cost"
+   ],
+   "verified": true,
+   "asOf": "2026-10-31",
+   "source": "research 2026-10-31: 3D scene code model"
   }
  ]
 }
