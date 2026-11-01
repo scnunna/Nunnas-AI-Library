@@ -94,7 +94,7 @@ mindmap
         Supabase MCP
       Long-term facts · 1
         Memory knowledge graph
-    skills[Agent skills & plugins · 65]
+    skills[Agent skills & plugins · 69]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill
@@ -117,6 +117,7 @@ mindmap
       marketing · 5
         marketingskills Corey Haines
       web-design · 5
+      video · 4
       marketplace · 3
         knowledge-work-plugins
       3d-generation · 2
@@ -125,9 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-      explainer-video · 1
-        Papermorph
-    agent-tools[Agent tools & frameworks · 160]
+    agent-tools[Agent tools & frameworks · 163]
       tools · 11
         firecrawl
         context7

@@ -851,3 +851,12 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-01 — research 2026-11-01: StableGen
 - added game-stablegen-blender -> skills
+
+## 2026-11-01 — research 2026-11-01: motion video skills + CraftPix
+- added asset-craftpix-freebies -> agent-tools
+- added skill-huashu-motion -> skills
+- added ref-mg-styles-15 -> agent-tools
+- added ref-motion-prompt -> agent-tools
+- added skill-vibe-knowledge-film -> skills
+- added skill-story-studio -> skills
+- added skill-video-editor-skills -> skills

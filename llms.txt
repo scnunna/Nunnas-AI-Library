@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.01+418d119f45b0, 2794 items, updated 2026-11-01.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.01+28b118535f5e, 2801 items, updated 2026-11-01.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -21,8 +21,8 @@ How to use this repo as an AI assistant:
 
 - content-tools: AI content-creation tools (331) — Video/image/voice/music/caption/publishing tools for Content Studio AI.
 - mcp-servers: MCP servers (37) — Model Context Protocol servers worth connecting to Claude.
-- skills: Agent skills & plugins (65) — Claude/agent skills, plugins and marketplaces, with verdicts.
-- agent-tools: Agent tools & frameworks (160) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
+- skills: Agent skills & plugins (69) — Claude/agent skills, plugins and marketplaces, with verdicts.
+- agent-tools: Agent tools & frameworks (163) — Agent frameworks, coding-agent tooling, memory layers, observability, local LLM runners.
 - directories: Directories & registries (26) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (39) — Template libraries, UI kits and design references.
@@ -196,6 +196,8 @@ How to use this repo as an AI assistant:
 - glTF Render Fidelity Comparison [agent-tools/asset-3d-models] https://github.khronos.org/glTF-Render-Fidelity/
 - Tech-art test scene recipe [agent-tools/game-design]
 - Kenney Nature/Pirate/Survival 3D kits (GLB) [agent-tools/asset-3d-models] https://kenney.nl/assets/nature-kit
+- CraftPix freebies (free 2D game assets) [agent-tools/game-assets] https://craftpix.net/freebies/
+- Motion Prompt (names for motions and camera moves) [agent-tools/video] https://github.com/showheyohtaki/motion-prompt
 - awesome-claude-code [directories/claude-skill] https://github.com/hesreallyhim/awesome-claude-code
 - MCP Registry [directories/registry] https://github.com/modelcontextprotocol/registry
 - punkpeye/awesome-mcp-servers [directories/mcp-list] https://github.com/punkpeye/awesome-mcp-servers
