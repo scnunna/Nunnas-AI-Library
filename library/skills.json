@@ -1520,6 +1520,25 @@
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: education"
+  },
+  {
+   "id": "game-stablegen-blender",
+   "name": "StableGen (AI texturing, mesh gen and rigging in Blender)",
+   "kind": "plugin",
+   "category": "3d-ai",
+   "url": "https://github.com/sakalond/StableGen",
+   "description": "Blender add-on (4.2-4.5 or 5.1+, not 5.0) that sends work to a local or networked ComfyUI server. Textures one model or a whole scene by projecting AI-generated views from cameras (SDXL + ControlNet/IPAdapter, Qwen Image), with Masked Edit to repaint one region; estimates PBR maps (Marigold, StableDelight); generates meshes from a prompt or image (TRELLIS.2); auto-rigs characters (SkinTokens) and retargets Mixamo FBX/BVH motion; bakes and exports glTF for Godot or FBX for Unreal/Unity. Installer script sets up the ComfyUI nodes and models. ~8 GB VRAM for SDXL texturing, 16 GB+ for Qwen Image; 10-50 GB disk. 190 commits, updated 2026-10-28.",
+   "verdict": "trial",
+   "verdictNote": "trial: SDXL texturing on the 8 GB laptop now; full prompt-to-rigged-asset after the 24 GB GPU",
+   "why": "Covers the whole asset pipeline for Moonlit Ronin inside Blender, from your own ComfyUI, with no per-asset fees: texture blockouts or bought models in a consistent style, then export glTF straight to Godot. Pairs with the Blender MCP and meshoptimizer. GPL only covers the add-on, so your exported assets are yours, but check each model's licence before selling a game.",
+   "tags": [],
+   "license": "GPL-3.0 (add-on); each model it downloads has its own licence",
+   "stars": 949,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-01",
+   "source": "research 2026-11-01: StableGen"
   }
  ]
 }

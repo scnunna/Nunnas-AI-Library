@@ -94,7 +94,7 @@ mindmap
         Supabase MCP
       Long-term facts · 1
         Memory knowledge graph
-    skills[Agent skills & plugins · 64]
+    skills[Agent skills & plugins · 65]
       motion-graphics-skills · 10
         product-launch-motion
         LottieFiles motion-design-skill

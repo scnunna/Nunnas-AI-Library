@@ -848,3 +848,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added design-navbar-gallery -> design-resources
 - added design-footer-design -> design-resources
 - added design-cta-gallery -> design-resources
+
+## 2026-11-01 — research 2026-11-01: StableGen
+- added game-stablegen-blender -> skills
