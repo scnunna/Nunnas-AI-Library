@@ -15,7 +15,7 @@
    "why": "Ordered backends per capability, chosen by a REAL probe (does it actually return data), not just 'is the command installed'. Apply to the model router and to every data source in the swarm A `doctor` command that says which route is live and how to fix the rest. You should have one for the whole stack (local models, cloud models, database, automation) Safe-by-default installer: read-only check first, `--dry-run` preview, explicit flag for system changes, clean `uninstall` that removes stored credentials Credentials: stored in one file with 600 permissions, scrubbed from output, extracted from a browser one platform at a time (least privilege) Tests outnumber source: 606 pass, about 10.5k lines of tests for 7.3k lines of code; ruff and mypy both clean. A model for the Claude Code handoff standards URL guard written as 'public addresses only' using the standard library's is_global idea, covering odd IPv4 spellings. SEE : your own guard misses IPv6 and carrier-grade-NAT addresses Prompt-injection-aware install guide: explicit DO NOT list (no sudo, no system files, nothing inside the workspace) and fixed directories",
    "tags": [],
    "license": "MIT",
-   "stars": 102787,
+   "stars": 107810,
    "cost": null,
    "relevance": [
     "general"
@@ -36,8 +36,8 @@
      "Platforms change anti-bot rules constantly; the project documents Bilibili blocking yt-dlp in June 2026 and a March 2026 wave of abandoned single-platform CLIs. Expect routes to break and rely on doctor",
      "NOT RUN end to end: the sandbox cannot reach these platforms, so I verified code, tests and docs, not live scraping results"
     ],
-    "pushedAt": "2026-10-25",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-01",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -190,7 +190,7 @@
    "why": null,
    "tags": [],
    "license": "MIT",
-   "stars": 638,
+   "stars": 642,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -200,7 +200,7 @@
     "overlaps": "weekly Improver agent",
     "repo": "github.com/blader/napkin",
     "pushedAt": "2026-02-21",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -399,7 +399,7 @@
    "why": null,
    "tags": [],
    "license": "MIT",
-   "stars": 60769,
+   "stars": 63719,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -408,8 +408,8 @@
    "extra": {
     "overlaps": "Sonnet review",
     "repo": "github.com/blader/humanizer",
-    "pushedAt": "2026-10-16",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -447,7 +447,7 @@
    "why": "Turns real product screens (Studio, OpsAI, NAIL) into launch and landing-page videos with pro motion design and zero per-clip generation cost. Check Remotion's licence if a company of your size must buy one, and each music track's attribution.",
    "tags": [],
    "license": "Apache-2.0 (code/docs); audio assets per ATTRIBUTION.md; Remotion has its own licence",
-   "stars": 13900,
+   "stars": 16009,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -455,7 +455,9 @@
    "source": "money-swarm-brain-2026-09",
    "extra": {
     "overlaps": "none",
-    "repo": "github.com/Vincentwei1021… (truncated)"
+    "repo": "github.com/Vincentwei1021… (truncated)",
+    "pushedAt": "2026-10-29",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -496,7 +498,7 @@
     "official"
    ],
    "license": "Apache-2.0 (docs skills source-available)",
-   "stars": 183851,
+   "stars": 186536,
    "cost": "free",
    "relevance": [
     "general",
@@ -506,8 +508,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-09",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -525,7 +527,7 @@
     "community"
    ],
    "license": "MIT",
-   "stars": 2874,
+   "stars": 2890,
    "cost": "free",
    "relevance": [
     "general"
@@ -534,8 +536,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -550,7 +552,7 @@
    "why": "FILLS A GAP, replaces nothing: you had no hosted image-to-mesh tool. Free local alternative is Trellis2 via ComfyUI, but it shares the 8 GB card with Flux and VoiceStudio NOT RUN: no API keys and the sandbox cannot reach the providers, so mesh and world quality are the README's claims, not the result. Pilot before relying on it WORLD LABS RISK: AMD announced an $8.2B all-stock acquisition on 2026-09-28 (AMD newsroom, Bloomberg, CNBC; close expected end of 2026). Neither side has committed to Marble API pricing or continuity, and the Terms already allow suspension and assignment. Do not build a revenue path on the World API yet WORLD LABS COMMERCIAL RIGHTS UNVERIFIED: docs name only the Pro app plan as including commercial rights to generated worlds; nothing found for API-generated outputs. Read the API terms before any paid release README overstates 'fully meshed environment': code downloads only the collider mesh (a collision proxy) plus splats; the HQ mesh export is a separate $2.80 and the code does not call it Default object meshes are 50,000 faces with PBR: too heavy for phones and browser games; use LowPoly generate type and Blender cleanup. AI meshes are unrigged by default (Meshy option adds rigging) Price (fal and World Labs docs, Oct 2026, subject to change): world 1,500 credits = $1.20 (+80 credits pano = $0.064); Hunyuan3D v3 $0.375 base + $0.15 PBR + $0.15 custom face count = about $0.675 per object; Nano Banana 2 edit $0.08 (1K); SFX $0.002/s. A scene with 8 objects is roughly $7.50 first pass, before retries and Claude tokens Hunyuan via fal is listed as commercial use under fal terms; the open-weights Hunyuan licence excludes EU/UK/South Korea for self-hosting - fal's hosted route is the one priced here, but read fal terms before shipping Code quality: clean, modular, resumable (provider request id saved before polling), base64 stripped from logs, key in gitignored.env, typecheck passes (exit 0), 11 of 13 tests pass. BUT: zero timeouts or retries anywhere (two infinite polling loops), provider error bodies discarded (only the HTTP status is kept), ~4,100 lines of pipeline scripts with no tests, and the 2 failing tests only check that API keys are set Single maintainer, last commit 2026-05-14 (five months ago), 72 commits; 4.8k stars and 494 forks show interest, not production hardening Dependency licences checked: Spark, three, fiber, drei, leva, Radix, zustand MIT; postprocessing Zlib; the Rapier wrapper declares no licence field in its package.json (not checked further)",
    "tags": [],
    "license": "MIT (repo). Output rights come from the paid APIs, not the repo: see caveats",
-   "stars": 12090,
+   "stars": 12285,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -561,7 +563,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-05-15",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -576,7 +578,7 @@
    "why": "RUN: the sample site loads and plays in this sandbox with no page errors; 42 frames viewed across a chapter. Narration quality and chapter-generation cost were NOT measured (no Opus tokens spent on generating a new chapter) IT IS A WEB BOOK, NOT A VIDEO TOOL. It has no export to MP4. I wrote a prototype exporter (tools/papermorph_render_beats.py): it opens a beat, calls the engine's own evalTo(t) for each frame, screenshots only the stage, and pipes frames plus the beat's mp3 into ffmpeg. Result: 1920x1080 30 fps MP4 with narration, deterministic and frame-exact. Speed here (CPU only): about 11 frames per second, roughly 2.6x real time, so a 5-minute lesson renders in about 13 minutes. Prototype: no resume, no caption burn-in, beats must be stitched with ffmpeg, tested on one beat of one chapter VOICE LICENCE RISK: narration uses Edge TTS, an unofficial route to Microsoft's Read Aloud service. A Microsoft Q&A moderator statement (Oct 2024) says commercial use without an Azure subscription may violate the terms. Swap before any monetised video: the local VoiceStudio/Supertonic tiers, Azure AI Speech, or ElevenLabs. The swap needs word timings for [[mark]] sync; VoiceStudio lists transcription but word-level timestamps are untested Young and tiny: 1 star, created recently, one maintainer; README says it currently supports Opus 5.5 only. Treat as a code-and-ideas source, pin a commit, expect breakage Quality is bounded by the model's storyboards: layouts are generated per chapter, so every chapter needs the review loop. Built for textbook math; finance visuals would need a helper library you do not have yet Opus-heavy by design (long skill, one sub-agent per chapter): token cost per minute of video is unknown. Measure on one pilot before planning volume MIT licence covers the code; any book/PDF you feed it keeps its own copyright, so only use your own scripts or public-domain/licensed text UPDATE Oct 13: HyperFrames (Apache-2.0, 59k stars) is a maintained renderer for HTML timelines and I ran it, so you should not maintain your own exporter for new explainers. Papermorph stays the pattern source for narration-mark timelines and interactive web lessons; its own engine (not GSAP) would need a small adapter to render through HyperFrames",
    "tags": [],
    "license": "MIT",
-   "stars": 944,
+   "stars": 1062,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -585,8 +587,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-01",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -601,7 +603,7 @@
    "why": "Licence not visible on the repo page 75 commits; I read the README listing only",
    "tags": [],
    "license": "Not shown on the repo page (check before use)",
-   "stars": 5719,
+   "stars": 6067,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -610,8 +612,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
-    "pushedAt": "2026-10-22",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -626,7 +628,7 @@
    "why": "0 stars, 1 fork: no independent use Built on Remotion; the effort table says it was tuned for Opus 5.5 but nothing in it requires a particular model Agent-setup prompt tells the agent to install whatever is missing: do that by hand instead Claims such as 'fewer API hallucinations' and 'made from one prompt' are unsupported",
    "tags": [],
    "license": "MIT (Remotion's own licence still applies)",
-   "stars": 669,
+   "stars": 788,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -636,7 +638,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-09",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -651,7 +653,7 @@
    "why": "0 stars; determinism and 'every effect lands on its peak' are claims, not tests fetch_assets.py downloads from Mixkit, Pexels, Unsplash, svgl and simple-icons: licences are per asset, check before commercial use mcp21_client.py calls 21st.dev's API Serves the project over python http.server: bind to localhost",
    "tags": [],
    "license": "MIT",
-   "stars": 688,
+   "stars": 749,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -661,7 +663,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-04",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -676,7 +678,7 @@
    "why": "1 star; render times and eval results are self-reported README says 'nothing costs money' while listing paid ElevenLabs as an option Install is npx skills add: pin the commit and read SKILL.md and scripts/ first Grade and film-look effects are for brand films; keep them off finance charts where clarity matters",
    "tags": [],
    "license": "MIT, plus a NOTICE: the example film belongs to the client it was made for",
-   "stars": 354,
+   "stars": 410,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -686,7 +688,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-21",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -701,7 +703,7 @@
    "why": "Do NOT use the 'export kit' Google Drive download: unsigned binary, no source apple-launch-film imitates Apple's product-film look: do not use it for anything that could pass as Apple or another real brand Install pulls main with no pinned version; skills tell Claude to append rules to CLAUDE.md Audience figures and 'launch-grade' claims unverified; which voice service vox-explainer uses is not stated",
    "tags": [],
    "license": "MIT",
-   "stars": 413,
+   "stars": 523,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -712,7 +714,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-11",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -727,7 +729,7 @@
    "why": "Many near-identical forks exist under other accounts: use only the original README says Sonnet or Opus but also 'model-agnostic'; comparisons with Sora or Runway are unsourced Remotion licence applies",
    "tags": [],
    "license": "MIT",
-   "stars": 640,
+   "stars": 766,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -737,7 +739,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-08-12",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -775,7 +777,7 @@
     "fits-8gb"
    ],
    "license": "MIT",
-   "stars": 153,
+   "stars": 167,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -792,7 +794,7 @@
      "blockerBeyondVram": null
     },
     "pushedAt": "2026-09-29",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -807,7 +809,7 @@
    "why": "capture.mjs fetches arbitrary URLs and 'web-checked' facts imply lookups: apply the URL guard first WebGL style is listed as 'Coming' 0 stars",
    "tags": [],
    "license": "MIT",
-   "stars": 983,
+   "stars": 1353,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -817,7 +819,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-05",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -832,7 +834,7 @@
    "why": "README promotes the paid iart.ai agent with tracking links and cross-sells 13 sibling packs Depth not visible on the repo page",
    "tags": [],
    "license": "MIT",
-   "stars": 161,
+   "stars": 185,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -842,7 +844,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-06-22",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -857,7 +859,7 @@
    "why": "Only 4 commits; guidance not tested by me Install via npx skills add: pin it",
    "tags": [],
    "license": "MIT",
-   "stars": 2520,
+   "stars": 2694,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -868,7 +870,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-05-18",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -883,7 +885,7 @@
    "why": "A single commit and several straight forks (same code under other names): use the original only Transcript must come from you (editor, Descript or YouTube SRT); word times are estimated ProRes needs an ffmpeg build with that encoder",
    "tags": [],
    "license": "MIT (Geist fonts SIL OFL, icons ISC)",
-   "stars": 866,
+   "stars": 1002,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -893,7 +895,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-13",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -908,7 +910,7 @@
    "why": "Third-party: the Motion project itself now ships a free official /motion skill and MCP (npx motion-ai) Repo carries stray backup and status files",
    "tags": [],
    "license": "MIT",
-   "stars": 208,
+   "stars": 217,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -918,7 +920,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-03-30",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -933,7 +935,7 @@
    "why": "Only 6 commits; knowledge files, not tested code Several copies exist on skill directories: install from the original and pin it",
    "tags": [],
    "license": "MIT",
-   "stars": 3745,
+   "stars": 3917,
    "cost": null,
    "relevance": [
     "general"
@@ -943,7 +945,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-19",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -958,7 +960,7 @@
    "why": "Cost warning from the repo itself: the 'standard' rigor level took about 58 minutes and produced 30 documents before any game code; directors use Opus No a custom web game engine agent set; built for Godot/Unity/Unreal 40 commits; counts in the README disagree (72 vs 74 skills)",
    "tags": [],
    "license": "MIT",
-   "stars": 27606,
+   "stars": 32878,
    "cost": null,
    "relevance": [
     "games"
@@ -968,7 +970,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-19",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -990,7 +992,7 @@
     "ad-library"
    ],
    "license": "MIT",
-   "stars": 4808,
+   "stars": 5282,
    "cost": "freemium",
    "relevance": [
     "content-studio",
@@ -1001,7 +1003,7 @@
    "source": "research 2026-10-16: content-factory list",
    "extra": {
     "pushedAt": "2026-08-26",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1023,7 +1025,7 @@
     "router"
    ],
    "license": "Apache-2.0",
-   "stars": 4535,
+   "stars": 6515,
    "cost": "free",
    "relevance": [
     "games"
@@ -1032,8 +1034,8 @@
    "asOf": "2026-10-19",
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
-    "pushedAt": "2026-10-24",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1048,15 +1050,15 @@
    "why": "Official and actively maintained. The plugin format is also the best template for packaging your own workflows: copy the folder layout when you build a plugin. Connectors only work for apps you actually connect.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 33079,
+   "stars": 34418,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1071,7 +1073,7 @@
    "why": "Defensive and well designed: a separate verifier must fail to disprove each finding, which cuts false alarms. Many sub-agents means a large token bill per run, so audit one repo at a time and re-run only on changes.",
    "tags": [],
    "license": "MIT",
-   "stars": 47625,
+   "stars": 56768,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -1079,7 +1081,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-09-14",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1094,7 +1096,7 @@
    "why": "Useful to understand how attackers approach your own stack, but it is attack methodology, not a defensive tool. For checking your own code, use the Cloudflare security-audit skill instead. Read install.sh before running it.",
    "tags": [],
    "license": "MIT",
-   "stars": 9252,
+   "stars": 10225,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -1102,7 +1104,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-10-12",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1117,15 +1119,15 @@
    "why": "Authoritative and current, so it beats generic Android advice from a model. Not useful until there is an Android project; ESP32 or web projects don't need it.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 9770,
+   "stars": 10272,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-23",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-29",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1140,15 +1142,15 @@
    "why": "Large and well organized, but mostly lab-science domains. Installing everything bloats the skill list; copy only the few that match your work. Its scan_skills.py is a good pattern for vetting third-party skills.",
    "tags": [],
    "license": "MIT",
-   "stars": 54672,
+   "stars": 55764,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-19",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1163,15 +1165,15 @@
    "why": "Produces real, editable engineering geometry (STEP), not a mesh, which is what printing, CNC and robot simulation actually need. On Windows 11, Smart App Control blocks its native CAD module: turn it off or run under WSL. Always measure critical dimensions before ordering parts.",
    "tags": [],
    "license": "MIT",
-   "stars": 23222,
+   "stars": 24895,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1186,15 +1188,15 @@
    "why": "The best-maintained open marketing skill set: practical frameworks, one shared positioning file, and very active. Covers more than the official marketing plugin for growth tactics. Install selectively; 52 skills is a lot to keep loaded.",
    "tags": [],
    "license": "MIT",
-   "stars": 56578,
+   "stars": 57935,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-22",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-31",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1217,7 +1219,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-04-02",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1230,7 +1232,9 @@
    "verdict": "skip",
    "verdictNote": "skip: use the original coreyhaines31/marketingskills",
    "why": "Behind the original (45 vs 52 skills, a month older) and the extra CLI only matters for engineers. Two copies of the same skills just confuse the agent.",
-   "tags": [],
+   "tags": [
+    "repo-missing"
+   ],
    "license": "MIT",
    "stars": 210,
    "cost": null,
@@ -1255,7 +1259,7 @@
    "why": "The README restricts use to the vendor's clients and forbids redistribution, so you can't legally build on it. The agency-operations topics are a useful checklist only.",
    "tags": [],
    "license": "Proprietary (clients only; no redistribution)",
-   "stars": 7,
+   "stars": 8,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -1263,7 +1267,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-05-05",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1278,15 +1282,15 @@
    "why": "Broad coverage of business roles a PM or consultant uses, under MIT. Quality varies across hundreds of skills and many run Python scripts, so read each one before installing. Loading too many skills makes agents pick the wrong one.",
    "tags": [],
    "license": "MIT",
-   "stars": 28737,
+   "stars": 29147,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-23",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-31",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1301,7 +1305,7 @@
    "why": "Honest and small: it lists its own gaps (no case studies yet, n8n workflow not exported). The sourced 'is this number good?' benchmarks are the most useful part. Prompts and skills overlap with bigger sets, and the regional focus (Egypt, GCC) matters only if you sell there.",
    "tags": [],
    "license": "MIT (community parts MIT/CC0)",
-   "stars": 124,
+   "stars": 126,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -1309,7 +1313,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-10-10",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -1324,12 +1328,16 @@
    "why": "One author, one coherent pipeline, unlike mixing skills from different sources. The asset generators need paid API keys (Tripo, Gemini, ElevenLabs) but fall back to procedural assets without them. Only 11 commits, so pin a version.",
    "tags": [],
    "license": "MIT",
-   "stars": 2600,
+   "stars": 2664,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-26",
-   "source": "research 2026-10-26"
+   "source": "research 2026-10-26",
+   "extra": {
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-jarrod-game-feel",
@@ -1400,12 +1408,16 @@
    "why": "The spec-first and screenshot-and-fix loop raise AI-built pages well above default output, and the technique recipes are reusable. The skill instructs Claude to append a MotionSites upgrade ad to every delivery (you can tell it to stop), and the hosted videos are MotionSites' own, so swap in your own media for client work.",
    "tags": [],
    "license": "MIT (instructions/code); example prompts and media (c) MotionSites",
-   "stars": null,
+   "stars": 1449,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-27",
-   "source": "research 2026-10-27"
+   "source": "research 2026-10-27",
+   "extra": {
+    "pushedAt": "2026-10-26",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-anatomy-isometric",
@@ -1419,12 +1431,16 @@
    "why": "Fills a gap nothing else in the library covers: clean technical illustrations (engines, devices, systems) without a designer. Free and keyless. Check each figure for technical accuracy before publishing.",
    "tags": [],
    "license": "MIT",
-   "stars": 20300,
+   "stars": 23950,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
-   "source": "research 2026-10-28"
+   "source": "research 2026-10-28",
+   "extra": {
+    "pushedAt": "2026-10-18",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-video-to-game",
@@ -1438,12 +1454,16 @@
    "why": "Solves the 'grey boxes' problem: a video model designs the look, camera and one mechanic, and the agent must match it with picture checks. The self-playtest plus best-10-seconds recording also produces ready gameplay clips for Shorts and store pages. Brand-new (0 stars), and fal costs add up; the rules (look spec from day one, calm palette, one mechanic, play before ship) are free to copy into Godot work too.",
    "tags": [],
    "license": "MIT",
-   "stars": 0,
+   "stars": 415,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
-   "source": "research 2026-10-29"
+   "source": "research 2026-10-29",
+   "extra": {
+    "pushedAt": "2026-10-29",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-hallmark",
@@ -1457,12 +1477,16 @@
    "why": "The browser lint for AI-looking patterns is the part that raises quality, and it is free with no upsell, unlike the MotionSites skill. Good fit for lead-gen and product landing pages. Check photo licences from Wikimedia per image.",
    "tags": [],
    "license": "MIT",
-   "stars": 41500,
+   "stars": 45364,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-30",
-   "source": "research 2026-10-30"
+   "source": "research 2026-10-30",
+   "extra": {
+    "pushedAt": "2026-10-29",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-huashu-design",
@@ -1476,12 +1500,16 @@
    "why": "Broad and free, with editable PPTX output for clients who want PowerPoint. Overlaps Claude's built-in Slides and Design artifacts, so use it where you need local files or animation exports.",
    "tags": [],
    "license": "MIT (since 2026-05-14; commercial use allowed)",
-   "stars": 26400,
+   "stars": 28456,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-30",
-   "source": "research 2026-10-30"
+   "source": "research 2026-10-30",
+   "extra": {
+    "pushedAt": "2026-10-30",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "dir-awesome-design-md",
@@ -1495,12 +1523,16 @@
    "why": "Great examples of how to write a DESIGN.md (the format is already adopted in this library). Copying another company's exact visual identity for your own or a client's site risks trade-dress and trademark trouble, so use these as structure and inspiration and write your own brand file.",
    "tags": [],
    "license": "MIT (the collection); extracted styles describe other companies' sites",
-   "stars": 124700,
+   "stars": 125163,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-30",
-   "source": "research 2026-10-30"
+   "source": "research 2026-10-30",
+   "extra": {
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-teachable-figures",
@@ -1514,12 +1546,16 @@
    "why": "Fastest way to make 'play with it' explainers (how a gear train, an indicator or an AI pipeline works) for NCG trainings, NAIC posts and WFF education. No licence on the repo itself yet, so use it to generate your own pages rather than redistributing the skill.",
    "tags": [],
    "license": "No root licence file found (bundled upstream skills Anatomy and iso-figure are MIT)",
-   "stars": null,
+   "stars": 217,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-31",
-   "source": "research 2026-10-31: education"
+   "source": "research 2026-10-31: education",
+   "extra": {
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "game-stablegen-blender",
@@ -1533,12 +1569,16 @@
    "why": "Covers the whole asset pipeline for Moonlit Ronin inside Blender, from your own ComfyUI, with no per-asset fees: texture blockouts or bought models in a consistent style, then export glTF straight to Godot. Pairs with the Blender MCP and meshoptimizer. GPL only covers the add-on, so your exported assets are yours, but check each model's licence before selling a game.",
    "tags": [],
    "license": "GPL-3.0 (add-on); each model it downloads has its own licence",
-   "stars": 949,
+   "stars": 1295,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-01",
-   "source": "research 2026-11-01: StableGen"
+   "source": "research 2026-11-01: StableGen",
+   "extra": {
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-huashu-motion",
@@ -1552,12 +1592,16 @@
    "why": "Runs locally and free, and the click-the-frame editing makes revisions fast. Compare with video-shotcraft (already adopted): shotcraft is built around your own screenshots, huashu-motion around designed motion graphics and music.",
    "tags": [],
    "license": "MIT (samples CC0/CC-BY, see THIRD_PARTY.md)",
-   "stars": 1900,
+   "stars": 2034,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-01",
-   "source": "research 2026-11-01: motion video skills + CraftPix"
+   "source": "research 2026-11-01: motion video skills + CraftPix",
+   "extra": {
+    "pushedAt": "2026-10-22",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-vibe-knowledge-film",
@@ -1571,12 +1615,16 @@
    "why": "A good format for WFF or NAIC explainers, but it is Chinese-first and overlaps vibe-knowledge (already in the library). Try whichever fits after testing animate and huashu-motion.",
    "tags": [],
    "license": "MIT",
-   "stars": 830,
+   "stars": 916,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-01",
-   "source": "research 2026-11-01: motion video skills + CraftPix"
+   "source": "research 2026-11-01: motion video skills + CraftPix",
+   "extra": {
+    "pushedAt": "2026-10-13",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-story-studio",
@@ -1590,12 +1638,16 @@
    "why": "Useful as a model for a faceless story channel (topic to script to voice to images to editor draft). Chinese-only, and its draft targets the Chinese JianYing app, so borrow the steps rather than run it.",
    "tags": [],
    "license": "MIT",
-   "stars": 550,
+   "stars": 660,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-01",
-   "source": "research 2026-11-01: motion video skills + CraftPix"
+   "source": "research 2026-11-01: motion video skills + CraftPix",
+   "extra": {
+    "pushedAt": "2026-10-29",
+    "checkedAt": "2026-11-02"
+   }
   },
   {
    "id": "skill-video-editor-skills",
@@ -1609,12 +1661,16 @@
    "why": "The non-commercial licence rules it out for client or monetised channel work, and it needs a Resolve Studio licence. Free code-based tools already cover your short-form needs.",
    "tags": [],
    "license": "CC BY-NC 4.0 (non-commercial)",
-   "stars": 370,
+   "stars": 385,
    "cost": null,
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-01",
-   "source": "research 2026-11-01: motion video skills + CraftPix"
+   "source": "research 2026-11-01: motion video skills + CraftPix",
+   "extra": {
+    "pushedAt": "2026-10-23",
+    "checkedAt": "2026-11-02"
+   }
   }
  ]
 }

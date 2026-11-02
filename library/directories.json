@@ -18,7 +18,7 @@
     "awesome-list"
    ],
    "license": "Apache-2.0",
-   "stars": 77970,
+   "stars": 78546,
    "cost": "free",
    "relevance": [
     "general"
@@ -28,7 +28,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-09-18",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -46,7 +46,7 @@
     "awesome-list"
    ],
    "license": "CC BY-NC-ND 4.0",
-   "stars": 56566,
+   "stars": 57082,
    "cost": "free",
    "relevance": [
     "general"
@@ -55,8 +55,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -121,7 +121,7 @@
     "registry"
    ],
    "license": null,
-   "stars": 7408,
+   "stars": 7429,
    "cost": "free",
    "relevance": [
     "general"
@@ -130,8 +130,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-25",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-31",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -149,7 +149,7 @@
     "awesome-list"
    ],
    "license": "MIT",
-   "stars": 96882,
+   "stars": 97186,
    "cost": "free",
    "relevance": [
     "general",
@@ -159,8 +159,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-10-23",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -222,7 +222,7 @@
    "why": "2 stars; counts are 'discovery signals, not rankings'",
    "tags": [],
    "license": "CC0-1.0",
-   "stars": 81,
+   "stars": 90,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -233,7 +233,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-24",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -252,7 +252,7 @@
     "directory"
    ],
    "license": "CC-BY-SA-3.0",
-   "stars": 330535,
+   "stars": 332944,
    "cost": "free",
    "relevance": [
     "general"
@@ -261,8 +261,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists",
    "extra": {
-    "pushedAt": "2026-10-22",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-31",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -281,7 +281,7 @@
     "directory"
    ],
    "license": "CC-BY-4.0",
-   "stars": 330344,
+   "stars": 331898,
    "cost": "free",
    "relevance": [
     "general"
@@ -290,8 +290,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -311,7 +311,7 @@
     "cheatsheets"
    ],
    "license": "MIT",
-   "stars": 253316,
+   "stars": 255227,
    "cost": "free",
    "relevance": [
     "general"
@@ -321,7 +321,7 @@
    "source": "research 2026-10-24: awesome lists",
    "extra": {
     "pushedAt": "2024-11-19",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -340,7 +340,7 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 190417,
+   "stars": 191627,
    "cost": "free",
    "relevance": [
     "general"
@@ -349,8 +349,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -369,7 +369,7 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 67270,
+   "stars": 67338,
    "cost": "free",
    "relevance": [
     "general"
@@ -379,7 +379,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-09-02",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -398,7 +398,7 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 74034,
+   "stars": 74162,
    "cost": "free",
    "relevance": [
     "general"
@@ -407,8 +407,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-31",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -426,7 +426,7 @@
     "directory"
    ],
    "license": "unclear (badge says CC0, links CC BY 4.0; no LICENSE file)",
-   "stars": 75060,
+   "stars": 75134,
    "cost": "free",
    "relevance": [
     "general"
@@ -436,7 +436,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-09-04",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -455,7 +455,7 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 48739,
+   "stars": 48786,
    "cost": "free",
    "relevance": [
     "general"
@@ -465,7 +465,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-01-26",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -484,7 +484,7 @@
     "list-of-lists"
    ],
    "license": "CC0-1.0",
-   "stars": 123663,
+   "stars": 124381,
    "cost": "free",
    "relevance": [
     "general"
@@ -493,8 +493,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
-    "pushedAt": "2026-07-26",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-27",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -512,7 +512,7 @@
     "papers"
    ],
    "license": "none stated",
-   "stars": 110906,
+   "stars": 111122,
    "cost": "free",
    "relevance": [
     "general"
@@ -521,8 +521,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
-    "pushedAt": "2026-09-29",
-    "checkedAt": "2026-10-26"
+    "pushedAt": "2026-10-28",
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -540,7 +540,7 @@
     "design-patterns"
    ],
    "license": "CC0-1.0",
-   "stars": 49504,
+   "stars": 49588,
    "cost": "free",
    "relevance": [
     "general"
@@ -550,7 +550,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2024-10-25",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -565,7 +565,7 @@
    "why": "The paid/free tags save time, but no licence file and no updates since April, so some links will be stale. The library's own asset-source entries already carry checked licences.",
    "tags": [],
    "license": null,
-   "stars": 7110,
+   "stars": 7133,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -573,7 +573,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-04-10",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -588,7 +588,7 @@
    "why": "Good map of research-grade AI tools by category, but mostly papers and repos with no quality or licence review, many needing big GPUs. Not updated since July.",
    "tags": [],
    "license": "MIT",
-   "stars": 1374,
+   "stars": 1379,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -596,7 +596,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-07-21",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -611,7 +611,7 @@
    "why": "Mostly links to other lists, in Chinese, with no descriptions or licence notes. Kavex/GameDev-Resources covers the English side better.",
    "tags": [],
    "license": null,
-   "stars": 2005,
+   "stars": 2012,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -619,7 +619,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-05-25",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {
@@ -634,7 +634,7 @@
    "why": "Unusually deep on running a studio and live operations, not just code. Written in Chinese, so read it through translation or ask Claude to summarise a topic.",
    "tags": [],
    "license": "MIT",
-   "stars": 6635,
+   "stars": 6656,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -642,7 +642,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-10-17",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-02"
    }
   },
   {

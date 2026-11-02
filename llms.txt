@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.01+28b118535f5e, 2801 items, updated 2026-11-01.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.01+b0b0fc7a63a3, 2801 items, updated 2026-11-01.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
