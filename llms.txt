@@ -1,6 +1,6 @@
 # Nunna's AI Library
 
-> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.01+b0b0fc7a63a3, 2801 items, updated 2026-11-01.
+> Curated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools. Every curated entry has a verdict (adopt | have | trial | assess | reference | skip) and a one-line why. Version 2026.11.02+4e5c6e40daf7, 2812 items, updated 2026-11-02.
 
 How to use this repo as an AI assistant:
 - Before recommending or researching a tool, look it up here first (MCP tool `why`, or search dist/library.json).
@@ -26,7 +26,7 @@ How to use this repo as an AI assistant:
 - directories: Directories & registries (26) — Where to discover more: MCP registries, awesome-lists, skill and plugin marketplaces.
 - web-tools: Web research tools (68) — Research/scrape/archive tools with keep/avoid verdicts.
 - design-resources: Design resources (39) — Template libraries, UI kits and design references.
-- assessments: Deep assessments (17) — Repos and models evaluated in depth, with warnings and what to steal.
+- assessments: Deep assessments (28) — Repos and models evaluated in depth, with warnings and what to steal.
 - skill-capabilities: Skill capabilities (20) — What specific skills unlock and what manual work they remove.
 - api-recipes: API recipes (15) — Combinations of public APIs that make a content product.
 - compliance: Compliance rules (15) — Platform/legal rules that constrain content and monetization.
@@ -268,6 +268,7 @@ How to use this repo as an AI assistant:
 - Ghidra [assessments/reverse-engineering] https://github.com/NationalSecurityAgency/ghidra
 - GhidraMCP [assessments/reverse-engineering] https://github.com/LaurieWired/GhidraMCP
 - mitmproxy [assessments/reverse-engineering] https://github.com/mitmproxy/mitmproxy
+- jadx (Android APK to Java decompiler) [assessments/reverse-engineering] https://github.com/skylot/jadx
 - Dataroma [investing-research/Holdings & insider trades] https://www.dataroma.com
 - Capitol Trades [investing-research/Holdings & insider trades] https://www.capitoltrades.com
 - OpenInsider [investing-research/Holdings & insider trades] http://openinsider.com

@@ -247,11 +247,12 @@ mindmap
         21st.dev
       HTML/CSS, Tailwind, React, Figma copy · 1
         Uiverse
-    assessments[Deep assessments · 17]
-      reverse-engineering · 10
+    assessments[Deep assessments · 28]
+      reverse-engineering · 21
         Ghidra
         GhidraMCP
         mitmproxy
+        jadx Android APK to Java decompiler
       deep-assessment · 5
         Jev ecosystem agents/memory/safety/tools/open mo
       hardware · 1

@@ -860,3 +860,16 @@ Every library change is logged here by `scripts/add.mjs`.
 - added skill-vibe-knowledge-film -> skills
 - added skill-story-studio -> skills
 - added skill-video-editor-skills -> skills
+
+## 2026-11-03 — research 2026-11-02: reverse-engineering stack
+- added re-ida-pro-mcp -> assessments
+- added re-jadx -> assessments
+- added re-apktool -> assessments
+- added re-radare2 -> assessments
+- added re-rizin -> assessments
+- added re-x64dbg -> assessments
+- added re-angr -> assessments
+- added re-dnspyex -> assessments
+- added re-raddebugger -> assessments
+- added dir-awesome-ai-reverse-engineering -> assessments
+- added dir-awesome-reverse-engineering-morluto -> assessments
