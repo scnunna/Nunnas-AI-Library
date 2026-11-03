@@ -3989,6 +3989,25 @@
     "pushedAt": "2026-10-29",
     "checkedAt": "2026-11-02"
    }
+  },
+  {
+   "id": "tool-camera-to-blender",
+   "name": "Camera to Blender (phone photo to 3D model)",
+   "kind": "repo",
+   "category": "3d-ai",
+   "url": "https://github.com/ahujasid/camera-to-blender",
+   "description": "Small Python relay plus phone web app and Blender add-on: photograph an object with your phone, optionally remove the background with Gemini, send it to the Tripo3D API, and the finished model is auto-imported into Blender over a WebSocket in about 30-60 s. Needs Python 3.10+, Blender 3.0+, a Tripo3D API key (required, paid credits), and an HTTPS tunnel for the phone camera (ngrok in the README). By the Blender MCP author; one commit, 2026-09-05.",
+   "verdict": "assess",
+   "verdictNote": "assess: fun demo; the generation itself is a paid Tripo call",
+   "why": "Quick way to turn real props into rough game or product-demo models, but each model is a Tripo API charge and the repo is a one-commit demo. Use Tailscale Serve instead of ngrok for the phone, or skip it and use StableGen with TRELLIS.2 locally once the 24 GB GPU arrives.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 34,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-03",
+   "source": "research 2026-11-03: camera-to-blender"
   }
  ]
 }

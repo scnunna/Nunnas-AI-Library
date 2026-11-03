@@ -873,3 +873,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added re-raddebugger -> assessments
 - added dir-awesome-ai-reverse-engineering -> assessments
 - added dir-awesome-reverse-engineering-morluto -> assessments
+
+## 2026-11-03 — research 2026-11-03: camera-to-blender
+- added tool-camera-to-blender -> agent-tools
