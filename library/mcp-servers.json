@@ -916,6 +916,25 @@
    "verified": false,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28"
+  },
+  {
+   "id": "mcp-heypcb",
+   "name": "heypcb-mcp",
+   "kind": "mcp",
+   "category": "electronics",
+   "url": "https://github.com/HeyPCB/heypcb-mcp",
+   "description": "MCP server (npx -y @heypcb/mcp) that lets Claude Code, Codex, Cursor and claude.ai drive heypcb as a PCB engineer; example boards built with it include an ESP32-S3 DevKitC-1 clone and a small 8051 computer. Account and plan requirements not confirmed.",
+   "verdict": "assess",
+   "verdictNote": "assess: young (16 stars); try after the web app",
+   "why": "Lets Claude design boards from the same chat as the firmware, but it is new and likely tied to a heypcb account and plan. Prove the web app on one board first.",
+   "tags": [],
+   "license": "MIT",
+   "stars": 16,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-03",
+   "source": "research 2026-11-03: heypcb"
   }
  ]
 }

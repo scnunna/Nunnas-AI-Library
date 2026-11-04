@@ -876,3 +876,7 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-03 — research 2026-11-03: camera-to-blender
 - added tool-camera-to-blender -> agent-tools
+
+## 2026-11-04 — research 2026-11-03: heypcb
+- added tool-heypcb -> agent-tools
+- added mcp-heypcb -> mcp-servers

@@ -4008,6 +4008,25 @@
    "verified": true,
    "asOf": "2026-11-03",
    "source": "research 2026-11-03: camera-to-blender"
+  },
+  {
+   "id": "tool-heypcb",
+   "name": "heypcb (AI PCB designer + Circuit World board gallery)",
+   "kind": "web-tool",
+   "category": "electronics",
+   "url": "https://heypcb.ai/",
+   "description": "KiCad-native AI PCB design app: describe a board in plain language and its agent (Inky) places parts, routes copper and keeps schematic and PCB in sync on real KiCad files, with DRC/ERC before export of Gerbers, drill, BOM and pick-and-place files; download the full project; optional tutoring mode; order boards through it. The Explore page (Circuit World) is a gallery of published and GitHub-imported boards: ESP32-S3 dev and sensor boards, power and charging boards, an FPV flight controller, robot boards (Open Duck Mini, Petoi Nybble), LED art. The explore page blocks automated reading, so the gallery itself wasn't reviewed directly.",
+   "verdict": "trial",
+   "verdictNote": "trial: starting point for ESP32, power and robot boards; always review before ordering",
+   "why": "Fits the smartwatch, IoT and actuator work: start from an existing open board instead of a blank schematic, and the output is standard KiCad you own. Liability for design faults stays with you, so check every board (or have one reviewed) before paying for fabrication. CERN-OHL-S boards require you to share your changes if you sell hardware built on them.",
+   "tags": [],
+   "license": "Service terms: you own your designs; boards published to the gallery are free for anyone to view, copy, modify and build on; GitHub imports keep their own licence (many HeyPCB boards are CERN-OHL-S-2.0)",
+   "stars": null,
+   "cost": "free trial (one board of AI work); paid plans auto-renew; board ordering available",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-03",
+   "source": "research 2026-11-03: heypcb"
   }
  ]
 }
