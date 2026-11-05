@@ -887,3 +887,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added mcp-unreal-mcp-epic-official-plugin -> mcp-servers
 - added tool-dynamic-parkour-trace-system-fab -> agent-tools
 - added tool-actorcore-parkour-motion-pack -> agent-tools
+
+## 2026-11-05 — research 2026-11-04: runtime AI for games
+- added tool-convai -> agent-tools
+- added tool-inworld-ai -> agent-tools

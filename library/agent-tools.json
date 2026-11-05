@@ -4103,6 +4103,44 @@
    "verified": false,
    "asOf": "2026-11-05",
    "source": "research 2026-11-04: third-person parkour game engines and animation"
+  },
+  {
+   "id": "tool-convai",
+   "name": "Convai",
+   "kind": "tool",
+   "category": "game-ai",
+   "url": "https://aitoolsatlas.ai/tools/convai/pricing",
+   "description": "AI NPC platform with native plugins for Unreal Engine, Unity and three.js.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Ready-made route to talking NPCs in Unreal with MetaHuman support, but listed prices conflict across third-party sites. Check the vendor page, and compare with a direct LLM plus text-to-speech build first.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-05",
+   "source": "research 2026-11-04: runtime AI for games"
+  },
+  {
+   "id": "tool-inworld-ai",
+   "name": "Inworld AI",
+   "kind": "tool",
+   "category": "game-ai",
+   "url": "https://www.eesel.ai/blog/inworld-ai-pricing",
+   "description": "AI character and voice platform, reportedly refocused from plug-and-play NPC tools to AI infrastructure.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Well-known AI NPC name, but one source says it moved towards B2B AI infrastructure and it lacks a clear public price for its character engine. Confirm current direction before relying on it for NPCs.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-05",
+   "source": "research 2026-11-04: runtime AI for games"
   }
  ]
 }
