@@ -935,6 +935,25 @@
    "verified": true,
    "asOf": "2026-11-03",
    "source": "research 2026-11-03: heypcb"
+  },
+  {
+   "id": "mcp-unreal-mcp-epic-official-plugin",
+   "name": "Unreal MCP (Epic official plugin)",
+   "kind": "mcp",
+   "category": "game-engine-agents",
+   "url": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor?lang=en-US",
+   "description": "MCP server embedded in the UE 5.8 editor. Tools cover actors, lighting, material instances, Slate inspection and automation tests; toolsets are extensible.",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "First-party route for agents to drive the Unreal Editor over local HTTP; start here for a PC 3D title and add toolsets as needed. Experimental in UE 5.8, with narrower tool coverage than third-party servers.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-05",
+   "source": "research 2026-11-04: third-person parkour game engines and animation"
   }
  ]
 }

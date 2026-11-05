@@ -880,3 +880,10 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-04 — research 2026-11-03: heypcb
 - added tool-heypcb -> agent-tools
 - added mcp-heypcb -> mcp-servers
+
+## 2026-11-05 — research 2026-11-04: third-person parkour game engines and animation
+- added tool-uthana -> agent-tools
+- added tool-sbox -> agent-tools
+- added mcp-unreal-mcp-epic-official-plugin -> mcp-servers
+- added tool-dynamic-parkour-trace-system-fab -> agent-tools
+- added tool-actorcore-parkour-motion-pack -> agent-tools

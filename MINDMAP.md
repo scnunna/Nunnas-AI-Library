@@ -64,8 +64,8 @@ mindmap
         ComfyUI-Manager
         ComfyUI-VideoHelperSuite
       comics · 7
-    mcp-servers[MCP servers · 38]
-      game-engine-agents · 9
+    mcp-servers[MCP servers · 39]
+      game-engine-agents · 10
       mcp-browser · 2
         microsoft/playwright-mcp
         ChromeDevTools/chrome-devtools-mcp
@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 165]
+    agent-tools[Agent tools & frameworks · 169]
       tools · 11
         firecrawl
         context7
