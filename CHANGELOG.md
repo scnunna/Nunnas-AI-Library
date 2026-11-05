@@ -897,3 +897,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-freeflow-combat-game-formation -> agent-tools
 - added content-kimodo-nvidia -> content-tools
 - added tool-parkour-animation-set-vol-2-threepeat-games -> agent-tools
+
+## 2026-11-05 — research 2026-11-04: game crowdfunding platforms
+- added tool-kickstarter -> agent-tools
+- added tool-backerkit-crowdfunding -> agent-tools
