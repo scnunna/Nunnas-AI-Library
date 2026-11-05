@@ -891,3 +891,9 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-05 — research 2026-11-04: runtime AI for games
 - added tool-convai -> agent-tools
 - added tool-inworld-ai -> agent-tools
+
+## 2026-11-05 — research 2026-11-04: live Fab and vendor prices
+- updated tool-uthana
+- added tool-freeflow-combat-game-formation -> agent-tools
+- added content-kimodo-nvidia -> content-tools
+- added tool-parkour-animation-set-vol-2-threepeat-games -> agent-tools

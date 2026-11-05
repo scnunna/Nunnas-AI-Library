@@ -8659,6 +8659,25 @@
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: 3D scene code model"
+  },
+  {
+   "id": "content-kimodo-nvidia",
+   "name": "Kimodo (NVIDIA)",
+   "kind": "model",
+   "category": "game-animation",
+   "url": "https://arxiv.org/abs/2603.15546",
+   "description": "Controllable text-to-motion model for characters and humanoid robots, released March 2026.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Free offline motion authoring with root motion, worth testing for filler clips. Licence claims conflict between sources, and parkour quality is unproven.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-05",
+   "source": "research 2026-11-04: live Fab and vendor prices"
   }
  ]
 }
