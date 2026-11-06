@@ -906,3 +906,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-quaternius-universal-animation-library-1-2 -> agent-tools
 - updated content-mixamo
 - added tool-kaykit-character-animations -> agent-tools
+
+## 2026-11-06 — claude session
+- added tool-gemini-api-image-models-nano-banana-family -> agent-tools

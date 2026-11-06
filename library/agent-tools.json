@@ -4255,6 +4255,25 @@
    "verified": true,
    "asOf": "2026-11-06",
    "source": "claude session"
+  },
+  {
+   "id": "tool-gemini-api-image-models-nano-banana-family",
+   "name": "Gemini API image models (Nano Banana family)",
+   "kind": "tool",
+   "category": "Image generation",
+   "url": "https://aistudio.google.com/docs/pricing",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": "use",
+   "why": "Best prompt-following and reference-image consistency for character sheets. NO API free tier for image models. Per 1K image: Nano Banana 2.1 / 2 Lite $0.0336 (batch $0.0168), Nano Banana 2 $0.067, Nano Banana Pro $0.134 (4K $0.24); 2.5 Flash Image deprecated, shuts down 2027-03-15. Prices from Google's pricing page, read 2026-11-06",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-06",
+   "source": "claude session"
   }
  ]
 }
