@@ -2984,12 +2984,12 @@
    "id": "content-mixamo",
    "name": "Mixamo",
    "kind": "web-tool",
-   "category": "game-animation",
+   "category": "Game assets",
    "url": "https://www.mixamo.com",
    "description": "Adobe's free auto-rigger and animation library: upload a humanoid character, get a rig and apply animations in one click; FBX export.",
-   "verdict": "adopt",
-   "verdictNote": null,
-   "why": "Free with an Adobe ID and royalty-free for personal, commercial and non-profit projects including video games (Adobe FAQ). Not available to Enterprise/Federated IDs or China accounts. The FAQ (last updated 2021) does not cover redistributing raw files or AI training: use it to animate characters, never as model-training data. Humanoids only.",
+   "verdict": "assess",
+   "verdictNote": "use with care",
+   "why": "Free auto-rigger + large mocap library (incl. climbing/ledge clips); commercial games allowed per Adobe's 2022 FAQ, but no redistribution of raw files, so pack clips inside the game's model files; needs Adobe account; re-check terms",
    "tags": [
     "auto-rig",
     "character-animation",
@@ -3002,8 +3002,8 @@
     "games",
     "content-studio"
    ],
-   "verified": true,
-   "asOf": "2026-10-16",
+   "verified": false,
+   "asOf": "2026-11-06",
    "source": "research 2026-10-16: game assets and engines"
   },
   {

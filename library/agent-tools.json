@@ -4217,6 +4217,44 @@
    "verified": false,
    "asOf": "2026-11-05",
    "source": "research 2026-11-04: game crowdfunding platforms"
+  },
+  {
+   "id": "tool-quaternius-universal-animation-library-1-2",
+   "name": "Quaternius Universal Animation Library 1 & 2",
+   "kind": "tool",
+   "category": "Game assets",
+   "url": "https://quaternius.com/packs/universalanimationlibrary2.html",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": "use",
+   "why": "CC0 humanoid animation kits (120+ and 130+ clips: locomotion, parkour, melee, swim) on one retargetable rig for Unreal/Unity/Godot/glTF; about 60-70% free, .blend source paid",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-06",
+   "source": "claude session"
+  },
+  {
+   "id": "tool-kaykit-character-animations",
+   "name": "KayKit Character Animations",
+   "kind": "tool",
+   "category": "Game assets",
+   "url": "https://kaylousberg.itch.io/kaykit-character-animations",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": "use",
+   "why": "Free CC0 animation set for KayKit characters, retargetable to other humanoids; pairs with CC0 KayKit Adventurers pack",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-06",
+   "source": "claude session"
   }
  ]
 }
