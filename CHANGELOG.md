@@ -909,3 +909,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-06 — claude session
 - added tool-gemini-api-image-models-nano-banana-family -> agent-tools
+
+## 2026-11-07 — Mixamo catalog review 2026-11-07
+- updated content-mixamo

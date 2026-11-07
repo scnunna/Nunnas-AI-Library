@@ -2986,10 +2986,10 @@
    "kind": "web-tool",
    "category": "Game assets",
    "url": "https://www.mixamo.com",
-   "description": "Adobe's free auto-rigger and animation library: upload a humanoid character, get a rig and apply animations in one click; FBX export.",
+   "description": "Adobe's free auto-rigger and animation library: upload a humanoid character, get a rig and apply animations in one click; FBX export. Strongest sets for action games: Great Sword (two-handed), boxing/MMA/Capoeira strikes and escapes, leg sweeps, paired takedown clips (attacker + victim), climbing and braced-hang, creature/mutant pack.",
    "verdict": "assess",
    "verdictNote": "use with care",
-   "why": "Free auto-rigger + large mocap library (incl. climbing/ledge clips); commercial games allowed per Adobe's 2022 FAQ, but no redistribution of raw files, so pack clips inside the game's model files; needs Adobe account; re-check terms",
+   "why": "Free humanoid auto-rigger + ~2,484 motions and 40 motion packs (Combat 605, Adventure 384, Sport 287, Fantasy 180, Dance 147, Superhero 36, Zombie 35 per its genre filter, Nov 2026); humanoid only (no quadrupeds); commercial in-game use allowed, raw files may not be redistributed; exports rate-limit after ~25 quick requests",
    "tags": [
     "auto-rig",
     "character-animation",
@@ -3002,9 +3002,10 @@
     "games",
     "content-studio"
    ],
-   "verified": false,
-   "asOf": "2026-11-06",
-   "source": "research 2026-10-16: game assets and engines"
+   "verified": true,
+   "asOf": "2026-11-07",
+   "source": "research 2026-10-16: game assets and engines",
+   "collection": "content-tools"
   },
   {
    "id": "content-babylon-js",
