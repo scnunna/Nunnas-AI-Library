@@ -912,3 +912,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-07 — Mixamo catalog review 2026-11-07
 - updated content-mixamo
+
+## 2026-11-08 — research 2026-11-08: English exam prep build
+- added tool-kokoro-onnx -> agent-tools
