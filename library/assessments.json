@@ -20,7 +20,7 @@
    ],
    "tags": [],
    "license": null,
-   "stars": 2335,
+   "stars": 2434,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -33,7 +33,7 @@
      "Apply the selection loop to extraction accuracy, listings and content - not to a live account"
     ],
     "pushedAt": "2026-09-22",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -50,7 +50,7 @@
    ],
    "tags": [],
    "license": "MIT",
-   "stars": 335,
+   "stars": 349,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -63,7 +63,7 @@
      "Revisit when WebGPU support is broad enough that no fallback is needed"
     ],
     "pushedAt": "2026-09-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -148,7 +148,7 @@
    ],
    "tags": [],
    "license": "CERN-OHL-P (hardware) + MIT (software)",
-   "stars": 27259,
+   "stars": 27341,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -174,7 +174,7 @@
      "caution": "Keep wording descriptive; a movement and breathing-rate sensor is not a medical device and must not be sold as one"
     },
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -251,7 +251,7 @@
    "why": "Champion + saturation stop: keep the best build seen; stop after 3 checkpoints with no improvement. Apply to every swarm self-improve loop (Printables, finance-education shorts, indie web-game polish) - caps token spend and prevents late rounds undoing earlier gains Independent verifier: the agent that checks a change is not the one that made it, and must test for regressions, not just 'did it work' 'Silence does not write' checklist: an item not observed this round keeps its status; only evidence moves it. Fixes oscillating scores from noisy LLM judges (they measured 10% of items flipping between readings of the same trace) One objective per round: diagnose the single place with most headroom, edit against that only Cost metering through one loopback proxy that logs every call (prompt/completion/cached/reasoning tokens, dollars). A LiteLLM router with a cost-logging table already does the same; confirm cached and reasoning tokens are captured Hygiene to copy into Claude Code handoff: 'rsigame check' preflight before a run; test that scans the repo for secrets/personal paths; test that resolves every import including those inside functions; 3-layer config (defaults -> experiment -> env)",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 169,
+   "stars": 170,
    "cost": null,
    "relevance": [
     "general"
@@ -271,7 +271,7 @@
      "Dependency licences checked: GameCraft-Bench Apache-2.0, OpenGame Apache-2.0 (per authors' NOTICE, not independently opened)"
     ],
     "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -286,7 +286,7 @@
    "why": "One MCP instead of five separate bridges Commercial tools (IDA, Hopper, JEB) are optional and must be bought separately",
    "tags": [],
    "license": "MIT",
-   "stars": 420473,
+   "stars": 445126,
    "cost": null,
    "relevance": [
     "general"
@@ -300,8 +300,8 @@
      "Runtime capture runs the target with your user permissions: never on a production server or a machine with API keys",
      "Decompiled code you send to the agent goes to the model provider"
     ],
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -316,7 +316,7 @@
    "why": "Audit your own builds and firmware",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 96960,
+   "stars": 98912,
    "cost": null,
    "relevance": [
     "general"
@@ -328,8 +328,8 @@
     "warnings": [
      "Large Java install; keep in the VM"
     ],
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -344,7 +344,7 @@
    "why": "Simpler than REA; fewer moving parts",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 11701,
+   "stars": 11851,
    "cost": null,
    "relevance": [
     "general"
@@ -357,7 +357,7 @@
      "HTTP server has no stated authentication: keep it on localhost"
     ],
     "pushedAt": "2026-10-10",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -372,7 +372,7 @@
    "why": "Debug your own Public API MCP and n8n calls See exactly what the IoT devices, games and apps send (privacy claims, hidden telemetry in tools you install) Consulting: authorised traffic reviews",
    "tags": [],
    "license": "MIT",
-   "stars": 46557,
+   "stars": 46745,
    "cost": null,
    "relevance": [
     "general"
@@ -385,8 +385,8 @@
      "Install its certificate only on test devices; remove after",
      "Do not use it to lift other services' private APIs into the catalogue"
     ],
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-04",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -401,7 +401,7 @@
    "why": "Inspect save files and asset formats of your own games",
    "tags": [],
    "license": "GPL-2.0",
-   "stars": 55571,
+   "stars": 55796,
    "cost": null,
    "relevance": [
     "general"
@@ -414,7 +414,7 @@
      "GPL: fine to use, careful if you ever ship code derived from it"
     ],
     "pushedAt": "2026-10-09",
-    "checkedAt": "2026-10-26"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -429,7 +429,7 @@
    "why": "Check what your own Unity/.NET builds expose if indie web-game ever ships one",
    "tags": [],
    "license": "MIT",
-   "stars": 26910,
+   "stars": 27021,
    "cost": null,
    "relevance": [
     "general"
@@ -441,8 +441,8 @@
     "warnings": [
      "Decompiling other people's games to copy code is infringement"
     ],
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -457,7 +457,7 @@
    "why": "Runtime tests of your own apps",
    "tags": [],
    "license": null,
-   "stars": 22602,
+   "stars": 22722,
    "cost": null,
    "relevance": [
     "general"
@@ -469,8 +469,8 @@
     "warnings": [
      "Licence not named on the repo page; injection into apps you do not own breaks their terms"
     ],
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -485,7 +485,7 @@
    "why": "Security review of an app you build or a client asks you to test",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 8615,
+   "stars": 8687,
    "cost": null,
    "relevance": [
     "general"
@@ -498,7 +498,7 @@
      "Using it to find another company's private API and then calling it breaks their terms and can break Canadian law; never feed results into the public API catalogue"
     ],
     "pushedAt": "2026-10-12",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -513,7 +513,7 @@
    "why": "Engine knowledge for indie web-game 3D move Possible content idea: 'AI mods a classic' videos, only for games whose EULA allows mods",
    "tags": [],
    "license": "MIT",
-   "stars": 9325,
+   "stars": 9542,
    "cost": null,
    "relevance": [
     "general"
@@ -526,8 +526,8 @@
      "fal asset generation costs money (price not stated)",
      "Respect each game's EULA; single-player only"
     ],
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -542,7 +542,7 @@
    "why": "",
    "tags": [],
    "license": "MIT",
-   "stars": 3083,
+   "stars": 3094,
    "cost": null,
    "relevance": [
     "general"
@@ -554,8 +554,8 @@
     "warnings": [
      "Major rewrite in progress"
     ],
-    "pushedAt": "2026-09-15",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -570,12 +570,16 @@
    "why": "Ghidra + GhidraMCP (both adopted) do the same job for free. If IDA is ever bought, use the official Hex-Rays MCP, not this one.",
    "tags": [],
    "license": "MIT",
-   "stars": null,
+   "stars": 13416,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-09-26",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-jadx",
@@ -589,12 +593,16 @@
    "why": "Check what your own Android builds (Fitness Gym, Godot exports) expose, such as leftover keys or endpoints, before you publish them. Use only on apps you own or are authorised to test.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": null,
+   "stars": 51710,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-apktool",
@@ -608,12 +616,16 @@
    "why": "jadx is enough for reading an app; Apktool matters only when you must change and repackage one (for example, testing your own build). Its author warns against piracy use.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": null,
+   "stars": 27113,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-radare2",
@@ -627,12 +639,16 @@
    "why": "A command-line tool with a steep learning curve. Ghidra's GUI plus GhidraMCP is the better fit for a no-code-first workflow; keep radare2 for when REA or an agent needs a scriptable backend.",
    "tags": [],
    "license": "LGPL-3.0 (mostly; see COPYING.md)",
-   "stars": null,
+   "stars": 25370,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-rizin",
@@ -646,12 +662,16 @@
    "why": "Same job as radare2 with a friendlier GUI (Cutter). Not needed alongside Ghidra.",
    "tags": [],
    "license": "LGPL-3.0 (see COPYING)",
-   "stars": null,
+   "stars": 4163,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-x64dbg",
@@ -665,12 +685,16 @@
    "why": "Useful for debugging a misbehaving Windows program on the laptop or VPS (Sierra Chart add-ons, your own builds). Not a daily tool.",
    "tags": [],
    "license": "GPL-3.0",
-   "stars": null,
+   "stars": 50253,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-angr",
@@ -684,12 +708,16 @@
    "why": "Powerful for security research but requires Python coding and deep RE knowledge; nothing in the current ventures needs it.",
    "tags": [],
    "license": "BSD-2-Clause",
-   "stars": null,
+   "stars": 9356,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-dnspyex",
@@ -703,12 +731,16 @@
    "why": "ILSpy (already assessed) covers read-only .NET checks; dnSpyEx adds debugging and editing, mainly useful for Unity builds, which you don't ship today.",
    "tags": [],
    "license": "GPL-3.0",
-   "stars": null,
+   "stars": 11453,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "re-raddebugger",
@@ -722,12 +754,16 @@
    "why": "A source-level debugger for people writing native game engines in C/C++, not a reverse-engineering tool. Godot work doesn't need it.",
    "tags": [],
    "license": "MIT",
-   "stars": null,
+   "stars": 8802,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "dir-awesome-ai-reverse-engineering",
@@ -741,12 +777,16 @@
    "why": "The quickest way to find new agent-driven RE tools; check here before researching one from scratch.",
    "tags": [],
    "license": "CC0-1.0",
-   "stars": null,
+   "stars": 93,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
+   }
   },
   {
    "id": "dir-awesome-reverse-engineering-morluto",
@@ -760,12 +800,16 @@
    "why": "Organised by the job you need to do (firmware, protocol, file format), which helps for IoT and robotics work. Note it promotes the authors' own REA.",
    "tags": [],
    "license": "CC0 (Creative Commons)",
-   "stars": null,
+   "stars": 1978,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-02",
-   "source": "research 2026-11-02: reverse-engineering stack"
+   "source": "research 2026-11-02: reverse-engineering stack",
+   "extra": {
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
+   }
   }
  ]
 }

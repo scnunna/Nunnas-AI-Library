@@ -15,7 +15,7 @@
    "why": "AGPL-3.0 covers the software, not generated audio; do not embed in a hosted paid service without source release Each speech model has its own licence; review before commercial use Shares the 8GB card with ComfyUI; queue audio and image jobs Clone only your own voice or with written permission",
    "tags": [],
    "license": "AGPL-3.0",
-   "stars": 98388,
+   "stars": 105457,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -29,8 +29,8 @@
      "ElevenLabs (final voiceover, recurring cost)",
      "Whisper (planned transcription)"
     ],
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -95,7 +95,7 @@
     "automation"
    ],
    "license": "Sustainable Use License",
-   "stars": 209339,
+   "stars": 209892,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -106,8 +106,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -125,7 +125,7 @@
     "red-team"
    ],
    "license": "MIT",
-   "stars": 26734,
+   "stars": 26979,
    "cost": "free",
    "relevance": [
     "content-studio",
@@ -135,8 +135,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -154,7 +154,7 @@
     "api"
    ],
    "license": "GPL-3.0",
-   "stars": 144572,
+   "stars": 145886,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -165,8 +165,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -185,7 +185,7 @@
     "t2v"
    ],
    "license": "Apache-2.0",
-   "stars": 18315,
+   "stars": 18481,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -196,7 +196,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-09-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -214,7 +214,7 @@
     "fast"
    ],
    "license": "Apache-2.0",
-   "stars": 11276,
+   "stars": 11346,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -224,8 +224,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-01-05",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -243,7 +243,7 @@
     "audio"
    ],
    "license": "see repo LICENSE files",
-   "stars": 10028,
+   "stars": 10156,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -252,8 +252,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-18",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -300,7 +300,7 @@
     "all-in-one"
    ],
    "license": "see LICENSE.txt",
-   "stars": 11315,
+   "stars": 11533,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -310,8 +310,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -329,7 +329,7 @@
     "video"
    ],
    "license": "Apache-2.0",
-   "stars": 6802,
+   "stars": 6813,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -339,7 +339,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-05-24",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -357,7 +357,7 @@
     "low-vram"
    ],
    "license": "Apache-2.0",
-   "stars": 4221,
+   "stars": 4237,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -368,7 +368,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-01-12",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -385,7 +385,7 @@
     "manager"
    ],
    "license": "GPL-3.0",
-   "stars": 16691,
+   "stars": 16778,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -394,8 +394,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -412,7 +412,7 @@
     "video-io"
    ],
    "license": "GPL-3.0",
-   "stars": 1908,
+   "stars": 1914,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -422,7 +422,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-09-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -439,7 +439,7 @@
     "interpolation"
    ],
    "license": "MIT",
-   "stars": 1092,
+   "stars": 1094,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -449,7 +449,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-03-29",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -466,7 +466,7 @@
     "animatediff"
    ],
    "license": "Apache-2.0",
-   "stars": 3564,
+   "stars": 3565,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -476,7 +476,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-07-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -494,7 +494,7 @@
     "edit"
    ],
    "license": "Apache-2.0 repo; 4B Apache, 9B non-commercial",
-   "stars": 2832,
+   "stars": 2861,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -505,7 +505,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-03-12",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -522,7 +522,7 @@
     "upscale"
    ],
    "license": "BSD-3-Clause",
-   "stars": 37318,
+   "stars": 37415,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -533,7 +533,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2024-08-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -550,7 +550,7 @@
     "matting"
    ],
    "license": "MIT (models vary)",
-   "stars": 25293,
+   "stars": 25396,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -560,8 +560,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -579,7 +579,7 @@
     "cpu"
    ],
    "license": "Apache-2.0",
-   "stars": 9861,
+   "stars": 10005,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -590,7 +590,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2025-08-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -608,7 +608,7 @@
     "clone"
    ],
    "license": "MIT",
-   "stars": 27504,
+   "stars": 27697,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -618,8 +618,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-07-21",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-04",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -637,7 +637,7 @@
     "clone"
    ],
    "license": "MIT code / CC-BY-NC weights",
-   "stars": 15502,
+   "stars": 15537,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -646,8 +646,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-23",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-03",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -693,7 +693,7 @@
     "comfyui"
    ],
    "license": "MIT (most sources)",
-   "stars": 14288,
+   "stars": 14547,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -705,8 +705,8 @@
     "pricePerAsset": "$0",
     "vram": "unknown for XL",
     "released": "2026-01 / XL 2026-04",
-    "pushedAt": "2026-10-11",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -724,7 +724,7 @@
     "align"
    ],
    "license": "BSD-2-Clause",
-   "stars": 25006,
+   "stars": 25165,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -735,7 +735,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-10-22",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -752,7 +752,7 @@
     "asr"
    ],
    "license": "MIT",
-   "stars": 26393,
+   "stars": 26608,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -761,8 +761,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-31",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -780,7 +780,7 @@
     "subtitles"
    ],
    "license": "MIT",
-   "stars": 6483,
+   "stars": 6515,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -790,7 +790,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -808,7 +808,7 @@
     "shorts"
    ],
    "license": "MIT",
-   "stars": 5721,
+   "stars": 5854,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -818,8 +818,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-24",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -836,7 +836,7 @@
     "clip"
    ],
    "license": "AGPL-3.0",
-   "stars": 2418,
+   "stars": 2715,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -845,8 +845,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-31",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -864,7 +864,7 @@
     "automation"
    ],
    "license": "MIT",
-   "stars": 8099,
+   "stars": 8133,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -874,7 +874,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2025-02-10",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -892,7 +892,7 @@
     "stock-media"
    ],
    "license": "MIT",
-   "stars": 137275,
+   "stars": 141276,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -902,8 +902,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -920,7 +920,7 @@
     "lipsync"
    ],
    "license": "Apache-2.0",
-   "stars": 6236,
+   "stars": 6260,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -930,7 +930,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2025-06-20",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -947,7 +947,7 @@
     "talking-head"
    ],
    "license": "Apache-2.0",
-   "stars": 8239,
+   "stars": 8362,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -957,7 +957,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-05-22",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -975,7 +975,7 @@
     "render"
    ],
    "license": "Remotion licence (free for individuals, for-profit companies up to 3 employees, non-profits and evaluation; company licence above that)",
-   "stars": 69886,
+   "stars": 71861,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -984,8 +984,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1003,7 +1003,7 @@
     "api"
    ],
    "license": "MIT",
-   "stars": 4165,
+   "stars": 4195,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1013,7 +1013,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-07-15",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1030,7 +1030,7 @@
     "animation"
    ],
    "license": "MIT",
-   "stars": 19640,
+   "stars": 19733,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -1041,7 +1041,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-07-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1059,7 +1059,7 @@
     "edit"
    ],
    "license": "MIT",
-   "stars": 15076,
+   "stars": 15132,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1069,7 +1069,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-08-26",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1088,7 +1088,7 @@
     "scheduler"
    ],
    "license": "AGPL-3.0",
-   "stars": 40640,
+   "stars": 41168,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1105,8 +1105,8 @@
      "AI UGC workflow guides (Oct 2026)"
     ],
     "pricing": "Self-host free / cloud paid",
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1123,7 +1123,7 @@
     "scheduler"
    ],
    "license": "MIT",
-   "stars": 3897,
+   "stars": 3917,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1133,7 +1133,7 @@
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-03-16",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1150,7 +1150,7 @@
     "toxicity"
    ],
    "license": "Apache-2.0",
-   "stars": 1312,
+   "stars": 1313,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1159,8 +1159,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
-    "pushedAt": "2026-10-20",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1227,7 +1227,7 @@
     "archived"
    ],
    "license": "Code MIT; model OpenRAIL-M",
-   "stars": 13757,
+   "stars": 13754,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1245,7 +1245,7 @@
      "blockerBeyondVram": null
     },
     "pushedAt": "2026-09-09",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1260,7 +1260,7 @@
    "why": "Works ONLY with MiniMax H3 running locally; the plan uses H3 via API, so the node does nothing for you Local H3 on 8GB is unverified per local-install guides; documented floor is a heavily offloaded 12GB card H3 open-weight licence excludes US/EU/UK/South Korea and reportedly restricts display outside its territory; Canada not excluded, but finance-education Shorts viewed mainly by US audiences may fall outside - read licence before publishing local H3 output 0 stars, last updated early Aug 2026, tested on one machine Author documents progressive audio degradation down a chain (lossy re-encode each hop) and a ~10ms constant audio offset Use instead: Seedance 2.5 30s single takes (fewer joins); API chaining with last frame -> next start image; one continuous VoiceStudio voice track and music added in ffmpeg assembly Trade-off the owner chose: chunks are individually editable; the cost is join artefacts (motion/audio continuity), which this node and last-frame chaining exist to reduce",
    "tags": [],
    "license": "GPL-3.0 (node); MiniMax H3 community licence (model)",
-   "stars": 1333,
+   "stars": 1361,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -1270,7 +1270,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-18",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1287,7 +1287,7 @@
     "fits-8gb"
    ],
    "license": "Apache-2.0",
-   "stars": 77368,
+   "stars": 81321,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1304,8 +1304,8 @@
      "at24GB": "GPU encoding/faster capture possible; not needed",
      "blockerBeyondVram": null
     },
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1322,7 +1322,7 @@
     "fits-8gb"
    ],
    "license": "MIT code; AI Automation Society brand assets not licensed for reuse",
-   "stars": 2496,
+   "stars": 2675,
    "cost": null,
    "relevance": [
     "general"
@@ -1339,7 +1339,7 @@
      "blockerBeyondVram": null
     },
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1354,7 +1354,7 @@
    "why": "788 open issues, 69 open pull requests; the repo page shows no release date",
    "tags": [],
    "license": "MIT",
-   "stars": 32329,
+   "stars": 32384,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -1364,7 +1364,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2025-09-01",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1381,7 +1381,7 @@
     "needs-more-vram"
    ],
    "license": "MIT (code and 4B weights); nvdiffrast/nvdiffrec under NVIDIA's own licences",
-   "stars": 12605,
+   "stars": 12743,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1399,7 +1399,7 @@
      "blockerBeyondVram": "Linux only"
     },
     "pushedAt": "2026-07-10",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1452,7 +1452,7 @@
     "fits-8gb"
    ],
    "license": "Stability AI Community Licence: free under US$1M annual revenue; register; show 'Powered by Stability AI'",
-   "stars": 1918,
+   "stars": 1930,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1470,7 +1470,7 @@
      "blockerBeyondVram": "Stability Community Licence: register, show 'Powered by Stability AI', free under $1M revenue"
     },
     "pushedAt": "2025-01-22",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1487,7 +1487,7 @@
     "needs-more-vram"
    ],
    "license": "Tencent HY-World 2.0 Community Licence (same EU/UK/South Korea exclusion, 1M-user cap, must name the real provider to end users)",
-   "stars": 2814,
+   "stars": 2844,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1505,7 +1505,7 @@
      "blockerBeyondVram": "Same territory licence as Hunyuan"
     },
     "pushedAt": "2026-08-12",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1520,7 +1520,7 @@
    "why": "Terms for publishing on superspl.at not checked",
    "tags": [],
    "license": "MIT",
-   "stars": 10550,
+   "stars": 10617,
    "cost": null,
    "relevance": [
     "games"
@@ -1530,7 +1530,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-31",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1555,7 +1555,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-13",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1570,7 +1570,7 @@
    "why": "React build step, so not for single-file artifacts; heavy 3D hurts mobile load time",
    "tags": [],
    "license": "MIT",
-   "stars": 33427,
+   "stars": 33601,
    "cost": null,
    "relevance": [
     "general"
@@ -1580,7 +1580,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1595,7 +1595,7 @@
    "why": "Unity-only",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 19816,
+   "stars": 19854,
    "cost": null,
    "relevance": [
     "games"
@@ -1605,7 +1605,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1622,7 +1622,7 @@
     "needs-more-vram"
    ],
    "license": "SDK, Maya and UE5 plugins MIT (training framework Apache); models under the NVIDIA Open Model licence; Audio2Emotion models usable only with Audio2Face",
-   "stars": 530,
+   "stars": 551,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1640,7 +1640,7 @@
      "blockerBeyondVram": null
     },
     "pushedAt": "2025-09-24",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1655,7 +1655,7 @@
    "why": "RESEARCH-ONLY licence: cannot be used for commercial games VRAM not stated",
    "tags": [],
    "license": "Ubisoft Machine Learning Licence (Research-Only, copyleft)",
-   "stars": 230,
+   "stars": 233,
    "cost": null,
    "relevance": [
     "content-studio"
@@ -1665,7 +1665,7 @@
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pushedAt": "2025-12-09",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1682,7 +1682,7 @@
     "fits-8gb"
    ],
    "license": "Tencent Hunyuan Community Licence (excludes EU, UK, South Korea; AI content must be labelled)",
-   "stars": 1085,
+   "stars": 1097,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1700,7 +1700,7 @@
      "blockerBeyondVram": "Tencent licence excludes EU/UK/South Korea: skip regardless of VRAM"
     },
     "pushedAt": "2025-09-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1717,7 +1717,7 @@
     "needs-more-vram"
    ],
    "license": "Tencent licence (type not named on the repo page)",
-   "stars": 764,
+   "stars": 766,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1735,7 +1735,7 @@
      "blockerBeyondVram": "Tencent licence"
     },
     "pushedAt": "2025-11-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -1752,7 +1752,7 @@
     "needs-more-vram"
    ],
    "license": "MIT on GitHub, Apache-2.0 on the Hugging Face card (inconsistent)",
-   "stars": 2826,
+   "stars": 2889,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -1770,7 +1770,7 @@
      "blockerBeyondVram": null
     },
     "pushedAt": "2026-10-29",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -2135,7 +2135,7 @@
     "local"
    ],
    "license": "Apache-2.0",
-   "stars": 8445,
+   "stars": 8472,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -2148,7 +2148,7 @@
     "vram": "unknown",
     "released": "unknown",
     "pushedAt": "2026-02-10",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -2798,7 +2798,7 @@
     "codex"
    ],
    "license": "Apache-2.0",
-   "stars": 14088,
+   "stars": 14250,
    "cost": "freemium",
    "relevance": [
     "content-studio"
@@ -2807,8 +2807,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: content-factory list",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -2827,7 +2827,7 @@
     "edge-tts"
    ],
    "license": "AGPL-3.0",
-   "stars": 6014,
+   "stars": 6092,
    "cost": "free",
    "relevance": [
     "content-studio"
@@ -2836,8 +2836,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: content-factory list",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -2855,7 +2855,7 @@
     "tts"
    ],
    "license": "Apache-2.0",
-   "stars": 6770,
+   "stars": 6795,
    "cost": "freemium",
    "relevance": [
     "content-studio"
@@ -2865,7 +2865,7 @@
    "source": "research 2026-10-16: content-factory list",
    "extra": {
     "pushedAt": "2026-05-04",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -2885,7 +2885,7 @@
     "linkedin"
    ],
    "license": "MIT",
-   "stars": 2981,
+   "stars": 3006,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -2895,8 +2895,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: content-factory list",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3024,7 +3024,7 @@
     "browser-games"
    ],
    "license": "Apache-2.0",
-   "stars": 26276,
+   "stars": 26310,
    "cost": "free",
    "relevance": [
     "games"
@@ -3033,8 +3033,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: game assets and engines",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3054,7 +3054,7 @@
     "no-royalties"
    ],
    "license": "MIT",
-   "stars": 119425,
+   "stars": 119847,
    "cost": "free",
    "relevance": [
     "games"
@@ -3063,8 +3063,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: game assets and engines",
    "extra": {
-    "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3085,7 +3085,7 @@
     "speech-bubbles"
    ],
    "license": "MIT",
-   "stars": 8,
+   "stars": 9,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -3095,7 +3095,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2026-07-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3114,7 +3114,7 @@
     "needs-more-vram"
    ],
    "license": "Apache-2.0",
-   "stars": 6491,
+   "stars": 6495,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -3124,7 +3124,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2024-09-26",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3142,7 +3142,7 @@
     "non-commercial"
    ],
    "license": "CC BY-NC 4.0",
-   "stars": 751,
+   "stars": 753,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -3152,7 +3152,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2025-03-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3179,7 +3179,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2025-10-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3198,7 +3198,7 @@
     "panel-redraw"
    ],
    "license": "MIT",
-   "stars": 24,
+   "stars": 27,
    "cost": "paid",
    "relevance": [
     "content-studio"
@@ -3208,7 +3208,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2026-01-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3237,7 +3237,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2026-05-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3256,7 +3256,7 @@
     "sd15"
    ],
    "license": "none stated",
-   "stars": 11,
+   "stars": 12,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -3266,7 +3266,7 @@
    "source": "research 2026-10-19: AI comics and cinematic references",
    "extra": {
     "pushedAt": "2026-09-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3432,7 +3432,7 @@
     "image-to-3d"
    ],
    "license": "MIT",
-   "stars": 7276,
+   "stars": 7349,
    "cost": "self-host",
    "relevance": [
     "games"
@@ -3442,7 +3442,7 @@
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
     "pushedAt": "2026-06-04",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3459,7 +3459,7 @@
     "react-three-fiber"
    ],
    "license": "MIT",
-   "stars": 10108,
+   "stars": 10132,
    "cost": "free",
    "relevance": [
     "games",
@@ -3470,7 +3470,7 @@
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
     "pushedAt": "2026-10-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -3489,7 +3489,7 @@
     "depth-of-field"
    ],
    "license": "MIT",
-   "stars": 1497,
+   "stars": 1512,
    "cost": "free",
    "relevance": [
     "games",
@@ -3500,7 +3500,7 @@
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
     "pushedAt": "2026-10-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -4162,7 +4162,7 @@
     "free-assets"
    ],
    "license": "CC BY-NC 4.0 (data); MIT (Blender scripts)",
-   "stars": 3378,
+   "stars": 3383,
    "cost": "free",
    "relevance": [],
    "verified": true,
@@ -4171,7 +4171,7 @@
    "extra": {
     "licenceEvidence": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
     "pushedAt": "2023-07-04",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -4364,7 +4364,7 @@
     "free-assets"
    ],
    "license": "AGPL-3.0 (software); your captured motion data is yours",
-   "stars": 10644,
+   "stars": 10758,
    "cost": "free",
    "relevance": [],
    "verified": true,
@@ -4372,8 +4372,8 @@
    "source": "research 2026-10-24: free asset sources",
    "extra": {
     "licenceEvidence": "https://github.com/freemocap/freemocap",
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -4666,7 +4666,7 @@
     "free-assets"
    ],
    "license": "Per model: mostly CC-BY 4.0, some CC0 or other (see each model's README)",
-   "stars": 1142,
+   "stars": 1149,
    "cost": "free",
    "relevance": [],
    "verified": true,
@@ -4674,8 +4674,8 @@
    "source": "research 2026-10-24: free asset sources",
    "extra": {
     "licenceEvidence": "https://github.com/KhronosGroup/glTF-Sample-Assets",
-    "pushedAt": "2026-10-29",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -5391,7 +5391,7 @@
     "free-assets"
    ],
    "license": "Unity Companion License (unconfirmed)",
-   "stars": 2137,
+   "stars": 2138,
    "cost": "free",
    "relevance": [],
    "verified": false,
@@ -5400,7 +5400,7 @@
    "extra": {
     "licenceEvidence": "https://plastichub.unity.cn/unity-tech-cn/VisualEffectGraph-Samples/src/tag/7.2.0-rev1",
     "pushedAt": "2024-11-19",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -5765,15 +5765,15 @@
    "why": "Built for Chinese mobile-MMO-style studios that need hot updates and a game server. Far too heavy for a solo or no-code creator, and it locks you into Unity.",
    "tags": [],
    "license": "MIT",
-   "stars": 631,
+   "stars": 630,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-29",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-04",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6276,7 +6276,7 @@
     "local"
    ],
    "license": "Apache-2.0",
-   "stars": 24240,
+   "stars": 24339,
    "cost": null,
    "relevance": [],
    "verified": false,
@@ -6284,7 +6284,7 @@
    "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts",
    "extra": {
     "pushedAt": "2026-05-25",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6303,7 +6303,7 @@
     "local"
    ],
    "license": null,
-   "stars": 24875,
+   "stars": 25004,
    "cost": null,
    "relevance": [],
    "verified": false,
@@ -6311,7 +6311,7 @@
    "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts",
    "extra": {
     "pushedAt": "2026-09-29",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6330,7 +6330,7 @@
     "archived"
    ],
    "license": "GPL-3.0",
-   "stars": 3902,
+   "stars": 3903,
    "cost": null,
    "relevance": [],
    "verified": false,
@@ -6338,7 +6338,7 @@
    "source": "research 2026-10-27: voice tiers + mascot lip-sync for WFF shorts",
    "extra": {
     "pushedAt": "2025-04-20",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6353,7 +6353,7 @@
    "why": "Covers non-human creatures, which Mixamo and Mesh2Motion don't, but it is an early experiment (417 stars by 2026-10-30) that depends on paid fal APIs. Revisit once it matures; Mesh2Motion stays the practical route.",
    "tags": [],
    "license": "Apache-2.0 (code); MiniMax H3 community licence for the bundled LoRA",
-   "stars": 473,
+   "stars": 562,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6361,7 +6361,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6395,7 +6395,7 @@
    "why": "Too early and partly metered through paid 'solidSF Credits'. For video or photo to CAD, text-to-cad is the more mature option already in the library.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 441,
+   "stars": 448,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6403,7 +6403,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-10-23",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6418,15 +6418,15 @@
    "why": "This is the tool in the post. Unlike prompt-only builders you get real editable layers before exporting code, and it is free. Pair it with the MotionSites skill's spec-and-screenshot loop for quality; check exported code before shipping.",
    "tags": [],
    "license": "MIT",
-   "stars": 7018,
+   "stars": 7165,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6441,15 +6441,15 @@
    "why": "Same-sounding name as OpenPencil but a different project; its strength is Figma file compatibility. Choose one of the two, not both.",
    "tags": [],
    "license": "MIT",
-   "stars": 9544,
+   "stars": 9713,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6464,7 +6464,7 @@
    "why": "The sourced-sentence and checkpoint design fits finance and science education content where accuracy matters. Only 3 commits and 14 stars, so test it on one topic and read the scripts before relying on it.",
    "tags": [],
    "license": "MIT (media assets have separate notes)",
-   "stars": 239,
+   "stars": 599,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6472,7 +6472,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6487,15 +6487,15 @@
    "why": "Built for a different agent harness. blender-mcp (adopt) does the same job inside Claude.",
    "tags": [],
    "license": "BSD-3-Clause",
-   "stars": 1546,
+   "stars": 1897,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6529,15 +6529,15 @@
    "why": "Translated copy of Gia's original (content-ai-pose-gallery-original, trial). The images belong to Gia, whose terms forbid redistribution, so use the original site instead; the mirror also lists adult-oriented category names.",
    "tags": [],
    "license": "MIT (code only); images (c) original author",
-   "stars": 5358,
+   "stars": 6508,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-30",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-04",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6569,7 +6569,9 @@
    "verdict": "reference",
    "verdictNote": "reference: a good pattern for single-file interactive explainers; non-commercial content",
    "why": "Shows how far one self-contained HTML file can go for interactive teaching, a format worth copying for education content. The lessons are non-commercial and in Chinese, so use them for ideas, not reuse.",
-   "tags": [],
+   "tags": [
+    "repo-missing"
+   ],
    "license": "CC BY-NC 4.0 (lessons); MIT (bundled three.js)",
    "stars": 1379,
    "cost": null,
@@ -6594,7 +6596,7 @@
    "why": "Tried 2026-10-28: the full renderer (~190k-vertex grid, FFT cascades) is too heavy for a phone game, but its techniques port well at small scale. A lite re-write (polar grid, GPU Gerstner waves damped near the coast, analytic noise normals, Fresnel sky reflection, glints, coast-distance foam bands, two-phase river flow, CPU twin for floating props) held 60 fps on desktop and Pixel 7 emulation in a three.js r160 farm game. Copy techniques, not the code.",
    "tags": [],
    "license": "MIT",
-   "stars": 557,
+   "stars": 652,
    "cost": null,
    "relevance": [
     "games"
@@ -6603,8 +6605,8 @@
    "asOf": "2026-10-29",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6619,7 +6621,7 @@
    "why": "Nice ideas for a creator-facing front end over ComfyUI (extend, re-shoot, restyle, character sheets), which Content Studio AI could copy. But it is a 1-star, days-old project; Character Swap into real footage needs the filmed person's consent; and re-using downloaded TikTok/Instagram clips raises copyright and platform-terms issues. Never hand it your main browser's cookies.",
    "tags": [],
    "license": "MIT (bundled node pack has its own licence; model weights each their own)",
-   "stars": 36,
+   "stars": 39,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6627,7 +6629,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-10-31",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6642,15 +6644,15 @@
    "why": "It keeps characters, scenes and props as reusable references across every clip, which is exactly the consistency problem in clip-by-clip AI video, and its storyboard-first pipeline is worth copying. Costs come from the video APIs you plug in. AGPL plus the attribution terms mean any modified or hosted version must be open-sourced and keep 'Powered by ArcReel', so keep it out of anything you sell. Its web UI listens on all network interfaces by default: set AUTH_PASSWORD and keep it on localhost or Tailscale.",
    "tags": [],
    "license": "AGPL-3.0 + Section 7 terms (keep 'Powered by ArcReel' and a repo link in any UI; name/logo not licensed)",
-   "stars": 6077,
+   "stars": 6346,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6665,15 +6667,15 @@
    "why": "Better stability and speed than Godot's default 3D physics for stacks, vehicles and many bodies, at zero cost: it's a project setting, not an integration job.",
    "tags": [],
    "license": "MIT",
-   "stars": 12139,
+   "stars": 12252,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6688,7 +6690,7 @@
    "why": "Saves weeks on open-world or outdoor 3D levels. A GDExtension, so it drops into a normal Godot install; check the release matches your Godot version.",
    "tags": [],
    "license": "MIT",
-   "stars": 4652,
+   "stars": 4751,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6696,7 +6698,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6711,7 +6713,7 @@
    "why": "Gives AAA-looking VFX without shader work, and the sprite-sheet export suits 2D and 2.5D games. Pair it with the free effect textures already in the library (Kenney particle pack).",
    "tags": [],
    "license": "MIT",
-   "stars": 1969,
+   "stars": 2050,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6719,7 +6721,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6734,15 +6736,15 @@
    "why": "Powerful but a big commitment (performance tuning, custom builds for some features). Use it for a Minecraft- or Deep-Rock-style game, not as a default.",
    "tags": [],
    "license": "MIT",
-   "stars": 4096,
+   "stars": 4123,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29",
    "extra": {
-    "pushedAt": "2026-10-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6757,7 +6759,7 @@
    "why": "The one-command answer to the 'million-triangle AI mesh' problem for web and three.js games: smaller downloads and faster rendering. See the library note on shrinking AI meshes.",
    "tags": [],
    "license": "MIT",
-   "stars": 8770,
+   "stars": 8820,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6765,7 +6767,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6780,15 +6782,15 @@
    "why": "Use the node editor to design noise, but in Godot the built-in FastNoiseLite (same author) is usually enough; FastNoise2 matters for custom engines.",
    "tags": [],
    "license": "MIT",
-   "stars": 1560,
+   "stars": 1580,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29",
    "extra": {
-    "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6803,7 +6805,7 @@
    "why": "Use your engine's built-in navigation; integrate Recast directly only in a custom engine.",
    "tags": [],
    "license": "Zlib",
-   "stars": 8134,
+   "stars": 8177,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6811,7 +6813,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-02-27",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6826,7 +6828,7 @@
    "why": "Godot and three.js already handle animation blending; this only helps if you build your own native engine.",
    "tags": [],
    "license": "MIT",
-   "stars": 3108,
+   "stars": 3137,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6834,7 +6836,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-08-01",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6849,7 +6851,7 @@
    "why": "Huge C++ codebase for engine programmers; Godot or three.js gets a small studio shipping far faster.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 5803,
+   "stars": 5812,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6857,7 +6859,7 @@
    "source": "research 2026-10-29",
    "extra": {
     "pushedAt": "2026-08-27",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6876,15 +6878,15 @@
     "camera"
    ],
    "license": "MIT",
-   "stars": 3647,
+   "stars": 3652,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6903,7 +6905,7 @@
     "game-feel"
    ],
    "license": "MIT",
-   "stars": 168,
+   "stars": 170,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6911,7 +6913,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6938,7 +6940,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2024-09-15",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6957,7 +6959,7 @@
     "ai"
    ],
    "license": "MIT",
-   "stars": 3106,
+   "stars": 3113,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -6965,7 +6967,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -6992,7 +6994,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-09-20",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7011,15 +7013,15 @@
     "narrative"
    ],
    "license": "MIT",
-   "stars": 3958,
+   "stars": 3968,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7038,15 +7040,15 @@
     "narrative"
    ],
    "license": "MIT",
-   "stars": 6139,
+   "stars": 6156,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-08-30",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7065,7 +7067,7 @@
     "narrative"
    ],
    "license": "MIT",
-   "stars": 255,
+   "stars": 257,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7073,7 +7075,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-03-07",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7100,7 +7102,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-08-05",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7119,7 +7121,7 @@
     "gameplay"
    ],
    "license": "MIT",
-   "stars": 990,
+   "stars": 992,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7127,7 +7129,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-07-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7154,7 +7156,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-07-22",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7173,7 +7175,7 @@
     "world"
    ],
    "license": "MIT",
-   "stars": 3020,
+   "stars": 3027,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7181,7 +7183,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-09-27",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7200,15 +7202,15 @@
     "world"
    ],
    "license": "MIT",
-   "stars": 932,
+   "stars": 949,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-05-19",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7227,7 +7229,7 @@
     "world"
    ],
    "license": "MIT",
-   "stars": 2287,
+   "stars": 2290,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7235,7 +7237,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-07-30",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7254,15 +7256,15 @@
     "world"
    ],
    "license": "MIT",
-   "stars": 1328,
+   "stars": 1335,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7289,7 +7291,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-03-05",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7308,7 +7310,7 @@
     "world"
    ],
    "license": "MIT",
-   "stars": 384,
+   "stars": 386,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7316,7 +7318,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7335,7 +7337,7 @@
     "levels"
    ],
    "license": "MIT",
-   "stars": 1642,
+   "stars": 1651,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7343,7 +7345,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7370,7 +7372,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-08-26",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7389,15 +7391,15 @@
     "levels"
    ],
    "license": "MIT",
-   "stars": 885,
+   "stars": 888,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7424,7 +7426,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-03-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7443,7 +7445,7 @@
     "debug"
    ],
    "license": "MIT",
-   "stars": 1075,
+   "stars": 1079,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7451,7 +7453,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-04-04",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7470,7 +7472,7 @@
     "pipeline"
    ],
    "license": "GPL-3.0 (Blender add-on)",
-   "stars": 116,
+   "stars": 119,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7478,7 +7480,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7497,7 +7499,7 @@
     "pipeline"
    ],
    "license": "MIT",
-   "stars": 547,
+   "stars": 548,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7505,7 +7507,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-03-21",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7524,15 +7526,15 @@
     "pipeline"
    ],
    "license": "MIT",
-   "stars": 1397,
+   "stars": 1400,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-08-17",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7559,7 +7561,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-10-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7587,7 +7589,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-01-19",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7606,15 +7608,15 @@
     "audio"
    ],
    "license": "MIT (plugin); FMOD itself has its own licence",
-   "stars": 948,
+   "stars": 954,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-07",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7633,15 +7635,15 @@
     "audio"
    ],
    "license": "MIT (plugin); Wwise itself has its own licence",
-   "stars": 452,
+   "stars": 453,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-05",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7660,7 +7662,7 @@
     "ui"
    ],
    "license": "MIT",
-   "stars": 1720,
+   "stars": 1727,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7668,7 +7670,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-29",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7695,7 +7697,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-08-20",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7721,8 +7723,8 @@
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-16",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-02",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7741,7 +7743,7 @@
     "input"
    ],
    "license": "MIT",
-   "stars": 1115,
+   "stars": 1116,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7749,7 +7751,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-06-08",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7776,7 +7778,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-01-19",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7803,7 +7805,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-14",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7822,7 +7824,7 @@
     "online"
    ],
    "license": "MIT",
-   "stars": 1125,
+   "stars": 1129,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7830,7 +7832,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-09-26",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7850,15 +7852,15 @@
     "archived"
    ],
    "license": "MIT",
-   "stars": 3768,
+   "stars": 3773,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-20",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7877,7 +7879,7 @@
     "online"
    ],
    "license": "MIT",
-   "stars": 282,
+   "stars": 283,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7885,7 +7887,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-07-20",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7904,7 +7906,7 @@
     "online"
    ],
    "license": "MIT",
-   "stars": 249,
+   "stars": 251,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7912,7 +7914,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-10-26",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7931,15 +7933,15 @@
     "quality"
    ],
    "license": "MIT",
-   "stars": 1286,
+   "stars": 1296,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7958,7 +7960,7 @@
     "quality"
    ],
    "license": "MIT",
-   "stars": 2775,
+   "stars": 2777,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7966,7 +7968,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-08-18",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -7985,7 +7987,7 @@
     "quality"
    ],
    "license": "MIT",
-   "stars": 171,
+   "stars": 174,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -7993,7 +7995,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2026-08-01",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8012,7 +8014,7 @@
     "quality"
    ],
    "license": "CC0-1.0",
-   "stars": 59,
+   "stars": 60,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -8020,7 +8022,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-09-18",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8039,15 +8041,15 @@
     "ai-npc"
    ],
    "license": "MIT",
-   "stars": 1666,
+   "stars": 1672,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-30",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-09",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8066,15 +8068,15 @@
     "physics"
    ],
    "license": "MIT",
-   "stars": 1038,
+   "stars": 1040,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-29",
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
-    "pushedAt": "2026-10-24",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-08",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8093,7 +8095,7 @@
     "templates"
    ],
    "license": "MIT",
-   "stars": 500,
+   "stars": 502,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -8101,7 +8103,7 @@
    "source": "research 2026-10-29: Godot add-ons",
    "extra": {
     "pushedAt": "2025-10-06",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8122,7 +8124,7 @@
     "godot"
    ],
    "license": "MIT (font excluded, see NOTICE.md)",
-   "stars": 3104,
+   "stars": 6202,
    "cost": null,
    "relevance": [
     "games"
@@ -8132,7 +8134,7 @@
    "source": "research 2026-10-30",
    "extra": {
     "pushedAt": "2026-10-31",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8147,7 +8149,7 @@
    "why": "Pairs with Cyclops Level Builder: block out a level, then get a coherent painted texture without hand-texturing. Some outer walls stay grey and it doesn't unwrap UVs.",
    "tags": [],
    "license": "Apache-2.0 (Patch name, mark and font excluded)",
-   "stars": 185,
+   "stars": 202,
    "cost": "about $4-5 per level on fal",
    "relevance": [],
    "verified": true,
@@ -8155,7 +8157,7 @@
    "source": "research 2026-10-30",
    "extra": {
     "pushedAt": "2026-11-02",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8170,15 +8172,15 @@
    "why": "Covers 2D characters and tiles, which pixelfx (effects only) does not. Tied to Codex and a paid image API; verify output consistency across frames before relying on it.",
    "tags": [],
    "license": "MIT",
-   "stars": 4859,
+   "stars": 5408,
    "cost": null,
    "relevance": [],
    "verified": false,
    "asOf": "2026-10-30",
    "source": "research 2026-10-30",
    "extra": {
-    "pushedAt": "2026-10-06",
-    "checkedAt": "2026-11-02"
+    "pushedAt": "2026-11-06",
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8201,7 +8203,7 @@
    "source": "research 2026-10-30",
    "extra": {
     "pushedAt": "2026-07-27",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8243,7 +8245,7 @@
    "source": "research 2026-10-30",
    "extra": {
     "pushedAt": "2026-08-11",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8258,7 +8260,7 @@
    "why": "Inherits MotionBricks' limits (Linux, NVIDIA, its own skeletons). Interesting for crowd scenes later.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 144,
+   "stars": 161,
    "cost": null,
    "relevance": [],
    "verified": false,
@@ -8266,7 +8268,7 @@
    "source": "research 2026-10-30",
    "extra": {
     "pushedAt": "2026-10-27",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8464,7 +8466,7 @@
     "shaders"
    ],
    "license": "MIT",
-   "stars": 353,
+   "stars": 358,
    "cost": null,
    "relevance": [
     "games"
@@ -8474,7 +8476,7 @@
    "source": "research 2026-10-31: fighting-game characters, animation and VFX",
    "extra": {
     "pushedAt": "2026-01-25",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8503,7 +8505,7 @@
    "source": "research 2026-10-31: fighting-game characters, animation and VFX",
    "extra": {
     "pushedAt": "2025-02-28",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
@@ -8522,7 +8524,7 @@
     "particles"
    ],
    "license": "MIT",
-   "stars": 136,
+   "stars": 137,
    "cost": null,
    "relevance": [
     "games"
@@ -8532,7 +8534,7 @@
    "source": "research 2026-10-31: fighting-game characters, animation and VFX",
    "extra": {
     "pushedAt": "2026-05-16",
-    "checkedAt": "2026-11-02"
+    "checkedAt": "2026-11-09"
    }
   },
   {
