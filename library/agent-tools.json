@@ -4305,6 +4305,30 @@
     "pushedAt": "2026-09-01",
     "checkedAt": "2026-11-09"
    }
+  },
+  {
+   "id": "tool-rokoko-free-sports-animations-12-pack",
+   "name": "Rokoko free sports animations (12 pack)",
+   "kind": "web-tool",
+   "category": "asset-rigging-animation",
+   "url": "https://rokoko.com/resources/rokoko-mocap-12-free-sports-animations",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Free FBX mocap on the Mixamo skeleton, 30 fps with fingers, usable in commercial games per the page; the page does not list clips, so check for basketball before relying on it; sign-up form required.",
+   "tags": [
+    "mocap",
+    "sports",
+    "fbx",
+    "mixamo-skeleton"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-10",
+   "source": "research 2026-11-10: browser basketball game animation sources"
   }
  ]
 }
