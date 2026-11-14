@@ -930,3 +930,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added anim-lume -> agent-tools
 - added anim-gifenc -> agent-tools
 - added engine-blender -> agent-tools
+
+## 2026-11-14 — research 2026-11-14: vork
+- added tool-vork-agent-3d-engine -> agent-tools

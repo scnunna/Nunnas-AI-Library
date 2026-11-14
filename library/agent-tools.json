@@ -4519,6 +4519,25 @@
    "verified": false,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: animation libraries"
+  },
+  {
+   "id": "tool-vork-agent-3d-engine",
+   "name": "vork (3D and VFX engine for AI agents)",
+   "kind": "tool",
+   "category": "3d",
+   "url": "https://github.com/voyager-so/vork",
+   "description": "Headless GPU renderer (Rust + Slang, Vulkan/Metal; Linux, Windows, macOS) where an agent writes the whole scene as JSON, TypeScript or Python, including its own shaders, cameras, simulations and compositing, renders a preview, looks at it and revises. Core API ~2,500 tokens; examples include a million-bird flock, liquid simulation, VFX composited onto real footage, a black hole and product shots; claims 1.1-2.3x faster than Blender EEVEE. Needs an NVIDIA GPU with Vulkan ray queries or Apple Silicon; optional paid vork cloud. One commit, no release yet (2026-11-11).",
+   "verdict": "assess",
+   "verdictNote": "assess: offline cinematic renderer for trailers and VFX, not an in-game tool",
+   "why": "Lets Claude make trailer shots, cinematic cutscene clips and VFX on real footage entirely from code, which suits Moonlit Ronin trailers and channel b-roll. It does not run inside Godot, it is a very early preview with no release, and the free terms cover this version only, so test it on one trailer shot before relying on it.",
+   "tags": [],
+   "license": "vork Preview License: source-available, free during research preview incl. commercial work; you own outputs; no reselling, redistributing modified versions or offering it as a hosted render service; later versions may be paid. Blender bridge GPL-3.0",
+   "stars": 82,
+   "cost": null,
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: vork"
   }
  ]
 }
