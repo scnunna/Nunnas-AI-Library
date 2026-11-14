@@ -933,3 +933,10 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-14 — research 2026-11-14: vork
 - added tool-vork-agent-3d-engine -> agent-tools
+
+## 2026-11-14 — research 2026-11-14: DIY smartwatch companion stack
+- added tool-sherpa-onnx -> agent-tools
+- added tool-omi-open-source-ai-wearable -> agent-tools
+- added tool-litert-lm -> agent-tools
+- added tool-esp-sr-wakenet-multinet -> agent-tools
+- added tool-gadgetbridge -> agent-tools

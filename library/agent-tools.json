@@ -4538,6 +4538,123 @@
    "verified": true,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: vork"
+  },
+  {
+   "id": "tool-sherpa-onnx",
+   "name": "sherpa-onnx",
+   "kind": "repo",
+   "category": "speech",
+   "url": "https://github.com/k2-fsa/sherpa-onnx",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Offline speech-to-text (Whisper, Moonshine, Zipformer), speaker diarization and TTS on Android/iOS/embedded; the local transcription engine for a phone companion app.",
+   "tags": [
+    "on-device",
+    "android",
+    "offline",
+    "no-key"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: DIY smartwatch companion stack"
+  },
+  {
+   "id": "tool-omi-open-source-ai-wearable",
+   "name": "Omi (open-source AI wearable)",
+   "kind": "repo",
+   "category": "wearables",
+   "url": "https://github.com/BasedHardware/omi",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "MIT-licensed AI pendant: documented BLE audio protocol (Opus 16 kHz mono), ESP32-S3 omiGlass firmware; default STT is Deepgram (cloud), so local use needs your own STT.",
+   "tags": [
+    "open-source",
+    "ble",
+    "wearable",
+    "mit"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: DIY smartwatch companion stack"
+  },
+  {
+   "id": "tool-litert-lm",
+   "name": "LiteRT-LM",
+   "kind": "framework",
+   "category": "on-device-llm",
+   "url": "https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Google's runtime for Gemma / Gemini Nano class LLMs on phones and edge devices; Gemma 4 E2B is the offline summariser that fits mid-range phones.",
+   "tags": [
+    "on-device",
+    "android",
+    "gemma"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: DIY smartwatch companion stack"
+  },
+  {
+   "id": "tool-esp-sr-wakenet-multinet",
+   "name": "ESP-SR (WakeNet + MultiNet)",
+   "kind": "framework",
+   "category": "speech",
+   "url": "https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/speech_command_recognition/README.html",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Offline wake word plus up to ~200 English/Chinese voice commands on ESP32-S3 microcontrollers; v2.6.x adds a new AEC.",
+   "tags": [
+    "esp32",
+    "offline",
+    "wake-word"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: DIY smartwatch companion stack"
+  },
+  {
+   "id": "tool-gadgetbridge",
+   "name": "Gadgetbridge",
+   "kind": "tool",
+   "category": "wearables",
+   "url": "https://gadgetbridge.org/",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Cloud-free Android companion for many watches; any device speaking the Bangle.js Nordic-UART JSON protocol can reuse its support.",
+   "tags": [
+    "android",
+    "open-source",
+    "no-cloud"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-14",
+   "source": "research 2026-11-14: DIY smartwatch companion stack"
   }
  ]
 }

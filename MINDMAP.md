@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 191]
+    agent-tools[Agent tools & frameworks · 196]
       tools · 11
         firecrawl
         context7
