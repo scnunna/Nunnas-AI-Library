@@ -918,3 +918,15 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-10 — research 2026-11-10: browser basketball game animation sources
 - added tool-rokoko-free-sports-animations-12-pack -> agent-tools
+
+## 2026-11-14 — research 2026-11-14: animation libraries
+- added anim-manim-community -> agent-tools
+- added anim-konva -> agent-tools
+- added anim-two-js -> agent-tools
+- added anim-proton-particles -> agent-tools
+- added anim-shifty -> agent-tools
+- added anim-ola -> agent-tools
+- added anim-tweenjs -> agent-tools
+- added anim-lume -> agent-tools
+- added anim-gifenc -> agent-tools
+- added engine-blender -> agent-tools

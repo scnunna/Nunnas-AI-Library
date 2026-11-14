@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 180]
+    agent-tools[Agent tools & frameworks · 190]
       tools · 11
         firecrawl
         context7
@@ -134,6 +134,7 @@ mindmap
         playwright-mcp
         serena
       agent-framework · 9
+      animation · 9
       build-workflow · 8
         karpathy-skills
         superpowers
@@ -168,8 +169,6 @@ mindmap
       act-execute · 5
         vercel-ai-sdk
         e2b
-      local-llm · 5
-        ollama/ollama
     directories[Directories & registries · 26]
       programming · 5
         awesome-python
