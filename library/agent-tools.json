@@ -4655,6 +4655,53 @@
    "verified": false,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: DIY smartwatch companion stack"
+  },
+  {
+   "id": "tool-microlink-tailscale-client-for-esp32",
+   "name": "MicroLink (Tailscale client for ESP32)",
+   "kind": "repo",
+   "category": "networking",
+   "url": "https://github.com/CamM2325/microlink",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Runs a Tailscale node on ESP32-S3 (+PSRAM) over Wi-Fi/4G; pair with self-hosted Headscale to avoid the Tailscale control plane.",
+   "tags": [
+    "esp32",
+    "vpn",
+    "tailscale"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-14: private device networking"
+  },
+  {
+   "id": "tool-esphome-wireguard-wireguard-for-esp-idf",
+   "name": "esphome/wireguard (WireGuard for ESP-IDF)",
+   "kind": "repo",
+   "category": "networking",
+   "url": "https://components.espressif.com/components/esphome/wireguard",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Serverless peer-to-peer WireGuard tunnel from an ESP32 (continuation of trombik/esp_wireguard); needs synced clocks.",
+   "tags": [
+    "esp32",
+    "vpn",
+    "wireguard",
+    "no-server"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-14: private device networking"
   }
  ]
 }

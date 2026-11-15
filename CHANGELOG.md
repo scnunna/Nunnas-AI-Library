@@ -940,3 +940,7 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-litert-lm -> agent-tools
 - added tool-esp-sr-wakenet-multinet -> agent-tools
 - added tool-gadgetbridge -> agent-tools
+
+## 2026-11-15 — research 2026-11-14: private device networking
+- added tool-microlink-tailscale-client-for-esp32 -> agent-tools
+- added tool-esphome-wireguard-wireguard-for-esp-idf -> agent-tools
