@@ -8681,6 +8681,58 @@
    "verified": false,
    "asOf": "2026-11-05",
    "source": "research 2026-11-04: live Fab and vendor prices"
+  },
+  {
+   "id": "content-piper-tts-piper1-gpl",
+   "name": "Piper TTS (piper1-gpl)",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/OHF-Voice/piper1-gpl",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Fast local neural TTS that runs on CPU and small boards; used for offline spoken feedback in our language-coach app. The original rhasspy/piper (MIT) was archived in Oct 2025; the maintained fork is GPL-3.0, so mind the licence change.",
+   "tags": [
+    "tts",
+    "offline",
+    "cpu",
+    "no-key"
+   ],
+   "license": "GPL-3.0",
+   "stars": 6300,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "content-moonshine-voice",
+   "name": "Moonshine Voice",
+   "kind": "model",
+   "category": "speech",
+   "url": "https://github.com/moonshine-ai/moonshine",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "MIT on-device speech-to-text (and TTS) built for real-time voice agents; lighter than Whisper for phones and edge boards, a candidate for live meeting transcription in a watch companion app. Some older non-English models are non-commercial.",
+   "tags": [
+    "speech-to-text",
+    "on-device",
+    "offline",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 11500,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
   }
  ]
 }

@@ -1,11 +1,12 @@
 # Nunna's AI Library: roadmap (Now / Next / Later)
 
-Updated 2026-10-26. Nunna's AI Library (NAIL) is a curated, ever-updated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools, each with a verdict and a one-line reason. It is part of Nunna AI Consulting's APM Suite (the ContentStudioAI and Developer & MCP groups) and is the free front door of the consultancy. This roadmap contains no private plans; no numbers are claimed that the repo cannot show.
+Updated 2026-11-15. Nunna's AI Library (NAIL) is a curated, ever-updated catalog of public APIs, MCP servers, Claude skills, agent frameworks and AI content tools, each with a verdict and a one-line reason. It is part of Nunna AI Consulting's APM Suite (the ContentStudioAI and Developer & MCP groups) and is the free front door of the consultancy. This roadmap contains no private plans; no numbers are claimed that the repo cannot show.
 
 ## Now
 - Keep it ever-updated: every research session adds or updates items with a verdict and a `why`; `verified` only when the page was actually seen. The weekly refresh keeps the generated files in sync.
 - Keep the three entry points consistent: the GitHub Pages browser, the connector (`CONNECT.md`) and the read-only mirror at https://nunnaconsulting.com/NAIC/NAIL/ (use the trailing slash on `/NAIC/NAIL/mcp/`). The mirror is a snapshot and can lag the repo until it is rebuilt.
 - Fix any stale link or verdict when an item is touched; do not hand-edit generated files (`node scripts/build.mjs`).
+- Public suggest-and-vote: GitHub issue templates for tools and use cases (vote with a thumbs-up); most-voted are reviewed first, and the issue is closed with a link to the new entry. Project ideas are voted on at https://nunnaconsulting.com/NAIC/ideas/.
 
 ## Next
 - A clear note in `CONNECT.md` on how to get a free key (email-validated, rate-limited tiers already exist on the mirror).
