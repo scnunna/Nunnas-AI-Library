@@ -944,3 +944,7 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-15 — research 2026-11-14: private device networking
 - added tool-microlink-tailscale-client-for-esp32 -> agent-tools
 - added tool-esphome-wireguard-wireguard-for-esp-idf -> agent-tools
+
+## 2026-11-15 — research 2026-11-15: SEO/AI-search tooling
+- added tool-bing-webmaster-tools-ai-performance-report-indexnow -> agent-tools
+- added api-indexnow -> apis

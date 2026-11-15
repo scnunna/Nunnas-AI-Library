@@ -4702,6 +4702,29 @@
    "verified": false,
    "asOf": "2026-11-15",
    "source": "research 2026-11-14: private device networking"
+  },
+  {
+   "id": "tool-bing-webmaster-tools-ai-performance-report-indexnow",
+   "name": "Bing Webmaster Tools (AI Performance report + IndexNow)",
+   "kind": "web-tool",
+   "category": "seo",
+   "url": "https://www.bing.com/webmasters",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Free; AI Performance report (Feb 2026 preview) shows Copilot/Bing AI citations per page; also hosts sitemap submit and IndexNow. Search-result-level evidence only, not page-verified.",
+   "tags": [
+    "seo",
+    "geo",
+    "indexing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: SEO/AI-search tooling"
   }
  ]
 }
