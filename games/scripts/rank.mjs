@@ -11,11 +11,15 @@ const rows = readdirSync(dir).filter((f) => f.endsWith(".json")).flatMap((f) => 
 const CAP = { views: 1e7, likes: 1e5, upvotes: 2e4, points: 2000, comments: 2000, players: 1e6, plays: 1e6, revenue: 1e6, ratings: 1e4 };
 const reachOf = (t, v) => (v > 0 && CAP[t] ? Math.min(1, Math.log10(1 + v) / Math.log10(1 + CAP[t])) : 0);
 const host = (u) => { try { const x = new URL(u); return (x.hostname.replace(/^www\./, "") + x.pathname.replace(/\/$/, "")).toLowerCase(); } catch { return null; } };
-const norm = (s) => String(s || "").toLowerCase().replace(/\(.*?\)|[^a-z0-9]/g, "");
+const ALIAS = [[/taipei/i, "taipeirush"], [/fly\.pieter|^fly \(|fly pieter/i, "flypieter"], [/dialed/i, "dialed"]];
+const norm0 = (s) => String(s || "").toLowerCase().replace(/\(.*?\)|[^a-z0-9]/g, "");
+const norm = (s) => (ALIAS.find(([re]) => re.test(s)) || [])[1] || norm0(s);
 
 const games = new Map();
+// Left out on purpose: clones/ports of commercial games (IP risk) and titles taken down.
+const EXCLUDE = /elderwood|runescape|vice city|gunz|bugdom|mario|city 2026|simcity/i;
 for (const r of rows) {
-  if (!r?.name) continue;
+  if (!r?.name || EXCLUDE.test(r.name)) continue;
   const keys = [norm(r.name), host(r.playUrl)].filter(Boolean);
   let g = keys.map((k) => games.get(k)).find(Boolean);
   if (!g) g = { name: r.name, playUrl: null, genre: r.genre, aiTools: new Set(), creator: r.creator, platforms: new Set(), sightings: [], signals: [], date: r.date };
@@ -44,8 +48,12 @@ const list = [...new Set(games.values())].map((g) => {
     viralScore: Math.round(reach + spread + cred + playable + recent), breakdown: { reach: Math.round(reach), spread, cred, playable, recent } };
 }).sort((a, b) => b.viralScore - a.viralScore);
 
-const top = list.slice(0, 100).map((g, i) => ({ rank: i + 1, ...g }));
-writeFileSync(join(OUT, "top100.json"), JSON.stringify({ asOf: new Date().toISOString().slice(0, 10), method: "see METHODOLOGY.md", candidates: list.length, games: top }, null, 2));
+// Link check results (games/scripts/check-links.mjs). Dead links drop to the watchlist.
+let live = {}; try { live = JSON.parse(readFileSync(join(OUT, "link-check.json"), "utf8")); } catch {}
+const playable = list.filter((g) => g.playUrl && !/x\.com|twitter\.com|reddit\.com|youtube\.com|github\.com\//.test(g.playUrl) && live[g.playUrl] !== false);
+const watch = list.filter((g) => !playable.includes(g));
+const top = playable.slice(0, 100).map((g, i) => ({ rank: i + 1, ...g }));
+writeFileSync(join(OUT, "top100.json"), JSON.stringify({ asOf: new Date().toISOString().slice(0, 10), method: "see METHODOLOGY.md", candidates: list.length, games: top, watchlist: watch.map(({ name, viralScore, sightings }) => ({ name, viralScore, evidence: sightings[0]?.url })) }, null, 2));
 const q = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
 writeFileSync(join(OUT, "top100.csv"), "rank,name,url,genre,aiTools,creator,platforms,viralScore,evidence\n" +
   top.map((g) => [g.rank, g.name, g.playUrl, g.genre, g.aiTools.join("; "), g.creator, g.platforms.join("; "), g.viralScore, g.sightings[0]?.url].map(q).join(",")).join("\n") + "\n");
