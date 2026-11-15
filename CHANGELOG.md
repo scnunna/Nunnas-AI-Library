@@ -948,3 +948,7 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-15 — research 2026-11-15: SEO/AI-search tooling
 - added tool-bing-webmaster-tools-ai-performance-report-indexnow -> agent-tools
 - added api-indexnow -> apis
+
+## 2026-11-15 — research 2026-11-15: self-hosted Shopify alternatives
+- added tool-medusa -> agent-tools
+- added tool-vendure -> agent-tools

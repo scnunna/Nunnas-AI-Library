@@ -4725,6 +4725,52 @@
    "verified": false,
    "asOf": "2026-11-15",
    "source": "research 2026-11-15: SEO/AI-search tooling"
+  },
+  {
+   "id": "tool-medusa",
+   "name": "Medusa",
+   "kind": "framework",
+   "category": "ecommerce",
+   "url": "https://github.com/medusajs/medusa",
+   "description": "Headless commerce platform (Node/TypeScript, Postgres, Redis) with admin dashboard, Next.js starter, promotions, loyalty/gift-card plugin. Digital products and subscriptions need custom modules.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Best self-hosted Shopify alternative for small brands: MIT, Stripe official, free gift cards/store credit, REST Store API works with any static front end; needs Postgres + Redis and ~2GB RAM; very frequent releases, so pin versions.",
+   "tags": [
+    "self-host",
+    "ecommerce",
+    "shopify-alternative"
+   ],
+   "license": "MIT (RBAC enterprise part commercial)",
+   "stars": null,
+   "cost": "Self-host $0 + VPS; Medusa Cloud from $29/mo",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: self-hosted Shopify alternatives"
+  },
+  {
+   "id": "tool-vendure",
+   "name": "Vendure",
+   "kind": "framework",
+   "category": "ecommerce",
+   "url": "https://github.com/vendure-ecommerce/vendure",
+   "description": "Headless commerce framework (NestJS + GraphQL, Postgres/MySQL/SQLite) with a React dashboard and Next.js/TanStack storefront starters.",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Lighter than Medusa (no Redis, ~512MB/process) and calmer releases, but GPL, gift cards only on the EUR 599/mo plan and a smaller ecosystem make it a weaker fit for a solo brand.",
+   "tags": [
+    "self-host",
+    "ecommerce",
+    "shopify-alternative"
+   ],
+   "license": "GPLv3 (plugin exception) or commercial",
+   "stars": null,
+   "cost": "Framework $0; paid plans EUR 199/599/2,499 per month",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: self-hosted Shopify alternatives"
   }
  ]
 }
