@@ -944,3 +944,18 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-15 — research 2026-11-14: private device networking
 - added tool-microlink-tailscale-client-for-esp32 -> agent-tools
 - added tool-esphome-wireguard-wireguard-for-esp-idf -> agent-tools
+
+## 2026-11-15 — research 2026-11-15: stacks behind NAIC projects
+- added tool-obtainium -> agent-tools
+- added tool-lvgl -> agent-tools
+- added tool-esp-idf -> agent-tools
+- added tool-lua-5-4-embedded-scripting -> agent-tools
+- added tool-chronos-esp32 -> agent-tools
+- added tool-ml-kit-on-device-translation -> agent-tools
+- added tool-cal-com-cal-diy-self-hosted-scheduling -> agent-tools
+- added tool-uptime-kuma -> agent-tools
+- added content-piper-tts-piper1-gpl -> content-tools
+- added content-moonshine-voice -> content-tools
+- added tool-alphatab -> agent-tools
+- added tool-oboe-android-low-latency-audio -> agent-tools
+- added tool-jetpack-compose -> agent-tools

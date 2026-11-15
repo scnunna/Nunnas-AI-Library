@@ -1,0 +1,26 @@
+name: Suggest a tool for the library
+description: Name an API, MCP server, skill, model or tool you want reviewed and given a verdict.
+title: "[tool] "
+labels: ["suggestion", "tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Search the library first (https://scnunna.github.io/Nunnas-AI-Library/) in case it already has a verdict.
+        **Validate other suggestions** by adding a 👍 reaction to the issue. The most-voted items are reviewed first.
+        Do not paste keys, passwords or private information here: issues are public.
+  - type: input
+    id: name
+    attributes: { label: Tool name, placeholder: "e.g. sherpa-onnx" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Link (repo, docs or homepage) }
+    validations: { required: true }
+  - type: textarea
+    id: use
+    attributes: { label: What would you use it for?, description: "One or two lines. Which job does it do better or cheaper than what you use now?" }
+    validations: { required: true }
+  - type: dropdown
+    id: cost
+    attributes: { label: Cost, options: ["Free / open source", "Freemium", "Paid", "Not sure"] }

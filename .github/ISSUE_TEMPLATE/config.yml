@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Browse the library
+    url: https://scnunna.github.io/Nunnas-AI-Library/
+    about: Check whether a tool already has a verdict.
+  - name: Suggest or vote on NAIC project ideas
+    url: https://nunnaconsulting.com/NAIC/ideas/
+    about: Ideas for the projects we build (apps, agents, games, devices).
