@@ -1,0 +1,1243 @@
+[
+ {
+  "name": "SatoshiGuesser",
+  "playUrl": "https://satoshiguesser.com",
+  "genre": "other",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "u/jmprog",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1szaacb/",
+  "metricType": "upvotes",
+  "metricValue": 1900,
+  "otherSignals": "255 comments; also HN 52 points (item 47964897)",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Slot-machine style brute-force guessing of lost bitcoin keys. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "CrimeWorld (GTA on Google Earth)",
+  "playUrl": null,
+  "genre": "action",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "u/TrueEstablishment630",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1su14l8/",
+  "metricType": "upvotes",
+  "metricValue": 1200,
+  "otherSignals": "102 comments; Cesium + Google 3D tiles",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Creator says 'super glitchy but playable'; waitlist at cw.naveen.to, public play link not confirmed. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Google Earth racing game",
+  "playUrl": null,
+  "genre": "racing",
+  "aiTools": [
+   "Claude Desktop",
+   "Cursor"
+  ],
+  "creator": "u/williamholmberg",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1n7a14w/",
+  "metricType": "upvotes",
+  "metricValue": 607,
+  "otherSignals": "86 comments; CesiumJS photoreal tiles",
+  "date": "2025-09",
+  "verified": false,
+  "notes": "No public play link in post. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Capybara food-delivery game (Vibe Jam 2026)",
+  "playUrl": "https://capybara-vibejam26.leocoout.dev/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Code",
+   "GPT Images-2",
+   "Suno",
+   "ElevenLabs",
+   "Tripo3d"
+  ],
+  "creator": "u/Ieocoout",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1sztl62/",
+  "metricType": "upvotes",
+  "metricValue": 511,
+  "otherSignals": "87 comments; press (wccftech) reports it won $25,000 at a jam",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "All code/assets AI-made per creator. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "NodeControl.gg",
+  "playUrl": "https://nodecontrol.gg",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude (Opus/Sonnet)"
+  ],
+  "creator": "u/soxpqn",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1t10tmu/",
+  "metricType": "upvotes",
+  "metricValue": 498,
+  "otherSignals": "111 comments; Vibe Jam 2026 entry by 20-year game-dev veteran",
+  "date": "2026-05",
+  "verified": false,
+  "notes": "Competitive territory-control .io game, Three.js. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Banners Will Fall",
+  "playUrl": "https://dannylimanseta.itch.io/banners-will-fall",
+  "genre": "strategy",
+  "aiTools": [
+   "Cursor",
+   "GPT-5",
+   "Claude Opus"
+  ],
+  "creator": "u/WeAreFictional",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1rbp0gq/",
+  "metricType": "upvotes",
+  "metricValue": 465,
+  "otherSignals": "202 comments; itch.io",
+  "date": "2026-02",
+  "verified": false,
+  "notes": "Autobattler roguelike; itch page - browser playability not confirmed. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Benny's Peggle",
+  "playUrl": "https://narbehouse.github.io/BENNYSPEGGLE.html",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "AI (unspecified)"
+  ],
+  "creator": "u/acrolicious",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1nlmnqd/",
+  "metricType": "upvotes",
+  "metricValue": 435,
+  "otherSignals": "46 comments; accessible 2-button game for a nonverbal quadriplegic brother; related posts 622/248/183 upvotes",
+  "date": "2025-09",
+  "verified": false,
+  "notes": "Wife's first vibe-coding project. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Cosy tiny-globe flying game (Vibe Jam 2026)",
+  "playUrl": null,
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Claude Opus/Sonnet 4.6",
+   "Gemini 3.1 Pro",
+   "Composer 2"
+  ],
+  "creator": "u/WeAreFictional",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1sy5qan/",
+  "metricType": "upvotes",
+  "metricValue": 352,
+  "otherSignals": "99 comments",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Three.js, 100% vibe coded; play link not in snapshot body. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Shards of Stone",
+  "playUrl": "https://shardsofstone.com",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude",
+   "ChatGPT",
+   "Gemini"
+  ],
+  "creator": "u/Alarmed_Profit1426",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1s8w5ib/",
+  "metricType": "upvotes",
+  "metricValue": 297,
+  "otherSignals": "92 comments; WC2-inspired RTS, 9 factions, multiplayer; also Show HN (2 pts)",
+  "date": "2026-03",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "HormuzRun",
+  "playUrl": "https://hormuzrun.com",
+  "genre": "shooter",
+  "aiTools": [
+   "AI (unspecified)"
+  ],
+  "creator": "u/ioareddit",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1sffe8v/",
+  "metricType": "upvotes",
+  "metricValue": 182,
+  "otherSignals": "63 comments",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Ship-survival panic shooter. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Guess The Product Price",
+  "playUrl": "https://guesstheproductprice.vercel.app/",
+  "genre": "puzzle",
+  "aiTools": [
+   "AI (vibe coded)"
+  ],
+  "creator": "u/Dovahkciin",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1roatka/",
+  "metricType": "upvotes",
+  "metricValue": 151,
+  "otherSignals": "130 comments; 1.4M Amazon products",
+  "date": "2026-03",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Text Battle (plan9.kr)",
+  "playUrl": "https://plan9.kr/battle/",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Bolt",
+   "Cursor"
+  ],
+  "creator": "u/jpGJ08",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1n2279r/",
+  "metricType": "upvotes",
+  "metricValue": 145,
+  "otherSignals": "Creator reports 100k+ users after Korean YouTubers streamed it; monetized; also Show HN 2025-03",
+  "date": "2025-08",
+  "verified": false,
+  "notes": "AI-simulated text character battles. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Pawnfall",
+  "playUrl": "https://pawnfall.vercel.app/",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude",
+   "Codex",
+   "Cursor"
+  ],
+  "creator": "u/schiehll",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1sz0h5a/",
+  "metricType": "upvotes",
+  "metricValue": 107,
+  "otherSignals": "35 comments; Vibe Jam 2026",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Chess roguelike. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "JS Drift",
+  "playUrl": "https://js-drift.fly.dev/",
+  "genre": "racing",
+  "aiTools": [
+   "Cursor",
+   "GPT-5"
+  ],
+  "creator": "u/West-Manufacturer628",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1myp67i/",
+  "metricType": "upvotes",
+  "metricValue": 105,
+  "otherSignals": "75 comments; multiplayer + leaderboards",
+  "date": "2025-08",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "GunZ: The Duel browser port",
+  "playUrl": null,
+  "genre": "shooter",
+  "aiTools": [
+   "Claude Code",
+   "Antigravity"
+  ],
+  "creator": "u/Sootory",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1s6zfdi/",
+  "metricType": "upvotes",
+  "metricValue": 98,
+  "otherSignals": "48 comments; 99% AI-written port to WASM/WebGL",
+  "date": "2026-03",
+  "verified": false,
+  "notes": "Port of a 2003 commercial game; play URL via Medium write-up, legal status unclear. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "emma.games (Dog Finder / Birdy Flight)",
+  "playUrl": "https://www.emma.games",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "u/sherpa_dot_sh",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1nzpome/",
+  "metricType": "upvotes",
+  "metricValue": 89,
+  "otherSignals": "40 comments; made by an 8-year-old",
+  "date": "2025-10",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Boat naval combat (simulabz)",
+  "playUrl": "https://boat.simulabz.com/",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "AI (vibe coded)"
+  ],
+  "creator": "u/Clear-Reach8805",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1rfkaej/",
+  "metricType": "upvotes",
+  "metricValue": 70,
+  "otherSignals": "25 comments; open source",
+  "date": "2026-02",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Mind Against Fate",
+  "playUrl": "https://mindagainstfate.com",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "AI (99.9% vibe coded)"
+  ],
+  "creator": "u/haldur32",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1naxv4m/",
+  "metricType": "upvotes",
+  "metricValue": 62,
+  "otherSignals": "34 comments; online turn-based PvP RPG",
+  "date": "2025-09",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Up With A Stranger",
+  "playUrl": "https://upwithastranger.com/",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude",
+   "Codex"
+  ],
+  "creator": "u/ilyxxxxa",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1t0dw7o/",
+  "metricType": "upvotes",
+  "metricValue": 52,
+  "otherSignals": "29 comments",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "99% vibecoded co-op with strangers. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Hinom Tower",
+  "playUrl": "https://hinomtower.xyz/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude",
+   "Cursor",
+   "Gemini"
+  ],
+  "creator": "u/KiddoDev",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1t0wh34/",
+  "metricType": "upvotes",
+  "metricValue": 39,
+  "otherSignals": "13 comments",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "Fliply",
+  "playUrl": "https://fliply-dba75.firebaseapp.com/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Google AI Studio (Gemini)"
+  ],
+  "creator": "u/Annual-Chart9466",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1peu1r4/",
+  "metricType": "upvotes",
+  "metricValue": 38,
+  "otherSignals": "37 comments",
+  "date": "2025-12",
+  "verified": false,
+  "notes": "r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "67 Speed",
+  "playUrl": "https://67speed.com",
+  "genre": "other",
+  "aiTools": [
+   "Lovable"
+  ],
+  "creator": "u/East-Scale-1956",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1qqr39g/",
+  "metricType": "players",
+  "metricValue": 1000000,
+  "otherSignals": "Creator: 1M users in 63 days (Jan 2026); site later claims 5.3M+ players; streamer-driven (IShowSpeed, ohnepixel per fan site)",
+  "date": "2026-01",
+  "verified": false,
+  "notes": "Webcam arm-pumping meme game. Reddit post itself only 8 upvotes; Lovable confirmed in creator's comment. r/vibecoding score from third-party snapshot (vibecoding-games.pages.dev, fetched 2026-05-07)"
+ },
+ {
+  "name": "World of ClaudeCraft",
+  "playUrl": "https://worldofclaudecraft.com",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude (Fable 5)"
+  ],
+  "creator": "levy-street / HN ls-sadboy",
+  "platform": "reddit",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48509143",
+  "metricType": "points",
+  "metricValue": 94,
+  "otherSignals": "HN 94 pts/107 comments (verified via API); r/ClaudeAI post 1u3m6a8 'thousands of upvotes' per press; 21k-30k players per German press (PCGH, mein-mmo); Steam page",
+  "date": "2026-06",
+  "verified": true,
+  "notes": "Free open-source browser micro-MMORPG built in ~2 days. Metric shown is HN; Reddit score unseen."
+ },
+ {
+  "name": "Elderwood Realms (RuneScape clone)",
+  "playUrl": null,
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Codex (GPT-6 Astra)"
+  ],
+  "creator": "Rohan Varma",
+  "platform": "reddit",
+  "evidenceUrl": "https://www.dexerto.com/gaming/ai-made-runescape-clone-goes-viral-with-playable-browser-version-3406698/",
+  "metricType": "players",
+  "metricValue": 3000,
+  "otherSignals": "3,000 accounts in 24h, 1,000+ hours played; went viral on r/2007scape; PC Gamer, GamesRadar, Dexerto coverage",
+  "date": "2026-09",
+  "verified": false,
+  "notes": "Taken down ~2026-09-09 after Jagex cease-and-desist - no longer playable. Metric = accounts created."
+ },
+ {
+  "name": "Procedural desert explorer",
+  "playUrl": "https://desert-dusky.vercel.app",
+  "genre": "sandbox",
+  "aiTools": [
+   "Claude Code (Opus 5)",
+   "Three.js"
+  ],
+  "creator": "u/Any-Reputation8118",
+  "platform": "reddit",
+  "evidenceUrl": "https://explainx.ai/blog/opus-5-procedural-desert-explorer-babylonjs-webgpu-july-2026",
+  "metricType": "upvotes",
+  "metricValue": 1600,
+  "otherSignals": "~1.6K upvotes / 135 comments on r/ClaudeAI in 3 days (secondary source); reposted by official Three.js X account",
+  "date": "2026-07",
+  "verified": false,
+  "notes": "WebGPU-only explorable desert; more tech demo than game. Reddit numbers unverified."
+ },
+ {
+  "name": "Fly Pieter (fly.pieter.com)",
+  "playUrl": "https://fly.pieter.com",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Grok 3 (per creator, unverified)"
+  ],
+  "creator": "levelsio",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43339515",
+  "metricType": "points",
+  "metricValue": 3,
+  "otherSignals": "Founder-reported $1M ARR in 17 days; peaks reported 17k-26k concurrent; 404 Media, IndieHackers etc.",
+  "date": "2025-02",
+  "verified": true,
+  "notes": "The canonical viral vibe-coded game; HN submissions themselves scored low (3 and 2 pts). Revenue via in-game ads/planes."
+ },
+ {
+  "name": "Gemini Missile Command",
+  "playUrl": "https://missile-command-game.centminmod.com/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Gemini 2.5 Pro"
+  ],
+  "creator": "vbtechguy",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43608377",
+  "metricType": "points",
+  "metricValue": 136,
+  "otherSignals": "140 comments",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "HTML5 canvas remake initially built with Gemini 2.5 Pro."
+ },
+ {
+  "name": "Tower of Time",
+  "playUrl": "https://m4v3k.itch.io/tower-of-time",
+  "genre": "strategy",
+  "aiTools": [
+   "AI coding agents (Claude Code/Cursor, documented in repo)"
+  ],
+  "creator": "M4v3R",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=44463967",
+  "metricType": "points",
+  "metricValue": 319,
+  "otherSignals": "152 comments; Beginner's Jam Summer 2025 entry; process documented on GitHub",
+  "date": "2025-07",
+  "verified": true,
+  "notes": "Phaser tower defense; itch.io page, browser build presumed (Phaser) - not confirmed."
+ },
+ {
+  "name": "Uncracked City",
+  "playUrl": "https://uncracked.city",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude",
+   "ChatGPT"
+  ],
+  "creator": "passkey1510",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50358352",
+  "metricType": "points",
+  "metricValue": 128,
+  "otherSignals": "76 comments",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Detective game interrogating LLM suspects; solo founder 'uses AI heavily'."
+ },
+ {
+  "name": "Refinery simulator (Fueling Curiosity)",
+  "playUrl": "https://fuelingcuriosity.com/game.html",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude",
+   "Copilot",
+   "Gemini"
+  ],
+  "creator": "fuelingcurious",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47338091",
+  "metricType": "points",
+  "metricValue": 127,
+  "otherSignals": "55 comments; non-developer chemical engineer, 9,000-line SPA",
+  "date": "2026-03",
+  "verified": true,
+  "notes": "Educational refinery sim."
+ },
+ {
+  "name": "GeneGuessr",
+  "playUrl": "https://geneguessr.brinedew.bio/",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "brinedew",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46363870",
+  "metricType": "points",
+  "metricValue": 88,
+  "otherSignals": "20 comments",
+  "date": "2025-12",
+  "verified": true,
+  "notes": "Daily biology puzzle made with Claude over 2 months."
+ },
+ {
+  "name": "Fly By",
+  "playUrl": "https://michaelteter.com/flyby.html",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Gemini Flash"
+  ],
+  "creator": "michaelteter",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49519101",
+  "metricType": "points",
+  "metricValue": 85,
+  "otherSignals": "63 comments",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "Retro biplane game, ~4 hours and 50+ Gemini conversations."
+ },
+ {
+  "name": "Kid's worksheet math game",
+  "playUrl": "https://mattsayar.com/how-i-vibe-coded-a-math-game-in-ten-minutes/",
+  "genre": "educational",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "MattSayar",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43603275",
+  "metricType": "points",
+  "metricValue": 76,
+  "otherSignals": "15 comments",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "Built in 10 minutes; play link via blog post."
+ },
+ {
+  "name": "Hormuz Havoc",
+  "playUrl": "https://www.hormuz-havoc.com/",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "kupadapuku",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47729477",
+  "metricType": "points",
+  "metricValue": 54,
+  "otherSignals": "17 comments; leaderboard overrun by AI bots in 24h",
+  "date": "2026-04",
+  "verified": true,
+  "notes": "Satirical crisis-management browser game."
+ },
+ {
+  "name": "Feudle",
+  "playUrl": "https://feudlegame.com",
+  "genre": "word",
+  "aiTools": [
+   "ChatGPT",
+   "Cursor"
+  ],
+  "creator": "papaolivia92",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43471939",
+  "metricType": "points",
+  "metricValue": 52,
+  "otherSignals": "35 comments",
+  "date": "2025-03",
+  "verified": true,
+  "notes": "Family Feud x Wordle daily game by non-developer."
+ },
+ {
+  "name": "Wall Go",
+  "playUrl": "https://schaoss.github.io/wall-go/",
+  "genre": "card-board",
+  "aiTools": [
+   "AI (vibe coded)"
+  ],
+  "creator": "sychu",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=44088248",
+  "metricType": "points",
+  "metricValue": 33,
+  "otherSignals": "12 comments; open source",
+  "date": "2025-05",
+  "verified": true,
+  "notes": "Devil's Plan 2 mini-game remake."
+ },
+ {
+  "name": "Bugdom browser port",
+  "playUrl": "https://reallyeli.com/bugdom/Bugdom.html",
+  "genre": "platformer",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "reallyeli",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46941138",
+  "metricType": "points",
+  "metricValue": 23,
+  "otherSignals": "5 comments",
+  "date": "2026-02",
+  "verified": true,
+  "notes": "1999 Pangea game ported to browser with AI tools (~20 hrs), plus mods."
+ },
+ {
+  "name": "Silicon Fighter",
+  "playUrl": "https://www.siliconfighter.com",
+  "genre": "action",
+  "aiTools": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "creator": "juanfiguera",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46216732",
+  "metricType": "points",
+  "metricValue": 14,
+  "otherSignals": "12 comments",
+  "date": "2025-12",
+  "verified": true,
+  "notes": "Fighting game with tech CEOs."
+ },
+ {
+  "name": "Skub",
+  "playUrl": "https://skub.app",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "kasperstorgaard",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47506958",
+  "metricType": "points",
+  "metricValue": 11,
+  "otherSignals": "6 comments",
+  "date": "2026-03",
+  "verified": true,
+  "notes": "Sliding puzzle (Ricochet Robots); AI-assisted."
+ },
+ {
+  "name": "Codex 2D platformer (zero code)",
+  "playUrl": null,
+  "genre": "platformer",
+  "aiTools": [
+   "OpenAI Codex CLI"
+  ],
+  "creator": "armcat",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47034752",
+  "metricType": "points",
+  "metricValue": 10,
+  "otherSignals": "10 comments",
+  "date": "2026-02",
+  "verified": true,
+  "notes": "Prince of Persia-style, built entirely via Codex; URL not captured."
+ },
+ {
+  "name": "Loft Day",
+  "playUrl": "https://marketa.behdad.org/loft-day",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude",
+   "Codex"
+  ],
+  "creator": "behdad",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49343029",
+  "metricType": "points",
+  "metricValue": 9,
+  "otherSignals": "6 comments; 138k-line single HTML file",
+  "date": "2026-08",
+  "verified": true,
+  "notes": "Wedding-invitation point-and-click."
+ },
+ {
+  "name": "Cubic Zombies",
+  "playUrl": "https://cubic-zombies.pages.dev/",
+  "genre": "shooter",
+  "aiTools": [
+   "Gemini CLI"
+  ],
+  "creator": "jose-cl",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=45132280",
+  "metricType": "points",
+  "metricValue": 9,
+  "otherSignals": "5 comments; ~90% AI code",
+  "date": "2025-09",
+  "verified": true,
+  "notes": "Phaser 3, PC only."
+ },
+ {
+  "name": "gamevibe.us daily Claude games",
+  "playUrl": "https://gamevibe.us/33-tower-defense",
+  "genre": "other",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "pzxc",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48162431",
+  "metricType": "points",
+  "metricValue": 8,
+  "otherSignals": "Daily single-prompt game series (Tetris, chess, World Domination...)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Collection; best single post ~8 pts."
+ },
+ {
+  "name": "Data Dash",
+  "playUrl": "https://datadash.directus.io",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "haynesben",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43556800",
+  "metricType": "points",
+  "metricValue": 8,
+  "otherSignals": "Built by non-technical marketer",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "Three.js."
+ },
+ {
+  "name": "Super Mario Galaxy fan game",
+  "playUrl": "https://supertommy.com/games/super-mario-galaxy-movie-game/",
+  "genre": "platformer",
+  "aiTools": [
+   "Claude Code (Opus)"
+  ],
+  "creator": "supertommy",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47600002",
+  "metricType": "points",
+  "metricValue": 7,
+  "otherSignals": "14 comments; 53 days",
+  "date": "2026-04",
+  "verified": true,
+  "notes": "Three.js fan game; IP status unclear."
+ },
+ {
+  "name": "Wingspan Arrow",
+  "playUrl": "https://wingspan.games/arrow",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "calflegal",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46340877",
+  "metricType": "points",
+  "metricValue": 7,
+  "otherSignals": "2 comments",
+  "date": "2025-12",
+  "verified": true,
+  "notes": "Creator: 'couldn't have built it without AI'."
+ },
+ {
+  "name": "Biplane Skirmish",
+  "playUrl": "https://www.gamedev.pl/ay/biplane-skirmish",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Claude Opus",
+   "GPT Astra"
+  ],
+  "creator": "fullstackwife",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49847157",
+  "metricType": "points",
+  "metricValue": 7,
+  "otherSignals": "8 comments",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "WWI dogfight, custom engine."
+ },
+ {
+  "name": "Alien Abducto-rama",
+  "playUrl": "https://studio.mfelix.org/alien-abductorama/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "threekindwords",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46744524",
+  "metricType": "points",
+  "metricValue": 6,
+  "otherSignals": "Made with kids (voice dictation to Claude)",
+  "date": "2026-01",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Pong Wars Idle",
+  "playUrl": "https://verse8.io/P4s6w3C",
+  "genre": "idle-incremental",
+  "aiTools": [
+   "Verse8 (100% vibe coded)"
+  ],
+  "creator": "wancomplete",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=45665359",
+  "metricType": "points",
+  "metricValue": 6,
+  "otherSignals": "3 hours to make",
+  "date": "2025-10",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Doge Decimator",
+  "playUrl": null,
+  "genre": "shooter",
+  "aiTools": [
+   "Websim"
+  ],
+  "creator": "wttdotm",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43355173",
+  "metricType": "points",
+  "metricValue": 6,
+  "otherSignals": "5 comments; process video on YouTube",
+  "date": "2025-03",
+  "verified": true,
+  "notes": "Made with Websim team; play URL on websim not captured."
+ },
+ {
+  "name": "Macrodata Refinement",
+  "playUrl": "https://macrodata-refinement.arjit.me/",
+  "genre": "puzzle",
+  "aiTools": [
+   "v0",
+   "Cursor"
+  ],
+  "creator": "arjitjaiswal",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=43161735",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "Severance-inspired",
+  "date": "2025-02",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Floktoid",
+  "playUrl": "https://floktoid.franzai.com/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "franze",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=44917954",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "9 comments; '100% Claude coded'",
+  "date": "2025-08",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Blue Line hockey",
+  "playUrl": "https://playblueline.pages.dev/",
+  "genre": "sports",
+  "aiTools": [
+   "Claude Opus 5.5",
+   "Gemini"
+  ],
+  "creator": "astlouis44",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50077567",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "2 comments",
+  "date": "2026-10",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Free Kids Typing Games",
+  "playUrl": "https://free-kids-typing-games.com",
+  "genre": "educational",
+  "aiTools": [
+   "ChatGPT"
+  ],
+  "creator": "Alan01252",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46255894",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "Vibe coded, ad-free",
+  "date": "2025-12",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Tokken",
+  "playUrl": "https://tokken.win/",
+  "genre": "action",
+  "aiTools": [
+   "Claude Opus 5.5"
+  ],
+  "creator": "lexdoudkin",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49858875",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "MIT source",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "AI models fight, HP is tokens."
+ },
+ {
+  "name": "Lightyears Home",
+  "playUrl": "https://lightyears-home.pages.dev/",
+  "genre": "puzzle",
+  "aiTools": [
+   "AI (vibecoded)"
+  ],
+  "creator": "gagarwal123",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50327582",
+  "metricType": "points",
+  "metricValue": 5,
+  "otherSignals": "",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Navigate home using pulsars."
+ },
+ {
+  "name": "Mechs.lol",
+  "playUrl": "https://mechs.lol",
+  "genre": "shooter",
+  "aiTools": [
+   "LLMs (heavily AI-built)"
+  ],
+  "creator": "spaceships",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48238555",
+  "metricType": "points",
+  "metricValue": 4,
+  "otherSignals": "8 comments; multiplayer autoshooter",
+  "date": "2026-05",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Carom",
+  "playUrl": "https://www.nerdcube.games/carom",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "nerdcube",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47656249",
+  "metricType": "points",
+  "metricValue": 4,
+  "otherSignals": "Daily puzzle",
+  "date": "2026-04",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Naval Strike",
+  "playUrl": "https://navalstrike.app",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "pinchydev",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48042110",
+  "metricType": "points",
+  "metricValue": 4,
+  "otherSignals": "6 comments",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Simultaneous-turn fleet combat."
+ },
+ {
+  "name": "Motion Party",
+  "playUrl": "https://motionparty.net",
+  "genre": "sports",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "oliwary",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=46394197",
+  "metricType": "points",
+  "metricValue": 3,
+  "otherSignals": "Webcam motion party games",
+  "date": "2025-12",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Incremendle",
+  "playUrl": "https://incremendle.com/",
+  "genre": "idle-incremental",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "nickdirienzo",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50472616",
+  "metricType": "points",
+  "metricValue": 3,
+  "otherSignals": "New AI-generated incremental game every day",
+  "date": "2026-11",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Pawn Rush",
+  "playUrl": "https://pawnrush.xiaohan.dev/",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "hanstyle",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50176936",
+  "metricType": "points",
+  "metricValue": 3,
+  "otherSignals": "Built in 2 days",
+  "date": "2026-10",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Letter Lockbox",
+  "playUrl": "https://www.letterlockbox.com",
+  "genre": "word",
+  "aiTools": [
+   "Claude Code",
+   "Gemini"
+  ],
+  "creator": "christensen143",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=44371042",
+  "metricType": "points",
+  "metricValue": 3,
+  "otherSignals": "",
+  "date": "2025-06",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Aiden's Revenge",
+  "playUrl": "https://aidens-revenge.pages.dev/",
+  "genre": "action",
+  "aiTools": [
+   "Claude Code (Opus 4.8, Fable 5, Fable 5.2)",
+   "ChatGPT Images 2.5",
+   "ElevenLabs"
+  ],
+  "creator": "lexandstuff",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50433659",
+  "metricType": "points",
+  "metricValue": 505,
+  "otherSignals": "450 comments",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Beat 'em up 'one-shotted' for the author's nephew; blog post links playable build (free not stated)."
+ },
+ {
+  "name": "Shepherd's Dog",
+  "playUrl": "https://vnglst.github.io/when-ai-fails/shepards-dog/claude-fable-5/index.html",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Fable 5"
+  ],
+  "creator": "vnglst",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48513728",
+  "metricType": "points",
+  "metricValue": 186,
+  "otherSignals": "132 comments; single 2,319-line HTML file",
+  "date": "2026-06",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Fable52.games collection",
+  "playUrl": "https://fable52.games",
+  "genre": "other",
+  "aiTools": [
+   "Claude Fable 5.2"
+  ],
+  "creator": "felixne",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50469007",
+  "metricType": "points",
+  "metricValue": 72,
+  "otherSignals": "60 comments; showcases e.g. 'Saltline' 3D FPS",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Gallery of single-file Fable 5.2 games."
+ },
+ {
+  "name": "minigames.world (80 Fable mini-games)",
+  "playUrl": "https://minigames.world/en",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Fable"
+  ],
+  "creator": "legocoder",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48522555",
+  "metricType": "points",
+  "metricValue": 54,
+  "otherSignals": "74 comments",
+  "date": "2026-06",
+  "verified": true,
+  "notes": "AI-managed mini-games site; free during beta."
+ },
+ {
+  "name": "City 2026 (SimCity 2000 clone)",
+  "playUrl": "https://dator.dev/city2026/",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude Opus 5.5"
+  ],
+  "creator": "drdator",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49977886",
+  "metricType": "points",
+  "metricValue": 37,
+  "otherSignals": "32 comments; decompiled original with Ghidra",
+  "date": "2026-10",
+  "verified": true,
+  "notes": "IP status unclear."
+ },
+ {
+  "name": "The Golf Is Golfing",
+  "playUrl": "https://www.the-golf-is-golfing.com",
+  "genre": "sports",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "paulbjensen",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=47014704",
+  "metricType": "points",
+  "metricValue": 36,
+  "otherSignals": "30 comments; built in one night",
+  "date": "2026-02",
+  "verified": true,
+  "notes": "Svelte + Three.js."
+ },
+ {
+  "name": "Sabih medieval pixel game",
+  "playUrl": "https://www.sabih.dev/game/",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude Opus 5.5"
+  ],
+  "creator": "irisguy",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50326721",
+  "metricType": "points",
+  "metricValue": 21,
+  "otherSignals": "15 comments; 6 hours",
+  "date": "2026-11",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Fable pirate MMO (5MB)",
+  "playUrl": null,
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude Code (Fable)"
+  ],
+  "creator": "m0dE",
+  "platform": "hn",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=48865667",
+  "metricType": "points",
+  "metricValue": 19,
+  "otherSignals": "Cross-posted from r/ClaudeAI",
+  "date": "2026-07",
+  "verified": true,
+  "notes": "Procedurally generated, no asset files; play URL not captured."
+ }
+]

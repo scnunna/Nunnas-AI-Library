@@ -1,0 +1,1540 @@
+[
+ {
+  "name": "The Great Taxi Assignment",
+  "playUrl": "https://great-taxi-assignment.netlify.app/",
+  "genre": "simulation",
+  "aiTools": [
+   "Cursor",
+   "Claude 3.7 Sonnet",
+   "Three.js"
+  ],
+  "creator": "@tomasbencko",
+  "platform": "jam",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "Vibe Jam 2025 Gold ($10k), 1,000+ entries",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "Built in ~60 hours (per Nilo). Jam required >=80% AI code."
+ },
+ {
+  "name": "Vibeware",
+  "playUrl": "https://vibeware.vercel.app/",
+  "genre": "arcade-retro",
+  "aiTools": [],
+  "creator": "@mattgordonxyz",
+  "platform": "jam",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "rank",
+  "metricValue": 2,
+  "otherSignals": "Vibe Jam 2025 Silver ($5k)",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "Microgame collection; jam rule >=80% AI-written code."
+ },
+ {
+  "name": "Vector Tango",
+  "playUrl": "https://www.vector-tango.com/play/",
+  "genre": "simulation",
+  "aiTools": [
+   "Three.js"
+  ],
+  "creator": "@scobelverse",
+  "platform": "jam",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "rank",
+  "metricValue": 3,
+  "otherSignals": "Vibe Jam 2025 Bronze ($2.5k)",
+  "date": "2025-04",
+  "verified": true,
+  "notes": "Air-traffic-control / combat sim."
+ },
+ {
+  "name": "Fly (fly.pieter.com)",
+  "playUrl": "https://fly.pieter.com/",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Grok 3",
+   "Claude",
+   "Three.js"
+  ],
+  "creator": "@levelsio",
+  "platform": "showcase",
+  "evidenceUrl": "https://onepromptman.ai/p/incredible-the-2025-vibe-coding-game-jam-story-vibejam",
+  "metricType": "players",
+  "metricValue": 320000,
+  "otherSignals": "Peak 26k concurrent; ~$87k MRR by Mar 2025 (self-reported); #2 on vibecode.games leaderboard (4.7 stars)",
+  "date": "2025-02",
+  "verified": true,
+  "notes": "Inspired the Vibe Jam; figures self-reported by creator on X."
+ },
+ {
+  "name": "Vibe Sail",
+  "playUrl": "https://vibesail.com/",
+  "genre": "simulation",
+  "aiTools": [
+   "Cursor",
+   "Claude 3.7 Sonnet",
+   "Three.js"
+  ],
+  "creator": "@nicolamanzini",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 3,
+  "otherSignals": "#3 on vibecode.games player-vote leaderboard (4.5 stars), Nov 2026",
+  "date": "2025",
+  "verified": true,
+  "notes": "Multiplayer sailing sim; tools per delightc123 list."
+ },
+ {
+  "name": "A Game About Capybaras Delivering Food",
+  "playUrl": "https://capybara-vibejam26.leocoout.dev/",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude Code",
+   "Three.js"
+  ],
+  "creator": "@leocooout",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "Cursor Vibe Jam 2026 Gold ($25k) of 945 entries",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Jam rule >=90% AI-written code. 678 plays on foundplay.io."
+ },
+ {
+  "name": "Fanto's Mega-Mart",
+  "playUrl": "https://fantos-megamart.vercel.app/",
+  "genre": "action",
+  "aiTools": [
+   "OpenAI Codex",
+   "Three.js"
+  ],
+  "creator": "@e_c_t_o",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": 2,
+  "otherSignals": "Vibe Jam 2026 Silver ($10k)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "WenWare",
+  "playUrl": "https://wen-ware.com/",
+  "genre": "puzzle",
+  "aiTools": [
+   "OpenAI Codex",
+   "Three.js"
+  ],
+  "creator": "@underpaid_mom",
+  "platform": "jam",
+  "evidenceUrl": "https://wen-ware.com/about",
+  "metricType": "plays",
+  "metricValue": 1000000,
+  "otherSignals": "Vibe Jam 2026 Bronze ($5k) + Bolt's Most Played award",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "About page: 'over one million plays on the Vibe Jam leaderboard'. 360-degree time/place guessing game."
+ },
+ {
+  "name": "HALDANE-4",
+  "playUrl": "https://haldane4.denisbondare.com/",
+  "genre": "horror",
+  "aiTools": [
+   "Cursor",
+   "HTML5 Canvas"
+  ],
+  "creator": "@denisbondare",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Cursor's Most Original",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Text/ASCII horror."
+ },
+ {
+  "name": "Null Range",
+  "playUrl": "https://nullrange.com/",
+  "genre": "shooter",
+  "aiTools": [
+   "Cursor",
+   "Three.js"
+  ],
+  "creator": "@taylor_sntx",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Cursor's Best Art Direction",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Multiplayer space combat."
+ },
+ {
+  "name": "Kanso",
+  "playUrl": "https://www.kansogame.com/",
+  "genre": "simulation",
+  "aiTools": [
+   "OpenAI Codex",
+   "Claude"
+  ],
+  "creator": "@mrsukeruton",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Glif's Most Zen",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Bonsai-growing relaxation game."
+ },
+ {
+  "name": "Swingers",
+  "playUrl": "https://swing.offmylawn.com/",
+  "genre": "sandbox",
+  "aiTools": [
+   "Claude Code",
+   "Three.js"
+  ],
+  "creator": "@_offmylawn",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Unhinged",
+  "date": "2026-05",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "FULL SEND",
+  "playUrl": "https://fullsend.game/",
+  "genre": "racing",
+  "aiTools": [
+   "Cursor",
+   "Claude"
+  ],
+  "creator": "@dvassallo",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Portal Transfers",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "2D racing."
+ },
+ {
+  "name": "KÖTTBULLAR METAL",
+  "playUrl": "https://kottbullar-metal.vercel.app/",
+  "genre": "action",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "@MichalPastier",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Funniest Game",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Survival."
+ },
+ {
+  "name": "Tiny Skies",
+  "playUrl": "https://tinyskies.vercel.app/",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Three.js"
+  ],
+  "creator": "@dannylimanseta",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Polished",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Exploration/flying."
+ },
+ {
+  "name": "Undersphere",
+  "playUrl": "https://playundersphere.com/",
+  "genre": "shooter",
+  "aiTools": [
+   "Cursor",
+   "Three.js"
+  ],
+  "creator": "@_NoahWhiteson",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Unique Concept",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Multiplayer FPS."
+ },
+ {
+  "name": "Eyrie",
+  "playUrl": "https://playeyrie.com/",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude Code",
+   "Three.js"
+  ],
+  "creator": "@slowchaz",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Atmospheric",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Co-op roguelike."
+ },
+ {
+  "name": "BeetleJump",
+  "playUrl": "https://beetlejump.com/",
+  "genre": "platformer",
+  "aiTools": [
+   "Claude Code",
+   "Three.js"
+  ],
+  "creator": "@assentorp",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Rage-Quit Award",
+  "date": "2026-05",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Almost Surgery",
+  "playUrl": "https://almostsurgery.ragim.dev/",
+  "genre": "simulation",
+  "aiTools": [
+   "OpenAI Codex",
+   "Godot"
+  ],
+  "creator": "@RagimMusakaev",
+  "platform": "jam",
+  "evidenceUrl": "https://levels.io/vibe-jam-2026-winners-quality",
+  "metricType": "rank",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Cursed",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Dark-comedy surgery sim."
+ },
+ {
+  "name": "Geobeat",
+  "playUrl": "https://dmnshd.gg/games/geobeat",
+  "genre": "music-rhythm",
+  "aiTools": [
+   "Cursor",
+   "Meta Immersive Web SDK"
+  ],
+  "creator": "Florian Isikci (dmnshd)",
+  "platform": "jam",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 entry; also on YouTube Playables",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Super Hexagon-inspired; placement not stated."
+ },
+ {
+  "name": "Hollowlands",
+  "playUrl": "https://hollowlands.andreelias.dev",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@andreeliasdev",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 797,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Mafia City",
+  "playUrl": "https://mafiacity.online",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@davidbmadsen",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 209,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Spellwright",
+  "playUrl": "https://spellwright.xyz",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@liampoli",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 152,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Blastline",
+  "playUrl": "https://play.blastline.win",
+  "genre": "shooter",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@kiki___toki",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 63,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "AGI of Mythology",
+  "playUrl": "https://trussner.com/agi",
+  "genre": "strategy",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@TTrussner",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 59,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Vibe Theft Auto",
+  "playUrl": "https://vibetheftauto.xyz",
+  "genre": "action",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@oldfeet",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 59,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "The Docks",
+  "playUrl": "https://thedocks.xyz",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@lastraum",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 54,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Roninfall",
+  "playUrl": "https://vibejam2.vercel.app",
+  "genre": "action",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@chongdashu",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 50,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Slime Surfers",
+  "playUrl": "https://slimesurfers.com",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@johnurbank",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 50,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Floppy Brawler",
+  "playUrl": "https://floppybrawler.vercel.app",
+  "genre": "action",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@MrCollison",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 46,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Ship Snatch",
+  "playUrl": "https://shipsnatch.com",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@radomir_3",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 42,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "MechBrawl",
+  "playUrl": "https://mechbrawl.gg",
+  "genre": "action",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@ThomasGrayX",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 41,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Sky Critters",
+  "playUrl": "https://www.skycritters.io",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@jasperdeboer",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 35,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Internet Kart Racing",
+  "playUrl": "https://ikracing.com",
+  "genre": "racing",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@folarin0x",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 6,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Gridiron Rumble",
+  "playUrl": "https://play.gridironrumble.com",
+  "genre": "sports",
+  "aiTools": [
+   "Colyseus"
+  ],
+  "creator": "@jessepeplinski",
+  "platform": "jam",
+  "evidenceUrl": "https://colyseus.io/blog/vibe-jam-2026/",
+  "metricType": "likes",
+  "metricValue": 9,
+  "otherSignals": "Vibe Jam 2026 multiplayer entry (Colyseus)",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Likes = creator's most-popular X video post in last 30 days (Colyseus proxy), not plays. Jam rule >=90% AI code."
+ },
+ {
+  "name": "Idle Tactics: Ascension",
+  "playUrl": null,
+  "genre": "idle-incremental",
+  "aiTools": [
+   "Claude",
+   "Minds"
+  ],
+  "creator": "H4rd",
+  "platform": "jam",
+  "evidenceUrl": "https://itbrief.co.uk/story/vibeblitz-game-jam-crowns-idle-tactics-as-first-winner",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "VibeBlitz Jam 2026 winner (72 entries); #4 on vibecode.game most-played",
+  "date": "2026-08",
+  "verified": false,
+  "notes": "Hosted on vibecode.game (YGG)."
+ },
+ {
+  "name": "Tiny Realm",
+  "playUrl": null,
+  "genre": "strategy",
+  "aiTools": [
+   "ChatGPT",
+   "Gemini",
+   "Minds",
+   "Claude",
+   "Lovable"
+  ],
+  "creator": "manutegus",
+  "platform": "jam",
+  "evidenceUrl": "https://itbrief.co.uk/story/vibeblitz-game-jam-crowns-idle-tactics-as-first-winner",
+  "metricType": "rank",
+  "metricValue": 2,
+  "otherSignals": "VibeBlitz Jam 2026 2nd; #3 on vibecode.game most-played",
+  "date": "2026-08",
+  "verified": false,
+  "notes": "Pixel-art RTS."
+ },
+ {
+  "name": "The Last Seal",
+  "playUrl": null,
+  "genre": "platformer",
+  "aiTools": [
+   "Verse8",
+   "Minds",
+   "Claude"
+  ],
+  "creator": "Meedex",
+  "platform": "jam",
+  "evidenceUrl": "https://itbrief.co.uk/story/vibeblitz-game-jam-crowns-idle-tactics-as-first-winner",
+  "metricType": "rank",
+  "metricValue": 3,
+  "otherSignals": "VibeBlitz 3rd (one report)",
+  "date": "2026-08",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Agent Fighter",
+  "playUrl": null,
+  "genre": "action",
+  "aiTools": [
+   "Cursor",
+   "Gemini",
+   "Claude",
+   "Minds"
+  ],
+  "creator": "sedano.dev",
+  "platform": "jam",
+  "evidenceUrl": "https://itbrief.co.uk/story/vibeblitz-game-jam-crowns-idle-tactics-as-first-winner",
+  "metricType": "rank",
+  "metricValue": 4,
+  "otherSignals": "VibeBlitz 4th; #1 on vibecode.game most-played list",
+  "date": "2026-08",
+  "verified": false,
+  "notes": "2D browser fighting game."
+ },
+ {
+  "name": "Pixel Abysss",
+  "playUrl": null,
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Minds"
+  ],
+  "creator": "Volcanic",
+  "platform": "jam",
+  "evidenceUrl": "https://itbrief.co.uk/story/vibeblitz-game-jam-crowns-idle-tactics-as-first-winner",
+  "metricType": "rank",
+  "metricValue": 5,
+  "otherSignals": "VibeBlitz 5th; #2 on vibecode.game most-played",
+  "date": "2026-08",
+  "verified": false,
+  "notes": "Roguelike dungeon crawler."
+ },
+ {
+  "name": "Pyramid Wars",
+  "playUrl": "https://durian-arcade.itch.io/pyramid-wars",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude Opus"
+  ],
+  "creator": "durian-arcade",
+  "platform": "itch",
+  "evidenceUrl": "https://github.com/lappemic/awesome-ai-built-games",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "AI Browser Game Jam 3 winner (82 entries)",
+  "date": "2026",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Plug & Prosper",
+  "playUrl": "https://smallloopworks.itch.io/plug-prosper",
+  "genre": "simulation",
+  "aiTools": [
+   "OpenAI Codex",
+   "Godot"
+  ],
+  "creator": "smallloopworks",
+  "platform": "itch",
+  "evidenceUrl": "https://github.com/lappemic/awesome-ai-built-games",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "AI Browser Game Jam 4 winner (126 entries)",
+  "date": "2026-08",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "AI2U - Guns & Girlfriends",
+  "playUrl": "https://helixngc7293.itch.io/gandg",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude Code",
+   "Gemini"
+  ],
+  "creator": "helixngc7293",
+  "platform": "itch",
+  "evidenceUrl": "https://github.com/lappemic/awesome-ai-built-games",
+  "metricType": "rank",
+  "metricValue": 2,
+  "otherSignals": "AI Browser Game Jam 4 runner-up",
+  "date": "2026-08",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Rogue Memory",
+  "playUrl": "https://quantumcodemonk.itch.io/rogue-memory",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "quantumcodemonk",
+  "platform": "itch",
+  "evidenceUrl": "https://github.com/lappemic/awesome-ai-built-games",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "AI Browser Game Jam 1 joint winner",
+  "date": "2025",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "GeoSports",
+  "playUrl": "https://geosports.app/",
+  "genre": "educational",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "Frank Michael Smith (Rhino Studios)",
+  "platform": "showcase",
+  "evidenceUrl": "https://madrobot.blog/2026/10/10/geosports-vibe-coded-claude-code-12-hours-million-players/",
+  "metricType": "players",
+  "metricValue": 1000000,
+  "otherSignals": "~1M unique users in first month; 15M+ rounds by Sep 2026; built in 12h",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Daily sports map game; free rounds, optional Pro tier. Self-reported."
+ },
+ {
+  "name": "Taipei Rush (Taipei GTA)",
+  "playUrl": "https://www.taipei-rush.app/",
+  "genre": "action",
+  "aiTools": [],
+  "creator": "aicodewithme (Threads)",
+  "platform": "showcase",
+  "evidenceUrl": "https://madrobot.blog/2026/10/10/taipei-gta-ai-built-gta-clone-of-taipei-goes-viral/",
+  "metricType": "players",
+  "metricValue": 1200000,
+  "otherSignals": "Dev claims 1.2M players in 3 days; Threads post 100k+ likes; ~$10k of AI tokens",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "AI tool not disclosed; figure is developer claim only."
+ },
+ {
+  "name": "Dialed (Color)",
+  "playUrl": "https://dialed.gg",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude",
+   "Cursor",
+   "Figma"
+  ],
+  "creator": "Geoff & Sam Teehan",
+  "platform": "showcase",
+  "evidenceUrl": "https://betakit.com/meet-the-father-son-duo-hoping-to-turn-their-ai-side-project-into-a-gaming-company/",
+  "metricType": "plays",
+  "metricValue": 26000000,
+  "otherSignals": "Color hit 500k plays in days; suite 26M+ completed plays in 239 countries; streamer pickup (xQc)",
+  "date": "2026-02",
+  "verified": true,
+  "notes": "Suite of Color, Sound, Time, Shape, Color2. Fast Company cites ~30M plays."
+ },
+ {
+  "name": "IsoCity",
+  "playUrl": "https://iso-city.com",
+  "genre": "simulation",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "Andrew Milich",
+  "platform": "showcase",
+  "evidenceUrl": "https://raw.githubusercontent.com/amilich/isometric-city/main/README.md",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Open-source; HN + FlowingData coverage; everygamemade editor's pick; sibling IsoCoaster (iso-coaster.com)",
+  "date": "2025-12",
+  "verified": true,
+  "notes": "No traffic figures found."
+ },
+ {
+  "name": "Battle Drones",
+  "playUrl": "https://simonw.github.io/battledrones/",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude Code",
+   "Claude Opus 5.5",
+   "Phaser",
+   "Three.js"
+  ],
+  "creator": "Simon Willison",
+  "platform": "showcase",
+  "evidenceUrl": "https://simonwillison.net/2026/Oct/20/battledrones/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "321 commits mostly by coding agents; prominent blogger",
+  "date": "2026-10",
+  "verified": true,
+  "notes": "RTS with audio-based multiplayer."
+ },
+ {
+  "name": "Three.js Quake",
+  "playUrl": "https://mrdoob.github.io/three-quake/",
+  "genre": "shooter",
+  "aiTools": [
+   "Claude",
+   "Three.js"
+  ],
+  "creator": "mrdoob (Three.js creator)",
+  "platform": "showcase",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Built by creator of Three.js",
+  "date": "2026",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "World of ClaudeCraft",
+  "playUrl": "https://worldofclaudecraft.com/",
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude",
+   "Three.js"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://foundplay.io/lists/vibe-coded-games",
+  "metricType": "plays",
+  "metricValue": 4600,
+  "otherSignals": "#2 on foundplay.io vibe-coded list",
+  "date": "2026",
+  "verified": true,
+  "notes": "Browser MMO; has optional crypto token."
+ },
+ {
+  "name": "Neon Intercept",
+  "playUrl": "https://gameer.io",
+  "genre": "action",
+  "aiTools": [],
+  "creator": "@gameer_ai",
+  "platform": "directory",
+  "evidenceUrl": "https://foundplay.io/lists/vibe-coded-games",
+  "metricType": "plays",
+  "metricValue": 8800,
+  "otherSignals": "#1 on foundplay.io vibe-coded list",
+  "date": "2026",
+  "verified": true,
+  "notes": "Exact URL behind foundplay /go/ redirect."
+ },
+ {
+  "name": "Ride Tales",
+  "playUrl": "https://ridetales.lumaris.works",
+  "genre": "rpg-adventure",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://foundplay.io/lists/vibe-coded-games",
+  "metricType": "plays",
+  "metricValue": 2300,
+  "otherSignals": "foundplay.io #3",
+  "date": "2026",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Kart Royale",
+  "playUrl": "https://racing.ryancampbell.com/",
+  "genre": "racing",
+  "aiTools": [
+   "Claude Opus 5"
+  ],
+  "creator": "Ryan Campbell",
+  "platform": "directory",
+  "evidenceUrl": "https://everygamemade.com/ai-games.html",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "everygamemade.com Editor's pick",
+  "date": "2026",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Pastel Nuketown",
+  "playUrl": "https://everygamemade.com/ai-game/pastel-nuketown.html",
+  "genre": "shooter",
+  "aiTools": [],
+  "creator": "Luckey Systems",
+  "platform": "directory",
+  "evidenceUrl": "https://everygamemade.com/ai-games.html",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "everygamemade 'Start here' pick",
+  "date": "2026",
+  "verified": true,
+  "notes": "Listing page; original URL not captured."
+ },
+ {
+  "name": "Fly Hi",
+  "playUrl": "https://flyhi.netlify.app/",
+  "genre": "flight-sim",
+  "aiTools": [],
+  "creator": "@donvito",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "#1 on vibecode.games player-vote leaderboard (Nov 2026), 4.9 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "After Hours: The Call from Room 214",
+  "playUrl": "https://tandemcasebook.itch.io/after-hours-room-214",
+  "genre": "puzzle",
+  "aiTools": [],
+  "creator": "@hghj75",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 4,
+  "otherSignals": "#4 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Arcade City",
+  "playUrl": "https://arcade.0xrome.com/",
+  "genre": "racing",
+  "aiTools": [],
+  "creator": "@0xRome",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 5,
+  "otherSignals": "#5 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Cowboy",
+  "playUrl": "https://cowboy.raymelon.com/",
+  "genre": "shooter",
+  "aiTools": [],
+  "creator": "@pseudokid",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 6,
+  "otherSignals": "#6 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Cross Current",
+  "playUrl": "https://sixthsigil.com/aethervanguard/?puzzle=cross-current",
+  "genre": "puzzle",
+  "aiTools": [],
+  "creator": "@sixthsigil",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 7,
+  "otherSignals": "#7 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Dome Farm",
+  "playUrl": "https://dome.jelmerdeboer.nl/",
+  "genre": "simulation",
+  "aiTools": [],
+  "creator": "@jelmerdeboer",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 8,
+  "otherSignals": "#8 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Escape Prison Cell",
+  "playUrl": "https://escape.puzzlesunlocked.com/",
+  "genre": "puzzle",
+  "aiTools": [],
+  "creator": "@jamesckemp",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 9,
+  "otherSignals": "#9 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Hot Air Balloon",
+  "playUrl": "https://www.hotairvibe.com/game",
+  "genre": "flight-sim",
+  "aiTools": [],
+  "creator": "@sieversjosua",
+  "platform": "directory",
+  "evidenceUrl": "https://vibecode.games/",
+  "metricType": "rank",
+  "metricValue": 10,
+  "otherSignals": "#10 on vibecode.games player-vote leaderboard (Nov 2026), 4.2 stars",
+  "date": "2026-11",
+  "verified": true,
+  "notes": "Directory lists only vibe-coded games; per-game tool not given."
+ },
+ {
+  "name": "Ink Warden",
+  "playUrl": "https://www.aigameshare.com/games/ink-warden",
+  "genre": "other",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://www.aigameshare.com/games",
+  "metricType": "plays",
+  "metricValue": 4700,
+  "otherSignals": "Top of AIGameShare popular list (569 AI-generated games)",
+  "date": "2026",
+  "verified": true,
+  "notes": "Site-reported plays, window unspecified."
+ },
+ {
+  "name": "BREAKWATER: 3v3 ARAM MOBA",
+  "playUrl": "https://www.aigameshare.com/games/breakwater-3v3-moba",
+  "genre": "multiplayer-io",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://www.aigameshare.com/games",
+  "metricType": "plays",
+  "metricValue": 2300,
+  "otherSignals": "Top of AIGameShare popular list (569 AI-generated games)",
+  "date": "2026",
+  "verified": true,
+  "notes": "Site-reported plays, window unspecified."
+ },
+ {
+  "name": "Boat Roguelite: Driftwake",
+  "playUrl": "https://www.aigameshare.com/games/boat-roguelite-driftwake",
+  "genre": "action",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://www.aigameshare.com/games",
+  "metricType": "plays",
+  "metricValue": 2100,
+  "otherSignals": "Top of AIGameShare popular list (569 AI-generated games)",
+  "date": "2026",
+  "verified": true,
+  "notes": "Site-reported plays, window unspecified."
+ },
+ {
+  "name": "LANDFALL",
+  "playUrl": "https://www.aigameshare.com/games/landfall",
+  "genre": "other",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://www.aigameshare.com/games",
+  "metricType": "plays",
+  "metricValue": 1900,
+  "otherSignals": "Top of AIGameShare popular list (569 AI-generated games)",
+  "date": "2026",
+  "verified": true,
+  "notes": "Site-reported plays, window unspecified."
+ },
+ {
+  "name": "SKYHOP: 3D Flying Car Stunt Game",
+  "playUrl": "https://www.aigameshare.com/games/skyhop-3d-flying-car",
+  "genre": "racing",
+  "aiTools": [],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://www.aigameshare.com/games",
+  "metricType": "plays",
+  "metricValue": 1300,
+  "otherSignals": "Top of AIGameShare popular list (569 AI-generated games)",
+  "date": "2026",
+  "verified": true,
+  "notes": "Site-reported plays, window unspecified."
+ },
+ {
+  "name": "Suika Game (suika.live)",
+  "playUrl": "https://suika.live/",
+  "genre": "puzzle",
+  "aiTools": [
+   "Cursor",
+   "Claude"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Jigsaw Haiku",
+  "playUrl": "https://jigsawhaiku.com",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://vibecodedapps.dev/games/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Feudle",
+  "playUrl": "https://feudlegame.com",
+  "genre": "word",
+  "aiTools": [
+   "ChatGPT"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://vibecodedapps.dev/games/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Missile Command",
+  "playUrl": "https://missile-command-game.centminmod.com",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Gemini 2.5 Pro"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://vibecodedapps.dev/games/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2025",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "DOOMscroll",
+  "playUrl": "https://gisnep.com/doomscroll/",
+  "genre": "shooter",
+  "aiTools": [
+   "GPT-5"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Swervle",
+  "playUrl": "https://swervle.com/",
+  "genre": "racing",
+  "aiTools": [
+   "GPT-5.6",
+   "Claude Opus 5"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "San Francisco -- The Game",
+  "playUrl": "https://sf.thijs.gg/",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "OpenAI Codex"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "3D Tetris (Lovable)",
+  "playUrl": "https://3d-tetris-platforms.lovable.app/",
+  "genre": "puzzle",
+  "aiTools": [
+   "Lovable"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Flappi Bird",
+  "playUrl": "https://flappi-bird.vercel.app/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Cursor",
+   "Claude",
+   "Grok"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2025",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Dyson Defender",
+  "playUrl": "https://dyson-defender.vercel.app/",
+  "genre": "shooter",
+  "aiTools": [
+   "Cursor",
+   "Claude",
+   "Grok"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2025",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Fishing (lureconcept)",
+  "playUrl": "https://fishing.lureconcept.com/",
+  "genre": "sports",
+  "aiTools": [
+   "Cursor",
+   "Claude",
+   "Grok"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2025",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Space Defenders",
+  "playUrl": "https://jasonleow.com/space-defenders/",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude 3.7 Sonnet"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/delightc123/Vibe-Coded-Games/tree/main",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2025",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "Expo Tycoon",
+  "playUrl": "https://expotycoon.com",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": null,
+  "platform": "directory",
+  "evidenceUrl": "https://github.com/lappemic/awesome-ai-built-games",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in curated vibe-coded game directory",
+  "date": "2026",
+  "verified": true,
+  "notes": "No popularity metric found."
+ },
+ {
+  "name": "The Last Free Man",
+  "playUrl": "https://rosebud.ai/p/5a1200ac-06b5-4ec0-aff0-891da85cd012",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": "shawnBuilds",
+  "platform": "rosebud",
+  "evidenceUrl": "https://lab.rosebud.ai/blog/5-best-ai-games",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Rosebud blog '5 best AI games' #1",
+  "date": "2025-04",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Castle Destroyer",
+  "playUrl": "https://rosebud.ai/p/9593aebc-4b64-4b2d-9f8f-ffd96f62fc84",
+  "genre": "action",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://lab.rosebud.ai/blog/5-best-ai-games",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Rosebud blog '5 best AI games'",
+  "date": "2025-04",
+  "verified": true,
+  "notes": ""
+ },
+ {
+  "name": "Sir Falls-A-Lot",
+  "playUrl": "https://rosebud.ai/play/laavatorni",
+  "genre": "platformer",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://rosebud.ai/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in 'Top games made with Rosebud' on rosebud.ai homepage",
+  "date": "2026",
+  "verified": true,
+  "notes": "No play counts shown."
+ },
+ {
+  "name": "SUPERHOT MARIO",
+  "playUrl": "https://rosebud.ai/play/superhot-mario",
+  "genre": "shooter",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://rosebud.ai/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in 'Top games made with Rosebud' on rosebud.ai homepage",
+  "date": "2026",
+  "verified": true,
+  "notes": "No play counts shown."
+ },
+ {
+  "name": "Midnight Racer",
+  "playUrl": "https://rosebud.ai/play/midnight-racer",
+  "genre": "racing",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://rosebud.ai/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in 'Top games made with Rosebud' on rosebud.ai homepage",
+  "date": "2026",
+  "verified": true,
+  "notes": "No play counts shown."
+ },
+ {
+  "name": "Finger Haunt - Haunted Survival FPS",
+  "playUrl": "https://rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+  "genre": "horror",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://rosebud.ai/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in 'Top games made with Rosebud' on rosebud.ai homepage",
+  "date": "2026",
+  "verified": true,
+  "notes": "No play counts shown."
+ },
+ {
+  "name": "ATTENTION PASSENGERS - Plane Crash Survival",
+  "playUrl": "https://rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+  "genre": "horror",
+  "aiTools": [
+   "Rosebud AI"
+  ],
+  "creator": null,
+  "platform": "rosebud",
+  "evidenceUrl": "https://rosebud.ai/",
+  "metricType": null,
+  "metricValue": null,
+  "otherSignals": "Listed in 'Top games made with Rosebud' on rosebud.ai homepage",
+  "date": "2026",
+  "verified": true,
+  "notes": "No play counts shown."
+ },
+ {
+  "name": "TERMINAL SHOOTER: Machine Soul",
+  "playUrl": "https://haruka-apps-games.itch.io/terminal-shooter-machine-soul",
+  "genre": "shooter",
+  "aiTools": [],
+  "creator": "haruka_apps",
+  "platform": "itch",
+  "evidenceUrl": "https://itch.io/games/html5/tag-vibe-coding",
+  "metricType": "rank",
+  "metricValue": 1,
+  "otherSignals": "#1 popular HTML5 game in itch.io vibe-coding tag",
+  "date": "2026",
+  "verified": true,
+  "notes": "Tag is small (11 HTML5 games)."
+ },
+ {
+  "name": "Just One More Prompt!",
+  "playUrl": "https://helcyn.itch.io/just-one-more-prompt",
+  "genre": "idle-incremental",
+  "aiTools": [],
+  "creator": "helcyn",
+  "platform": "itch",
+  "evidenceUrl": "https://itch.io/games/html5/tag-vibe-coding",
+  "metricType": "rank",
+  "metricValue": 6,
+  "otherSignals": "itch.io vibe-coding tag",
+  "date": "2026",
+  "verified": true,
+  "notes": "Idle game about vibe coding."
+ }
+]
