@@ -18,7 +18,7 @@
     "awesome-list"
    ],
    "license": "Apache-2.0",
-   "stars": 79092,
+   "stars": 79614,
    "cost": "free",
    "relevance": [
     "general"
@@ -28,7 +28,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-09-18",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -46,7 +46,7 @@
     "awesome-list"
    ],
    "license": "CC BY-NC-ND 4.0",
-   "stars": 57578,
+   "stars": 58117,
    "cost": "free",
    "relevance": [
     "general"
@@ -55,8 +55,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-16",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -121,7 +121,7 @@
     "registry"
    ],
    "license": null,
-   "stars": 7456,
+   "stars": 7470,
    "cost": "free",
    "relevance": [
     "general"
@@ -130,8 +130,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-13",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -149,7 +149,7 @@
     "awesome-list"
    ],
    "license": "MIT",
-   "stars": 97507,
+   "stars": 97753,
    "cost": "free",
    "relevance": [
     "general",
@@ -160,7 +160,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-11-06",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -222,7 +222,7 @@
    "why": "2 stars; counts are 'discovery signals, not rankings'",
    "tags": [],
    "license": "CC0-1.0",
-   "stars": 102,
+   "stars": 113,
    "cost": null,
    "relevance": [
     "content-studio",
@@ -232,8 +232,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
-    "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-12",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -252,7 +252,7 @@
     "directory"
    ],
    "license": "CC-BY-SA-3.0",
-   "stars": 335283,
+   "stars": 337544,
    "cost": "free",
    "relevance": [
     "general"
@@ -262,7 +262,7 @@
    "source": "research 2026-10-24: awesome lists",
    "extra": {
     "pushedAt": "2026-11-07",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -281,7 +281,7 @@
     "directory"
    ],
    "license": "CC-BY-4.0",
-   "stars": 333521,
+   "stars": 335109,
    "cost": "free",
    "relevance": [
     "general"
@@ -290,8 +290,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists",
    "extra": {
-    "pushedAt": "2026-11-08",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-16",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -311,7 +311,7 @@
     "cheatsheets"
    ],
    "license": "MIT",
-   "stars": 257038,
+   "stars": 258875,
    "cost": "free",
    "relevance": [
     "general"
@@ -321,7 +321,7 @@
    "source": "research 2026-10-24: awesome lists",
    "extra": {
     "pushedAt": "2024-11-19",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -340,7 +340,7 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 192897,
+   "stars": 194173,
    "cost": "free",
    "relevance": [
     "general"
@@ -349,8 +349,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists",
    "extra": {
-    "pushedAt": "2026-11-06",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-16",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -369,7 +369,7 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 67422,
+   "stars": 67525,
    "cost": "free",
    "relevance": [
     "general"
@@ -379,7 +379,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-09-02",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -398,7 +398,7 @@
     "directory"
    ],
    "license": "MIT",
-   "stars": 74330,
+   "stars": 74457,
    "cost": "free",
    "relevance": [
     "general"
@@ -407,8 +407,8 @@
    "asOf": "2026-10-24",
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
-    "pushedAt": "2026-11-06",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-11",
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -426,7 +426,7 @@
     "directory"
    ],
    "license": "unclear (badge says CC0, links CC BY 4.0; no LICENSE file)",
-   "stars": 75223,
+   "stars": 75296,
    "cost": "free",
    "relevance": [
     "general"
@@ -436,7 +436,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-09-04",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -455,7 +455,7 @@
     "directory"
    ],
    "license": "CC0-1.0",
-   "stars": 48834,
+   "stars": 48888,
    "cost": "free",
    "relevance": [
     "general"
@@ -465,7 +465,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-01-26",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -484,7 +484,7 @@
     "list-of-lists"
    ],
    "license": "CC0-1.0",
-   "stars": 125047,
+   "stars": 125697,
    "cost": "free",
    "relevance": [
     "general"
@@ -494,7 +494,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-10-27",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -512,7 +512,7 @@
     "papers"
    ],
    "license": "none stated",
-   "stars": 111325,
+   "stars": 111561,
    "cost": "free",
    "relevance": [
     "general"
@@ -522,7 +522,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -540,7 +540,7 @@
     "design-patterns"
    ],
    "license": "CC0-1.0",
-   "stars": 49672,
+   "stars": 49772,
    "cost": "free",
    "relevance": [
     "general"
@@ -550,7 +550,7 @@
    "source": "research 2026-10-24: awesome lists batch 2",
    "extra": {
     "pushedAt": "2024-10-25",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -565,7 +565,7 @@
    "why": "The paid/free tags save time, but no licence file and no updates since April, so some links will be stale. The library's own asset-source entries already carry checked licences.",
    "tags": [],
    "license": null,
-   "stars": 7159,
+   "stars": 7198,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -573,7 +573,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-04-10",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -588,7 +588,7 @@
    "why": "Good map of research-grade AI tools by category, but mostly papers and repos with no quality or licence review, many needing big GPUs. Not updated since July.",
    "tags": [],
    "license": "MIT",
-   "stars": 1387,
+   "stars": 1390,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -596,7 +596,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-07-21",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -611,7 +611,7 @@
    "why": "Mostly links to other lists, in Chinese, with no descriptions or licence notes. Kavex/GameDev-Resources covers the English side better.",
    "tags": [],
    "license": null,
-   "stars": 2022,
+   "stars": 2028,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -619,7 +619,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-05-25",
-    "checkedAt": "2026-11-09"
+    "checkedAt": "2026-11-16"
    }
   },
   {
@@ -634,15 +634,15 @@
    "why": "Unusually deep on running a studio and live operations, not just code. Written in Chinese, so read it through translation or ask Claude to summarise a topic.",
    "tags": [],
    "license": "MIT",
-   "stars": 6676,
+   "stars": 6689,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-08",
-    "checkedAt": "2026-11-09"
+    "pushedAt": "2026-11-15",
+    "checkedAt": "2026-11-16"
    }
   },
   {
