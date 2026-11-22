@@ -952,3 +952,6 @@ Every library change is logged here by `scripts/add.mjs`.
 ## 2026-11-15 — research 2026-11-15: self-hosted Shopify alternatives
 - added tool-medusa -> agent-tools
 - added tool-vendure -> agent-tools
+
+## 2026-11-22 — research 2026-11-22: custom 3D figurine business
+- added service-jlc3dp-full-color-resin -> agent-tools

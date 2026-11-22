@@ -4831,6 +4831,25 @@
     "pushedAt": "2026-11-16",
     "checkedAt": "2026-11-16"
    }
+  },
+  {
+   "id": "service-jlc3dp-full-color-resin",
+   "name": "JLC3DP full-color resin printing",
+   "kind": "tool",
+   "category": "uncategorized",
+   "url": "https://jlc3dp.com/help/article/full-color-resin",
+   "description": "Full-color resin and full-color tough resin print service from JLC3DP. A per-figurine price was not seen, and turnaround plus shipping to the US needs a test order.",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Outsourced full-color photopolymer printing: you upload a textured model and they print it, so custom figurines need no printer or hand painting. Listed from $5, with an 11% price cut in July 2026. Get a quote for each model.",
+   "tags": [],
+   "license": null,
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-22",
+   "source": "research 2026-11-22: custom 3D figurine business"
   }
  ]
 }
