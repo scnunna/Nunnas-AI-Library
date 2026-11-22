@@ -1,0 +1,771 @@
+[
+ {
+  "name": "fly.pieter.com (Pieter.com Flight Simulator)",
+  "playUrl": "https://fly.pieter.com",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Grok 3",
+   "Claude 3.7 Sonnet",
+   "ChatGPT"
+  ],
+  "creator": "Pieter Levels (@levelsio)",
+  "platform": "x",
+  "evidenceUrl": "https://levels.io/full-multiplayer-python-websockets-game-ai",
+  "metricType": "views",
+  "metricValue": 1584759,
+  "otherSignals": "Launch post 1.58M views/1,090 likes on X; reader estimate 100M+ views for whole saga; claims $1M ARR in 17 days; ~320k total players, 26k peak concurrent; Musk reshared; 404 Media: >$50k/mo",
+  "date": "2025-02",
+  "verified": true,
+  "notes": "View count seen on levels.io post; revenue/player figures are self-reported and vary by source (404 Media, Decrypt, onepromptman)."
+ },
+ {
+  "name": "WW2 Dogfight Arena",
+  "playUrl": "https://fly.zullo.fun",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor",
+   "Claude 3.7 Sonnet",
+   "Grok 3"
+  ],
+  "creator": "Nicolas Zullo (@NicolasZu)",
+  "platform": "x",
+  "evidenceUrl": "https://x.com/NicolasZu/status/1899931187398979890",
+  "metricType": "views",
+  "metricValue": 1500000,
+  "otherSignals": "45k players tested it; ~EUR2k/mo from ad sponsors; built in 20h, 500 prompts, EUR20",
+  "date": "2025-03",
+  "verified": false,
+  "notes": "1.5M views is the creator's own claim in his X post (seen in search snippet); also in sorceress.games roundup."
+ },
+ {
+  "name": "Vibe Sail",
+  "playUrl": "https://vibesail.com",
+  "genre": "simulation",
+  "aiTools": [
+   "Cursor",
+   "Claude"
+  ],
+  "creator": "Nicola Manzini",
+  "platform": "press",
+  "evidenceUrl": "https://www.indiehackers.com/post/2NUIOp80SUWuPmmfKoS9",
+  "metricType": "revenue",
+  "metricValue": 10000,
+  "otherSignals": "Indie Hackers lists $10k MRR (Mar 2025); Starter Story says $8k MRR, 85% AI-generated code; sponsored islands + ads",
+  "date": "2025-03",
+  "verified": false,
+  "notes": "MRR from search snippets of Indie Hackers/Starter Story; not loaded. AI tools approximate (85% AI code claim)."
+ },
+ {
+  "name": "The Great Taxi Assignment",
+  "playUrl": "https://great-taxi-assignment.netlify.app",
+  "genre": "racing",
+  "aiTools": [
+   "Cursor",
+   "Claude 3.7 Sonnet"
+  ],
+  "creator": "Tomas Bencko (@TomasBencko)",
+  "platform": "press",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "revenue",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2025 #1 Gold ($10,000 prize) out of 1,000+ entries; built in 60 hours",
+  "date": "2025-04",
+  "verified": false,
+  "notes": "Prize money, not revenue; no player counts published."
+ },
+ {
+  "name": "Vibeware",
+  "playUrl": "https://vibeware.vercel.app",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "Matt Gordon (@mattgordonxyz)",
+  "platform": "press",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "revenue",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2025 #2 Silver ($5,000 prize)",
+  "date": "2025-04",
+  "verified": false,
+  "notes": "Jam required 80%+ AI-written code; specific tool not stated."
+ },
+ {
+  "name": "Vector Tango",
+  "playUrl": "https://www.vector-tango.com/play/",
+  "genre": "action",
+  "aiTools": [],
+  "creator": "@scobelverse",
+  "platform": "press",
+  "evidenceUrl": "https://vibejam.com/2025/",
+  "metricType": "revenue",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2025 #3 Bronze ($2,500 prize)",
+  "date": "2025-04",
+  "verified": false,
+  "notes": "AI tool not stated; jam rules require mostly AI code."
+ },
+ {
+  "name": "A Game About Capybaras Delivering Food",
+  "playUrl": "https://capybara-vibejam26.leocoout.dev",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude Code (Opus 4.7)"
+  ],
+  "creator": "Leo (@leocooout)",
+  "platform": "press",
+  "evidenceUrl": "https://wccftech.com/ios-developer-made-capybara-game-using-vibe-coding-and-won-25000/",
+  "metricType": "revenue",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 1st place ($25k prize, ~945 entries); 188 commits, ~27k LOC in 2 weeks; covered by Wccftech, r/vibecoding",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "No player/view counts published."
+ },
+ {
+  "name": "Fanto's Mega-Mart",
+  "playUrl": "https://fantos-megamart.vercel.app",
+  "genre": "simulation",
+  "aiTools": [
+   "OpenAI Codex"
+  ],
+  "creator": "@e_c_t_o",
+  "platform": "press",
+  "evidenceUrl": "https://nilo.io/articles/best-ai-vibe-coded-games",
+  "metricType": "revenue",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 2nd place ($10k prize)",
+  "date": "2026-04",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "WenWare",
+  "playUrl": "https://wen-ware.com",
+  "genre": "educational",
+  "aiTools": [
+   "OpenAI Codex",
+   "AI image/panorama generation"
+  ],
+  "creator": "@underpaid_mom",
+  "platform": "press",
+  "evidenceUrl": "https://wen-ware.com/about/",
+  "metricType": "players",
+  "metricValue": 1000000,
+  "otherSignals": "Over 1M plays (Vibe Jam leaderboard); Vibe Jam 2026 3rd place + Bolt Most Played; Fast Company feature May 15 2026; EraGuessr reports 6.97M rounds and 2.08M visits in first 30 days; creator posts on TikTok/Instagram",
+  "date": "2026-04",
+  "verified": true,
+  "notes": "Metric is plays, not unique players. Fast Company article returned 403."
+ },
+ {
+  "name": "Tiny Skies",
+  "playUrl": "https://tinyskies.vercel.app",
+  "genre": "flight-sim",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "Danny Limanseta (@DannyLimanseta)",
+  "platform": "press",
+  "evidenceUrl": "https://nilo.io/articles/best-ai-vibe-coded-games",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Polished award; cited as one of the jam's most-played entries",
+  "date": "2026-04",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "HALDANE-4",
+  "playUrl": "https://haldane4.denisbondare.com",
+  "genre": "other",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "Denis Bondare (@denisbondare)",
+  "platform": "press",
+  "evidenceUrl": "https://nilo.io/articles/best-ai-vibe-coded-games",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Most Original award",
+  "date": "2026-04",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Null Range",
+  "playUrl": "https://nullrange.com",
+  "genre": "shooter",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": "Taylor (@taylor_sntx)",
+  "platform": "press",
+  "evidenceUrl": "https://nilo.io/articles/best-ai-vibe-coded-games",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 Best Art Direction award",
+  "date": "2026-04",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Taipei GTA",
+  "playUrl": "https://taipei-gta.vercel.app",
+  "genre": "sandbox",
+  "aiTools": [
+   "AICodeWith (multi-model proxy: Anthropic/OpenAI/Google)"
+  ],
+  "creator": "Taiwanese developer (aicodewithme / AICodeWith)",
+  "platform": "press",
+  "evidenceUrl": "https://www.remio.ai/post/taipei-gta-ai-game-drew-1-2-million-players-but-the-number-needs-proof",
+  "metricType": "players",
+  "metricValue": 1200000,
+  "otherSignals": "Claimed 1.2M concurrent players in 3 days (TVBS interview); ~$10k in AI tokens; 93 missions; covered by Tom's Hardware, PCGH, TVBS",
+  "date": "2026-10",
+  "verified": true,
+  "notes": "1.2M figure seen on remio page but it is an unaudited developer claim; 'concurrent' is doubtful. GTA-branded name; legal risk."
+ },
+ {
+  "name": "World of ClaudeCraft",
+  "playUrl": "https://worldofclaudecraft.com",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude Fable 5",
+   "Claude Code"
+  ],
+  "creator": "Levy Street (Wellington, NZ)",
+  "platform": "press",
+  "evidenceUrl": "https://www.pcgameshardware.de/Kuenstliche-Intelligenz-Hardware-279517/News/World-of-ClaudeCraft-MMORPG-WoW-KI-Browsergame-1546503/",
+  "metricType": "players",
+  "metricValue": 30000,
+  "otherSignals": "30,000+ players per PCGH; HN 81 points/91 comments; Notebookcheck, PC Games coverage; open source, 30+ volunteer contributors, 10-man raid added",
+  "date": "2026-06",
+  "verified": true,
+  "notes": "First playable version in ~48h. WoW-inspired; criticized as proof-of-concept."
+ },
+ {
+  "name": "Elderwood Realms",
+  "playUrl": null,
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "OpenAI Codex (GPT-6 Astra per article)"
+  ],
+  "creator": "Rohan Varma (@TheRohanVarma)",
+  "platform": "press",
+  "evidenceUrl": "https://www.dexerto.com/gaming/ai-made-runescape-clone-goes-viral-with-playable-browser-version-3406698/",
+  "metricType": "players",
+  "metricValue": 3000,
+  "otherSignals": "~3,000 accounts in first 24h; 1,000+ hours played; traffic spike from r/2007scape; OSRS players called for Jagex C&D",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "RuneScape clone; may have been taken down after Jagex demand (related Dexerto headline). Exact playUrl unknown."
+ },
+ {
+  "name": "tibo.dog",
+  "playUrl": "https://tibo.dog",
+  "genre": "action",
+  "aiTools": [
+   "Grok",
+   "Cursor"
+  ],
+  "creator": "Poteto (@poteto, SpaceXAI engineer)",
+  "platform": "x",
+  "evidenceUrl": "https://officechai.com/ai/spacexais-poteto-creates-entire-online-game-named-tibo-dog-trolling-openais-tibo-metas-alexandr-wang/",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "'Circulating widely on X'; boss fights trolling OpenAI's Tibo and Meta's Alexandr Wang; built in 4 days",
+  "date": "2026-11",
+  "verified": false,
+  "notes": "No counts reported."
+ },
+ {
+  "name": "Battle Drones",
+  "playUrl": "https://simonw.github.io/battledrones/",
+  "genre": "strategy",
+  "aiTools": [
+   "Claude Code",
+   "Claude Opus 5.5",
+   "OpenAI Image API"
+  ],
+  "creator": "Simon Willison",
+  "platform": "press",
+  "evidenceUrl": "https://simonwillison.net/2026/oct/20/battledrones",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "C&C-style RTS; 321 agent commits, 12 iterations; open source; widely re-reported (aiweekly)",
+  "date": "2026-10",
+  "verified": false,
+  "notes": "Audio-based local multiplayer."
+ },
+ {
+  "name": "GeoSports",
+  "playUrl": "https://geosports.app/",
+  "genre": "educational",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "Frank Michael Smith",
+  "platform": "press",
+  "evidenceUrl": "https://madrobot.blog/2026/10/10/geosports-vibe-coded-claude-code-12-hours-million-players/",
+  "metricType": "players",
+  "metricValue": 1000000,
+  "otherSignals": "1M unique users by end of May (Sportico); 15M+ rounds played by Sep 2 (creator on X); built in 12 hours; free daily quiz + Pro tier",
+  "date": "2026-05",
+  "verified": true,
+  "notes": "Daily sports map quiz; figures self-reported/Sportico, not audited."
+ },
+ {
+  "name": "Interrogation Room Komiya (取調室の小宮)",
+  "playUrl": "https://claude.ai/artifact/HgsUQQywVPG8X87dp1NWHu",
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "Yuji Horii (Dragon Quest creator)",
+  "platform": "x",
+  "evidenceUrl": "https://madrobot.blog/2026/10/13/dragon-quest-creator-yuji-horii-claude-ai-detective-game-30-minutes/",
+  "metricType": "views",
+  "metricValue": 3000000,
+  "otherSignals": "Nearly 3M views and 20k+ likes on Horii's X post; built in ~30 minutes",
+  "date": "2026-10",
+  "verified": true,
+  "notes": "Japanese-only detective text game running as a Claude artifact."
+ },
+ {
+  "name": "Mine8",
+  "playUrl": "https://verse8.io",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Verse8 AI game platform"
+  ],
+  "creator": "Snack Games",
+  "platform": "press",
+  "evidenceUrl": "https://phaser.io/news/2026/04/mine8-game-verse8",
+  "metricType": "players",
+  "metricValue": 3000000,
+  "otherSignals": "3M+ plays and 1,100 likes; most-played game on Verse8 (platform ~3.5M MAU)",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Plays, not unique players; from search snippet of Phaser news. playUrl is platform root."
+ },
+ {
+  "name": "GTA: Vice City browser port (AI-decompiled)",
+  "playUrl": "https://x.com/RadiantOpti/status/2108068628793082338",
+  "genre": "sandbox",
+  "aiTools": [
+   "Claude Opus 5.5"
+  ],
+  "creator": "Unnamed (thread by @RadiantOpti)",
+  "platform": "press",
+  "evidenceUrl": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Kotaku: hundreds of AI-decompiled browser ports (Halo CE, Simpsons Hit & Run, Skate 3, CoD Black Ops) appeared; Techmeme pickup",
+  "date": "2026-10",
+  "verified": false,
+  "notes": "Copyright-infringing ports of commercial games; represents a cluster, not one game. Exclude from recommendations."
+ },
+ {
+  "name": "Missile Dodge",
+  "playUrl": "https://srikardurgi-com.pages.dev",
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Claude Code"
+  ],
+  "creator": "Srikar Durgi",
+  "platform": "linkedin",
+  "evidenceUrl": "https://srikardurgi-com.pages.dev/blog/how-i-built-a-full-arcade-game-without-writing-a-single-line-of-code",
+  "metricType": "likes",
+  "metricValue": null,
+  "otherSignals": "Shared on LinkedIn; global leaderboard added after feedback",
+  "date": "2026",
+  "verified": false,
+  "notes": "Small-scale; playUrl approximate (author site)."
+ },
+ {
+  "name": "Tree Appreciator",
+  "playUrl": "https://simonwillison.net/2026/oct/14/tree-appreciator",
+  "genre": "puzzle",
+  "aiTools": [
+   "Claude (chat, Opus 5.5)"
+  ],
+  "creator": "Simon Willison",
+  "platform": "press",
+  "evidenceUrl": "https://simonwillison.net/2026/oct/14/tree-appreciator",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "One-prompt Three.js spot-the-difference game; 3h7m single generation; covered by Complete AI Training, Neoteo",
+  "date": "2026-10",
+  "verified": false,
+  "notes": "playUrl is the write-up which links the game."
+ },
+ {
+  "name": "Raccoon Heist",
+  "playUrl": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+  "genre": "action",
+  "aiTools": [
+   "Claude Fable 5",
+   "Claude Code for web"
+  ],
+  "creator": "Simon Willison",
+  "platform": "press",
+  "evidenceUrl": "https://themodelwire.com/article/claude-fable-5-builds-playable-game-from-tweet-in-single-session-01KZ9QJC1YM69WC7V12RVXXK1R",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "One-shot 3D browser game (~34 min); covered by aiweekly, letsdatascience, themodelwire",
+  "date": "2026-08",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Dialed (Color, Sound, Time, Shape)",
+  "playUrl": null,
+  "genre": "puzzle",
+  "aiTools": [
+   "Cursor",
+   "Claude"
+  ],
+  "creator": "Geoff Teehan & Sam Teehan",
+  "platform": "press",
+  "evidenceUrl": "https://letsdatascience.com/news/father-son-duo-build-viral-ai-game-suite-c181fab0",
+  "metricType": "players",
+  "metricValue": 26000000,
+  "otherSignals": "26M+ completed plays across 239 countries (Fast Company: ~30M plays/20M visits in 90 days); Color hit ~500k plays in days after a Threads post; streamed by xQc, Jinxi, ohnePixel",
+  "date": "2026-06",
+  "verified": true,
+  "notes": "Plays not unique players. Domain not confirmed (likely dialed.gg)."
+ },
+ {
+  "name": "Draw a Fish",
+  "playUrl": "https://drawafish.com",
+  "genre": "sandbox",
+  "aiTools": [
+   "GitHub Copilot"
+  ],
+  "creator": "Alden Hallak",
+  "platform": "press",
+  "evidenceUrl": "https://hn.jakechampion.name/reader/https://aldenhallak.com/blog/posts/draw-a-fish-postmortem.html",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Hit Hacker News front page Aug 1 2025; AIBase claimed 'millions' of users (unsourced); security incident postmortem",
+  "date": "2025-08",
+  "verified": false,
+  "notes": "AI-assisted (Copilot) rather than fully vibe coded; 'millions' unverified."
+ },
+ {
+  "name": "Doomscroll",
+  "playUrl": null,
+  "genre": "shooter",
+  "aiTools": [
+   "ChatGPT"
+  ],
+  "creator": "David Friedman (Ironic Sans)",
+  "platform": "press",
+  "evidenceUrl": "https://www.pcgamer.com/software/ai/the-deflating-realization-that-a-neat-little-game-was-ai-all-along",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "PC Gamer and kottke coverage; scroll-wheel upside-down Galaga built almost entirely with ChatGPT",
+  "date": "2025-09",
+  "verified": false,
+  "notes": "Play URL via Ironic Sans newsletter (ironicsans.ghost.io/doomscrolling-the-game)."
+ },
+ {
+  "name": "Destroy Any Website",
+  "playUrl": "https://spritefusion.com/games/destroy-any-website",
+  "genre": "action",
+  "aiTools": [
+   "Claude Opus 5.5"
+  ],
+  "creator": "Hugo Duprez (Sprite Fusion)",
+  "platform": "press",
+  "evidenceUrl": "https://aiidelist.com/blog/destroy-any-website",
+  "metricType": "upvotes",
+  "metricValue": 1000,
+  "otherSignals": "1,000+ upvotes on r/aigamedev; ~100 points on Show HN; covered by Dexerto, TechSpot, Creative Bloq, 80.lv, OMG Ubuntu, t3n",
+  "date": "2026-09",
+  "verified": true,
+  "notes": "Upvotes from aiidelist snapshot; Claude credit from creator's Reddit comments."
+ },
+ {
+  "name": "OpenAI GPT-5.4 Tactical RPG demo",
+  "playUrl": "https://developers.openai.com/showcase/turn-based-rpg",
+  "genre": "strategy",
+  "aiTools": [
+   "GPT-5.4",
+   "Codex",
+   "OpenAI image generation"
+  ],
+  "creator": "OpenAI",
+  "platform": "press",
+  "evidenceUrl": "https://phaser.io/news/2026/03/gpt-5-4-phaser-game-tactical-rpg",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Official GPT-5.4 launch showcase built with Phaser; widely shared at launch",
+  "date": "2026-03",
+  "verified": false,
+  "notes": "Vendor demo."
+ },
+ {
+  "name": "Geobeat",
+  "playUrl": "https://dmnshd.gg/games/geobeat",
+  "genre": "music-rhythm",
+  "aiTools": [
+   "Cursor",
+   "Meta Immersive Web SDK"
+  ],
+  "creator": "Florian Isikci (dmnshd)",
+  "platform": "youtube",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Vibe Jam 2026 entry, also published on YouTube Playables; built in ~2 days",
+  "date": "2026-05",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Exploding Hamsters",
+  "playUrl": null,
+  "genre": "puzzle",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": null,
+  "platform": "press",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Named one of the most-played Vibe Jam 2026 entries",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "URL not found."
+ },
+ {
+  "name": "Duality",
+  "playUrl": null,
+  "genre": "arcade-retro",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": null,
+  "platform": "press",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Named one of the most-played Vibe Jam 2026 entries",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "URL not found."
+ },
+ {
+  "name": "Hollowlands",
+  "playUrl": null,
+  "genre": "action",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": null,
+  "platform": "press",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Third-person open-world survival; one of the most-played Vibe Jam 2026 entries",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "URL not found."
+ },
+ {
+  "name": "MRR Clicker",
+  "playUrl": null,
+  "genre": "idle-incremental",
+  "aiTools": [
+   "Cursor"
+  ],
+  "creator": null,
+  "platform": "press",
+  "evidenceUrl": "https://dmnshd.gg/blog/vibe-jam-2026-geobeat",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "SaaS-dashboard idle game; one of the most-played Vibe Jam 2026 entries",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "A later 'MRR Clicker Inc.' listing may be a different release."
+ },
+ {
+  "name": "Brawl Stars-style 3D prototype",
+  "playUrl": null,
+  "genre": "multiplayer-io",
+  "aiTools": [
+   "Claude Fable 5.x (claimed)",
+   "Three.js"
+  ],
+  "creator": "@notjazii",
+  "platform": "x",
+  "evidenceUrl": "https://aiidelist.com/blog/claude-fable-5-2-brawl-stars-threejs-demo",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Viral one-hour X demo shared as a public Claude Artifact",
+  "date": "2026-09",
+  "verified": false,
+  "notes": "Model label disputed; artifact link not reproduced."
+ },
+ {
+  "name": "The Librarian 2",
+  "playUrl": null,
+  "genre": "rpg-adventure",
+  "aiTools": [
+   "Claude Code (Opus)",
+   "OpenAI Codex (GPT-5.6)"
+  ],
+  "creator": "YouTuber/dev (unnamed)",
+  "platform": "youtube",
+  "evidenceUrl": "https://www.mindstudio.ai/blog/librarian-2-vibe-coded-3d-game/",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "3D roguelite sequel to 2D browser game The Librarian, documented on YouTube",
+  "date": "2026-08",
+  "verified": false,
+  "notes": "URL and view counts not found."
+ },
+ {
+  "name": "Gaussian-splat browser FPS",
+  "playUrl": "http://playcanvas.com/project/1480299",
+  "genre": "shooter",
+  "aiTools": [
+   "Unspecified AI (vibe-coded NPC behaviour)"
+  ],
+  "creator": "Iakov Sumygin",
+  "platform": "press",
+  "evidenceUrl": "https://80.lv/articles/developer-uses-gaussian-splats-to-build-fps-game-that-runs-in-browser",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "80.lv feature; real-world scans as levels; 68MB build",
+  "date": "2026-04",
+  "verified": false,
+  "notes": "Only partly AI-built."
+ },
+ {
+  "name": "1 in 8 Billion (80億分の1)",
+  "playUrl": "https://1in8b.life/ja/",
+  "genre": "simulation",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "Jin's Earth (Jin Hwi-eus)",
+  "platform": "x",
+  "evidenceUrl": "https://www.aquallc.jp/one-in-8-billion-claude/",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "#80億分の1 hashtag spread on X; shared by Takafumi Horie and Yuji Horii; daily visitors 7x day-over-day on Oct 7 (Kokumin Ilbo); stats from 172 countries; 9 languages; built in ~4 hours",
+  "date": "2026-10",
+  "verified": false,
+  "notes": "Free life-lottery sim; optional ¥480 pass."
+ },
+ {
+  "name": "Claude of Duty",
+  "playUrl": "https://github.com/mshumer/Claude-of-Duty",
+  "genre": "shooter",
+  "aiTools": [
+   "Claude Opus 5",
+   "Claude Code (Ultracode, /loop)",
+   "Three.js"
+  ],
+  "creator": "Matt Shumer",
+  "platform": "x",
+  "evidenceUrl": "https://decrypt.co/374560/dumbest-ai-prompt-claude-beat-careful-game-design",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Viral X post Jul 25 2026; ~55k LOC; spawned many remakes from the same prompt; Decrypt coverage",
+  "date": "2026-07",
+  "verified": false,
+  "notes": "Open source; hosted build URL not confirmed."
+ },
+ {
+  "name": "Operation Blackout",
+  "playUrl": "https://operation-blackout-green.vercel.app",
+  "genre": "shooter",
+  "aiTools": [
+   "Claude Opus 5",
+   "Claude Code"
+  ],
+  "creator": "James Altucher",
+  "platform": "x",
+  "evidenceUrl": "https://decrypt.co/374560/dumbest-ai-prompt-claude-beat-careful-game-design",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Built from Shumer's prompt in ~10h, ~1.3M tokens",
+  "date": "2026-07",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Dust Corridor",
+  "playUrl": "https://claude-of-duty-six.vercel.app",
+  "genre": "shooter",
+  "aiTools": [
+   "Cursor",
+   "Claude Opus 5"
+  ],
+  "creator": "Leon Lin",
+  "platform": "x",
+  "evidenceUrl": "https://decrypt.co/374560/dumbest-ai-prompt-claude-beat-careful-game-design",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Reverse-engineered ~20-section prompt version of Claude of Duty",
+  "date": "2026-07",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "Grumbulus",
+  "playUrl": "https://cloud-heavy-industries.com/grumbulus/",
+  "genre": "action",
+  "aiTools": [
+   "Claude"
+  ],
+  "creator": "Grigory Sapunov and son",
+  "platform": "press",
+  "evidenceUrl": "https://gonzoml.substack.com/p/how-we-built-a-full-browser-game",
+  "metricType": "players",
+  "metricValue": null,
+  "otherSignals": "Storm-cloud city destruction game; ~15k LOC built in two evenings; Japanese press pickup",
+  "date": "2026-03",
+  "verified": false,
+  "notes": ""
+ },
+ {
+  "name": "What the Water Keeps",
+  "playUrl": null,
+  "genre": "other",
+  "aiTools": [
+   "Claude Fable 5.2 (claimed)"
+  ],
+  "creator": "Kevin Ngo",
+  "platform": "x",
+  "evidenceUrl": "https://www.talkesport.com/editorials/claude-fable-5-2-games-ai-game-development/",
+  "metricType": "views",
+  "metricValue": 320000,
+  "otherSignals": "Eight-world browser boat ride; 320k+ views on X per Talkesport; also covered by The New Stack",
+  "date": "2026-09",
+  "verified": false,
+  "notes": "Talkesport/New Stack returned 403; figure from search snippet. URL not found."
+ },
+ {
+  "name": "Saltline",
+  "playUrl": null,
+  "genre": "shooter",
+  "aiTools": [
+   "Claude Fable 5.2"
+  ],
+  "creator": "Felix Rieseberg (Anthropic)",
+  "platform": "press",
+  "evidenceUrl": "https://www.tweaktown.com/news/114611/saltline-is-a-playable-fps-created-by-anthropics-fable-5-2-in-8-hours/index.html",
+  "metricType": "views",
+  "metricValue": null,
+  "otherSignals": "Playable browser FPS from a single broad prompt in ~8 hours; TweakTown coverage",
+  "date": "2026-09",
+  "verified": false,
+  "notes": "TweakTown 403; play URL not found."
+ }
+]
