@@ -599,23 +599,25 @@
    "kind": "model",
    "category": "tts-voice",
    "url": "https://github.com/resemble-ai/chatterbox",
-   "description": "MIT TTS family (Turbo 350M, Nano 110M CPU, Multilingual 23+ langs) with zero-shot voice cloning and PerTh watermark.",
+   "description": "MIT TTS family (Turbo 350M, Nano 110M CPU, Multilingual 23+ languages) with zero-shot voice cloning and the PerTh watermark. The standard 0.5B model supports exaggeration/cfg emotion control. Turbo supports paralinguistic tags ([laugh], [sigh]) but ignores exaggeration. Measured on an RTX 4060 8 GB: 3.6 GB peak, ~5 s of GPU per take. A good pattern is a fixed reference clip plus deterministic seeds, 3 takes per sentence, Whisper WER and voice-encoder similarity checks, then re-rendering failures.",
    "verdict": "adopt",
    "verdictNote": null,
-   "why": "Best-licensed cloning TTS with expressive tags; Turbo/Nano fit 8GB or CPU, fits owner voice-clone plan.",
+   "why": "Persona narration on 8 GB: standard model 3.6 GB peak; with Whisper WER + speaker-similarity QA, mean WER 0.05 and similarity 0.96 on a test script.",
    "tags": [
     "tts",
-    "clone"
+    "voice-clone",
+    "narration",
+    "8gb-vram"
    ],
    "license": "MIT",
    "stars": 27857,
-   "cost": "self-host",
+   "cost": "$0 local",
    "relevance": [
     "content-studio",
     "finance-content"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-23",
    "source": "research 2026-10-15: AI content tools",
    "extra": {
     "pushedAt": "2026-11-04",
@@ -684,22 +686,25 @@
    "kind": "repo",
    "category": "music-gen",
    "url": "https://github.com/ACE-Step/ACE-Step-1.5",
-   "description": "Open music model, 1.5 Jan 2026, XL 4B Apr 2 2026 (xl-base/sft/turbo); claims between Suno v4.5 and v5 (self-reported); training data claimed licensed.",
+   "description": "Open music model (1.5 Jan 2026, XL Apr 2026). Measured 2026-11-22 on 8 GB, whole card including desktop apps: turbo DiT int8 + LM 0.6B on the pt backend. With the DiT offloaded between steps, 4.8 GB peak and ~0.83 s of compute per second of audio. With the DiT resident, 5.8 GB and ~0.72 s. Model load ~60 s. Requested 82 bpm measured 83.4. uv sync on Windows installs torch 2.7.1+cu128. Main checkpoint download ~10 GB. XL is not supported at 8 GB. Note: a plain `uv sync` removes packages added outside uv.lock.",
    "verdict": "adopt",
    "verdictNote": "ADOPT NOW: the biggest win in this list for you. Pilot.",
-   "why": "Upgrade from ACE-Step v1 at $0/track; XL 4B 8GB fit unverified, 1.5 base is the safer pick.",
+   "why": "Verified on an RTX 4060 8 GB laptop: 2B turbo + 0.6B LM (int8, offload) peaks at 4.8-5.8 GB and follows bpm/key; clear upgrade over v1.",
    "tags": [
+    "music",
+    "instrumental",
+    "8gb-vram",
     "local",
-    "comfyui"
+    "bpm-control"
    ],
-   "license": "MIT (most sources)",
+   "license": "MIT (code + weights)",
    "stars": 14838,
-   "cost": "self-host",
+   "cost": "$0 local",
    "relevance": [
     "content-studio"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-23",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "pricePerAsset": "$0",
@@ -8708,6 +8713,30 @@
    "verified": true,
    "asOf": "2026-11-23",
    "source": "build 2026-11-22: music library on 8 GB VRAM"
+  },
+  {
+   "id": "content-clap-laion-clap-htsat-unfused",
+   "name": "CLAP (laion/clap-htsat-unfused)",
+   "kind": "model",
+   "category": "audio-embedding",
+   "url": "https://huggingface.co/laion/clap-htsat-unfused",
+   "description": "Contrastive text-audio model, loaded with transformers ClapModel. Measured 2026-11-22: under transformers 4.57.6, laion/larger_clap_music loads with no missing keys, but its text embeddings collapse (cosine 0.999 between unrelated captions). clap-htsat-unfused separates them properly (0.18 between piano and taiko). Runs on CPU.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Text-audio embeddings for ranking and semantic search of generated music; avoid laion/larger_clap_music under transformers 4.57.",
+   "tags": [
+    "audio",
+    "embedding",
+    "search",
+    "music"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "$0 local",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-23",
+   "source": "build 2026-11-22: CSA sound library on 8 GB"
   }
  ]
 }

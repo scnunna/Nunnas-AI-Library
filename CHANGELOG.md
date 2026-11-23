@@ -958,3 +958,8 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-23 — build 2026-11-22: music library on 8 GB VRAM
 - added content-ace-step-v1-3-5b -> content-tools
+
+## 2026-11-23 — build 2026-11-22: CSA sound library on 8 GB
+- updated content-ace-step-1-5
+- added content-clap-laion-clap-htsat-unfused -> content-tools
+- updated content-chatterbox-tts
