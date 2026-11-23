@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 332]
+    content-tools[AI content-creation tools · 333]
       godot-addons · 50
         Phantom Camera
         LimboAI

@@ -8683,6 +8683,31 @@
    "verified": false,
    "asOf": "2026-11-05",
    "source": "research 2026-11-04: live Fab and vendor prices"
+  },
+  {
+   "id": "content-ace-step-v1-3-5b",
+   "name": "ACE-Step v1 3.5B",
+   "kind": "model",
+   "category": "music-gen",
+   "url": "https://github.com/ace-step/ACE-Step",
+   "description": "Open text-to-music model (2025). On an RTX 4060 8 GB with ~1.5 GB of desktop apps, the built-in cpu_offload moves the whole 6.6 GB bf16 transformer per call and overflows into shared memory. Keeping ~13 of 24 transformer blocks resident, streaming the rest from pinned RAM and parking them during the audio decode gives about 60 s per 90 s instrumental at 60 steps, with a 5.7-7.2 GB whole-card peak. The text tempo is followed loosely; set bpm as a target, not a guarantee.",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Works on an 8 GB laptop GPU only with partial block offload; stock cpu_offload spills (measured 18.8 s/step vs 1.1 s/step).",
+   "tags": [
+    "music",
+    "instrumental",
+    "8gb-vram",
+    "offload",
+    "local"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "$0 local",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-23",
+   "source": "build 2026-11-22: music library on 8 GB VRAM"
   }
  ]
 }

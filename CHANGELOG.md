@@ -955,3 +955,6 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-22 — research 2026-11-22: custom 3D figurine business
 - added service-jlc3dp-full-color-resin -> agent-tools
+
+## 2026-11-23 — build 2026-11-22: music library on 8 GB VRAM
+- added content-ace-step-v1-3-5b -> content-tools
