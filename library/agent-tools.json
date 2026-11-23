@@ -1422,7 +1422,7 @@
     "cli"
    ],
    "license": null,
-   "stars": 155844,
+   "stars": 156764,
    "cost": "freemium",
    "relevance": [
     "general"
@@ -1431,8 +1431,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1450,7 +1450,7 @@
     "official"
    ],
    "license": "Apache-2.0/MIT",
-   "stars": 92037,
+   "stars": 92178,
    "cost": "free",
    "relevance": [
     "general"
@@ -1459,8 +1459,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-12",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-19",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1478,7 +1478,7 @@
     "sdk"
    ],
    "license": "Apache-2.0/MIT",
-   "stars": 13773,
+   "stars": 13811,
    "cost": "free",
    "relevance": [
     "content-studio",
@@ -1488,8 +1488,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-10",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-19",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1507,7 +1507,7 @@
     "debug"
    ],
    "license": "Apache-2.0/MIT",
-   "stars": 11303,
+   "stars": 11348,
    "cost": "free",
    "relevance": [
     "general"
@@ -1516,8 +1516,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-12",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1535,7 +1535,7 @@
     "agent"
    ],
    "license": "MIT",
-   "stars": 121167,
+   "stars": 121807,
    "cost": "freemium",
    "relevance": [
     "general"
@@ -1544,8 +1544,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1563,7 +1563,7 @@
     "crawl"
    ],
    "license": "AGPL-3.0",
-   "stars": 202195,
+   "stars": 207383,
    "cost": "freemium",
    "relevance": [
     "content-studio",
@@ -1573,8 +1573,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1591,7 +1591,7 @@
     "memory"
    ],
    "license": "Apache-2.0",
-   "stars": 69051,
+   "stars": 69364,
    "cost": "freemium",
    "relevance": [
     "content-studio"
@@ -1600,8 +1600,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-06",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1619,7 +1619,7 @@
     "memory"
    ],
    "license": "Apache-2.0",
-   "stars": 32839,
+   "stars": 33020,
    "cost": "free",
    "relevance": [
     "general"
@@ -1628,8 +1628,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1646,7 +1646,7 @@
     "orchestration"
    ],
    "license": "MIT",
-   "stars": 45021,
+   "stars": 45298,
    "cost": "free",
    "relevance": [
     "general"
@@ -1655,8 +1655,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1673,7 +1673,7 @@
     "multi-agent"
    ],
    "license": "MIT",
-   "stars": 60981,
+   "stars": 61191,
    "cost": "free",
    "relevance": [
     "content-studio"
@@ -1682,8 +1682,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1700,7 +1700,7 @@
     "typescript"
    ],
    "license": "Apache-2.0 (ee/ enterprise)",
-   "stars": 29542,
+   "stars": 29754,
    "cost": "free",
    "relevance": [
     "content-studio"
@@ -1709,8 +1709,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1727,7 +1727,7 @@
     "multi-agent"
    ],
    "license": "MIT",
-   "stars": 30707,
+   "stars": 30829,
    "cost": "free",
    "relevance": [
     "general"
@@ -1736,8 +1736,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1755,7 +1755,7 @@
     "typed"
    ],
    "license": "MIT",
-   "stars": 21236,
+   "stars": 21348,
    "cost": "free",
    "relevance": [
     "finance-content"
@@ -1764,8 +1764,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1779,10 +1779,11 @@
    "verdictNote": null,
    "why": "Maintenance mode.",
    "tags": [
-    "multi-agent"
+    "multi-agent",
+    "archived"
    ],
    "license": "MIT",
-   "stars": 61869,
+   "stars": 61965,
    "cost": "free",
    "relevance": [
     "general"
@@ -1792,7 +1793,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-11-12",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1809,7 +1810,7 @@
     "agents"
    ],
    "license": "Polyform Shield / MIT",
-   "stars": 188051,
+   "stars": 188151,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -1818,8 +1819,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1837,7 +1838,7 @@
     "workflows"
    ],
    "license": "Dify Open Source License",
-   "stars": 161260,
+   "stars": 161725,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1846,8 +1847,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1864,7 +1865,7 @@
     "cli"
    ],
    "license": "Apache-2.0",
-   "stars": 50139,
+   "stars": 50225,
    "cost": "free",
    "relevance": [
     "general"
@@ -1874,7 +1875,7 @@
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
     "pushedAt": "2026-05-22",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1892,7 +1893,7 @@
     "evals"
    ],
    "license": "MIT (ee excluded)",
-   "stars": 37481,
+   "stars": 37747,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1901,8 +1902,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1919,7 +1920,7 @@
     "tracing"
    ],
    "license": "Elastic-2.0",
-   "stars": 12310,
+   "stars": 12380,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1928,8 +1929,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1947,7 +1948,7 @@
     "cost"
    ],
    "license": null,
-   "stars": 63335,
+   "stars": 63749,
    "cost": "self-host",
    "relevance": [
     "content-studio"
@@ -1956,8 +1957,8 @@
    "asOf": "2026-10-19",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -1974,7 +1975,7 @@
     "local"
    ],
    "license": "MIT",
-   "stars": 187178,
+   "stars": 187911,
    "cost": "free",
    "relevance": [
     "general"
@@ -1983,8 +1984,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2001,7 +2002,7 @@
     "local"
    ],
    "license": "MIT",
-   "stars": 135287,
+   "stars": 136168,
    "cost": "free",
    "relevance": [
     "general"
@@ -2010,8 +2011,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2028,7 +2029,7 @@
     "serving"
    ],
    "license": "Apache-2.0",
-   "stars": 97018,
+   "stars": 97390,
    "cost": "free",
    "relevance": [
     "general"
@@ -2037,8 +2038,8 @@
    "asOf": "2026-10-15",
    "source": "research 2026-10-15: agent ecosystem",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2195,7 +2196,7 @@
     "mcp"
    ],
    "license": "MIT",
-   "stars": 9590,
+   "stars": 9622,
    "cost": "self-host",
    "relevance": [
     "content-studio",
@@ -2206,8 +2207,8 @@
    "asOf": "2026-10-16",
    "source": "research 2026-10-16: content-factory list",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2226,7 +2227,7 @@
     "wasm"
    ],
    "license": "MIT",
-   "stars": 1660,
+   "stars": 1734,
    "cost": "free",
    "relevance": [
     "games"
@@ -2236,7 +2237,7 @@
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
     "pushedAt": "2026-10-12",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2257,7 +2258,7 @@
     "engine-agnostic"
    ],
    "license": "MIT",
-   "stars": 1466,
+   "stars": 1467,
    "cost": "free",
    "relevance": [
     "games"
@@ -2267,7 +2268,7 @@
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
     "pushedAt": "2026-10-20",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2286,7 +2287,7 @@
     "threejs"
    ],
    "license": "MIT",
-   "stars": 1221,
+   "stars": 1284,
    "cost": "free",
    "relevance": [
     "games"
@@ -2295,8 +2296,8 @@
    "asOf": "2026-10-19",
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
-    "pushedAt": "2026-05-21",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2316,7 +2317,7 @@
     "nodejs"
    ],
    "license": "MIT",
-   "stars": 7556,
+   "stars": 7575,
    "cost": "self-host",
    "relevance": [
     "games"
@@ -2325,8 +2326,8 @@
    "asOf": "2026-10-19",
    "source": "research 2026-10-19: 3D web game stack",
    "extra": {
-    "pushedAt": "2026-11-10",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2345,7 +2346,7 @@
     "fits-8gb"
    ],
    "license": "MIT",
-   "stars": 4033,
+   "stars": 4040,
    "cost": "free",
    "relevance": [
     "general"
@@ -2354,8 +2355,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2372,7 +2373,7 @@
     "stale"
    ],
    "license": "Apache-2.0",
-   "stars": 5708,
+   "stars": 5726,
    "cost": "free",
    "relevance": [
     "general"
@@ -2382,7 +2383,7 @@
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
     "pushedAt": "2024-08-10",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2399,7 +2400,7 @@
     "semantic-cache"
    ],
    "license": "MIT",
-   "stars": 8225,
+   "stars": 8235,
    "cost": "free",
    "relevance": [
     "general"
@@ -2409,7 +2410,7 @@
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
     "pushedAt": "2026-09-22",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2427,7 +2428,7 @@
     "requests"
    ],
    "license": "BSD-2-Clause",
-   "stars": 1506,
+   "stars": 1512,
    "cost": "free",
    "relevance": [
     "general"
@@ -2436,8 +2437,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-04",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-21",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2455,7 +2456,7 @@
     "httpx"
    ],
    "license": "BSD",
-   "stars": 420,
+   "stars": 424,
    "cost": "free",
    "relevance": [
     "general"
@@ -2464,8 +2465,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-10",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2483,7 +2484,7 @@
     "python"
    ],
    "license": "MIT",
-   "stars": 4833,
+   "stars": 4854,
    "cost": "free",
    "relevance": [
     "general"
@@ -2492,8 +2493,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-13",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-19",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2512,7 +2513,7 @@
     "local"
    ],
    "license": "MIT",
-   "stars": 12327,
+   "stars": 12356,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -2522,7 +2523,7 @@
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
     "pushedAt": "2026-10-27",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2539,7 +2540,7 @@
     "compression"
    ],
    "license": "MIT",
-   "stars": 6823,
+   "stars": 6854,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -2549,7 +2550,7 @@
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
     "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2568,7 +2569,7 @@
     "caching"
    ],
    "license": "Apache-2.0",
-   "stars": 24163,
+   "stars": 24211,
    "cost": "freemium",
    "relevance": [
     "general"
@@ -2577,8 +2578,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2596,7 +2597,7 @@
     "task-queue"
    ],
    "license": "BSD-3-Clause",
-   "stars": 29204,
+   "stars": 29262,
    "cost": "self-host",
    "relevance": [
     "general"
@@ -2605,8 +2606,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2624,7 +2625,7 @@
     "scheduling"
    ],
    "license": "MIT",
-   "stars": 7706,
+   "stars": 7719,
    "cost": "free",
    "relevance": [
     "general"
@@ -2633,8 +2634,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-10-26",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-21",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2652,7 +2653,7 @@
     "circuit-breaker"
    ],
    "license": "BSD",
-   "stars": 702,
+   "stars": 706,
    "cost": "free",
    "relevance": [
     "general"
@@ -2662,7 +2663,7 @@
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
     "pushedAt": "2026-09-25",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2681,7 +2682,7 @@
     "fallbacks"
    ],
    "license": "MIT",
-   "stars": 13386,
+   "stars": 13432,
    "cost": "freemium",
    "relevance": [
     "general"
@@ -2690,8 +2691,8 @@
    "asOf": "2026-10-20",
    "source": "research 2026-10-19: cost-reduction stack",
    "extra": {
-    "pushedAt": "2026-05-25",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-20",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2728,7 +2729,7 @@
    "why": "Open-source short-video assembler (Kokoro TTS, Whisper captions, Remotion) that matches our local stack; check how actively it is maintained and Remotion's licence terms.",
    "tags": [],
    "license": "MIT",
-   "stars": 1499,
+   "stars": 1518,
    "cost": null,
    "relevance": [],
    "verified": false,
@@ -2736,7 +2737,7 @@
    "source": "research 2026-10-23: marketing automation + infra",
    "extra": {
     "pushedAt": "2025-06-21",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2772,15 +2773,15 @@
    "why": "Huge surface and many claims (routing accuracy, security hardening) with no evidence on the page; the README itself says plugins run unsandboxed with your permissions. Hundreds of MCP tools also bloat every session's context. Claude Code's own sub-agents cover most needs for less.",
    "tags": [],
    "license": "MIT",
-   "stars": 81845,
+   "stars": 82303,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2795,15 +2796,15 @@
    "why": "Lets an agent drive creative apps without screen clicking, which is cheaper and more reliable than computer use. Harness quality varies by contributor (research-lab project), so test each one on a throwaway file first.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 58783,
+   "stars": 63117,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-09-22",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-20",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2818,15 +2819,15 @@
    "why": "Sound design: readable markdown in git, so nothing is locked in a database. Adds a service to run, and native Windows is experimental. If you mostly use one agent, its built-in memory or a CLAUDE.md is simpler.",
    "tags": [],
    "license": "MIT",
-   "stars": 15981,
+   "stars": 16277,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2841,15 +2842,15 @@
    "why": "Targets the real cost driver in long agent sessions: bulky tool output. Everything stays local. Elastic License 2.0 is fine for your own use but forbids offering it to others as a hosted service.",
    "tags": [],
    "license": "Elastic-2.0",
-   "stars": 34166,
+   "stars": 34412,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2872,7 +2873,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-11-04",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2895,7 +2896,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-01-09",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2910,7 +2911,7 @@
    "why": "It is designed to change bids, budgets and creatives on real ad accounts, and the README doesn't show how human approval works. Superlatives and performance figures come with no evidence, and nothing has changed since May. Depends on the external Claude Flow package.",
    "tags": [],
    "license": "MIT",
-   "stars": 135,
+   "stars": 136,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -2918,7 +2919,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-05-23",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2933,15 +2934,15 @@
    "why": "Free, local-first, and built around human approval before anything posts, which is the right control for automated content. But it's alpha (schemas may change), needs Node and pnpm to run, and you'd have to change the seeded login before exposing it anywhere.",
    "tags": [],
    "license": "MIT",
-   "stars": 488,
+   "stars": 492,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-10-28",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-17",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2956,7 +2957,7 @@
    "why": "Small enough to run on an 8 GB laptop GPU, and its fan of sampled price paths makes a great 'range of outcomes' visual. The README itself says it is not a production trading system: signals still need risk controls, costs and slippage, and the README shows no live performance.",
    "tags": [],
    "license": "MIT",
-   "stars": 47881,
+   "stars": 48102,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -2964,7 +2965,7 @@
    "source": "research 2026-10-24",
    "extra": {
     "pushedAt": "2026-04-13",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -2979,15 +2980,15 @@
    "why": "The analyst, debate and risk-manager structure is a strong pattern for any research workflow. But it is research-only by its own disclaimer, each run costs many LLM calls, and backtests on past dates are contaminated because the LLM already 'knows' what happened after its training data.",
    "tags": [],
    "license": "Apache-2.0",
-   "stars": 122788,
+   "stars": 123545,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-04",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-17",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3002,15 +3003,15 @@
    "why": "The loop (generate, check, slice, fix) is a smart design. But it is brand new (5 stars), supports only one Bambu printer, and makes meshes rather than editable CAD; text-to-cad is more mature and also hands off to Bambu printers.",
    "tags": [],
    "license": "MIT",
-   "stars": 553,
+   "stars": 570,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-11",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-19",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3025,15 +3026,15 @@
    "why": "Receive-only and offline, which is the safe design. Matches are guesses, not identification. Logs keep exact locations, so guard the files, and don't use it to track people; that can be illegal. Sideloading means you trust the author's APK.",
    "tags": [],
    "license": "MIT",
-   "stars": 4510,
+   "stars": 4847,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-24",
    "source": "research 2026-10-24",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-20",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3048,15 +3049,15 @@
    "why": "An offensive tool aimed at live targets; it adds risk without adding much for a solo builder. The Cloudflare skill audits your own code defensively and is already adopted.",
    "tags": [],
    "license": "AGPL-3.0 plus usage restrictions",
-   "stars": 4250,
+   "stars": 16793,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3071,15 +3072,15 @@
    "why": "Practical legitimate uses: see where your own brand handles are taken before launching a brand, and audit your own digital footprint. Never use it to profile private people; that can breach privacy law and platform terms.",
    "tags": [],
    "license": "MIT",
-   "stars": 40788,
+   "stars": 41193,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3094,7 +3095,7 @@
    "why": "Overlaps Maigret with fewer sites; the email search and AI profiling raise privacy risk. Keep as a reference only.",
    "tags": [],
    "license": null,
-   "stars": 10180,
+   "stars": 10252,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3102,7 +3103,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-11-03",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3117,7 +3118,7 @@
    "why": "Run it against your own domains to find leaked emails, forgotten subdomains and exposed services before attackers do. Only scan assets you own or are authorised to assess.",
    "tags": [],
    "license": "MIT",
-   "stars": 24617,
+   "stars": 24867,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3125,7 +3126,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-04-13",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3140,15 +3141,15 @@
    "why": "Classic recon tool; for a solo owner auditing their own domains, SpiderFoot does this plus more with a UI.",
    "tags": [],
    "license": "GPL-2.0",
-   "stars": 18330,
+   "stars": 18391,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3163,7 +3164,7 @@
    "why": "Handy to check whether your own VPS or devices show open ports publicly. Free tier is limited; the API entry already covers the service.",
    "tags": [],
    "license": null,
-   "stars": 3492,
+   "stars": 3498,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3171,7 +3172,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2024-08-05",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3283,7 +3284,7 @@
     "archived"
    ],
    "license": "ESM: MIT (repo archived 2024-08-01); OpenFold: Apache-2.0 code, CC BY 4.0 weights; others: check each",
-   "stars": 4177,
+   "stars": 4175,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3291,7 +3292,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2024-02-07",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3306,15 +3307,15 @@
    "why": "The only repo in this set that is infrastructure rather than a demo: Claude can pull quotes, fundamentals and macro data through its MCP for research and education content. AGPL is fine for personal use but matters if you ship it inside a product.",
    "tags": [],
    "license": "AGPL-3.0",
-   "stars": 75460,
+   "stars": 75654,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3329,7 +3330,7 @@
    "why": "Fun for content ('what would Buffett's agent say'), but LLM opinions are not a trading edge and backtests suffer from look-ahead bias because the models already know what happened. Needs a paid-style data key.",
    "tags": [],
    "license": "MIT",
-   "stars": 64707,
+   "stars": 64825,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3337,7 +3338,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-11-09",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3352,15 +3353,15 @@
    "why": "Mature and well documented, but it only trades crypto exchanges, and live bots can lose money fast. Its dry-run and backtest discipline is worth copying for any automated strategy.",
    "tags": [],
    "license": "GPL-3.0",
-   "stars": 56941,
+   "stars": 57181,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3375,7 +3376,7 @@
    "why": "Powerful but code-heavy, equity-focused and not built for intraday futures. Learn its research workflow; don't adopt it as a tool.",
    "tags": [],
    "license": "MIT",
-   "stars": 50322,
+   "stars": 50511,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3383,7 +3384,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-11-04",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3398,15 +3399,15 @@
    "why": "Professional-grade and supports futures through Interactive Brokers, unlike the rest of this list. But it is a developer framework with a steep learning curve; Sierra Chart already covers charting and execution.",
    "tags": [],
    "license": "LGPL-3.0",
-   "stars": 31574,
+   "stars": 31755,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-28",
    "source": "research 2026-10-28",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3421,7 +3422,7 @@
    "why": "A good model of an agent that proposes, tests and keeps only what improves results. Too heavy to run for a non-coder, and it inherits Qlib's equity focus.",
    "tags": [],
    "license": "MIT",
-   "stars": 15394,
+   "stars": 15461,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3429,7 +3430,7 @@
    "source": "research 2026-10-28",
    "extra": {
     "pushedAt": "2026-10-21",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3520,7 +3521,7 @@
     "test-scene"
    ],
    "license": "MIT",
-   "stars": 9797,
+   "stars": 9827,
    "cost": null,
    "relevance": [
     "games"
@@ -3530,7 +3531,7 @@
    "source": "research 2026-10-30: tech-art / lookdev test scenes",
    "extra": {
     "pushedAt": "2026-10-08",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3559,8 +3560,8 @@
    "asOf": "2026-10-30",
    "source": "research 2026-10-30: tech-art / lookdev test scenes",
    "extra": {
-    "pushedAt": "2026-02-20",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-16",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3580,7 +3581,7 @@
     "tone-mapping"
    ],
    "license": "Zlib",
-   "stars": 2979,
+   "stars": 2990,
    "cost": null,
    "relevance": [
     "games"
@@ -3589,8 +3590,8 @@
    "asOf": "2026-10-30",
    "source": "research 2026-10-30: tech-art / lookdev test scenes",
    "extra": {
-    "pushedAt": "2026-11-01",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3610,7 +3611,7 @@
     "debug"
    ],
    "license": "MIT",
-   "stars": 4698,
+   "stars": 4757,
    "cost": null,
    "relevance": [
     "games"
@@ -3620,7 +3621,7 @@
    "source": "research 2026-10-30: tech-art / lookdev test scenes",
    "extra": {
     "pushedAt": "2026-03-15",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3650,7 +3651,7 @@
    "source": "research 2026-10-30: tech-art / lookdev test scenes",
    "extra": {
     "pushedAt": "2025-10-12",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3784,15 +3785,15 @@
    "why": "The idea (map prerequisites, then trace a mistake back to the real gap) is worth borrowing for courses, the language coach or onboarding flows. Data is Chinese-curriculum and non-commercial, so don't build a paid product on it.",
    "tags": [],
    "license": "CC BY-NC 4.0",
-   "stars": 8223,
+   "stars": 9062,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: education",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3807,15 +3808,15 @@
    "why": "Practical homework helper for parents, and a solid reference for photo-to-question-to-practice loops. Its 'free account' option logs into a MiniMax Code account and auto-claims daily credits, which may break that provider's terms; use your own API key instead.",
    "tags": [],
    "license": "MIT",
-   "stars": 649,
+   "stars": 677,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: education",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3849,7 +3850,7 @@
    "why": "A clean pattern (picture + audio + FSRS) to copy for the French coach or any vocabulary product, and the word dataset is CC BY 4.0, so it can be reused commercially with credit. Chinese-first UI.",
    "tags": [],
    "license": "Code MIT; dataset CC BY 4.0",
-   "stars": 4903,
+   "stars": 5230,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3857,7 +3858,7 @@
    "source": "research 2026-10-31: education",
    "extra": {
     "pushedAt": "2026-11-13",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3872,7 +3873,7 @@
    "why": "Matches your electronics and robotics building and the actuator-supplier idea: real motors, sensors and control on one robot, end to end, for free. Pair with ROB 501 when you need the maths.",
    "tags": [],
    "license": "GPL-3.0",
-   "stars": 1326,
+   "stars": 1327,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3880,7 +3881,7 @@
    "source": "research 2026-10-31: Michigan robotics",
    "extra": {
     "pushedAt": "2024-05-22",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3895,7 +3896,7 @@
    "why": "The Kalman filter and least-squares parts carry over directly to sensor fusion in robots and to signal smoothing in trading indicators. Dense graduate material; start with ROB 101 if linear algebra is rusty.",
    "tags": [],
    "license": "GPL-3.0",
-   "stars": 3071,
+   "stars": 3072,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3903,7 +3904,7 @@
    "source": "research 2026-10-31: Michigan robotics",
    "extra": {
     "pushedAt": "2022-03-21",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3926,7 +3927,7 @@
    "source": "research 2026-10-31: Michigan robotics",
    "extra": {
     "pushedAt": "2023-06-30",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3960,15 +3961,15 @@
    "why": "Pick a style here, then hand its prompt and source to huashu-motion, video-shotcraft or Remotion so short-form videos don't all look the same. Same author as video-shotcraft.",
    "tags": [],
    "license": "MIT",
-   "stars": 3575,
+   "stars": 3843,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-01",
    "source": "research 2026-11-01: motion video skills + CraftPix",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-21",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -3983,7 +3984,7 @@
    "why": "Knowing the right name for an effect (a dolly zoom, a stagger, a parallax reveal) is the cheapest way to get it from Claude first time. Install the skill or keep the gallery open while prompting.",
    "tags": [],
    "license": "MIT",
-   "stars": 2208,
+   "stars": 2430,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -3991,7 +3992,7 @@
    "source": "research 2026-11-01: motion video skills + CraftPix",
    "extra": {
     "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4006,7 +4007,7 @@
    "why": "Quick way to turn real props into rough game or product-demo models, but each model is a Tripo API charge and the repo is a one-commit demo. Use Tailscale Serve instead of ngrok for the phone, or skip it and use StableGen with TRELLIS.2 locally once the 24 GB GPU arrives.",
    "tags": [],
    "license": "MIT",
-   "stars": 1460,
+   "stars": 1481,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4014,7 +4015,7 @@
    "source": "research 2026-11-03: camera-to-blender",
    "extra": {
     "pushedAt": "2026-09-05",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4295,7 +4296,7 @@
    "why": "Easiest CPU route to Kokoro: 92 MB int8 model plus voices, batch-rendered long multi-speaker British and American dialogue reliably.",
    "tags": [],
    "license": "MIT",
-   "stars": 2891,
+   "stars": 2923,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4303,7 +4304,7 @@
    "source": "research 2026-11-08: English exam prep build",
    "extra": {
     "pushedAt": "2026-09-01",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4342,15 +4343,15 @@
    "why": "Claude writes Manim scripts well, and it is the best free tool for animated formulas, charts and step-by-step concepts (indicator maths, position sizing, ROB 101-style lessons). Needs Python, FFmpeg and LaTeX installed.",
    "tags": [],
    "license": "MIT",
-   "stars": 42602,
+   "stars": 42832,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: animation libraries",
    "extra": {
-    "pushedAt": "2026-11-14",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4365,15 +4366,15 @@
    "why": "Good for editors and interactive boards inside your apps (thumbnail editor, diagram tools). Not a video tool.",
    "tags": [],
    "license": "MIT",
-   "stars": 14985,
+   "stars": 15008,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: animation libraries",
    "extra": {
-    "pushedAt": "2026-11-10",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-22",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4388,15 +4389,15 @@
    "why": "Handy for generative 2D vector art in the browser; Anime.js and Motion (already adopted) cover most animation needs.",
    "tags": [],
    "license": "MIT",
-   "stars": 8745,
+   "stars": 8758,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: animation libraries",
    "extra": {
-    "pushedAt": "2026-11-13",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-17",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4411,7 +4412,7 @@
    "why": "Quick sparks, confetti and smoke on web pages and HTML games. For three.js scenes, three.quarks (already in the library) is the stronger option.",
    "tags": [],
    "license": "MIT",
-   "stars": 2520,
+   "stars": 2528,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4419,7 +4420,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2026-03-06",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4434,7 +4435,7 @@
    "why": "A building block for people writing their own animation libraries; Anime.js and Motion already do this and more.",
    "tags": [],
    "license": "MIT",
-   "stars": 1586,
+   "stars": 1593,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4442,7 +4443,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2026-11-14",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4457,7 +4458,7 @@
    "why": "Nice for animating a changing number on a dashboard, but Motion handles this already.",
    "tags": [],
    "license": "MIT",
-   "stars": 1855,
+   "stars": 1864,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4465,7 +4466,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2026-10-24",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4480,7 +4481,7 @@
    "why": "Not updated in over five years; use Anime.js or Motion.",
    "tags": [],
    "license": "MIT",
-   "stars": 3568,
+   "stars": 3575,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4488,7 +4489,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2023-12-18",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4503,7 +4504,7 @@
    "why": "Interesting idea (3D in plain HTML tags) but small and slowing; three.js plus the three.js skills already in the library are the better path.",
    "tags": [],
    "license": "MIT",
-   "stars": 1559,
+   "stars": 1570,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4511,7 +4512,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2026-09-08",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4526,7 +4527,7 @@
    "why": "Useful if a Studio tool needs a 'download as GIF' button; FFmpeg covers this in video pipelines.",
    "tags": [],
    "license": "MIT",
-   "stars": 370,
+   "stars": 379,
    "cost": null,
    "relevance": [],
    "verified": true,
@@ -4534,7 +4535,7 @@
    "source": "research 2026-11-14: animation libraries",
    "extra": {
     "pushedAt": "2024-09-19",
-    "checkedAt": "2026-11-16"
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4568,15 +4569,15 @@
    "why": "Lets Claude make trailer shots, cinematic cutscene clips and VFX on real footage entirely from code, which suits Moonlit Ronin trailers and channel b-roll. It does not run inside Godot, it is a very early preview with no release, and the free terms cover this version only, so test it on one trailer shot before relying on it.",
    "tags": [],
    "license": "vork Preview License: source-available, free during research preview incl. commercial work; you own outputs; no reselling, redistributing modified versions or offering it as a hosted render service; later versions may be paid. Blender bridge GPL-3.0",
-   "stars": 1597,
+   "stars": 1697,
    "cost": null,
    "relevance": [],
    "verified": true,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: vork",
    "extra": {
-    "pushedAt": "2026-11-15",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4596,15 +4597,15 @@
     "no-key"
    ],
    "license": "Apache-2.0",
-   "stars": 15981,
+   "stars": 16151,
    "cost": null,
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: DIY smartwatch companion stack",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4624,15 +4625,15 @@
     "mit"
    ],
    "license": "MIT",
-   "stars": 13977,
+   "stars": 14011,
    "cost": null,
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-14",
    "source": "research 2026-11-14: DIY smartwatch companion stack",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4720,15 +4721,15 @@
     "tailscale"
    ],
    "license": null,
-   "stars": 455,
+   "stars": 469,
    "cost": null,
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-15",
    "source": "research 2026-11-14: private device networking",
    "extra": {
-    "pushedAt": "2026-03-17",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-18",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4794,15 +4795,15 @@
     "shopify-alternative"
    ],
    "license": "MIT (RBAC enterprise part commercial)",
-   "stars": 37271,
+   "stars": 37378,
    "cost": "Self-host $0 + VPS; Medusa Cloud from $29/mo",
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-15",
    "source": "research 2026-11-15: self-hosted Shopify alternatives",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
@@ -4821,15 +4822,15 @@
     "shopify-alternative"
    ],
    "license": "GPLv3 (plugin exception) or commercial",
-   "stars": 8593,
+   "stars": 8612,
    "cost": "Framework $0; paid plans EUR 199/599/2,499 per month",
    "relevance": [],
    "verified": false,
    "asOf": "2026-11-15",
    "source": "research 2026-11-15: self-hosted Shopify alternatives",
    "extra": {
-    "pushedAt": "2026-11-16",
-    "checkedAt": "2026-11-16"
+    "pushedAt": "2026-11-23",
+    "checkedAt": "2026-11-23"
    }
   },
   {
