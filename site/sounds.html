@@ -1,0 +1,249 @@
+<!doctype html>
+<!-- Copied from ContentCreate engine sound-browser/index.html. This page holds no data: it reads a sound index from an engine address you enter. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sound Library · Nunna's AI Library</title>
+<meta name="description" content="Search and play every sound in a ContentCreate engine: music, voices, SFX and game audio, with source and licence per file.">
+<style>
+:root{--bg:#f7f6f3;--panel:#fff;--ink:#1d1d1b;--muted:#6b6a66;--line:#e3e1dc;--acc:#b7791f;--acc-ink:#fff;--chip:#efede8;--bad:#b42318;--ok:#1f7a3a;--warn:#9a6700}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121211;--panel:#1b1b1a;--ink:#ecebe7;--muted:#a3a19b;--line:#2d2c2a;--acc:#e0a63a;--acc-ink:#1b1408;--chip:#262523;--bad:#f97066;--ok:#47cd89;--warn:#f5b546}}
+:root[data-theme=dark]{--bg:#121211;--panel:#1b1b1a;--ink:#ecebe7;--muted:#a3a19b;--line:#2d2c2a;--acc:#e0a63a;--acc-ink:#1b1408;--chip:#262523;--bad:#f97066;--ok:#47cd89;--warn:#f5b546}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 16px}
+.wrap{max-width:1180px;margin:0 auto}
+h1{font-size:18px;margin:0 0 2px}
+.sub{color:var(--muted);font-size:12px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input,select,button{font:inherit;color:inherit}
+input[type=search],input[type=text],input[type=password],select{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px;min-width:0}
+input[type=search]{flex:1 1 260px}
+button{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
+button.pri{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{background:var(--chip);border:1px solid transparent;border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--acc);color:var(--acc-ink)}
+main{padding:12px 16px 120px}
+.notice{border:1px solid var(--line);border-left:4px solid var(--warn);background:var(--panel);border-radius:8px;padding:10px 12px;margin:10px 0}
+.notice.err{border-left-color:var(--bad)}
+.notice b{display:block}
+.list{display:flex;flex-direction:column;gap:6px}
+.item{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.item.on{border-color:var(--acc)}
+.play{width:36px;height:36px;border-radius:50%;padding:0;display:grid;place-items:center}
+.t{font-weight:600;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:12px;overflow-wrap:anywhere}
+.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:3px}
+.tag{background:var(--chip);border-radius:5px;padding:0 6px;font-size:11px;color:var(--muted)}
+.k{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--acc);font-weight:700}
+.side{text-align:right;font-size:12px;color:var(--muted);white-space:nowrap}
+details.more{grid-column:1/-1;margin-top:4px}
+details.more summary{cursor:pointer;color:var(--muted);font-size:12px}
+.files{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:2px 10px;margin:6px 0 0;font-size:12px}
+dt{color:var(--muted)} dd{margin:0;overflow-wrap:anywhere}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:8px 16px}
+.bar audio{width:100%;height:36px}
+.count{color:var(--muted);font-size:12px;margin:6px 0}
+.settings{display:none;margin-top:8px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.settings.open{display:block}
+.settings label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted);flex:1 1 220px}
+a{color:var(--acc)}
+@media (max-width:560px){.item{grid-template-columns:36px 1fr}.side{grid-column:2;text-align:left}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="row" style="justify-content:space-between">
+    <div><h1>Sound Library</h1><div class="sub" id="sub">Connect your own ContentCreate engine to search and play its music, voices, SFX and game audio.</div></div>
+    <div class="row"><a href="./">AI Library</a><button id="theme" title="Switch light / dark">Theme</button><button id="gear" aria-expanded="false">Connection</button></div>
+  </div>
+  <div class="settings" id="settings">
+    <div class="row">
+      <label>Engine address<input type="text" id="base" placeholder="http://127.0.0.1:3011" autocomplete="off"></label>
+      <label>Owner token (kept in this browser only)<input type="password" id="token" autocomplete="off" placeholder="not needed when this page is opened from the engine"></label>
+    </div>
+    <div class="row" style="margin-top:8px"><button class="pri" id="connect">Connect</button><button id="rebuild">Rebuild index</button><span class="sub" id="connState"></span></div>
+    <p class="sub" style="margin:8px 0 0">Opened from another site? Add that site's origin to <code>CONTENTCREATE_CORS_ORIGINS</code> on the engine. Files are fetched with your token; it is never put in a URL.</p>
+  </div>
+  <div class="row" style="margin-top:10px">
+    <input type="search" id="q" placeholder="Search: sizzle loop, calm piano, old british narrator, footsteps..." aria-label="Search sounds">
+    <select id="client" aria-label="Client"><option value="">All clients</option></select>
+    <select id="group" aria-label="Game or group"><option value="">All games / groups</option></select>
+    <select id="sort" aria-label="Sort"><option value="rel">Best match</option><option value="title">Title</option><option value="dur">Shortest first</option><option value="durd">Longest first</option><option value="score">Highest score</option></select>
+  </div>
+  <div class="chips" id="kinds" role="group" aria-label="Kind"></div>
+</div></header>
+<main><div class="wrap">
+  <div id="msg"></div>
+  <div class="count" id="count"></div>
+  <div class="list" id="list"></div>
+  <div style="text-align:center;margin-top:12px"><button id="moreBtn" hidden>Show more</button></div>
+</div></main>
+<div class="bar"><div class="wrap"><div class="meta" id="now">Nothing playing</div><audio id="player" controls preload="none"></audio></div></div>
+<script>
+(() => {
+  "use strict";
+  const KIND_LABEL = { music: "Music", voice: "Voices", sfx: "SFX", game: "Game audio", archive: "Archive" };
+  const CLIENT_LABEL = {};   // client names come from your own engine; none are listed here
+  const $ = (id) => document.getElementById(id);
+  const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch {} } };
+  const sameOrigin = /^https?:$/.test(location.protocol) && location.pathname.startsWith("/sounds");
+  const state = { base: store.get("soundlib.base") || (sameOrigin ? location.origin : "http://127.0.0.1:3011"), token: store.get("soundlib.token") || "",
+    items: [], kinds: new Set(), shown: 100, playing: null, blobUrl: null };
+  const q = new URLSearchParams(location.search);
+
+  // theme
+  const t0 = store.get("soundlib.theme"); if (t0) document.documentElement.dataset.theme = t0;
+  $("theme").onclick = () => { const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    const nx = cur === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = nx; store.set("soundlib.theme", nx); };
+  $("gear").onclick = () => { const o = $("settings").classList.toggle("open"); $("gear").setAttribute("aria-expanded", String(o)); };
+  $("base").value = state.base; $("token").value = state.token;
+
+  const headers = () => (state.token ? { Authorization: "Bearer " + state.token } : {});
+  const api = (p) => state.base.replace(/\/+$/, "") + p;
+  const fileUrl = (it, rel) => api("/sfiles/" + it.root + "/" + rel.split("/").map(encodeURIComponent).join("/"));
+
+  function notice(kind, title, cause, fix) {
+    const d = document.createElement("div"); d.className = "notice" + (kind === "err" ? " err" : "");
+    const b = document.createElement("b"); b.textContent = title; d.append(b);
+    if (cause) { const p = document.createElement("div"); p.textContent = "Likely cause: " + cause; d.append(p); }
+    if (fix) { const p = document.createElement("div"); p.textContent = "Fix: " + fix; d.append(p); }
+    $("msg").replaceChildren(d);
+  }
+  function explain(e, what) {
+    if (e && e.status === 401) return notice("err", what + " was refused (401).", "The engine needs the owner token.", "Open Connection, paste your engine's owner token, then Connect.");
+    if (e && e.status === 404 && e.code === "SOUND_INDEX_MISSING") return notice("err", "The sound index has not been built yet.", "No index.json on the engine.", "Click Rebuild index, or run python scripts\\sound\\soundlib.py build on the laptop.");
+    if (e && e.code) return notice("err", what + " failed: " + e.code, e.message || "", e.hint || "");
+    return notice("err", what + " failed: the engine did not answer.", "The laptop is off or asleep, the engine server is not running, or this site is not in CONTENTCREATE_CORS_ORIGINS.",
+      "Start the engine server (npm run api in admin-ui), check the address under Connection, and allow this origin on the engine.");
+  }
+  async function getJSON(path, opts = {}) {
+    let r;
+    try { r = await fetch(api(path), { ...opts, headers: { ...headers(), ...(opts.headers || {}) }, credentials: sameOrigin ? "same-origin" : "omit" }); }
+    catch { throw { status: 0 }; }
+    let body = null; try { body = await r.json(); } catch {}
+    if (!r.ok) throw { status: r.status, ...(body && body.error ? body.error : {}) };
+    return body;
+  }
+
+  async function load() {
+    $("connState").textContent = "Loading...";
+    try {
+      const d = await getJSON("/api/sounds");
+      if (!d || d.schema !== "nunna.sound-library/1" || !Array.isArray(d.items)) throw { code: "SOUND_INDEX_INVALID", message: "The engine sent an index this page does not understand.", hint: "Update the engine and rebuild the index." };
+      state.items = d.items.map((it) => ({ ...it, _hay: [it.title, it.desc, it.group, it.line, (it.tags || []).join(" "), it.source, it.kind, it.sub].join(" ").toLowerCase() }));
+      $("msg").replaceChildren();
+      if (d.errors && d.errors.length) notice("warn", d.errors.length + " source(s) could not be read: " + d.errors.map((e) => e.source).join(", "), d.errors[0].message, d.errors[0].hint);
+      if (d.missing_roots && d.missing_roots.length) notice("warn", "Missing library folders: " + d.missing_roots.join(", "), "A root in config/sound/sources.json does not exist on this machine.", "Fix the path or set NUNNA_PROJECTS, then rebuild.");
+      $("sub").textContent = d.count + " sounds, index built " + d.updated.replace("T", " ");
+      $("connState").textContent = "Connected";
+      fillFilters(d);
+      render();
+    } catch (e) { $("connState").textContent = ""; explain(e, "Loading the sound library"); $("list").replaceChildren(); $("count").textContent = ""; }
+  }
+  function fillFilters(d) {
+    const cs = $("client"); const cur = q.get("client") || cs.value;
+    cs.replaceChildren(new Option("All clients", ""), ...d.clients.map((c) => new Option(CLIENT_LABEL[c] || c, c)));
+    cs.value = d.clients.includes(cur) ? cur : "";
+    const groups = [...new Set(state.items.map((i) => i.group).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    const gs = $("group"); gs.replaceChildren(new Option("All games / groups", ""), ...groups.map((g) => new Option(g, g)));
+    const kinds = Object.keys(d.kinds);
+    $("kinds").replaceChildren(...kinds.map((k) => { const b = document.createElement("button"); b.className = "chip"; b.type = "button";
+      b.textContent = (KIND_LABEL[k] || k) + " " + d.kinds[k]; b.setAttribute("aria-pressed", String(state.kinds.has(k)));
+      b.onclick = () => { state.kinds.has(k) ? state.kinds.delete(k) : state.kinds.add(k); b.setAttribute("aria-pressed", String(state.kinds.has(k))); state.shown = 100; render(); }; return b; }));
+  }
+  function filtered() {
+    const terms = $("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+    const client = $("client").value, group = $("group").value;
+    const res = [];
+    for (const it of state.items) {
+      if (state.kinds.size && !state.kinds.has(it.kind)) continue;
+      if (client && !(it.clients || []).some((c) => c === "*" || c === client)) continue;
+      if (group && it.group !== group) continue;
+      if (terms.length && !terms.every((t) => it._hay.includes(t))) continue;
+      let s = 0; for (const t of terms) s += (it.tags || []).includes(t) ? 3 : 1 + (it.title.toLowerCase().includes(t) ? 2 : 0);
+      res.push([s, it]);
+    }
+    const so = $("sort").value;
+    const cmp = { rel: (a, b) => b[0] - a[0] || (b[1].score || 0) - (a[1].score || 0), title: (a, b) => a[1].title.localeCompare(b[1].title),
+      dur: (a, b) => (a[1].duration_s ?? 1e9) - (b[1].duration_s ?? 1e9), durd: (a, b) => (b[1].duration_s ?? -1) - (a[1].duration_s ?? -1),
+      score: (a, b) => (b[1].score ?? -1) - (a[1].score ?? -1) }[so];
+    return res.sort(cmp).map((x) => x[1]);
+  }
+  const fmt = (s) => (s == null ? "" : s >= 60 ? Math.floor(s / 60) + ":" + String(Math.round(s % 60)).padStart(2, "0") : s.toFixed(s < 10 ? 1 : 0) + " s");
+  function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function render() {
+    const rows = filtered();
+    $("count").textContent = rows.length + " match" + (rows.length === 1 ? "" : "es") + (rows.length > state.shown ? ", showing " + state.shown : "");
+    if (!rows.length && state.items.length) { $("list").replaceChildren(el("div", "notice", "No sounds match these filters. Clear the search or pick another client or kind.")); $("moreBtn").hidden = true; return; }
+    $("list").replaceChildren(...rows.slice(0, state.shown).map(row));
+    $("moreBtn").hidden = rows.length <= state.shown;
+  }
+  function row(it) {
+    const d = el("div", "item" + (state.playing === it.id ? " on" : ""));
+    const b = el("button", "play", state.playing === it.id ? "❚❚" : "▶"); b.setAttribute("aria-label", "Play " + it.title);
+    b.onclick = () => play(it, it.play);
+    const mid = el("div");
+    mid.append(el("div", "k", (KIND_LABEL[it.kind] || it.kind) + (it.sub ? " · " + it.sub : "")), el("div", "t", it.title));
+    const m = [it.group, it.line ? "“" + it.line + "”" : it.desc].filter(Boolean).join(" — ");
+    if (m) mid.append(el("div", "meta", m.length > 220 ? m.slice(0, 220) + "…" : m));
+    const tags = el("div", "tags"); (it.tags || []).slice(0, 10).forEach((t) => tags.append(el("span", "tag", t))); mid.append(tags);
+    const side = el("div", "side");
+    side.append(el("div", null, fmt(it.duration_s)));
+    if (it.score != null) side.append(el("div", null, "score " + Math.round(it.score)));
+    if (it.status) side.append(el("div", null, it.status));
+    const more = el("details", "more"); more.append(el("summary", null, "Files, source and licence"));
+    const dl = el("dl");
+    const add = (k, v, href) => { if (!v) return; dl.append(el("dt", null, k)); const dd = el("dd"); if (href) { const a = el("a", null, v); a.href = href; a.target = "_blank"; a.rel = "noopener"; dd.append(a); } else dd.textContent = v; dl.append(dd); };
+    add("Clients", (it.clients || []).map((c) => (c === "*" ? "all clients" : CLIENT_LABEL[c] || c)).join(", "));
+    add("Source", it.source, it.source_url); add("Author", it.author); add("Licence", it.licence, it.licence_url);
+    add("Attribution", it.attribution ? "Required: " + it.attribution : ""); add("Usage", it.usage); add("Credits", it.credits);
+    add("Uses", (it.uses || []).join("; ")); add("BPM / key", [it.bpm && Math.round(it.bpm) + " bpm", it.key].filter(Boolean).join(", "));
+    add("Voice", [it.gender, it.age_band, it.accent].filter(Boolean).join(", ")); add("Id", it.id); add("Path", it.root + "/" + it.play);
+    const files = el("div", "files");
+    Object.entries(it.files || {}).forEach(([label, rel]) => {
+      const p = el("button", null, "▶ " + label); p.onclick = () => play(it, rel);
+      const s = el("button", null, "⬇ " + label); s.onclick = () => save(it, rel);
+      files.append(p, s);
+    });
+    more.append(dl, files);
+    d.append(b, mid, side, more);
+    return d;
+  }
+  async function blobFor(it, rel) {
+    const url = fileUrl(it, rel);
+    if (sameOrigin && !state.token) return url;                 // the engine's own page: the cookie authorises <audio> directly
+    let r; try { r = await fetch(url, { headers: headers() }); } catch { throw { status: 0 }; }
+    if (!r.ok) { let b = null; try { b = await r.json(); } catch {} throw { status: r.status, ...(b && b.error ? b.error : {}) }; }
+    if (state.blobUrl) URL.revokeObjectURL(state.blobUrl);
+    state.blobUrl = URL.createObjectURL(await r.blob());
+    return state.blobUrl;
+  }
+  async function play(it, rel) {
+    const pl = $("player");
+    if (state.playing === it.id && rel === it.play && !pl.paused) { pl.pause(); state.playing = null; render(); return; }
+    $("now").textContent = "Loading " + it.title + "…";
+    try { pl.src = await blobFor(it, rel); await pl.play(); state.playing = it.id; $("now").textContent = it.title + " — " + rel.split("/").pop(); render(); }
+    catch (e) { $("now").textContent = "Could not play " + it.title; if (e && e.name === "NotAllowedError") return; explain(e, "Playing " + it.title); }
+  }
+  async function save(it, rel) {
+    try { const href = await blobFor(it, rel); const a = el("a"); a.href = href; a.download = rel.split("/").pop(); document.body.append(a); a.click(); a.remove(); }
+    catch (e) { explain(e, "Downloading " + it.title); }
+  }
+  $("connect").onclick = () => { state.base = $("base").value.trim() || state.base; state.token = $("token").value.trim();
+    store.set("soundlib.base", state.base); store.set("soundlib.token", state.token); load(); };
+  $("rebuild").onclick = async () => { $("connState").textContent = "Rebuilding (can take a few minutes)..."; try { await getJSON("/api/sounds/rebuild", { method: "POST" }); await load(); } catch (e) { $("connState").textContent = ""; explain(e, "Rebuilding the index"); } };
+  let tm; $("q").oninput = () => { clearTimeout(tm); tm = setTimeout(() => { state.shown = 100; render(); }, 120); };
+  ["client", "group", "sort"].forEach((id) => ($(id).onchange = () => { state.shown = 100; render(); }));
+  $("moreBtn").onclick = () => { state.shown += 200; render(); };
+  if (q.get("q")) $("q").value = q.get("q");
+  if (q.get("kind")) state.kinds.add(q.get("kind"));
+  load();
+})();
+</script>
+</body>
+</html>

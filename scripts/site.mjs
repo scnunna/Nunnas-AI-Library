@@ -152,5 +152,7 @@ writeFileSync(join(DOCS, "index.html"), `<!doctype html>
 </head><body>
 ${app}
 </body></html>`);
+// standalone pages (full documents, copied as they are)
+for (const f of ["sounds.html"]) if (existsSync(join(SITE, f))) copyFileSync(join(SITE, f), join(DOCS, f));
 writeFileSync(join(DOCS, ".nojekyll"), "");
 console.log(`site: docs/index.html + ${posts.length} articles + data/library.json`);
