@@ -41,7 +41,17 @@ See **[CONNECT.md](CONNECT.md)** for step-by-step setup. In short:
 ### Tools
 `library_info` · `search` · `browse` · `get_item` · `why` · `categories` · `search_apis` · `recent` · `graphql` — plus `add_items` / `sync_library` in a local checkout.
 
-## Adding to the library
+## Suggest and vote
+
+Anyone can suggest what goes in next, and vote on other people's suggestions:
+
+- **[Suggest a tool](https://github.com/scnunna/Nunnas-AI-Library/issues/new?template=suggest-tool.yml)**: an API, MCP server, skill, model or app you want reviewed.
+- **[Suggest a use case](https://github.com/scnunna/Nunnas-AI-Library/issues/new?template=suggest-use-case.yml)**: a job you want AI to do. We find a budget-first stack and add its tools.
+- **Vote** with a 👍 reaction on any [open suggestion](https://github.com/scnunna/Nunnas-AI-Library/issues?q=is%3Aopen+label%3Asuggestion+sort%3Areactions-%2B1-desc). The most-voted are reviewed first.
+- Loop: **suggest → vote → research and build → added to the library with a verdict → issue closed with a link.**
+- Ideas for the projects themselves (apps, agents, games, devices) go to https://nunnaconsulting.com/NAIC/ideas/.
+
+## Adding to the library (maintainers)
 
 1. Ask Claude: *"Add X to the Nunna's AI Library"* (uses `add_items`), **or**
 2. Put items in a JSON file and run `node scripts/add.mjs items.json --source "research YYYY-MM-DD: topic" --push`, **or**

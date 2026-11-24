@@ -1,0 +1,28 @@
+name: Suggest a use case
+description: Describe a job you want AI to do. We research the cheapest working stack and add the tools to the library.
+title: "[use case] "
+labels: ["suggestion", "use-case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the job, not the tool. We look for a budget-first stack (free or self-hosted where possible), add the tools with verdicts, and link the result here.
+        **Validate other use cases** with a 👍 reaction. Issues are public: no keys, client names or private data.
+  - type: textarea
+    id: job
+    attributes: { label: The job, placeholder: "e.g. turn a 1-hour meeting recording into notes and action items, offline" }
+    validations: { required: true }
+  - type: textarea
+    id: today
+    attributes: { label: How you do it today, description: "Tools, time spent, what it costs." }
+  - type: dropdown
+    id: who
+    attributes: { label: Who is it for?, options: ["Solo creator / freelancer", "Small business", "Developer", "Student / learner", "Other"] }
+  - type: checkboxes
+    id: limits
+    attributes:
+      label: Must-haves
+      options:
+        - label: Runs offline / on my own hardware
+        - label: No-code or low-code
+        - label: Free or under $20 a month

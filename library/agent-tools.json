@@ -4851,6 +4851,311 @@
    "verified": false,
    "asOf": "2026-11-22",
    "source": "research 2026-11-22: custom 3D figurine business"
+  },
+  {
+   "id": "tool-obtainium",
+   "name": "Obtainium",
+   "kind": "tool",
+   "category": "app-distribution",
+   "url": "https://github.com/ImranR98/Obtainium",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Android app that installs and updates APKs straight from GitHub/GitLab release pages; how we ship private-beta Android builds (fitness, guitar, coach, companion apps) without a store listing.",
+   "tags": [
+    "android",
+    "self-host",
+    "no-key",
+    "distribution"
+   ],
+   "license": "GPL-3.0",
+   "stars": 21500,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-lvgl",
+   "name": "LVGL",
+   "kind": "framework",
+   "category": "embedded-ui",
+   "url": "https://github.com/lvgl/lvgl",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "MIT embedded UI library for MCUs; the UI layer under our ESP32-S3 AMOLED watch OS (LVGL 9.x). First choice for any small-screen device UI.",
+   "tags": [
+    "embedded",
+    "esp32",
+    "ui",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-esp-idf",
+   "name": "ESP-IDF",
+   "kind": "framework",
+   "category": "embedded",
+   "url": "https://github.com/espressif/esp-idf",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Espressif's official ESP32 SDK (FreeRTOS, BLE, Wi-Fi, power management, component registry); the base of our ESP32 watch and recorder builds. Use it over Arduino once power/sleep control matters.",
+   "tags": [
+    "embedded",
+    "esp32",
+    "freertos"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-lua-5-4-embedded-scripting",
+   "name": "Lua 5.4 (embedded scripting)",
+   "kind": "tool",
+   "category": "embedded",
+   "url": "https://www.lua.org/",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Tiny MIT scripting language that embeds in C firmware; lets watch apps be pushed over USB or Wi-Fi as scripts with a sandbox (time and heap caps) instead of reflashing.",
+   "tags": [
+    "embedded",
+    "scripting",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-chronos-esp32",
+   "name": "chronos-esp32",
+   "kind": "repo",
+   "category": "wearables",
+   "url": "https://github.com/fbiego/chronos-esp32",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "MIT library that makes an ESP32 talk to the Chronos phone app over BLE (time, notifications, music control); the quickest phone link for a DIY watch, but the phone app is closed source, so long term prefer Gadgetbridge or your own companion.",
+   "tags": [
+    "esp32",
+    "ble",
+    "wearables"
+   ],
+   "license": "MIT",
+   "stars": 187,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-ml-kit-on-device-translation",
+   "name": "ML Kit on-device translation",
+   "kind": "tool",
+   "category": "on-device-ai",
+   "url": "https://developers.google.com/ml-kit/language/translation",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Free offline translation on Android/iOS (50+ languages, pivots via English, download packs ahead); the planned engine for travel translation in a phone companion app. Quality is below cloud translators.",
+   "tags": [
+    "android",
+    "offline",
+    "translation",
+    "no-key"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-cal-com-cal-diy-self-hosted-scheduling",
+   "name": "Cal.com / Cal.diy (self-hosted scheduling)",
+   "kind": "tool",
+   "category": "scheduling",
+   "url": "https://github.com/calcom/cal.com",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Open-source booking pages and event types you can self-host; behind our 1:1 session booking. The repo page now presents Cal.diy, the MIT community edition without enterprise code, so check which edition you deploy.",
+   "tags": [
+    "self-host",
+    "booking",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-uptime-kuma",
+   "name": "Uptime Kuma",
+   "kind": "tool",
+   "category": "monitoring",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Self-hosted uptime and status monitoring (HTTP, ping, keyword, push) with alerts; cheap replacement for paid uptime SaaS for a small fleet of sites and APIs.",
+   "tags": [
+    "self-host",
+    "monitoring",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 94300,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-alphatab",
+   "name": "alphaTab",
+   "kind": "repo",
+   "category": "music",
+   "url": "https://github.com/CoderLine/alphaTab",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "MPL-2.0 notation and guitar-tab renderer and player for web, .NET and Android (reads Guitar Pro, MusicXML, AlphaTex); the tab player inside our guitar-learning app.",
+   "tags": [
+    "music",
+    "guitar",
+    "android",
+    "web"
+   ],
+   "license": "MPL-2.0",
+   "stars": 1900,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-oboe-android-low-latency-audio",
+   "name": "Oboe (Android low-latency audio)",
+   "kind": "repo",
+   "category": "audio",
+   "url": "https://github.com/google/oboe",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Google's C++ library for low-latency audio on Android; the audio core for real-time pitch detection in a guitar app. Needed whenever Java/Kotlin audio APIs are too slow.",
+   "tags": [
+    "android",
+    "audio",
+    "c++"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-jetpack-compose",
+   "name": "Jetpack Compose",
+   "kind": "framework",
+   "category": "mobile",
+   "url": "https://developer.android.com/compose",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Android's native declarative UI toolkit; every native NAIC Android app (fitness, guitar, companion) is Kotlin + Compose. Use it over cross-platform shells when sensors, audio or Health Connect matter.",
+   "tags": [
+    "android",
+    "kotlin",
+    "ui"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-diamond-diffusion-world-model",
+   "name": "DIAMOND (diffusion world model)",
+   "kind": "repo",
+   "category": "world-models",
+   "url": "https://github.com/eloialonso/diamond",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "NeurIPS 2024 Spotlight: an MIT-licensed diffusion world model with released weights. The 'csgo' branch is a playable Counter-Strike world (press M to switch between AI and human control), and there are Atari agents too. It is the smallest and clearest codebase for learning how playable world models work, but a research demo, not a game tool.",
+   "tags": [
+    "world-model",
+    "diffusion",
+    "research",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 2100,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
   }
  ]
 }

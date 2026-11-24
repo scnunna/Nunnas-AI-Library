@@ -1712,24 +1712,25 @@
    "id": "content-hunyuan-gamecraft-1-0",
    "name": "Hunyuan-GameCraft 1.0",
    "kind": "model",
-   "category": "world-model",
+   "category": "world-models",
    "url": "https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0",
    "description": "Image plus keyboard/mouse input in, game-like video out. It is a video model, not a playable game you can ship.",
    "verdict": "skip",
    "verdictNote": "SKIP: beyond even the 24 GB upgrade; research watch only.",
-   "why": "Minimum 24 GB VRAM described as 'very slow'; 80 GB recommended; tested on Linux and 8 data-centre GPUs",
+   "why": "WASD-steered gameplay video at 704x1216 with a local Gradio demo, but it needs 24 GB at minimum (very slow, with CPU offload and FP8) and 80 GB recommended. No updates since Aug 2025 and no 2.0. Matrix-Game 4.0 and WorldPlay do the same job better.",
    "tags": [
-    "needs-more-vram"
+    "world-model",
+    "gameplay-video",
+    "tencent"
    ],
    "license": "Tencent licence (type not named on the repo page)",
-   "stars": 765,
-   "cost": null,
+   "stars": 769,
+   "cost": "free",
    "relevance": [
-    "content-studio",
     "games"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-24",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "gpu": {
@@ -1745,26 +1746,28 @@
   },
   {
    "id": "content-matrix-game-3-0",
-   "name": "Matrix-Game 3.0",
+   "name": "Matrix-Game 4.0 (Skywork)",
    "kind": "model",
-   "category": "world-model",
+   "category": "world-models",
    "url": "https://github.com/SkyworkAI/Matrix-Game",
    "description": "Streaming interactive world model with long-horizon memory: 5B model claimed at 720p and 40 fps (GPU not named), plus a larger 2x14B MoE variant; multi-GPU examples. Output is generated video, not an engine.",
    "verdict": "assess",
    "verdictNote": "CATALOGUE: test the 5B model after the 24 GB upgrade for trailer or concept footage, not for shipping games.",
-   "why": "VRAM not published; 5B model at 720p is unlikely to be real-time on 8 GB (not tested) Licence listing inconsistent",
+   "why": "Best design of the batch for real games: a normal engine runs gameplay, physics and input, and the model only re-renders the low-poly frames into detailed graphics, so rules stay deterministic. 864x480 at ~42 FPS (~67 with SageAttention) on an RTX 5080 using ~9.6-12.8 GB; ships 3 demo games. Does not fit an 8 GB laptop GPU; revisit on a 16 GB card. Released 2026-10-15; supersedes 3.0.",
    "tags": [
-    "needs-more-vram"
+    "world-model",
+    "game-rendering",
+    "real-time",
+    "local"
    ],
-   "license": "MIT on GitHub, Apache-2.0 on the Hugging Face card (inconsistent)",
-   "stars": 2964,
-   "cost": null,
+   "license": "Apache-2.0 (code); weights carry their own licence",
+   "stars": 3000,
+   "cost": "free",
    "relevance": [
-    "content-studio",
     "games"
    ],
    "verified": true,
-   "asOf": "2026-10-15",
+   "asOf": "2026-11-24",
    "source": "research 2026-10: content, motion, 3D and game tools",
    "extra": {
     "gpu": {
@@ -8741,6 +8744,242 @@
    "verified": true,
    "asOf": "2026-11-23",
    "source": "build 2026-11-22: CSA sound library on 8 GB"
+  },
+  {
+   "id": "content-piper-tts-piper1-gpl",
+   "name": "Piper TTS (piper1-gpl)",
+   "kind": "model",
+   "category": "tts",
+   "url": "https://github.com/OHF-Voice/piper1-gpl",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Fast local neural TTS that runs on CPU and small boards; used for offline spoken feedback in our language-coach app. The original rhasspy/piper (MIT) was archived in Oct 2025; the maintained fork is GPL-3.0, so mind the licence change.",
+   "tags": [
+    "tts",
+    "offline",
+    "cpu",
+    "no-key"
+   ],
+   "license": "GPL-3.0",
+   "stars": 6300,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "content-moonshine-voice",
+   "name": "Moonshine Voice",
+   "kind": "model",
+   "category": "speech",
+   "url": "https://github.com/moonshine-ai/moonshine",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "MIT on-device speech-to-text (and TTS) built for real-time voice agents; lighter than Whisper for phones and edge boards, a candidate for live meeting transcription in a watch companion app. Some older non-English models are non-commercial.",
+   "tags": [
+    "speech-to-text",
+    "on-device",
+    "offline",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 11500,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "content-lingbot-world-v2-infinity",
+   "name": "LingBot-World (v2 / Infinity)",
+   "kind": "model",
+   "category": "world-models",
+   "url": "https://github.com/Robbyant/lingbot-world-v2",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Open real-time world model with camera control. The original repo (Apache-2.0, ~4.6k stars, 480p/720p, 16 FPS at under 1 s latency) is no longer maintained and points to v2 and LingBot-World-Infinity. The '2.0, 720p 60 FPS with combat' claims were not on the page we read; check the v2 repo before relying on them. No stated VRAM, so assume a datacenter GPU.",
+   "tags": [
+    "world-model",
+    "real-time",
+    "interactive"
+   ],
+   "license": "Apache-2.0 (v1)",
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": false,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-hy-world-1-5-worldplay-tencent",
+   "name": "HY-World 1.5 WorldPlay (Tencent)",
+   "kind": "model",
+   "category": "world-models",
+   "url": "https://github.com/Tencent-Hunyuan/HY-WorldPlay",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Real-time interactive world model: keyboard and mouse control, streaming 24 FPS, with memory so the scene stays consistent when you look back. Weights plus inference and training code are out, but it needs ~28-72 GB VRAM; the 5B WAN-based variant fits smaller cards at lower quality. Tencent's licence carries regional and usage limits, so read it. HY-World 2.0 (already marked skip) is newer.",
+   "tags": [
+    "world-model",
+    "real-time",
+    "interactive",
+    "tencent"
+   ],
+   "license": "Tencent Hunyuan community licence (read License.txt)",
+   "stars": 1600,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-hunyuanworld-1-0-tencent",
+   "name": "HunyuanWorld 1.0 (Tencent)",
+   "kind": "model",
+   "category": "world-models",
+   "url": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Text or image to a 360-degree panoramic world with mesh export: useful for skyboxes and level backdrops rather than playable gameplay. A quantized 'lite' version targets RTX 4090-class cards (24 GB). Superseded by WorldPlay and HY-World 2.0, and parts of the release checklist are still unchecked.",
+   "tags": [
+    "world-model",
+    "panorama",
+    "3d",
+    "mesh-export",
+    "tencent"
+   ],
+   "license": "Tencent Hunyuan licence (read LICENSE)",
+   "stars": 3000,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-helios-pku-real-time-long-video",
+   "name": "Helios (PKU real-time long video)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://github.com/PKU-YuanGroup/Helios",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Real-time long-video generation: 19.5 FPS on one H100 at 640x384. The distilled model with group offloading needs only ~6 GB VRAM, so it is the one model in this batch that can run on our 8 GB laptop GPU (slowly). Weights and code are Apache-2.0, plus a Hugging Face Gradio demo. Try it for long b-roll and loops.",
+   "tags": [
+    "video-gen",
+    "real-time",
+    "low-vram",
+    "8gb-fit"
+   ],
+   "license": "Apache-2.0",
+   "stars": 2300,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-yume-explorable-world-video",
+   "name": "YUME (explorable world video)",
+   "kind": "model",
+   "category": "world-models",
+   "url": "https://github.com/stdstu12/YUME",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Explore a world generated from text, an image or a video, with keyboard-style camera moves. Yume-5B-720P (Dec 2025) has a Windows one-click .bat web demo and was tested on a 16 GB RTX 4090 laptop GPU; 16 GB is recommended, so it does not fit 8 GB. The easiest install in this batch if you have a 16 GB card.",
+   "tags": [
+    "world-model",
+    "windows",
+    "one-click",
+    "interactive"
+   ],
+   "license": "Apache-2.0 (code)",
+   "stars": 691,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-longlive-nvidia-real-time-long-video",
+   "name": "LongLive (NVIDIA real-time long video)",
+   "kind": "model",
+   "category": "video-gen",
+   "url": "https://github.com/NVlabs/LongLive",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Interactive long video: type prompts while it generates and steer the story live. LongLive-1.3B runs at ~20.7 FPS on one H100; LongLive 2.0 5B reaches 25-46 FPS on GB200. Weights are on Hugging Face and the code is Apache-2.0, but there is no consumer-GPU path stated. Watch it for live-streamed or interactive video.",
+   "tags": [
+    "video-gen",
+    "real-time",
+    "interactive",
+    "nvidia"
+   ],
+   "license": "Apache-2.0 (per-subproject licences)",
+   "stars": 2900,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-lyra-2-0-nvidia-explorable-3d-worlds",
+   "name": "Lyra 2.0 (NVIDIA explorable 3D worlds)",
+   "kind": "model",
+   "category": "3d-generation",
+   "url": "https://github.com/nv-tlabs/lyra",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Turns AI video into explorable 3D worlds (3D reconstruction, not just frames), now with a local GUI and training code (Jul 2026). The output is real 3D, so it is the most reusable in a web game pipeline (for example as splats in SuperSplat or three.js), but the VRAM needs are not stated and the model licence is separate from the Apache-2.0 code.",
+   "tags": [
+    "3d-generation",
+    "world-model",
+    "gaussian-splats",
+    "nvidia"
+   ],
+   "license": "Apache-2.0 (code); model licence separate",
+   "stars": 2900,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
   }
  ]
 }
