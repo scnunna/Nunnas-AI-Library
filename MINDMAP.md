@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 336]
+    content-tools[AI content-creation tools · 343]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -33,7 +33,7 @@ mindmap
         3DTextures.me
         TextureCan
         LEOMOON Free IES Lights Pack
-      video-gen · 17
+      video-gen · 19
         Wan2GP WanGP
         Wan 2.2 TI2V-5B / A14B GGUF
       asset-vfx · 13
@@ -42,7 +42,7 @@ mindmap
         Coverr
         LottieFiles free animations
         Kenney Particle Pack
-      3d-generation · 9
+      3d-generation · 10
         TRELLIS.2
       asset-sound-effects · 9
         Pixabay Sound Effects
@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 213]
+    agent-tools[Agent tools & frameworks · 214]
       tools · 11
         firecrawl
         context7

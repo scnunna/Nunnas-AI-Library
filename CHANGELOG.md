@@ -977,3 +977,15 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-alphatab -> agent-tools
 - added tool-oboe-android-low-latency-audio -> agent-tools
 - added tool-jetpack-compose -> agent-tools
+
+## 2026-11-24 — research 2026-11-24: real-time world models for engine-less games
+- updated content-matrix-game-3-0
+- added content-lingbot-world-v2-infinity -> content-tools
+- added content-hy-world-1-5-worldplay-tencent -> content-tools
+- added content-hunyuanworld-1-0-tencent -> content-tools
+- added tool-diamond-diffusion-world-model -> agent-tools
+- added content-helios-pku-real-time-long-video -> content-tools
+- added content-yume-explorable-world-video -> content-tools
+- added content-longlive-nvidia-real-time-long-video -> content-tools
+- added content-lyra-2-0-nvidia-explorable-3d-worlds -> content-tools
+- updated content-hunyuan-gamecraft-1-0

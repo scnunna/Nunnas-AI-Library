@@ -5130,6 +5130,32 @@
    "verified": true,
    "asOf": "2026-11-15",
    "source": "research 2026-11-15: stacks behind NAIC projects"
+  },
+  {
+   "id": "tool-diamond-diffusion-world-model",
+   "name": "DIAMOND (diffusion world model)",
+   "kind": "repo",
+   "category": "world-models",
+   "url": "https://github.com/eloialonso/diamond",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "NeurIPS 2024 Spotlight: an MIT-licensed diffusion world model with released weights. The 'csgo' branch is a playable Counter-Strike world (press M to switch between AI and human control), and there are Atari agents too. It is the smallest and clearest codebase for learning how playable world models work, but a research demo, not a game tool.",
+   "tags": [
+    "world-model",
+    "diffusion",
+    "research",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 2100,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: real-time world models for engine-less games"
   }
  ]
 }
