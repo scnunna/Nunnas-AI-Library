@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 214]
+    agent-tools[Agent tools & frameworks · 224]
       tools · 11
         firecrawl
         context7
@@ -157,13 +157,14 @@ mindmap
         rtk
       orchestrate · 7
         dspy
+      web-3d · 7
+        pmndrs/postprocessing
+        Tweakpane
+        three-mesh-bvh
       security · 7
       memory-eval-ship · 6
         agentops
         elevenlabs + deepgram
-      web-3d · 6
-        pmndrs/postprocessing
-        Tweakpane
       run-build · 5
         ollama
       act-execute · 5

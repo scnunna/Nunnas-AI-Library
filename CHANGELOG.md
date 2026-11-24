@@ -989,3 +989,15 @@ Every library change is logged here by `scripts/add.mjs`.
 - added content-longlive-nvidia-real-time-long-video -> content-tools
 - added content-lyra-2-0-nvidia-explorable-3d-worlds -> content-tools
 - updated content-hunyuan-gamecraft-1-0
+
+## 2026-11-24 — research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)
+- added tool-gltf-transform -> agent-tools
+- added tool-three-mesh-bvh -> agent-tools
+- added tool-recast-navigation-js -> agent-tools
+- added tool-joltphysics-js -> agent-tools
+- added tool-box2d-v3 -> agent-tools
+- added tool-dear-imgui -> agent-tools
+- added tool-miniaudio -> agent-tools
+- added tool-flecs -> agent-tools
+- added tool-bitecs -> agent-tools
+- added tool-godot-jolt-extension -> agent-tools

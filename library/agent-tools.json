@@ -5156,6 +5156,268 @@
    "verified": true,
    "asOf": "2026-11-24",
    "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "tool-gltf-transform",
+   "name": "glTF-Transform",
+   "kind": "repo",
+   "category": "3d-pipeline",
+   "url": "https://github.com/donmccurdy/glTF-Transform",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "MIT JS/TS SDK and CLI for glTF: one command dedupes, resizes textures, applies meshoptimizer or Draco and KTX2. The practical way to make AI-generated or marketplace 3D models small enough for web games; pairs with meshoptimizer.",
+   "tags": [
+    "gltf",
+    "web",
+    "three.js",
+    "cli",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 2100,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-three-mesh-bvh",
+   "name": "three-mesh-bvh",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/gkjohnson/three-mesh-bvh",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "MIT drop-in BVH for three.js that makes raycasting and spatial queries fast on big meshes (shooting, picking, character ground checks, simple collision). One of the highest-value add-ons for three.js games.",
+   "tags": [
+    "three.js",
+    "web",
+    "performance",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 3600,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-recast-navigation-js",
+   "name": "recast-navigation-js",
+   "kind": "repo",
+   "category": "game-ai",
+   "url": "https://github.com/isaac-mason/recast-navigation-js",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "WebAssembly port of Recast/Detour: navmesh, pathfinding and crowds for NPCs in three.js or any web game. This is how to get Recast Navigation in the browser without writing C++.",
+   "tags": [
+    "navmesh",
+    "pathfinding",
+    "wasm",
+    "three.js",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 443,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-joltphysics-js",
+   "name": "JoltPhysics.js",
+   "kind": "repo",
+   "category": "physics",
+   "url": "https://github.com/jrouwe/JoltPhysics.js",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Official WASM port of Jolt (the physics engine from Horizon Forbidden West) for web games; npm jolt-physics. Use it when Rapier is not stable enough for stacks, vehicles or ragdolls in a three.js game.",
+   "tags": [
+    "physics",
+    "wasm",
+    "web",
+    "three.js",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 591,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-box2d-v3",
+   "name": "Box2D (v3)",
+   "kind": "repo",
+   "category": "physics",
+   "url": "https://github.com/erincatto/box2d",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "The classic MIT 2D physics engine, rewritten as a C17 API for v3. Godot 2D and web wrappers cover most of our needs, so use it directly only in a custom C/C++ 2D engine. The page lists its WASM port as unofficial.",
+   "tags": [
+    "physics",
+    "2d",
+    "c",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 10500,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-dear-imgui",
+   "name": "Dear ImGui",
+   "kind": "repo",
+   "category": "game-tools",
+   "url": "https://github.com/ocornut/imgui",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "The standard MIT immediate-mode UI for in-game debug panels and editors in C++ engines (backends include WebGPU and Emscripten). Only needed if we build our own C++ tools or engine; for web games use lil-gui or Tweakpane instead.",
+   "tags": [
+    "debug-ui",
+    "c++",
+    "tools",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 77200,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-miniaudio",
+   "name": "miniaudio",
+   "kind": "repo",
+   "category": "audio",
+   "url": "https://github.com/mackron/miniaudio",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Single-file C audio playback and capture, public domain or MIT-0, with Web Audio, Android and iOS backends. The go-to audio layer for a custom C engine or an embedded or desktop tool; Godot and browsers already have audio.",
+   "tags": [
+    "audio",
+    "c",
+    "single-file",
+    "no-key"
+   ],
+   "license": "Public domain / MIT-0",
+   "stars": 7700,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-flecs",
+   "name": "Flecs",
+   "kind": "repo",
+   "category": "game-architecture",
+   "url": "https://github.com/SanderMertens/flecs",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "The leading MIT ECS (entity component system) for C and C++, which also runs in the browser via Emscripten. Learn from it, or use it in a custom engine; overkill for Godot or three.js games.",
+   "tags": [
+    "ecs",
+    "c",
+    "c++",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 8900,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-bitecs",
+   "name": "bitECS",
+   "kind": "repo",
+   "category": "game-architecture",
+   "url": "https://github.com/NateTheGreatt/bitECS",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Tiny, zero-dependency TypeScript ECS for JS games with thousands of entities (survivors-likes, bullet hell, crowds). Worth trying when a Canvas2D or three.js game slows down from object-heavy code. MPL-2.0.",
+   "tags": [
+    "ecs",
+    "typescript",
+    "web",
+    "no-key"
+   ],
+   "license": "MPL-2.0",
+   "stars": 1500,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-godot-jolt-extension",
+   "name": "Godot Jolt (extension)",
+   "kind": "repo",
+   "category": "godot-addons",
+   "url": "https://github.com/godot-jolt/godot-jolt",
+   "description": "",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Jolt has been built into Godot since 4.4: pick Jolt in Project Settings > Physics > 3D. The extension is in maintenance mode (bug fixes only) and will likely be archived, so install it only on Godot 4.3.",
+   "tags": [
+    "godot",
+    "physics",
+    "jolt"
+   ],
+   "license": "MIT",
+   "stars": 2600,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
   }
  ]
 }
