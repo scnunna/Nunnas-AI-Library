@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 334]
+    content-tools[AI content-creation tools · 336]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 209]
+    agent-tools[Agent tools & frameworks · 213]
       tools · 11
         firecrawl
         context7
@@ -297,7 +297,7 @@ mindmap
       godot-addons · 1
       game-design · 1
       asset-3d-models · 1
-    apis[Public APIs · 1843]
+    apis[Public APIs · 1844]
       Development · 168
       Government · 107
       Games & Comics · 102

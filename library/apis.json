@@ -51576,6 +51576,28 @@
    "verified": true,
    "asOf": "2026-10-31",
    "source": "monkey-fist stage art 2026-10-31"
+  },
+  {
+   "id": "api-indexnow",
+   "name": "IndexNow",
+   "kind": "api",
+   "category": "seo",
+   "url": "https://www.indexnow.org",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Free protocol to ping Bing/Yandex etc. on URL changes (key file + one POST); Google does not use it. Easy add to an FTP deploy script.",
+   "tags": [
+    "seo",
+    "indexing"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-15",
+   "source": "research 2026-11-15: SEO/AI-search tooling"
   }
  ]
 }
