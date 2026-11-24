@@ -8741,6 +8741,32 @@
    "verified": true,
    "asOf": "2026-11-23",
    "source": "build 2026-11-22: CSA sound library on 8 GB"
+  },
+  {
+   "id": "content-qwen3-tts-voicedesign-base-1-7b",
+   "name": "Qwen3-TTS (VoiceDesign + Base 1.7B)",
+   "kind": "model",
+   "category": "audio-tts",
+   "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+   "description": "Open TTS family: VoiceDesign creates a new voice from a text description; Base clones a reference clip for any new line. pip package qwen-tts.",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Design a voice from a written description, then reuse it by cloning. Runs on an 8 GB RTX 4060 in bf16 (batch of 6 voices about 7.9 GB, about 20 s per voice batched). Whisper WER 0 on test samples.",
+   "tags": [
+    "tts",
+    "voice-design",
+    "voice-cloning",
+    "local",
+    "apache-2.0",
+    "game-voices"
+   ],
+   "license": "Apache-2.0",
+   "stars": null,
+   "cost": "free, local",
+   "relevance": [],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: local voice design"
   }
  ]
 }

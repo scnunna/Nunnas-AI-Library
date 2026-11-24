@@ -963,3 +963,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - updated content-ace-step-1-5
 - added content-clap-laion-clap-htsat-unfused -> content-tools
 - updated content-chatterbox-tts
+
+## 2026-11-24 — research 2026-11-24: local voice design
+- added content-qwen3-tts-voicedesign-base-1-7b -> content-tools
