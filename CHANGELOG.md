@@ -1001,3 +1001,6 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-flecs -> agent-tools
 - added tool-bitecs -> agent-tools
 - added tool-godot-jolt-extension -> agent-tools
+
+## 2026-11-24 — research 2026-11-24: free AI-video render stack post
+- added content-theatre-js -> content-tools

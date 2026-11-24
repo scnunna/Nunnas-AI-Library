@@ -8980,6 +8980,33 @@
    "verified": true,
    "asOf": "2026-11-24",
    "source": "research 2026-11-24: real-time world models for engine-less games"
+  },
+  {
+   "id": "content-theatre-js",
+   "name": "Theatre.js",
+   "kind": "repo",
+   "category": "web-animation",
+   "url": "https://github.com/theatre-js/theatre",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "After Effects-style keyframe timeline for three.js and web animation, editable visually in the browser, with an r3f topic tag. The licences split: core is Apache-2.0, but the studio editor is AGPL-3.0, so do not ship the studio in a closed product. Development has moved to a private repo ahead of a promised 1.0, and the public repo has no releases. GSAP (adopt) or Remotion covers most of our motion work until 1.0 lands.",
+   "tags": [
+    "animation",
+    "three.js",
+    "keyframes",
+    "web"
+   ],
+   "license": "Apache-2.0 (core) / AGPL-3.0 (studio)",
+   "stars": 13100,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-24",
+   "source": "research 2026-11-24: free AI-video render stack post"
   }
  ]
 }
