@@ -1122,6 +1122,33 @@
    "verified": true,
    "asOf": "2026-10-31",
    "source": "research 2026-10-31: page-section galleries"
+  },
+  {
+   "id": "design-libraries-dev",
+   "name": "Libraries.dev",
+   "kind": "tool",
+   "category": "ui-effects",
+   "url": "https://github.com/Jakubantalik/Libraries.dev",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "MIT React UI effects built for AI interfaces: border beam, thinking orbs, bot avatars, voice glow, liquid-metal buttons with cursor light, WebGL image mosaic. It is visual polish only and records no user data, so it is not analytics. Good fit for chat UIs like Nunna Studio and Kaizen HQ; ships a coding-agent skill. The on-device 'models' are under a separate non-MIT licence, and the Studio is paid Pro. SwiftUI and React Native ports are unpublished, so it is web-only for now.",
+   "tags": [
+    "react",
+    "ui-effects",
+    "ai-ui",
+    "webgl",
+    "no-key"
+   ],
+   "license": "MIT (libraries); separate model licence",
+   "stars": 5100,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
   }
  ]
 }

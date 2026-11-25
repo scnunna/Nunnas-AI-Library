@@ -126,7 +126,7 @@ mindmap
       deep-assessment · 1
       claude-skill · 1
         anthropics/skills
-    agent-tools[Agent tools & frameworks · 224]
+    agent-tools[Agent tools & frameworks · 229]
       tools · 11
         firecrawl
         context7
@@ -218,7 +218,7 @@ mindmap
         Snapdrop / PairDrop
       Open source · 1
         rembg / IOPaint
-    design-resources[Design resources · 39]
+    design-resources[Design resources · 40]
       Reference website · 8
         Component Gallery
       React + Tailwind · 2

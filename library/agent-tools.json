@@ -5418,6 +5418,137 @@
    "verified": true,
    "asOf": "2026-11-24",
    "source": "research 2026-11-24: AAA-style game libraries (gaps after the Oct-29 batch)"
+  },
+  {
+   "id": "tool-microsoft-clarity",
+   "name": "Microsoft Clarity",
+   "kind": "tool",
+   "category": "analytics-replay",
+   "url": "https://clarity.microsoft.com/",
+   "description": "",
+   "verdict": "adopt",
+   "verdictNote": null,
+   "why": "Budget pick for 'where do users move, click and get stuck': free forever with no traffic limits, session recordings plus click and scroll heatmaps, and SDKs for Android, iOS, Flutter and React Native, so it also covers our apps. Trade-off: it is Microsoft's cloud (no self-host), so add it to the privacy policy and ask consent before loading it, especially for Quebec and EU visitors.",
+   "tags": [
+    "session-replay",
+    "heatmaps",
+    "mobile-sdk",
+    "free"
+   ],
+   "license": null,
+   "stars": null,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
+  },
+  {
+   "id": "tool-posthog",
+   "name": "PostHog",
+   "kind": "tool",
+   "category": "analytics-replay",
+   "url": "https://github.com/PostHog/posthog",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Open-source all-in-one: session replay, heatmaps (click, scroll, mouse movement), product analytics, feature flags and A/B tests, with SDKs for Android, iOS, React Native and Flutter. Cloud is free up to 1M events and 5k recordings a month; the self-host hobby deploy (Docker, about 4 GB RAM) handles roughly 100k events a month with no support. Pick it over Clarity when you also need funnels or flags in one place.",
+   "tags": [
+    "session-replay",
+    "heatmaps",
+    "product-analytics",
+    "mobile-sdk",
+    "self-host"
+   ],
+   "license": "MIT (except ee/)",
+   "stars": 41100,
+   "cost": "freemium",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
+  },
+  {
+   "id": "tool-openreplay",
+   "name": "OpenReplay",
+   "kind": "tool",
+   "category": "analytics-replay",
+   "url": "https://github.com/openreplay/openreplay",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Self-hosted session replay with privacy built in: 'private mode' masks all text and inputs, and data can be skipped at capture time. Native iOS, Android and React Native SDKs are in beta. Needs a VM with about 2 vCPU, 8 GB RAM and 50 GB storage, and is mostly AGPLv3. Choose it only if recordings must never leave our own server.",
+   "tags": [
+    "session-replay",
+    "self-host",
+    "privacy",
+    "mobile-sdk"
+   ],
+   "license": "AGPL-3.0 (mostly)",
+   "stars": 13200,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
+  },
+  {
+   "id": "tool-rrweb",
+   "name": "rrweb",
+   "kind": "repo",
+   "category": "analytics-replay",
+   "url": "https://github.com/rrweb-io/rrweb",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "The MIT open-source recorder under most web session-replay tools: it captures DOM snapshots plus every mouse move, click, scroll and input, then replays them. Use it directly only for a custom in-house replay, for example inside a game or demo page; Clarity or PostHog already wrap it with storage, masking and heatmaps. Web only.",
+   "tags": [
+    "session-replay",
+    "web",
+    "library",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 20500,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
+  },
+  {
+   "id": "tool-umami",
+   "name": "Umami",
+   "kind": "tool",
+   "category": "web-analytics",
+   "url": "https://github.com/umami-software/umami",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "Self-hosted, cookie-less, MIT page analytics (traffic, campaigns, conversions), already used on our sites. It has no heatmaps, mouse tracking or session replay, so pair it with Clarity or PostHog for behaviour.",
+   "tags": [
+    "analytics",
+    "privacy",
+    "self-host",
+    "cookieless"
+   ],
+   "license": "MIT",
+   "stars": 40300,
+   "cost": "self-host",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-25",
+   "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
   }
  ]
 }

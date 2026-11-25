@@ -1004,3 +1004,13 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-24 — research 2026-11-24: free AI-video render stack post
 - added content-theatre-js -> content-tools
+
+## 2026-11-25 — research 2026-11-25: Libraries.dev + user behaviour tracking
+- added design-libraries-dev -> design-resources
+
+## 2026-11-25 — research 2026-11-25: Libraries.dev + user behaviour tracking
+- added tool-microsoft-clarity -> agent-tools
+- added tool-posthog -> agent-tools
+- added tool-openreplay -> agent-tools
+- added tool-rrweb -> agent-tools
+- added tool-umami -> agent-tools
