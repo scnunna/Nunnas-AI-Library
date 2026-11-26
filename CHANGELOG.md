@@ -1014,3 +1014,9 @@ Every library change is logged here by `scripts/add.mjs`.
 - added tool-openreplay -> agent-tools
 - added tool-rrweb -> agent-tools
 - added tool-umami -> agent-tools
+
+## 2026-11-26 — research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer
+- added tool-openmontage -> agent-tools
+- added content-openscreen -> content-tools
+- added tool-handy-offline-dictation -> agent-tools
+- updated skill-humanizer

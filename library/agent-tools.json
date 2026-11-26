@@ -5549,6 +5549,60 @@
    "verified": true,
    "asOf": "2026-11-25",
    "source": "research 2026-11-25: Libraries.dev + user behaviour tracking"
+  },
+  {
+   "id": "tool-openmontage",
+   "name": "OpenMontage",
+   "kind": "repo",
+   "category": "video-agents",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "Open-source agentic video production: a coding agent (Claude Code, Codex, Cursor) runs 12 pipelines from research and script through assets, edit and render (Remotion, HyperFrames, FFmpeg), with human approval gates and self-review of frames and audio. A free path uses Piper TTS and free stock sources; paid keys (fal, Kling, ElevenLabs, Runway, Suno) are optional. It overlaps heavily with our ContentCreate pipeline, so mine it for the pipeline manifests, approval gates and self-review checks rather than switching. AGPL-3.0 is fine for internal use but not for a closed hosted product. The repo page shows ownership moving to OpenMontageInc.",
+   "tags": [
+    "video",
+    "agentic",
+    "remotion",
+    "hyperframes",
+    "approval-gates"
+   ],
+   "license": "AGPL-3.0",
+   "stars": 83300,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer"
+  },
+  {
+   "id": "tool-handy-offline-dictation",
+   "name": "Handy (offline dictation)",
+   "kind": "tool",
+   "category": "speech",
+   "url": "https://github.com/cjpais/Handy",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Free MIT desktop dictation that runs entirely offline: press a shortcut, speak, and the text is typed into whatever app is open. Uses Whisper or Parakeet models; Windows, macOS and Linux (limited Wayland support). A no-code way to talk to Claude, write emails or draft posts without a paid dictation app, and nothing is uploaded.",
+   "tags": [
+    "speech-to-text",
+    "dictation",
+    "offline",
+    "whisper",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 40200,
+   "cost": "free",
+   "relevance": [
+    "general"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer"
   }
  ]
 }

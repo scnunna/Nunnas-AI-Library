@@ -9007,6 +9007,34 @@
    "verified": true,
    "asOf": "2026-11-24",
    "source": "research 2026-11-24: free AI-video render stack post"
+  },
+  {
+   "id": "content-openscreen",
+   "name": "OpenScreen",
+   "kind": "tool",
+   "category": "screen-recording",
+   "url": "https://github.com/siddharthvaddem/openscreen",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "Free MIT alternative to Screen Studio for product demos and tutorials: auto-zoom that follows the cursor, cursor effects, webcam overlay, on-device offline captions, MP4 and GIF export; Windows, macOS and Linux. Useful for NAIC course and demo videos at $0 instead of a paid subscription. The original repo was archived on 2026-10-17; maintenance continues at getopenscreen/openscreen, which we have not checked yet, so install from there and re-verify.",
+   "tags": [
+    "screen-recording",
+    "demo-video",
+    "offline",
+    "windows",
+    "macos",
+    "linux"
+   ],
+   "license": "MIT",
+   "stars": 40000,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer"
   }
  ]
 }

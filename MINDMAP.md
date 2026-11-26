@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 344]
+    content-tools[AI content-creation tools · 345]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -109,14 +109,13 @@ mindmap
         user-research
       create · 5
         scroll-world
-      grow-ship · 5
-        claude-seo
-        humanizer
-        video-shotcraft
-        ffmpeg-skill
       marketing · 5
         marketingskills Corey Haines
       web-design · 5
+      grow-ship · 4
+        claude-seo
+        video-shotcraft
+        ffmpeg-skill
       video · 4
       marketplace · 3
         knowledge-work-plugins
@@ -124,9 +123,9 @@ mindmap
         image-blaster
       video-render · 2
       deep-assessment · 1
-      claude-skill · 1
-        anthropics/skills
-    agent-tools[Agent tools & frameworks · 229]
+      writing · 1
+        humanizer
+    agent-tools[Agent tools & frameworks · 231]
       tools · 11
         firecrawl
         context7
