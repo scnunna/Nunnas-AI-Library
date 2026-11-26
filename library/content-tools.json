@@ -9035,6 +9035,116 @@
    "verified": true,
    "asOf": "2026-11-26",
    "source": "research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer"
+  },
+  {
+   "id": "content-ffmpeg",
+   "name": "FFmpeg",
+   "kind": "tool",
+   "category": "video-processing",
+   "url": "https://github.com/FFmpeg/FFmpeg",
+   "description": "",
+   "verdict": "have",
+   "verdictNote": null,
+   "why": "The encoder under almost every video pipeline, ours included (ContentCreate assembly, loudness, captions burn-in, aspect-ratio exports). Mainly LGPL, with optional GPL parts: if a build bundles GPL components (for example x264) and ships inside a product, check the licence. The GitHub repo is a read-only mirror.",
+   "tags": [
+    "video",
+    "audio",
+    "cli",
+    "encoding",
+    "no-key"
+   ],
+   "license": "LGPL-2.1+ (optional GPL parts)",
+   "stars": 68200,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: 3D animation stack post (12 repos)"
+  },
+  {
+   "id": "content-tone-js",
+   "name": "Tone.js",
+   "kind": "repo",
+   "category": "audio",
+   "url": "https://github.com/Tonejs/Tone.js",
+   "description": "",
+   "verdict": "trial",
+   "verdictNote": null,
+   "why": "MIT Web Audio framework for synths, effects and sequencing on a musical clock. Good for procedural game sound effects, rhythm-synced UI, and interactive music in browser games and demos, with no audio files to license. Browsers stay silent until the user clicks something, so start audio on the first tap.",
+   "tags": [
+    "audio",
+    "music",
+    "web-audio",
+    "browser",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 15000,
+   "cost": "free",
+   "relevance": [
+    "games",
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: 3D animation stack post (12 repos)"
+  },
+  {
+   "id": "content-ffmpeg-wasm",
+   "name": "ffmpeg.wasm",
+   "kind": "repo",
+   "category": "video-processing",
+   "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+   "description": "",
+   "verdict": "assess",
+   "verdictNote": null,
+   "why": "FFmpeg compiled to WebAssembly, so it converts, trims and exports MP4 or GIF in the browser or Node with no server. Useful for a 'download your clip' button in a web tool or game. The repo marks itself experimental. Expect it to be much slower and heavier than native FFmpeg; the multithread build needs special site headers (per its docs, not yet checked by us). For batch rendering, use server FFmpeg.",
+   "tags": [
+    "video",
+    "wasm",
+    "browser",
+    "no-key"
+   ],
+   "license": "MIT (wrapper); FFmpeg core licence applies",
+   "stars": 18000,
+   "cost": "free",
+   "relevance": [
+    "content-studio",
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: 3D animation stack post (12 repos)"
+  },
+  {
+   "id": "content-gl-react",
+   "name": "gl-react",
+   "kind": "repo",
+   "category": "web-3d",
+   "url": "https://github.com/gre/gl-react",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "MIT React library for composing WebGL shaders as components, for web, React Native, Expo and headless Node rendering. It is a neat way to stack image and video effects, but whether it is still maintained can't be confirmed from the repo page. For 3D looks use react-three-fiber with react-postprocessing (bloom, depth of field) instead.",
+   "tags": [
+    "webgl",
+    "shaders",
+    "react",
+    "react-native",
+    "no-key"
+   ],
+   "license": "MIT",
+   "stars": 3000,
+   "cost": "free",
+   "relevance": [
+    "content-studio"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: 3D animation stack post (12 repos)"
   }
  ]
 }

@@ -1020,3 +1020,10 @@ Every library change is logged here by `scripts/add.mjs`.
 - added content-openscreen -> content-tools
 - added tool-handy-offline-dictation -> agent-tools
 - updated skill-humanizer
+
+## 2026-11-26 — research 2026-11-26: 3D animation stack post (12 repos)
+- added content-ffmpeg -> content-tools
+- added content-tone-js -> content-tools
+- added content-ffmpeg-wasm -> content-tools
+- added tool-bullet-physics-bullet3 -> agent-tools
+- added content-gl-react -> content-tools

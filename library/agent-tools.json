@@ -5603,6 +5603,33 @@
    "verified": true,
    "asOf": "2026-11-26",
    "source": "research 2026-11-26: OpenMontage, OpenScreen, Handy, humanizer"
+  },
+  {
+   "id": "tool-bullet-physics-bullet3",
+   "name": "Bullet Physics (bullet3)",
+   "kind": "repo",
+   "category": "physics",
+   "url": "https://github.com/bulletphysics/bullet3",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Veteran zlib C++ physics SDK for rigid bodies, collisions and robotics; PyBullet is the recommended way in, for Python simulations and robot or RL experiments. For our web games, JoltPhysics.js or Rapier are the modern picks; inside Blender, rigid-body animation already uses Bullet, so you get it without code. The issue tracker is closed.",
+   "tags": [
+    "physics",
+    "c++",
+    "python",
+    "robotics",
+    "no-key"
+   ],
+   "license": "zlib",
+   "stars": 14900,
+   "cost": "free",
+   "relevance": [
+    "games"
+   ],
+   "verified": true,
+   "asOf": "2026-11-26",
+   "source": "research 2026-11-26: 3D animation stack post (12 repos)"
   }
  ]
 }

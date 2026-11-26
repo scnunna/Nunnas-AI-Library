@@ -5,7 +5,7 @@
 ```mermaid
 mindmap
   root((Nunna's AI Library))
-    content-tools[AI content-creation tools · 345]
+    content-tools[AI content-creation tools · 349]
       godot-addons · 50
         Phantom Camera
         LimboAI
@@ -125,7 +125,7 @@ mindmap
       deep-assessment · 1
       writing · 1
         humanizer
-    agent-tools[Agent tools & frameworks · 231]
+    agent-tools[Agent tools & frameworks · 232]
       tools · 11
         firecrawl
         context7
