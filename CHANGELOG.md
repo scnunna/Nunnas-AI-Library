@@ -966,3 +966,8 @@ Every library change is logged here by `scripts/add.mjs`.
 
 ## 2026-11-24 — research 2026-11-24: local voice design
 - added content-qwen3-tts-voicedesign-base-1-7b -> content-tools
+
+## 2026-11-27 — research 2026-11-27: Godot water/buoyancy for web boat racing
+- added tool-endless-ocean-with-buoyancy-godot-forum-demo -> agent-tools
+- added tool-waterbox-godot-waterbox -> agent-tools
+- added tool-godotoceanwaves-fft-ocean -> agent-tools

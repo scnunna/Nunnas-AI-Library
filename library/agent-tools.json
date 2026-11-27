@@ -4851,6 +4851,79 @@
    "verified": false,
    "asOf": "2026-11-22",
    "source": "research 2026-11-22: custom 3D figurine business"
+  },
+  {
+   "id": "tool-endless-ocean-with-buoyancy-godot-forum-demo",
+   "name": "Endless Ocean with Buoyancy (Godot forum demo)",
+   "kind": "repo",
+   "category": "game-dev",
+   "url": "https://forum.godotengine.org/t/endless-ocean-with-buoyancy-all-renderes-supported/144369",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "CPU Gerstner waves + probe buoyancy that runs on Godot's Compatibility renderer (web-safe); the pattern to copy for web boat games",
+   "tags": [
+    "godot",
+    "water",
+    "buoyancy",
+    "boats",
+    "web"
+   ],
+   "license": "not stated",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-27",
+   "source": "research 2026-11-27: Godot water/buoyancy for web boat racing"
+  },
+  {
+   "id": "tool-waterbox-godot-waterbox",
+   "name": "WaterBox (godot-waterbox)",
+   "kind": "repo",
+   "category": "game-dev",
+   "url": "https://github.com/Adisoreq/godot-waterbox",
+   "description": "",
+   "verdict": "reference",
+   "verdictNote": null,
+   "why": "Godot 4 Asset Library buoyancy + drag for RigidBody3D in a flat water volume; good force code reference",
+   "tags": [
+    "godot",
+    "water",
+    "buoyancy",
+    "physics"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-27",
+   "source": "research 2026-11-27: Godot water/buoyancy for web boat racing"
+  },
+  {
+   "id": "tool-godotoceanwaves-fft-ocean",
+   "name": "GodotOceanWaves (FFT ocean)",
+   "kind": "repo",
+   "category": "game-dev",
+   "url": "https://github.com/2Retr0/GodotOceanWaves",
+   "description": "",
+   "verdict": "skip",
+   "verdictNote": null,
+   "why": "Beautiful FFT ocean but uses compute shaders: does not run in Godot web/Compatibility builds",
+   "tags": [
+    "godot",
+    "water",
+    "fft",
+    "desktop-only"
+   ],
+   "license": "MIT",
+   "stars": null,
+   "cost": null,
+   "relevance": [],
+   "verified": false,
+   "asOf": "2026-11-27",
+   "source": "research 2026-11-27: Godot water/buoyancy for web boat racing"
   }
  ]
 }
